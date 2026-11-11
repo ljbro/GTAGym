@@ -1,0 +1,9 @@
+Kuki Shinobu / Yelan: Model Provided by miHoYo, MMD Model Modification Sea view. 
+Distribution Source: https://www.bilibili.com/blackboard/activity-FEYTyCHYZo.html
+
+This project is a noncommercial game prototype, and miHoYo / HoYoverse No affiliation or official partnership. 
+Changes in this project: PMX turn GLB, Skeleton compatibility, Character Size Adjustment, Standby/walking/Running/Bake Waving Animation, Material adaptation. 
+The original package instructions allow limited modifications, Commercial use prohibited, Redistribution, Salvage parts to modify other models, and the listed improper uses. 
+Attribution and noncommercial use do not provide additional authorization. This project has not obtained or claimed any license beyond those stated in the original package. 
+Original ZIP, PMX and Blender The project is not in this runtime directory. 
+Original download URL and model SHA256 see manifest.json, See the project for details README and docs/characters/local-mmd.md. 

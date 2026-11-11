@@ -1,0 +1,225 @@
+{
+  "id": "GTA_TASK_007991_SEGMENT_123_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the armed man in a loose white shirt on the elevated wooden platform in front of the sawmill's rock face.",
+  "instruction_en": "Shoot the armed man in a loose white shirt on the elevated wooden platform in front of the sawmill's rock face.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/ec671e62287c6964ff930efb0c41ffd8a618b64aad27ee8ecb3ae2da27d45c04.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/ec671e62287c6964ff930efb0c41ffd8a618b64aad27ee8ecb3ae2da27d45c04.png",
+      "sha256": "ec671e62287c6964ff930efb0c41ffd8a618b64aad27ee8ecb3ae2da27d45c04"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/9723dc2fe1d6ee79244863a7f779617a3b64bd179759c7fa4463c69010fd44d2.png",
+      "sha256": "9723dc2fe1d6ee79244863a7f779617a3b64bd179759c7fa4463c69010fd44d2"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/b7fb46f0d14b09f688700e065a92202bbc9f828833050ae0e1c01f8f44f0b4e6.png",
+      "sha256": "b7fb46f0d14b09f688700e065a92202bbc9f828833050ae0e1c01f8f44f0b4e6"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/3f8e53b41a4cd0e6534ce3e54694bb9ccbd6175766dfea9145041981317d273d.png",
+      "sha256": "3f8e53b41a4cd0e6534ce3e54694bb9ccbd6175766dfea9145041981317d273d"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_007991_SEGMENT_123_target",
+    "hit_polygons": [
+      [
+        [
+          637.875,
+          350.375
+        ],
+        [
+          639.125,
+          350.5
+        ],
+        [
+          640,
+          351.875
+        ],
+        [
+          639.625,
+          353.25
+        ],
+        [
+          641.5,
+          354
+        ],
+        [
+          643.125,
+          356
+        ],
+        [
+          644,
+          359.25
+        ],
+        [
+          644.375,
+          363.75
+        ],
+        [
+          642.75,
+          365.625
+        ],
+        [
+          644,
+          369.25
+        ],
+        [
+          643.75,
+          371
+        ],
+        [
+          642.75,
+          372
+        ],
+        [
+          641.5,
+          370.5
+        ],
+        [
+          641.625,
+          367.625
+        ],
+        [
+          640.375,
+          365.375
+        ],
+        [
+          639.75,
+          366.875
+        ],
+        [
+          640.25,
+          369.5
+        ],
+        [
+          641.75,
+          372.375
+        ],
+        [
+          641,
+          373.125
+        ],
+        [
+          639.5,
+          373.25
+        ],
+        [
+          638.375,
+          370.875
+        ],
+        [
+          637.5,
+          368.75
+        ],
+        [
+          636.875,
+          367.125
+        ],
+        [
+          637.125,
+          365.375
+        ],
+        [
+          638.125,
+          363.25
+        ],
+        [
+          638.5,
+          360
+        ],
+        [
+          638.375,
+          357.625
+        ],
+        [
+          636.875,
+          357.375
+        ],
+        [
+          635.75,
+          356.375
+        ],
+        [
+          635.25,
+          355.5
+        ],
+        [
+          635.875,
+          354.875
+        ],
+        [
+          636.75,
+          355.25
+        ],
+        [
+          637.5,
+          355.625
+        ],
+        [
+          638.125,
+          354.375
+        ],
+        [
+          637.75,
+          353.625
+        ],
+        [
+          637.125,
+          352.375
+        ],
+        [
+          637.125,
+          351.25
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_007991_SEGMENT_123/scene.json",
+    "original_revision": "b43ab02fcf6e89dd41fea374588a06c8768db60081823053fdf21020c5f01133",
+    "original_instruction": "Shoot on the elevated wooden platform at the sawmill, Man in a light top facing away from the viewer.",
+    "description_change": "The replayed platform gunman faces diagonally toward the observer rather than away; original sawmill, elevated platform and pedestrian target retained.",
+    "mission": "Lamar Down",
+    "script": "franklin2",
+    "visual_review": "White-shirted upper-platform gunman, full visible silhouette. Target handle 16386 remained fixed across optical levels; sampled joint drift 5.1cm. No platform plank is included.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 16386,
+      "passed": true
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-a30325adcc315620769e52d235822244f4b0a835fbb1c1ccfa40cf7c5a810be3"
+}

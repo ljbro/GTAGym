@@ -1,0 +1,262 @@
+{
+  "id": "GTA_TASK_007991_SEGMENT_144_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the armed man in a white printed shirt whose upper body is exposed behind the lumber stack, to the left of the stacked logs at the sawmill.",
+  "instruction_en": "Shoot the armed man in a white printed shirt whose upper body is exposed behind the lumber stack, to the left of the stacked logs at the sawmill.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/7927cf45580e71b11b92da13f562742a49a8b5aeccd2581ceba06ae23cf2ae47.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/7927cf45580e71b11b92da13f562742a49a8b5aeccd2581ceba06ae23cf2ae47.png",
+      "sha256": "7927cf45580e71b11b92da13f562742a49a8b5aeccd2581ceba06ae23cf2ae47"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/10b80158873e3286f623c4aae7cf29f2b26ff4d18bb7eb8e96b7cfea869e496d.png",
+      "sha256": "10b80158873e3286f623c4aae7cf29f2b26ff4d18bb7eb8e96b7cfea869e496d"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/9d931c5a74c5268542a283d613c57d3793c0adbcb56f424ac18462ec858c423b.png",
+      "sha256": "9d931c5a74c5268542a283d613c57d3793c0adbcb56f424ac18462ec858c423b"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/cba511b81a29c468bf7d542018413c30de8503ebfb0699ff384ab376e8c0ddc1.png",
+      "sha256": "cba511b81a29c468bf7d542018413c30de8503ebfb0699ff384ab376e8c0ddc1"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_007991_SEGMENT_144_target",
+    "hit_polygons": [
+      [
+        [
+          638.25,
+          341.625
+        ],
+        [
+          640.25,
+          341.125
+        ],
+        [
+          642.125,
+          341.875
+        ],
+        [
+          643,
+          343.625
+        ],
+        [
+          643.125,
+          345.875
+        ],
+        [
+          643.875,
+          347.875
+        ],
+        [
+          643.5,
+          349.875
+        ],
+        [
+          645.875,
+          350.375
+        ],
+        [
+          648.875,
+          351.5
+        ],
+        [
+          650.5,
+          353.375
+        ],
+        [
+          650.875,
+          356.5
+        ],
+        [
+          650.375,
+          359
+        ],
+        [
+          649.5,
+          360.75
+        ],
+        [
+          648.375,
+          362
+        ],
+        [
+          649.375,
+          365.25
+        ],
+        [
+          650.125,
+          369
+        ],
+        [
+          651.375,
+          375.25
+        ],
+        [
+          646,
+          375
+        ],
+        [
+          640.625,
+          374.5
+        ],
+        [
+          635,
+          374
+        ],
+        [
+          634.75,
+          370.5
+        ],
+        [
+          634.25,
+          366.25
+        ],
+        [
+          634.125,
+          361.75
+        ],
+        [
+          631.625,
+          363
+        ],
+        [
+          629.375,
+          362.625
+        ],
+        [
+          628.125,
+          361.25
+        ],
+        [
+          627.875,
+          359.125
+        ],
+        [
+          628.75,
+          356.625
+        ],
+        [
+          630.375,
+          354.125
+        ],
+        [
+          632.375,
+          351.875
+        ],
+        [
+          635.375,
+          350.5
+        ],
+        [
+          637.5,
+          350.125
+        ],
+        [
+          637,
+          348.625
+        ],
+        [
+          636.875,
+          346
+        ],
+        [
+          636.75,
+          343.75
+        ]
+      ]
+    ],
+    "exclusion_polygons": [
+      [
+        [
+          636,
+          350.75
+        ],
+        [
+          638.5,
+          349.875
+        ],
+        [
+          640.875,
+          350.5
+        ],
+        [
+          643.125,
+          350.5
+        ],
+        [
+          643.75,
+          354.25
+        ],
+        [
+          641.5,
+          356.5
+        ],
+        [
+          639.375,
+          358
+        ],
+        [
+          638.25,
+          357.25
+        ],
+        [
+          638.25,
+          354.375
+        ],
+        [
+          636.125,
+          353.875
+        ]
+      ]
+    ]
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_007991_SEGMENT_144/scene.json",
+    "original_revision": "d0ee72b0ee5910f4312cf87be659a740ab7c4961c35230f4657389c68f7c708a",
+    "original_instruction": "Shoot into the sawmill clearing, Armed man in a loose white top.",
+    "description_change": "The replayed gunman moved out from behind the conveyor and is exposed above stacked lumber; original sawmill, lumber cover and armed pedestrian target retained.",
+    "mission": "Lamar Down",
+    "script": "franklin2",
+    "visual_review": "Handle 17154 after bounded mission advance to clock 29113. Only exposed upper body above lumber is scored; foreground planks and central rifle excluded. Earlier camera probes behind conveyor/terrain rejected.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 17154,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-307e77cf9a50232b7691a5eef2ed279ff3836fe417c0e10591e845559500e2d2"
+}

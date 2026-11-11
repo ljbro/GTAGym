@@ -1,0 +1,144 @@
+{
+  "sources": [
+    {
+      "id": "modern",
+      "author": "Innerscene",
+      "title": "White four-door sedan",
+      "page": "https://www.innerscene.com/tools/library/3d-parts/white-four-door-sedan-1f271353",
+      "url": "https://www.innerscene.com/api/library/white-four-door-sedan-1f271353/download",
+      "yaw": -1.5707963267948966,
+      "ratio": 0.16,
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceSha256": "0cd9fe7520255f93f0b1b56b6597100b058579af980506c23e285abd511c2845",
+      "sourceBytes": 5063600,
+      "originalTriangles": 132082,
+      "output": "city/traffic-sedan-modern.glb",
+      "sha256": "7ad46e304ca1a8c13025e7db854f04ea19e4a7732dcf74066ca161a6ea00d8fb",
+      "bytes": 2001872,
+      "triangles": 34635,
+      "meshes": 21,
+      "bounds": {
+        "min": [
+          -1.0471112728118896,
+          0,
+          -2.450000047683716
+        ],
+        "max": [
+          1.0471112728118896,
+          1.6479986906051636,
+          2.4455676078796387
+        ]
+      },
+      "wheels": [
+        {
+          "center": [
+            -0.7799532442845755,
+            0.35361158240360047,
+            1.4338898041497117
+          ],
+          "radius": 0.34928811322787623,
+          "front": true
+        },
+        {
+          "center": [
+            0.779953215587764,
+            0.35361158240360047,
+            1.4338898041497121
+          ],
+          "radius": 0.34928811322787623,
+          "front": true
+        },
+        {
+          "center": [
+            -0.7799532442845749,
+            0.35361158240360047,
+            -1.403887376736337
+          ],
+          "radius": 0.34928811322787623,
+          "front": false
+        },
+        {
+          "center": [
+            0.7799532155877645,
+            0.35361158240360047,
+            -1.4038873767363365
+          ],
+          "radius": 0.34928811322787623,
+          "front": false
+        }
+      ],
+      "changes": "Axis/footprint normalization; flatten and merge by material and wheel; omit sub-pixel rotor holes/lug nuts/valves; mesh simplification; <=1K PBR textures; stable opaque tinted glass for instanced traffic; modern paint/light material setup."
+    },
+    {
+      "id": "retro",
+      "author": "Grab3D",
+      "title": "1980s Sedan",
+      "page": "https://grab3d.com/models/vehicles/1980s-sedan/",
+      "url": "https://grab3d.com/dl/1980s-sedan/1980s-sedan.glb",
+      "yaw": 3.141592653589793,
+      "ratio": 0.8,
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceSha256": "3c68f031d3d6833aa8c8b6bcceb636b4d7f18842815c2043a2bc1f44d7753a44",
+      "sourceBytes": 1100680,
+      "originalTriangles": 17287,
+      "output": "city/traffic-sedan-retro.glb",
+      "sha256": "d6dd2152a998bdc5e27b9b0a9091f27b4dd24bd88343a25accff92753959be84",
+      "bytes": 1730052,
+      "triangles": 14340,
+      "meshes": 18,
+      "bounds": {
+        "min": [
+          -1.0499999523162842,
+          0,
+          -2.450000047683716
+        ],
+        "max": [
+          1.0499999523162842,
+          1.649999976158142,
+          2.450000047683716
+        ]
+      },
+      "wheels": [
+        {
+          "center": [
+            -0.8467570262872705,
+            0.3510638520479099,
+            1.4708521195742474
+          ],
+          "radius": 0.3510638520479099,
+          "front": true
+        },
+        {
+          "center": [
+            0.8467574468761231,
+            0.3510638520479099,
+            1.4708521195742474
+          ],
+          "radius": 0.3510638520479099,
+          "front": true
+        },
+        {
+          "center": [
+            -0.846757166483555,
+            0.3510638520479099,
+            -1.352587600938433
+          ],
+          "radius": 0.3510638520479099,
+          "front": false
+        },
+        {
+          "center": [
+            0.8467573066798385,
+            0.3510638520479099,
+            -1.352587600938433
+          ],
+          "radius": 0.3510638520479099,
+          "front": false
+        }
+      ],
+      "changes": "Axis/footprint normalization; flatten and merge by material and wheel; omit sub-pixel rotor holes/lug nuts/valves; mesh simplification; <=1K PBR textures; stable opaque tinted glass for instanced traffic; modern paint/light material setup."
+    }
+  ]
+}

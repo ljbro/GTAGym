@@ -1,0 +1,71 @@
+{
+  "schema": "gtasuite.task-categories.v1",
+  "categories": [
+    {
+      "code": "c01",
+      "category": "outdoor-road",
+      "name": "Road Navigation",
+      "count": 20
+    },
+    {
+      "code": "c02",
+      "category": "outdoor-foot",
+      "name": "On-foot Navigation",
+      "count": 16
+    },
+    {
+      "code": "c03",
+      "category": "follow",
+      "name": "Following",
+      "count": 6
+    },
+    {
+      "code": "c04",
+      "category": "chase",
+      "name": "Interception",
+      "count": 13
+    },
+    {
+      "code": "c05",
+      "category": "escape",
+      "name": "Evasion",
+      "count": 16
+    },
+    {
+      "code": "c06",
+      "category": "water",
+      "name": "Aquatic Navigation",
+      "count": 11
+    },
+    {
+      "code": "c07",
+      "category": "stairs",
+      "name": "Vertical Traversal",
+      "count": 5
+    },
+    {
+      "code": "c08",
+      "category": "air",
+      "name": "Aerial Navigation",
+      "count": 8
+    },
+    {
+      "code": "c09",
+      "category": "indoor",
+      "name": "Indoor Navigation",
+      "count": 8
+    },
+    {
+      "code": "c10",
+      "category": "shooting",
+      "name": "Shooting",
+      "count": 24
+    },
+    {
+      "code": "c11",
+      "category": "sniper",
+      "name": "Sniping",
+      "count": 23
+    }
+  ]
+}

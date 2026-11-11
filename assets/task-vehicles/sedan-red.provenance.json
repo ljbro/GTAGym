@@ -1,0 +1,27 @@
+{
+  "source": {
+    "file": "sedan.glb",
+    "sha256": "9dbf66ff28179075ecf4ffb58ba161871831baa1b1553ce3ee7004a370f4baaa",
+    "author": "Quaternius",
+    "page": "https://poly.pizza/m/Cz6yDaUcM9",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "output": {
+    "file": "sedan-red.glb",
+    "sha256": "3f22e2cf4e7dc3339c49405b19536db75f1cb0cf8b28fcced8d46c11d0d7cfda",
+    "bounds": {
+      "min": [
+        -1.006297311976465,
+        1.2963485063188784e-8,
+        -2.35
+      ],
+      "max": [
+        1.006297311976465,
+        1.3101852561454026,
+        2.3500000000000005
+      ]
+    }
+  },
+  "changes": "Red body variant; independent front wheels and common rear axle recentered without changing original geometry. Original normalized sedan and downloaded source retained."
+}

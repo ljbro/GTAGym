@@ -1,0 +1,155 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008000_SEGMENT_167_SHOOT",
+    "source_folder": "source-008000",
+    "source_task_number": "22",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008000_SEGMENT_167",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/d05275da35a4a69836066329733a18132f6c451fb302e21281ed85c79475c839.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 355.667,
+        "prompt": "Shoot the armed man in a dark top at the doorway at the end of the corridor.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_008000_SEGMENT_167_AIM",
+    "start_action_id": "GTA_TASK_008000_ACTION_000615",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "target_description": "The armed man in a dark top at the doorway at the end of the corridor",
+    "instruction": "Shoot the armed man in a dark top at the doorway at the end of the corridor.",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_category": "person",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      909,
+      527,
+      935,
+      580
+    ],
+    "point_xy": [
+      922,
+      550
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      909,
+      527,
+      936,
+      597
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          918,
+          527
+        ],
+        [
+          916,
+          531
+        ],
+        [
+          916,
+          535
+        ],
+        [
+          914,
+          541
+        ],
+        [
+          909,
+          549
+        ],
+        [
+          909,
+          552
+        ],
+        [
+          910,
+          555
+        ],
+        [
+          925,
+          569
+        ],
+        [
+          926,
+          577
+        ],
+        [
+          928,
+          580
+        ],
+        [
+          928,
+          573
+        ],
+        [
+          929,
+          571
+        ],
+        [
+          932,
+          570
+        ],
+        [
+          935,
+          567
+        ],
+        [
+          935,
+          562
+        ],
+        [
+          934,
+          561
+        ],
+        [
+          934,
+          545
+        ],
+        [
+          932,
+          540
+        ],
+        [
+          926,
+          535
+        ],
+        [
+          925,
+          529
+        ],
+        [
+          923,
+          527
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

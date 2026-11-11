@@ -1,0 +1,180 @@
+[
+  {
+    "id": "c04-n11",
+    "title": "Chase the vehicle onto the mountain road under the bridge",
+    "category": "chase",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -53.489932079450625
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 3,
+          "degrees": 44.69262019332841
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 4,
+          "degrees": 53.76701417060862
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 5,
+          "degrees": -56.230809548898826
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 6,
+          "degrees": 79.54580056148414
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 7,
+          "degrees": -34.1794366477484
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 8,
+          "degrees": 63.54367262194649
+        }
+      ],
+      "ignoredSourceIndices": [
+        1
+      ]
+    },
+    "expectedTurns": [
+      "left",
+      "right",
+      "right",
+      "left",
+      "right",
+      "left",
+      "right"
+    ],
+    "path": {
+      "points": [
+        [
+          -500,
+          -950
+        ],
+        [
+          -410.9309082282479,
+          -971.1744037159525
+        ],
+        [
+          -324.7047620670222,
+          -988.8955535242516
+        ],
+        [
+          -259.52218535298283,
+          -930.4593314963907
+        ],
+        [
+          -212.76716519336185,
+          -932.7594266180661
+        ],
+        [
+          -185.58571539400612,
+          -973.9562625919384
+        ],
+        [
+          -138.29236787864505,
+          -974.2472926708881
+        ],
+        [
+          -127.11343227108682,
+          -1036.995192424317
+        ],
+        [
+          -97.97581310419918,
+          -1066.8733748449
+        ],
+        [
+          -125.6698227183569,
+          -1146.1207809966722
+        ]
+      ],
+      "turns": [
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -53.489932079450654,
+          "distance": 179.579731155469
+        },
+        {
+          "index": 3,
+          "direction": "right",
+          "degrees": 44.69262019332852,
+          "distance": 267.121494628517
+        },
+        {
+          "index": 4,
+          "direction": "right",
+          "degrees": 53.7670141706085,
+          "distance": 313.93305674403837
+        },
+        {
+          "index": 5,
+          "direction": "left",
+          "degrees": -56.23080954889875,
+          "distance": 363.2890139068069
+        },
+        {
+          "index": 6,
+          "direction": "right",
+          "degrees": 79.54580056148416,
+          "distance": 410.5832568726855
+        },
+        {
+          "index": 7,
+          "direction": "left",
+          "degrees": -34.1794366477484,
+          "distance": 474.31917708087195
+        },
+        {
+          "index": 8,
+          "direction": "right",
+          "degrees": 63.54367262194643,
+          "distance": 516.05293602339
+        }
+      ],
+      "length": 599.9999999999998,
+      "residential": null,
+      "graphNodeIds": [],
+      "testDriveProfile": {
+        "cruiseSpeed": 40,
+        "cornerSpeed": 16,
+        "lookAhead": 10,
+        "lookSpeed": 0.22
+      },
+      "placement": {
+        "kind": "native-coastal-hill-adaptation",
+        "parcelIndex": 541,
+        "parcelName": "Futian Mangrove Nature Reserve",
+        "scale": 0.78698616654903,
+        "angle": 4.4505895925855405,
+        "anchor": [
+          -500,
+          -950
+        ],
+        "sourceOrigin": [
+          408.57444644322436,
+          -633.2891008324582
+        ],
+        "maxCoastDistance": 147.1126933880409
+      }
+    }
+  }
+]

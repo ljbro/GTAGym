@@ -1,0 +1,207 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_086_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the bald man in a white shirt aiming a handgun to the left from behind the gray yard wall, behind and to the right of the blue dumpster on the residential street. Do not shoot the short-haired man to his left.",
+  "instruction_en": "Shoot the bald man in a white shirt aiming a handgun to the left from behind the gray yard wall, behind and to the right of the blue dumpster on the residential street. Do not shoot the short-haired man to his left.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/f7d32636161eb8f34f68e965401f0727244dad2aa195946acf78de7461798ce2.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/f7d32636161eb8f34f68e965401f0727244dad2aa195946acf78de7461798ce2.png",
+      "sha256": "f7d32636161eb8f34f68e965401f0727244dad2aa195946acf78de7461798ce2"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/f177a21acd830e4ad06b5b29436fe84f3011f89860febdc9ee0f24daa477c9d0.png",
+      "sha256": "f177a21acd830e4ad06b5b29436fe84f3011f89860febdc9ee0f24daa477c9d0"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/f6674e6dee3b6962e56e8b3cc04a0394575dc3a669e8b27772bce2da5aecbe06.png",
+      "sha256": "f6674e6dee3b6962e56e8b3cc04a0394575dc3a669e8b27772bce2da5aecbe06"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/08bc0efd473d9a6e3a32011fc83c3ca5f10e118443345f20f0e6209f4da6d63d.png",
+      "sha256": "08bc0efd473d9a6e3a32011fc83c3ca5f10e118443345f20f0e6209f4da6d63d"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_086_target",
+    "hit_polygons": [
+      [
+        [
+          638.25,
+          350.125
+        ],
+        [
+          639.75,
+          349.625
+        ],
+        [
+          641,
+          350
+        ],
+        [
+          641.875,
+          350.75
+        ],
+        [
+          642.25,
+          351.875
+        ],
+        [
+          641.75,
+          353
+        ],
+        [
+          641.125,
+          354.125
+        ],
+        [
+          641.375,
+          354.875
+        ],
+        [
+          642.125,
+          355.875
+        ],
+        [
+          642.625,
+          357.25
+        ],
+        [
+          632.75,
+          357.25
+        ],
+        [
+          631,
+          356.5
+        ],
+        [
+          629.375,
+          356
+        ],
+        [
+          628.375,
+          355.5
+        ],
+        [
+          627.25,
+          355.875
+        ],
+        [
+          626.5,
+          355.5
+        ],
+        [
+          626.625,
+          354.5
+        ],
+        [
+          627.125,
+          354
+        ],
+        [
+          628,
+          354.125
+        ],
+        [
+          628.75,
+          354.625
+        ],
+        [
+          629.875,
+          354.625
+        ],
+        [
+          631.125,
+          355.25
+        ],
+        [
+          633.125,
+          356
+        ],
+        [
+          633.75,
+          355.125
+        ],
+        [
+          636.875,
+          355.125
+        ],
+        [
+          638.25,
+          355
+        ],
+        [
+          638.125,
+          354.25
+        ],
+        [
+          637.375,
+          353.625
+        ],
+        [
+          637.25,
+          352.875
+        ],
+        [
+          636.75,
+          352.375
+        ],
+        [
+          637.375,
+          351.75
+        ],
+        [
+          637.5,
+          350.875
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_086/scene.json",
+    "original_revision": "2080a123932b85a147fd70261565b35b6c637b7ade657a6101b291f180bbe101",
+    "original_instruction": "Shoot to the left of the blue dumpster on the right side of the street, Man in a light top raising a gun.",
+    "description_change": "The replayed light-shirted gunman is partially behind the yard wall on the opposite side of the blue dumpster from the source viewpoint; original street, blue dumpster landmark and armed pedestrian target retained.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Handle 28162 at clock 115202; bald white-shirted shooter on the right. Only head and arm/upper-shirt sliver above wall y339 are visible and scored. Short-haired left distractor explicitly excluded.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 28162,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-413fa873fcbaa8f488f6594917104f6257545f7797193f3245d00e419609f79d"
+}

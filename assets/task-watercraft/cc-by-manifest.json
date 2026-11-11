@@ -1,0 +1,13 @@
+{
+  "retrieved": "2026-10-07",
+  "license": "CC-BY-4.0",
+  "attribution": "CC-BY-ATTRIBUTION.md",
+  "upstreamCommit": "285b6ce32057c70191a7fe16c31d979fa383ac64",
+  "status": "motoryacht-35 integrated in c06-n08, c06-n09, c06-n10, c06-n06, c06-n11; Zodiac integrated in c06-n05, c06-n07; Sea-Doo integrated for the player and water pursuers in c05-n15, c05-n16",
+  "runtimeChanges": "uniform scale (motoryacht 10.7m, Zodiac corrected to 6.3m on 2026-10-08, Sea-Doo 3.4m), local-frame center and bottom pivot normalization; motoryacht/Zodiac pi heading and bottom at water minus 0.55m/0.36m, Sea-Doo zero heading and bottom at water minus 0.13m; Sea-Doo animation stopped and skinned geometry baked before measurement/cloning, depth bias for pad/registration materials; c06-n11 adds height/pitch support on sampled beach terrain; motoryacht supplementary supported helm chair and seated driver; Zodiac fitted seated driver, updated full-hull collision and boarding points; characters follow complete boat transforms; source GLB bytes unchanged",
+  "assets": [
+    {"file":"sources/motoryacht-35.glb","author":"angelo raffaele catalano","title":"motoryacht 35","sourceId":"0bdd7a0de7254426890bb5745bb7da6d","bytes":17444708,"sha256":"f3272a5c660705b0c4c1a0dca4195a7f60822f0d09d290a1a37ff6fa0677985b"},
+    {"file":"sources/seadoo-gti.glb","author":"BoatUS Foundation","title":"2012 Sea-Doo GTI SE 130","sourceId":"d7b3e903d7dc43a694720bd347f4fadf","bytes":17186120,"sha256":"c38bb991bcb630ddd4c38f77d9dbd2783845c6f40142ae7e4d9625fb8fad61af"},
+    {"file":"sources/zodiac.glb","author":"RedC130","title":"Zodiac boat","sourceId":"a10b7997f1514bd7829ece74f68c681c","bytes":3717960,"sha256":"135f8ec00491749f7a88a74b4e50e8c67c71d21fac5b4d753b959d66734ba9ee"}
+  ]
+}

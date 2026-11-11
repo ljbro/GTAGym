@@ -1,0 +1,255 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008596_SEGMENT_063_SHOOT",
+    "source_folder": "source-008596",
+    "source_task_number": "03",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008596_SEGMENT_063",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/595f96a4cec68ecec94f3854aebb7d401cb2f887ebaa87f8b22592c5cbb0ae30.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 277.7,
+        "prompt": "Shoot the armed man in a dark jacket over a light shirt beside the warehouse passage exit.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008596_ACTION_000352",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "target_description": "The armed man in a dark jacket over a light shirt beside the warehouse passage exit",
+    "instruction": "Shoot the armed man in a dark jacket over a light shirt beside the warehouse passage exit.",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_category": "person",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      937,
+      532,
+      981,
+      655
+    ],
+    "point_xy": [
+      961,
+      568
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      934,
+      529,
+      982,
+      661
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          952,
+          532
+        ],
+        [
+          950,
+          533
+        ],
+        [
+          950,
+          536
+        ],
+        [
+          949,
+          537
+        ],
+        [
+          949,
+          540
+        ],
+        [
+          950,
+          541
+        ],
+        [
+          949,
+          546
+        ],
+        [
+          946,
+          549
+        ],
+        [
+          939,
+          551
+        ],
+        [
+          937,
+          554
+        ],
+        [
+          937,
+          560
+        ],
+        [
+          943,
+          570
+        ],
+        [
+          943,
+          597
+        ],
+        [
+          942,
+          598
+        ],
+        [
+          942,
+          607
+        ],
+        [
+          941,
+          608
+        ],
+        [
+          941,
+          626
+        ],
+        [
+          945,
+          636
+        ],
+        [
+          945,
+          644
+        ],
+        [
+          942,
+          647
+        ],
+        [
+          939,
+          654
+        ],
+        [
+          942,
+          654
+        ],
+        [
+          945,
+          649
+        ],
+        [
+          948,
+          647
+        ],
+        [
+          960,
+          655
+        ],
+        [
+          969,
+          655
+        ],
+        [
+          972,
+          651
+        ],
+        [
+          972,
+          646
+        ],
+        [
+          971,
+          645
+        ],
+        [
+          970,
+          631
+        ],
+        [
+          969,
+          630
+        ],
+        [
+          968,
+          619
+        ],
+        [
+          967,
+          618
+        ],
+        [
+          968,
+          595
+        ],
+        [
+          969,
+          594
+        ],
+        [
+          970,
+          587
+        ],
+        [
+          978,
+          580
+        ],
+        [
+          980,
+          576
+        ],
+        [
+          981,
+          568
+        ],
+        [
+          976,
+          554
+        ],
+        [
+          973,
+          550
+        ],
+        [
+          970,
+          549
+        ],
+        [
+          965,
+          544
+        ],
+        [
+          963,
+          537
+        ],
+        [
+          960,
+          533
+        ],
+        [
+          958,
+          532
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

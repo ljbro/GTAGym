@@ -1,0 +1,109 @@
+[
+  {
+    "id": "c04-n13",
+    "title": "Coastal expressway car chase",
+    "category": "chase",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [],
+    "path": {
+      "points": [
+        [
+          -2444.5,
+          -823.1
+        ],
+        [
+          -2490.6,
+          -833.9
+        ],
+        [
+          -2539.2,
+          -843.4
+        ],
+        [
+          -2669.6,
+          -863
+        ],
+        [
+          -2741.6,
+          -881.7
+        ],
+        [
+          -2764.5,
+          -885
+        ],
+        [
+          -2810.3,
+          -886.7
+        ],
+        [
+          -2827,
+          -884.8
+        ],
+        [
+          -2879.7,
+          -873.4
+        ],
+        [
+          -2891.7,
+          -872
+        ],
+        [
+          -2914.4,
+          -872.1
+        ],
+        [
+          -2921.4,
+          -872.1
+        ],
+        [
+          -3122.6,
+          -872.8
+        ],
+        [
+          -3757.4,
+          -877
+        ]
+      ],
+      "turns": [],
+      "length": 1320.6129977492214,
+      "residential": null,
+      "graphNodeIds": [
+        42260,
+        42261,
+        1328,
+        42262,
+        42263,
+        42264,
+        42265,
+        42266,
+        42267,
+        38638,
+        20006,
+        19974,
+        38635,
+        38636
+      ],
+      "setting": {
+        "kind": "native-coastal-highway",
+        "coastLimit": 500,
+        "roadKinds": [
+          "motorway",
+          "trunk"
+        ],
+        "respectOneway": true
+      }
+    }
+  }
+]

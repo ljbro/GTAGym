@@ -1,0 +1,180 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_007991_SEGMENT_141_SHOOT",
+    "source_folder": "source-007991",
+    "source_task_number": "62",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v3_unique_only+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_007991_SEGMENT_141",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/66cfc2fd0b74f300edc7866524125c1a596a3ce467e972f72e76deacd82fa31b.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 706.6,
+        "prompt": "Shoot to the left of the water tower, Man standing on an elevated platform.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_007991_SEGMENT_141_AIM",
+    "start_action_id": "GTA_TASK_007991_ACTION_001656",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "trajectory_path": "tasks/source-007991/segments/GTA_TASK_007991_SEGMENT_141.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shoot to the left of the water tower, Man standing on an elevated platform.",
+    "target_description": "Left of the Water Tower, Man standing on an elevated platform",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v3_unique_only",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      799,
+      329,
+      833,
+      389
+    ],
+    "point_xy": [
+      817,
+      357
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      798,
+      327,
+      835,
+      391
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          813,
+          329
+        ],
+        [
+          810,
+          330
+        ],
+        [
+          809,
+          332
+        ],
+        [
+          809,
+          339
+        ],
+        [
+          803,
+          347
+        ],
+        [
+          802,
+          351
+        ],
+        [
+          800,
+          354
+        ],
+        [
+          799,
+          360
+        ],
+        [
+          801,
+          365
+        ],
+        [
+          803,
+          367
+        ],
+        [
+          804,
+          372
+        ],
+        [
+          799,
+          381
+        ],
+        [
+          799,
+          385
+        ],
+        [
+          805,
+          387
+        ],
+        [
+          816,
+          388
+        ],
+        [
+          817,
+          389
+        ],
+        [
+          824,
+          389
+        ],
+        [
+          828,
+          384
+        ],
+        [
+          828,
+          381
+        ],
+        [
+          832,
+          371
+        ],
+        [
+          832,
+          367
+        ],
+        [
+          833,
+          366
+        ],
+        [
+          833,
+          350
+        ],
+        [
+          829,
+          341
+        ],
+        [
+          826,
+          338
+        ],
+        [
+          823,
+          337
+        ],
+        [
+          817,
+          330
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

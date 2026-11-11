@@ -1,0 +1,55 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008842_SEGMENT_063_SHOOT",
+    "source_folder": "source-008842",
+    "source_task_number": "36",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008842_SEGMENT_063",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/d41aa23dd219b22a5ae0cc1eac18d17961768c206b6862d361c2b0c8b8104fe6.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 480.467,
+        "prompt": "Shoot the black-and-white police car with flashing lights on the industrial area road. Output one pixel coordinate on the target [x, y].",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_008842_SEGMENT_063_AIM",
+    "start_action_id": "GTA_TASK_008842_ACTION_000800",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "target_description": "Black and white police car with flashing lights on the industrial road",
+    "instruction": "Shoot the black-and-white police car with flashing lights on the industrial area road. Output one pixel coordinate on the target [x, y].",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      879,
+      657,
+      936,
+      704
+    ],
+    "point_xy": [
+      907.5,
+      680.5
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_002442_SEGMENT_001_SHOOT",
+    "source_folder": "source-002442",
+    "source_task_number": "01",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v4_best_match+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_002442_SEGMENT_001",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/cc885867a98e4178c63cc28acd7eab06760a70e92d1252bb662622f55847c7cb.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 149.533,
+        "prompt": "Shoot the hostage taker, The head of the guard in a white shirt behind the hostage.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_002442_SEGMENT_001_AIM",
+    "start_action_id": "GTA_TASK_002442_ACTION_000131",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "trajectory_path": "tasks/source-002442/segments/GTA_TASK_002442_SEGMENT_001.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shoot the hostage taker, The head of the guard in a white shirt behind the hostage.",
+    "target_description": "Take hostages, The head of the guard in a white shirt behind the hostage",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v4_best_match",
+    "target_part": "head",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      962,
+      538,
+      1017,
+      589
+    ],
+    "point_xy": [
+      985,
+      560
+    ],
+    "metric": "point_in_head_polygon",
+    "source_bbox_xyxy": [
+      930,
+      534,
+      1041,
+      808
+    ],
+    "hit_polygon_xy": [
+      [
+        976,
+        539
+      ],
+      [
+        987,
+        538
+      ],
+      [
+        997,
+        540
+      ],
+      [
+        1005,
+        544
+      ],
+      [
+        1011,
+        551
+      ],
+      [
+        1015,
+        559
+      ],
+      [
+        1017,
+        570
+      ],
+      [
+        1015,
+        575
+      ],
+      [
+        1002,
+        575
+      ],
+      [
+        993,
+        578
+      ],
+      [
+        983,
+        579
+      ],
+      [
+        977,
+        583
+      ],
+      [
+        973,
+        589
+      ],
+      [
+        968,
+        587
+      ],
+      [
+        963,
+        581
+      ],
+      [
+        962,
+        573
+      ],
+      [
+        963,
+        562
+      ],
+      [
+        967,
+        551
+      ],
+      [
+        971,
+        544
+      ]
+    ]
+  }
+}

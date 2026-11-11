@@ -1,0 +1,109 @@
+[
+  {
+    "id": "c07-n02",
+    "title": "08 Accidentally Entered a Trap · Go down the exterior stairs to the loading yard",
+    "category": "stairs",
+    "mode": "walk",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        4.510281037539698e-16,
+        9
+      ]
+    ],
+    "length": 9,
+    "heights": [
+      3.2,
+      0
+    ],
+    "expectedTurns": [],
+    "source": {
+      "points": [
+        {
+          "x": 240.09378603650111,
+          "y": 575.1467351171116,
+          "sourceTime": 558
+        },
+        {
+          "x": 239.4331178907628,
+          "y": 465.4691085714733,
+          "sourceTime": 558
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "Go down the stairs outside the room"
+      }
+    },
+    "estimated": "Plan uses one rigid rotation and uniform scale; heights, landings and exterior room are native-city adaptations, not video measurement."
+  },
+  {
+    "id": "c07-n03",
+    "title": "20 Old Friends Reunited · Go up the exterior apartment stairs",
+    "category": "stairs",
+    "mode": "walk",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        8.81239525796218e-16,
+        7.204287604153774
+      ],
+      [
+        3.064277578058377,
+        7.300824131030272
+      ],
+      [
+        3.4651485989368016,
+        -0.4186889050398014
+      ]
+    ],
+    "length": 18,
+    "heights": [
+      0,
+      1.6,
+      1.6,
+      3.2
+    ],
+    "expectedTurns": [
+      "right",
+      "right"
+    ],
+    "source": {
+      "points": [
+        {
+          "x": 376.1997716326912,
+          "y": 481.32611190387075,
+          "sourceTime": 878.524982
+        },
+        {
+          "x": 376.8604397784295,
+          "y": 361.7379187651513,
+          "sourceTime": 880.100259
+        },
+        {
+          "x": 427.7350324629829,
+          "y": 360.41646149434,
+          "sourceTime": 880.8241849999999
+        },
+        {
+          "x": 433.681408712632,
+          "y": 488.59394542433114,
+          "sourceTime": 881.587715
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "The entire route is on the stairs, Went up one floor"
+      }
+    },
+    "estimated": "Plan uses one rigid rotation and uniform scale; heights, landings and exterior room are native-city adaptations, not video measurement."
+  }
+]

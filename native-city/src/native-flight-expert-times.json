@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "hz": 60,
+  "multiplier": 1.5,
+  "clock": "active simulation seconds from ground mission start; loading and pause excluded",
+  "tasks": [
+    {
+      "id": "c08-n01",
+      "expertTicks": 4001,
+      "expertSeconds": 66.68333333333334,
+      "maxDurationSeconds": 100.025
+    },
+    {
+      "id": "c08-n02",
+      "expertTicks": 16592,
+      "expertSeconds": 276.53333333333336,
+      "maxDurationSeconds": 414.80000000000007
+    },
+    {
+      "id": "c08-n03",
+      "expertTicks": 11043,
+      "expertSeconds": 184.05,
+      "maxDurationSeconds": 276.07500000000005
+    },
+    {
+      "id": "c08-n04",
+      "expertTicks": 11554,
+      "expertSeconds": 192.56666666666666,
+      "maxDurationSeconds": 288.85
+    },
+    {
+      "id": "c08-n05",
+      "expertTicks": 13163,
+      "expertSeconds": 219.38333333333333,
+      "maxDurationSeconds": 329.075
+    },
+    {
+      "id": "c08-n06",
+      "expertTicks": 11235,
+      "expertSeconds": 187.25,
+      "maxDurationSeconds": 280.875
+    },
+    {
+      "id": "c08-n07",
+      "expertTicks": 3803,
+      "expertSeconds": 63.38333333333333,
+      "maxDurationSeconds": 95.075
+    },
+    {
+      "id": "c08-n08",
+      "expertTicks": 11290,
+      "expertSeconds": 188.16666666666666,
+      "maxDurationSeconds": 282.25
+    }
+  ]
+}

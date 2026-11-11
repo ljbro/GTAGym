@@ -1,0 +1,38 @@
+{
+  "schema": "gtagym.huggingface.v2",
+  "play_base_url": "https://ljbro.github.io/GTAGym/",
+  "movement_vocabulary": ["walk", "drive", "swim", "dive", "boat", "plane", "helicopter"],
+  "category_labels": {
+    "outdoor-road": "Road Navigation",
+    "outdoor-foot": "On-foot Navigation",
+    "follow": "Following",
+    "chase": "Interception",
+    "escape": "Evasion",
+    "water": "Aquatic Navigation",
+    "stairs": "Vertical Traversal",
+    "air": "Aerial Navigation",
+    "indoor": "Indoor Navigation",
+    "shooting": "Shooting",
+    "sniper": "Sniping"
+  },
+  "movement_overrides": {
+    "c01-n04": ["walk", "drive"],
+    "c01-n05": ["walk", "drive"],
+    "c01-n06": ["walk", "drive"],
+    "c01-n17": ["walk", "drive"],
+    "c01-n18": ["walk", "drive"],
+    "c05-n06": ["walk", "drive"],
+    "c05-n14": ["walk", "drive"],
+    "c06-n01": ["boat", "dive"],
+    "c06-n02": ["swim", "dive"],
+    "c06-n03": ["swim", "walk"],
+    "c06-n04": ["swim", "walk"],
+    "c06-n05": ["walk", "swim", "boat"],
+    "c06-n06": ["boat"],
+    "c06-n07": ["boat"],
+    "c06-n08": ["swim"],
+    "c06-n09": ["walk", "swim", "boat"],
+    "c06-n10": ["swim", "boat"],
+    "c06-n11": ["boat"]
+  }
+}

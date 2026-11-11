@@ -1,0 +1,76 @@
+{
+  "scope": "Kenney assets listed below only; other source GLBs use separate CC-BY-ATTRIBUTION.md and cc-by-manifest.json.",
+  "author": "Kenney",
+  "license": "CC0-1.0",
+  "page": "https://kenney.nl/assets/watercraft-kit",
+  "download": "https://kenney.nl/media/pages/assets/watercraft-kit/a335cfed49-1713519620/kenney_watercraft-pack.zip",
+  "retrieved": "2026-10-07",
+  "version": "2.1",
+  "changes": "Uniform scale, horizontal centering and bottom pivot; textures embedded by GLB writer. Waterline still needs per-model runtime placement.",
+  "limitations": "Low-poly original Kenney assets; cabin boat is not a luxury yacht or a GTA V extract. No personal watercraft or submarine in this selection.",
+  "assets": [
+    {
+      "id": "speedboat",
+      "file": "speedboat.glb",
+      "sourceFile": "boat-speed-a.glb",
+      "bytes": 25208,
+      "sha256": "d3f2cdb7a8020986fcfae28ea99f1e8cb419d832386eeff33ceca4278f335343",
+      "sourceSha256": "d6d5605408e8be888551588b4c73d2953414250e2f29864ee133e9ba5ee2e8b2",
+      "bounds": {
+        "min": [
+          -1.4830859711188091,
+          0,
+          -2.8
+        ],
+        "max": [
+          1.4830859711188091,
+          2.4925815106752442,
+          2.8
+        ]
+      },
+      "approximateLengthMetres": 5.6
+    },
+    {
+      "id": "cabin-boat",
+      "file": "cabin-boat.glb",
+      "sourceFile": "boat-house-a.glb",
+      "bytes": 46992,
+      "sha256": "a78a187265d41f62a1226975b58e8181383f8a9d6641383d6c7032933fcd0010",
+      "sourceSha256": "8b912a92f6e12192fe360077377336990e214f6171cb7d68cad56feca84cdad6",
+      "bounds": {
+        "min": [
+          -3.4593026533156355,
+          0,
+          -6
+        ],
+        "max": [
+          3.4593026533156355,
+          5.613695331215494,
+          6
+        ]
+      },
+      "approximateLengthMetres": 12
+    },
+    {
+      "id": "dinghy",
+      "file": "dinghy.glb",
+      "sourceFile": "boat-row-small.glb",
+      "bytes": 25840,
+      "sha256": "c576743d8119235d39044f2705d77aa42c5ccaa5b60ed29e98c97219ba1955ee",
+      "sourceSha256": "82e85f716f059b3e5cd90088a6e5b7c7722518ff93e1592afe3fff076b617830",
+      "bounds": {
+        "min": [
+          -2.2014755510903408,
+          0,
+          -1.9
+        ],
+        "max": [
+          2.2014755510903408,
+          1.3579444319723646,
+          1.9
+        ]
+      },
+      "approximateLengthMetres": 3.8
+    }
+  ]
+}

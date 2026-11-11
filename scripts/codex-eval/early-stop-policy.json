@@ -1,0 +1,4 @@
+{
+  "policy": "continue-native-session-count-feedback-v1",
+  "feedback": "game is not complete, use game_step and continue to play"
+}

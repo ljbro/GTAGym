@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "c09-n03",
+    "title": "Retreat from the warehouse to outside the roller shutter",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "left",
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 1,
+          "degrees": -55.3911448012883
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 2,
+          "degrees": 90.98989332165448
+        }
+      ],
+      "ignoredSourceIndices": [
+        3
+      ]
+    },
+    "path": {
+      "points": [
+        [
+          5518.64480090957,
+          -207.21787860032504
+        ],
+        [
+          5560.881557618666,
+          -186.9424104273268
+        ],
+        [
+          5564.533686319325,
+          -163.79445746025473
+        ],
+        [
+          5593.800713347303,
+          -168.93171104534457
+        ]
+      ],
+      "building": {
+        "id": "way/75839547",
+        "name": "Luohu Commercial City",
+        "style": "residential",
+        "height": 11.9,
+        "rings": [
+          [
+            [
+              5505.14,
+              -157.17
+            ],
+            [
+              5520.28,
+              -259.03
+            ],
+            [
+              5515.55,
+              -262.55
+            ],
+            [
+              5498.58,
+              -269.07
+            ],
+            [
+              5471.61,
+              -273.04
+            ],
+            [
+              5455.69,
+              -164.48
+            ],
+            [
+              5505.14,
+              -157.17
+            ]
+          ]
+        ]
+      },
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "left"
+        },
+        {
+          "index": 2,
+          "direction": "right"
+        }
+      ],
+      "length": 99.99999999999962
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": true,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n07",
+    "title": "Cross the police car blockade in the snow",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "right",
+      "left",
+      "left"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 85.9421859437673
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -26.67314956768874
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 3,
+          "degrees": -51.42785088805781
+        }
+      ],
+      "ignoredSourceIndices": [
+        4,
+        5
+      ]
+    },
+    "path": {
+      "points": [
+        [
+          1220.8,
+          616.5
+        ],
+        [
+          1207.9778634226736,
+          627.6047175808845
+        ],
+        [
+          1226.023522336397,
+          651.6947001350267
+        ],
+        [
+          1228.866503741285,
+          667.5532737759288
+        ],
+        [
+          1219.8824339870594,
+          677.7924700043761
+        ],
+        [
+          1207.082863843564,
+          688.672109328978
+        ],
+        [
+          1201.9271691858346,
+          692.4747293425615
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        },
+        {
+          "index": 2,
+          "direction": "left"
+        },
+        {
+          "index": 3,
+          "direction": "left"
+        }
+      ],
+      "length": 99.9999999999999
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": true
+    }
+  },
+  {
+    "id": "c02-n08",
+    "title": "Walk toward the white sedan in the back lot",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "right",
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "A white sports car should be parked near the destination",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 46.33572445746848
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 2,
+          "degrees": 42.0642900065016
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -3181.4,
+          373.8
+        ],
+        [
+          -3191.2777891165024,
+          405.8771933783209
+        ],
+        [
+          -3181.1714323873284,
+          423.9454782221895
+        ],
+        [
+          -3137.85600552622,
+          438.6200679674162
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        },
+        {
+          "index": 2,
+          "direction": "right"
+        }
+      ],
+      "length": 99.99999999999972
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": "white-car",
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n09",
+    "title": "Walk toward the convertible in the residential driveway",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "right",
+      "left",
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "A red sports car is at the finish",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 88.2986448809043
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -90.4034600224133
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 3,
+          "degrees": 41.79497251132335
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          2545.4530491973946,
+          -967.592115383281
+        ],
+        [
+          2564.6620450675296,
+          -982.1062586331916
+        ],
+        [
+          2551.144570717734,
+          -1001.1461819453385
+        ],
+        [
+          2578.870996485686,
+          -1020.5384817025654
+        ],
+        [
+          2583.1612778829526,
+          -1038.7793760996674
+        ]
+      ],
+      "building": {
+        "id": "way/135961015",
+        "name": "4 Block",
+        "style": "residential",
+        "height": 10.8,
+        "rings": [
+          [
+            [
+              2603.54,
+              -1040.15
+            ],
+            [
+              2605.18,
+              -1047.94
+            ],
+            [
+              2567.19,
+              -1056.14
+            ],
+            [
+              2565.53,
+              -1049.09
+            ],
+            [
+              2603.54,
+              -1040.15
+            ]
+          ]
+        ]
+      },
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        },
+        {
+          "index": 2,
+          "direction": "left"
+        },
+        {
+          "index": 3,
+          "direction": "right"
+        }
+      ],
+      "length": 99.99999999999964
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": "red-car",
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n10",
+    "title": "Walk toward the green motorcycle by the road",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "There is a green motorcycle at the destination",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 92.04540848888729
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -6017.6,
+          -2225.5
+        ],
+        [
+          -6001.038278303272,
+          -2206.557434959586
+        ],
+        [
+          -5946.491571935114,
+          -2257.796357964814
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        }
+      ],
+      "length": 100.00000000000036
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": "green-motorcycle",
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n11",
+    "title": "Return to the van at the alley entrance",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "A white car at the finish",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -6134.1,
+          -2223.3
+        ],
+        [
+          -6233.997405452724,
+          -2218.771381688177
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [],
+      "length": 99.99999999999999
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": "white-car",
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n12",
+    "title": "Walk from the motorcycle to the residence entrance",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [
+      "right",
+      "left"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "A green motorcycle is at the start",
+        "end": "There is a residence beside it",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 93.62453456023216
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -91.67981364673065
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          2634.7761023047124,
+          -989.6310293445142
+        ],
+        [
+          2639.554170767379,
+          -1007.2412934887838
+        ],
+        [
+          2578.67135107912,
+          -1019.6896537491442
+        ],
+        [
+          2583.1612778829526,
+          -1038.7793760996674
+        ]
+      ],
+      "building": {
+        "id": "way/135961015",
+        "name": "4 Block",
+        "style": "residential",
+        "height": 10.8,
+        "rings": [
+          [
+            [
+              2603.54,
+              -1040.15
+            ],
+            [
+              2605.18,
+              -1047.94
+            ],
+            [
+              2567.19,
+              -1056.14
+            ],
+            [
+              2565.53,
+              -1049.09
+            ],
+            [
+              2603.54,
+              -1040.15
+            ]
+          ]
+        ]
+      },
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        },
+        {
+          "index": 2,
+          "direction": "left"
+        }
+      ],
+      "length": 100.00000000000026
+    },
+    "requirements": {
+      "startVehicle": "green-motorcycle",
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n13",
+    "title": "Walk from the shopping street sidewalk to the curb",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -1066.3,
+          1772.6
+        ],
+        [
+          -1037.3608973727405,
+          1868.32109662519
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [],
+      "length": 100.00000000000013
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n14",
+    "title": "Walk from the street to the residence entrance",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [],
+    "source": {
+      "revision": 3,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "Residence",
+        "general": "Requires crossing a railing along the way"
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          2560.265909265496,
+          -941.4356444274597
+        ],
+        [
+          2583.1612778829526,
+          -1038.7793760996674
+        ]
+      ],
+      "building": {
+        "id": "way/135961015",
+        "name": "4 Block",
+        "style": "residential",
+        "height": 10.8,
+        "rings": [
+          [
+            [
+              2603.54,
+              -1040.15
+            ],
+            [
+              2605.18,
+              -1047.94
+            ],
+            [
+              2567.19,
+              -1056.14
+            ],
+            [
+              2565.53,
+              -1049.09
+            ],
+            [
+              2603.54,
+              -1040.15
+            ]
+          ]
+        ]
+      },
+      "roof": null,
+      "turns": [],
+      "length": 99.99999999999999
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": true,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n15",
+    "title": "Walk up the steps to the gun shop entrance",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -3527.2,
+          -196
+        ],
+        [
+          -3455.1424113723833,
+          -265.33760827410464
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [],
+      "length": 99.99999999999996
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": true,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c02-n16",
+    "title": "Walk from the factory parking space to the entrance",
+    "mode": "walk",
+    "category": "outdoor-foot",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          5591.980123394896,
+          -139.23309739178268
+        ],
+        [
+          5518.64480090957,
+          -207.21787860032504
+        ]
+      ],
+      "building": {
+        "id": "way/75839547",
+        "name": "Luohu Commercial City",
+        "style": "residential",
+        "height": 11.9,
+        "rings": [
+          [
+            [
+              5505.14,
+              -157.17
+            ],
+            [
+              5520.28,
+              -259.03
+            ],
+            [
+              5515.55,
+              -262.55
+            ],
+            [
+              5498.58,
+              -269.07
+            ],
+            [
+              5471.61,
+              -273.04
+            ],
+            [
+              5455.69,
+              -164.48
+            ],
+            [
+              5505.14,
+              -157.17
+            ]
+          ]
+        ]
+      },
+      "roof": null,
+      "turns": [],
+      "length": 100.00000000000021
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": true,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c07-n04",
+    "title": "Climb the ladder to the adjacent factory roof",
+    "mode": "walk",
+    "category": "stairs",
+    "expectedTurns": [],
+    "source": {
+      "revision": 2,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "The finish is on the rooftop",
+        "general": "Requires climbing a ladder along the way"
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -4764.376048109309,
+          -1772.9014067668677
+        ],
+        [
+          -4864.374956328778,
+          -1773.3686913847137
+        ]
+      ],
+      "building": {
+        "id": "way/1345691406",
+        "name": "Inner Lake Parking Lot",
+        "style": "residential",
+        "height": 5,
+        "rings": [
+          [
+            [
+              -5287.83,
+              -1735.9
+            ],
+            [
+              -5277.38,
+              -1748.88
+            ],
+            [
+              -5264.51,
+              -1761.82
+            ],
+            [
+              -5253.53,
+              -1769.9
+            ],
+            [
+              -5240.54,
+              -1776.9
+            ],
+            [
+              -5223.23,
+              -1784.02
+            ],
+            [
+              -5202.85,
+              -1790.58
+            ],
+            [
+              -5178.54,
+              -1793.92
+            ],
+            [
+              -5123.17,
+              -1793.37
+            ],
+            [
+              -5109.61,
+              -1784.76
+            ],
+            [
+              -5083.46,
+              -1775.83
+            ],
+            [
+              -5075.54,
+              -1776.42
+            ],
+            [
+              -5007.71,
+              -1752.31
+            ],
+            [
+              -4860.48,
+              -1750.88
+            ],
+            [
+              -4860.27,
+              -1795.82
+            ],
+            [
+              -4866.99,
+              -1796.22
+            ],
+            [
+              -4866.85,
+              -1822.7
+            ],
+            [
+              -4868.78,
+              -1823.07
+            ],
+            [
+              -4868.36,
+              -1832.52
+            ],
+            [
+              -4877.51,
+              -1844.15
+            ],
+            [
+              -5220.08,
+              -1844.53
+            ],
+            [
+              -5220,
+              -1826.14
+            ],
+            [
+              -5220.52,
+              -1821.6
+            ],
+            [
+              -5221.43,
+              -1819.74
+            ],
+            [
+              -5222.72,
+              -1818.71
+            ],
+            [
+              -5226.05,
+              -1818.47
+            ],
+            [
+              -5226.12,
+              -1814.69
+            ],
+            [
+              -5223.56,
+              -1810.93
+            ],
+            [
+              -5219.13,
+              -1809.75
+            ],
+            [
+              -5159.25,
+              -1809.82
+            ],
+            [
+              -5156.89,
+              -1810.47
+            ],
+            [
+              -5152.53,
+              -1815.85
+            ],
+            [
+              -5159.62,
+              -1833.98
+            ],
+            [
+              -5204.6,
+              -1833.92
+            ],
+            [
+              -5205.75,
+              -1823.83
+            ],
+            [
+              -5208.32,
+              -1821.83
+            ],
+            [
+              -5211.18,
+              -1822.05
+            ],
+            [
+              -5212.8,
+              -1823.32
+            ],
+            [
+              -5213.64,
+              -1825.21
+            ],
+            [
+              -5213.34,
+              -1836.94
+            ],
+            [
+              -5211.84,
+              -1839.33
+            ],
+            [
+              -5206.27,
+              -1842.4
+            ],
+            [
+              -5096.04,
+              -1842.55
+            ],
+            [
+              -5091.08,
+              -1841.36
+            ],
+            [
+              -5086.3,
+              -1836.99
+            ],
+            [
+              -5083.48,
+              -1831.45
+            ],
+            [
+              -5082.54,
+              -1825.17
+            ],
+            [
+              -5084.51,
+              -1815.88
+            ],
+            [
+              -5089.93,
+              -1811.35
+            ],
+            [
+              -5091.76,
+              -1810.52
+            ],
+            [
+              -5144.69,
+              -1810.59
+            ],
+            [
+              -5146.39,
+              -1809.93
+            ],
+            [
+              -5152.11,
+              -1803.19
+            ],
+            [
+              -5158.28,
+              -1801.34
+            ],
+            [
+              -5219.68,
+              -1801.25
+            ],
+            [
+              -5228.82,
+              -1803.89
+            ],
+            [
+              -5234.57,
+              -1812.63
+            ],
+            [
+              -5234.29,
+              -1824.39
+            ],
+            [
+              -5230.95,
+              -1828.55
+            ],
+            [
+              -5228.81,
+              -1829.76
+            ],
+            [
+              -5228.58,
+              -1844.54
+            ],
+            [
+              -5292.9,
+              -1844.61
+            ],
+            [
+              -5298.83,
+              -1838.77
+            ],
+            [
+              -5300.01,
+              -1749.6
+            ],
+            [
+              -5309.16,
+              -1735.09
+            ],
+            [
+              -5309.55,
+              -1714.93
+            ],
+            [
+              -5303.31,
+              -1711.48
+            ],
+            [
+              -5287.83,
+              -1735.9
+            ]
+          ]
+        ]
+      },
+      "roof": {
+        "at": "end",
+        "edge": [
+          -4860.375,
+          -1773.35
+        ],
+        "outward": [
+          0.999989082194697,
+          0.004672846178460482
+        ]
+      },
+      "turns": [],
+      "length": 100.00000000000006
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c07-n05",
+    "title": "Follow the rooftop service passage to the street exit",
+    "mode": "walk",
+    "category": "stairs",
+    "expectedTurns": [
+      "left",
+      "left",
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "Cross a railing midway"
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 1,
+          "degrees": -69.08504837857662
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -19.184081630764055
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 3,
+          "degrees": 88.8308524826952
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          -4864.374956328778,
+          -1773.3686913847137
+        ],
+        [
+          -4829.88020257768,
+          -1773.2075009466253
+        ],
+        [
+          -4818.052076054672,
+          -1741.817847206651
+        ],
+        [
+          -4817.628883536224,
+          -1725.2493964935654
+        ],
+        [
+          -4802.242294515227,
+          -1725.3283464433614
+        ]
+      ],
+      "building": {
+        "id": "way/1345691406",
+        "name": "Inner Lake Parking Lot",
+        "style": "residential",
+        "height": 5,
+        "rings": [
+          [
+            [
+              -5287.83,
+              -1735.9
+            ],
+            [
+              -5277.38,
+              -1748.88
+            ],
+            [
+              -5264.51,
+              -1761.82
+            ],
+            [
+              -5253.53,
+              -1769.9
+            ],
+            [
+              -5240.54,
+              -1776.9
+            ],
+            [
+              -5223.23,
+              -1784.02
+            ],
+            [
+              -5202.85,
+              -1790.58
+            ],
+            [
+              -5178.54,
+              -1793.92
+            ],
+            [
+              -5123.17,
+              -1793.37
+            ],
+            [
+              -5109.61,
+              -1784.76
+            ],
+            [
+              -5083.46,
+              -1775.83
+            ],
+            [
+              -5075.54,
+              -1776.42
+            ],
+            [
+              -5007.71,
+              -1752.31
+            ],
+            [
+              -4860.48,
+              -1750.88
+            ],
+            [
+              -4860.27,
+              -1795.82
+            ],
+            [
+              -4866.99,
+              -1796.22
+            ],
+            [
+              -4866.85,
+              -1822.7
+            ],
+            [
+              -4868.78,
+              -1823.07
+            ],
+            [
+              -4868.36,
+              -1832.52
+            ],
+            [
+              -4877.51,
+              -1844.15
+            ],
+            [
+              -5220.08,
+              -1844.53
+            ],
+            [
+              -5220,
+              -1826.14
+            ],
+            [
+              -5220.52,
+              -1821.6
+            ],
+            [
+              -5221.43,
+              -1819.74
+            ],
+            [
+              -5222.72,
+              -1818.71
+            ],
+            [
+              -5226.05,
+              -1818.47
+            ],
+            [
+              -5226.12,
+              -1814.69
+            ],
+            [
+              -5223.56,
+              -1810.93
+            ],
+            [
+              -5219.13,
+              -1809.75
+            ],
+            [
+              -5159.25,
+              -1809.82
+            ],
+            [
+              -5156.89,
+              -1810.47
+            ],
+            [
+              -5152.53,
+              -1815.85
+            ],
+            [
+              -5159.62,
+              -1833.98
+            ],
+            [
+              -5204.6,
+              -1833.92
+            ],
+            [
+              -5205.75,
+              -1823.83
+            ],
+            [
+              -5208.32,
+              -1821.83
+            ],
+            [
+              -5211.18,
+              -1822.05
+            ],
+            [
+              -5212.8,
+              -1823.32
+            ],
+            [
+              -5213.64,
+              -1825.21
+            ],
+            [
+              -5213.34,
+              -1836.94
+            ],
+            [
+              -5211.84,
+              -1839.33
+            ],
+            [
+              -5206.27,
+              -1842.4
+            ],
+            [
+              -5096.04,
+              -1842.55
+            ],
+            [
+              -5091.08,
+              -1841.36
+            ],
+            [
+              -5086.3,
+              -1836.99
+            ],
+            [
+              -5083.48,
+              -1831.45
+            ],
+            [
+              -5082.54,
+              -1825.17
+            ],
+            [
+              -5084.51,
+              -1815.88
+            ],
+            [
+              -5089.93,
+              -1811.35
+            ],
+            [
+              -5091.76,
+              -1810.52
+            ],
+            [
+              -5144.69,
+              -1810.59
+            ],
+            [
+              -5146.39,
+              -1809.93
+            ],
+            [
+              -5152.11,
+              -1803.19
+            ],
+            [
+              -5158.28,
+              -1801.34
+            ],
+            [
+              -5219.68,
+              -1801.25
+            ],
+            [
+              -5228.82,
+              -1803.89
+            ],
+            [
+              -5234.57,
+              -1812.63
+            ],
+            [
+              -5234.29,
+              -1824.39
+            ],
+            [
+              -5230.95,
+              -1828.55
+            ],
+            [
+              -5228.81,
+              -1829.76
+            ],
+            [
+              -5228.58,
+              -1844.54
+            ],
+            [
+              -5292.9,
+              -1844.61
+            ],
+            [
+              -5298.83,
+              -1838.77
+            ],
+            [
+              -5300.01,
+              -1749.6
+            ],
+            [
+              -5309.16,
+              -1735.09
+            ],
+            [
+              -5309.55,
+              -1714.93
+            ],
+            [
+              -5303.31,
+              -1711.48
+            ],
+            [
+              -5287.83,
+              -1735.9
+            ]
+          ]
+        ]
+      },
+      "roof": {
+        "at": "start",
+        "edge": [
+          -4860.375,
+          -1773.35
+        ],
+        "outward": [
+          0.999989082194697,
+          0.004672846178460482
+        ]
+      },
+      "turns": [
+        {
+          "index": 1,
+          "direction": "left"
+        },
+        {
+          "index": 2,
+          "direction": "left"
+        },
+        {
+          "index": 3,
+          "direction": "right"
+        }
+      ],
+      "length": 100.00000000000071
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": true,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  }
+]

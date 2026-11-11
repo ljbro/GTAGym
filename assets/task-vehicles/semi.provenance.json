@@ -1,0 +1,62 @@
+{
+  "source": {
+    "file": "sources/semi-tractor.glb",
+    "title": "Basic Semi-truck with spikes",
+    "author": "WilliWam",
+    "page": "https://poly.pizza/m/kGA4N3G7Jv",
+    "download": "https://static.poly.pizza/73505a44-c468-4ba1-8210-07175610e32e.glb",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "52221f81b6ea7226f77b461ff793c3086b93ef0f373c8f1e8d213f209d065446"
+  },
+  "outputs": [
+    {
+      "file": "semi-tractor.glb",
+      "sha256": "68dc7ea10cdd96dff4872445f55eb06c95c7a21b4cc71b0a915058c822cade8f",
+      "bytes": 216976,
+      "bounds": {
+        "min": [
+          -1.3139999997764826,
+          1.907348634588857e-8,
+          -4.059587285983046
+        ],
+        "max": [
+          1.3139999997764826,
+          4.126446169958933,
+          4.069587230682373
+        ]
+      }
+    },
+    {
+      "file": "semi-trailer.glb",
+      "sha256": "d5201c1a06b3c8b90232677e856dec99b95d0edd63ecd01450eb3b1a4ad2fdeb",
+      "bytes": 117164,
+      "bounds": {
+        "min": [
+          -1.3139999997764826,
+          1.907348634588857e-8,
+          -9.5
+        ],
+        "max": [
+          1.3139999997764826,
+          2.8399999141693115,
+          1.6100000143051147
+        ]
+      }
+    }
+  ],
+  "dimensions": {
+    "tractor": 8.129174516665419,
+    "width": 2.628,
+    "kingpin": [
+      0,
+      1.23,
+      -3.455
+    ],
+    "trailerAxleDistance": 7.4,
+    "trailerRear": 9.5,
+    "trailerFront": 1.61
+  },
+  "changes": "Removed entire spike material primitive (also black trim/exhaust); normalized width, blue cab; added six individually pivoted wheel groups, chassis and fifth wheel. Separate original open-top trailer GLB with four twin-wheel groups, ribs and tail lamps. Source retained unchanged. Simplified low-poly adaptation, not a licensed GTA vehicle or exact Phantom replica. Dark opaque glazing, no interior/suspension.",
+  "use": "c04-n12/N10 vehicle; task acceptance is recorded separately"
+}

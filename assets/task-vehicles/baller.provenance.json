@@ -1,0 +1,183 @@
+{
+  "model": "baller",
+  "sourceGame": "Grand Theft Auto V",
+  "catalog": "https://gtax.dev/browser/vehicles",
+  "catalogApi": "https://gtax.dev/api/vehicles?page=1&q=Baller",
+  "convertedAtUTC": "2026-09-06T02:35:29.384Z",
+  "sources": [
+    {
+      "file": "baller.yft",
+      "url": "https://gtax.dev/assets/vehicles/25jumx.yft",
+      "sha256": "c6927273daba7399068f10396cf9860dcda5dede0422a95a9acab46085665ad8"
+    },
+    {
+      "file": "baller_hi.yft",
+      "url": "https://gtax.dev/assets/vehicles/1pkaij.yft",
+      "sha256": "a3be9be844fa03c5d0d8967bbf6eeed8719e9caf7f96c7d6998355a164ac6e88"
+    },
+    {
+      "file": "baller.ytd",
+      "url": "https://gtax.dev/assets/vehicles/0pj44p.ytd",
+      "sha256": "2a557f41e58cb2dfa8de6b5568ec50f8b9a109d8569c9dea2bdc1bd18a6e871f"
+    },
+    {
+      "file": "vehshare.ytd",
+      "url": "https://gtax.dev/vehicle/vehshare.ytd",
+      "sha256": "7b166db7e2827311cb79c8e0f21939ed43978a547663ee84d64879389270ed1e"
+    },
+    {
+      "file": "gtaxdev_wasm.cjs",
+      "url": "https://gtax.dev/wasm/gtaxdev_wasm.js?v=e2ffe052",
+      "sha256": "65e521a41c7a36b9056309c01110c9357397adb697db025626f88a4857e8c26e"
+    },
+    {
+      "file": "gtaxdev_wasm.js.wasm",
+      "url": "https://gtax.dev/wasm/gtaxdev_wasm.js.wasm?v=e2ffe052",
+      "sha256": "d7a06e9083059458ed272c51e1fe7495e03112860076c93e935f156f0b39a8b8"
+    },
+    {
+      "file": "Sollumz-2.6.0.zip",
+      "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.6.0/Sollumz.zip",
+      "sha256": "ec21a64caefcc09dbd007aadc1ad312ce5fb62524c822a612340afb44b3189c4"
+    }
+  ],
+  "conversion": {
+    "pipeline": "Public local preview WASM → original high drawable and stock wheel fragment XML → Sollumz 2.6 / Blender 4.0 → GLB",
+    "command": "node scripts/fetch-gta-vehicle.mjs --work-dir /tmp/offmap-baller",
+    "externalTools": {
+      "gtaxWasm": "AGPL-3.0 (downloaded to work-dir, not bundled)",
+      "sollumz": "MIT (version 2.6.0; downloaded to work-dir, not bundled)"
+    },
+    "hostedApiUsed": false,
+    "hostedApiQuotaNote": "The separate hosted API advertises 3 free conversions per IP per 24 hours; this script never calls it.",
+    "geometry": "Original Baller high LOD body plus original left-front wheel fragment instanced at all four stock wheel bone pivots.",
+    "materials": "Original available diffuse textures embedded; original paint/glass RAGE shaders adapted to PBR. Missing interior/dial maps replaced with dark material factors.",
+    "vertexColors": "RAGE shader-mask vertex colors omitted from PBR color multiplication.",
+    "sourceBoundsZUp": {
+      "minimum": [
+        -1.10302734375,
+        -2.63525390625,
+        -0.9800311923027039
+      ],
+      "maximum": [
+        1.10302734375,
+        2.35400390625,
+        0.89013671875
+      ]
+    },
+    "missingInteriorMaterials": [
+      "cavalvade_interior",
+      "generic_cav_detail_dash",
+      "generic_cav_detail_pack",
+      "generic_cav_detail_pack.001",
+      "script_rt_dials_cavalcade"
+    ],
+    "wheelPivotsSourceZUp": {
+      "wheel_lf": [
+        -0.846922,
+        1.523671,
+        -0.535207
+      ],
+      "wheel_rf": [
+        0.846922,
+        1.523671,
+        -0.535207
+      ],
+      "wheel_lr": [
+        -0.848096,
+        -1.523301,
+        -0.535207
+      ],
+      "wheel_rr": [
+        0.848096,
+        -1.523301,
+        -0.535207
+      ]
+    },
+    "doorPivotsSourceZUp": {
+      "door_dside_f": [
+        -0.9663810133934021,
+        0.7632380127906799,
+        0.16769500076770782
+      ],
+      "door_pside_f": [
+        0.9663810133934021,
+        0.7632380127906799,
+        0.16769500076770782
+      ]
+    },
+    "doorAnimation": "Original front panels and glass rotate about their YFT skeleton pivots; browser-authored 70-degree opening, not original game animation.",
+    "wheelSpinAxis": "local +X",
+    "forwardAxis": "-Z",
+    "upAxis": "+Y"
+  },
+  "runtimeLimitations": [
+    "Browser driving/collision/steering are project simulation, not original RAGE physics.",
+    "Original suspension, damage and cockpit instrument animations are not imported."
+  ],
+  "output": {
+    "file": "baller.glb",
+    "bytes": 4392660,
+    "sha256": "410f10fb1d2b93d7397c62cb4d6518647e0daa255c262bacb145e52219fe5a89",
+    "meshes": 48,
+    "embeddedTextures": 8,
+    "wheelNodes": [
+      {
+        "name": "wheel_lf",
+        "translation": [
+          -0.846921980381012,
+          0.44482421875,
+          -1.52367103099823
+        ],
+        "restQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "wheel_rf",
+        "translation": [
+          0.846921980381012,
+          0.44482421875,
+          -1.52367103099823
+        ],
+        "restQuaternion": [
+          0,
+          -1,
+          0,
+          4.371138828673793e-8
+        ]
+      },
+      {
+        "name": "wheel_lr",
+        "translation": [
+          -0.8480960130691528,
+          0.44482421875,
+          1.5233010053634644
+        ],
+        "restQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "wheel_rr",
+        "translation": [
+          0.8480960130691528,
+          0.44482421875,
+          1.5233010053634644
+        ],
+        "restQuaternion": [
+          0,
+          -1,
+          0,
+          4.371138828673793e-8
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "asset": "michaels-garage.glb",
+  "coordinate_system": "Same local meters and Y-up normalization as the GLB; translate with the model.",
+  "derivation": "Conservative rectangular approximations of mesh wall sections at y=1.4m. Original visual doorway holes remain open.",
+  "bounds": [
+    [
+      -6.323107528064105,
+      0.0,
+      -6.600703506212279
+    ],
+    [
+      6.323107528064105,
+      4.809530053658419,
+      6.60070350621228
+    ]
+  ],
+  "entrance": {
+    "side": "negative X",
+    "x": -6.22,
+    "minZ": -5.6,
+    "maxZ": 1.75,
+    "minY": 0.16,
+    "maxY": 3.84
+  },
+  "surfaces": [
+    {
+      "id": "garage-floor",
+      "minX": -6.15,
+      "maxX": 5.84,
+      "minZ": -6.47,
+      "maxZ": 2.35,
+      "y": 0.157
+    },
+    {
+      "id": "garage-doorstep",
+      "minX": 3.82,
+      "maxX": 5.67,
+      "minZ": 2.34,
+      "maxZ": 2.79,
+      "y": 0.157
+    },
+    {
+      "id": "garage-corridor-floor",
+      "minX": 3.69,
+      "maxX": 6.33,
+      "minZ": 2.77,
+      "maxZ": 6.61,
+      "y": 0.0
+    }
+  ],
+  "walls": [
+    {
+      "id": "garage-back",
+      "minX": -6.23,
+      "maxX": 5.92,
+      "minY": 0,
+      "maxY": 4.81,
+      "minZ": -6.53,
+      "maxZ": -6.34
+    },
+    {
+      "id": "garage-right",
+      "minX": 5.72,
+      "maxX": 5.92,
+      "minY": 0,
+      "maxY": 4.81,
+      "minZ": -6.53,
+      "maxZ": 2.44
+    },
+    {
+      "id": "garage-front-left",
+      "minX": -6.23,
+      "maxX": 3.84,
+      "minY": 0,
+      "maxY": 4.81,
+      "minZ": 2.26,
+      "maxZ": 2.44
+    },
+    {
+      "id": "garage-jamb-back",
+      "minX": -6.25,
+      "maxX": -6.04,
+      "minY": 0,
+      "maxY": 4.81,
+      "minZ": -6.53,
+      "maxZ": -5.68
+    },
+    {
+      "id": "garage-jamb-front",
+      "minX": -6.25,
+      "maxX": -6.04,
+      "minY": 0,
+      "maxY": 4.81,
+      "minZ": 1.82,
+      "maxZ": 2.44
+    },
+    {
+      "id": "garage-opening-header",
+      "minX": -6.25,
+      "maxX": -6.04,
+      "minY": 3.84,
+      "maxY": 4.81,
+      "minZ": -5.68,
+      "maxZ": 1.82
+    },
+    {
+      "id": "garage-corridor-west",
+      "minX": 3.6,
+      "maxX": 3.82,
+      "minY": 0,
+      "maxY": 3.12,
+      "minZ": 2.44,
+      "maxZ": 6.61
+    },
+    {
+      "id": "garage-corridor-east",
+      "minX": 6.22,
+      "maxX": 6.42,
+      "minY": 0,
+      "maxY": 3.12,
+      "minZ": 2.68,
+      "maxZ": 6.61
+    },
+    {
+      "id": "garage-corridor-corner",
+      "minX": 5.64,
+      "maxX": 6.42,
+      "minY": 0,
+      "maxY": 3.12,
+      "minZ": 2.68,
+      "maxZ": 2.87
+    },
+    {
+      "id": "garage-open-pedestrian-door",
+      "minX": 5.46,
+      "maxX": 5.83,
+      "minY": 0.14,
+      "maxY": 3.01,
+      "minZ": 2.4,
+      "maxZ": 4.34
+    }
+  ],
+  "notes": [
+    "The garage doorway is open. Do not add a solid enclosing building box.",
+    "Main garage floor is 0.157m above the lowest corridor floor, preserving the original short step.",
+    "The corridor is a source-scene stub with an open far end at positive Z, not a full Michael house interior.",
+    "Interior props and detailed ceiling geometry are visual; these rectangles approximate structural walking collision only."
+  ]
+}

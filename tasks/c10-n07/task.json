@@ -1,0 +1,55 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008697_SEGMENT_252_SHOOT",
+    "source_folder": "source-008697",
+    "source_task_number": "16",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008697_SEGMENT_252",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/ea2f04cc869f12eca96eba4d2dc15f2a99f0feeb06b16d932bfb0c8a5366e4b9.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 447.967,
+        "prompt": "Shoot at the parked ... beside the yellow house, Dark pickup with an open door. Output one pixel coordinate on the target [x, y].",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008697_ACTION_000768",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "target_description": "Park beside the yellow house, Dark pickup with an open door",
+    "instruction": "Shoot at the parked ... beside the yellow house, Dark pickup with an open door. Output one pixel coordinate on the target [x, y].",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      1022,
+      519,
+      1097,
+      577
+    ],
+    "point_xy": [
+      1059.5,
+      548
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

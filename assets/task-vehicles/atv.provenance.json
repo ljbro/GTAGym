@@ -1,0 +1,31 @@
+{
+  "id": "atv",
+  "title": "Quad Bike (Battle Royale Town and Airfield)",
+  "author": "3D Assets",
+  "page": "https://3dassets.dev/assets/battle-royale-town-and-airfield-quad-bike-4677f8c0",
+  "api": "https://3dassets.dev/api/v1/assets/battle-royale-town-and-airfield-quad-bike-4677f8c0",
+  "download": "https://cdn.3dassets.dev/assets/28242/v1/model.glb",
+  "license": "cc0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "aiGenerated": true,
+  "retrieved": "2026-10-08",
+  "sourceSha256": "a3d811583085ad3b0d8a9b2be05c082e2ae4d2333edcaae31dc5ce240387156c",
+  "output": {
+    "file": "atv.glb",
+    "sha256": "ed1cc2c0885a126685a376fc1646b9672012dd79f7b0cef32c60ed19b7922b49",
+    "bytes": 157704,
+    "bounds": {
+      "min": [
+        -0.5800210593183087,
+        0,
+        -0.9950000049360097
+      ],
+      "max": [
+        0.5800210593183087,
+        1.4065367317340114,
+        0.9950000049360097
+      ]
+    }
+  },
+  "changes": "Ground-centred pivot only; metre units, all source geometry and materials retained. Runtime drives four named wheel pivots and an independently fitted rider. No task acceptance implied."
+}

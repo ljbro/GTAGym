@@ -1,0 +1,217 @@
+[
+  {
+    "id": "c06-n06",
+    "title": "09 Precious Pearl · Ride the jet ski back to the beach",
+    "category": "water",
+    "mode": "swim",
+    "objective": "drive-to-goal",
+    "craft": "yacht",
+    "startAboard": true,
+    "coast": [
+      -4793.87,
+      -2594.325
+    ],
+    "region": {
+      "minX": -4748.933140087791,
+      "maxX": -4402.694225921755,
+      "minZ": -2736.9232689305563,
+      "maxZ": -2444.670055183911
+    },
+    "path": {
+      "points": [
+        [
+          -4447.509866169747,
+          -2479.670055183911
+        ],
+        [
+          -4437.694225921755,
+          -2700.5209979300357
+        ],
+        [
+          -4532.344629955808,
+          -2701.9232689305563
+        ],
+        [
+          -4705.519770840319,
+          -2701.9232689305563
+        ],
+        [
+          -4713.933140087791,
+          -2591.147197712907
+        ]
+      ],
+      "length": 600,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 91.69602528970049,
+          "distance": 221.06896142455219
+        },
+        {
+          "index": 3,
+          "direction": "right",
+          "degrees": 85.65676171967688,
+          "distance": 488.9048932827734
+        }
+      ],
+      "forward": [
+        0.044400806810419954,
+        -0.9990137978799811
+      ],
+      "right": [
+        -0.9990137978799811,
+        -0.044400806810419954
+      ]
+    },
+    "expectedTurns": [
+      "right",
+      "right"
+    ],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 8,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 308.80750747000184,
+          "y": 550.0398333373714,
+          "sourceTime": 519.512211
+        },
+        {
+          "x": 299.55754853299186,
+          "y": 341.91666459965444,
+          "sourceTime": 521.619876
+        },
+        {
+          "x": 388.7531922777275,
+          "y": 340.5952073288432,
+          "sourceTime": 522.414926
+        },
+        {
+          "x": 551.9481445805402,
+          "y": 340.5952073288432,
+          "sourceTime": 527.575125
+        },
+        {
+          "x": 559.876646246739,
+          "y": 444.98718626023805,
+          "sourceTime": 551.436295
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "On the water, Riding a yacht"
+      }
+    },
+    "sourceConflict": "Title says jet ski; human description explicitly says riding a yacht. Use motoryacht 35 and start already aboard. Endpoint stays in coastal water; this task does not specify driving onto land.",
+    "estimated": "All annotated vertices rigidly rotated and uniformly scaled to 600m in native coastal water. Endpoints are 45-120m from sampled native coastline. No video metric distance or original shoreline fidelity claimed."
+  },
+  {
+    "id": "c06-n07",
+    "title": "48 Illegal activities · Pilot the boat along the coast",
+    "category": "water",
+    "mode": "swim",
+    "objective": "drive-to-goal",
+    "craft": "zodiac",
+    "startAboard": true,
+    "coast": [
+      -4721.865,
+      -2401.985
+    ],
+    "region": {
+      "minX": -4700.57705849772,
+      "maxX": -4542.371001023328,
+      "minZ": -3047.7454705879163,
+      "maxZ": -2412.8962851306214
+    },
+    "path": {
+      "points": [
+        [
+          -4577.371001023328,
+          -3012.7454705879163
+        ],
+        [
+          -4665.57705849772,
+          -2847.1628778346508
+        ],
+        [
+          -4618.256624077698,
+          -2748.0250400984514
+        ],
+        [
+          -4656.35046804216,
+          -2447.8962851306214
+        ]
+      ],
+      "length": 599.9999999999995,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 53.560343200343084,
+          "distance": 187.6110433798328
+        },
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -32.74964674658043,
+          "distance": 297.4633732809715
+        }
+      ],
+      "forward": [
+        -0.4701538666666439,
+        0.8825844671522401
+      ],
+      "right": [
+        0.8825844671522401,
+        0.4701538666666439
+      ]
+    },
+    "expectedTurns": [
+      "right",
+      "left"
+    ],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 8,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 425.09211792136034,
+          "y": 514.3615758394772,
+          "sourceTime": 294.299299
+        },
+        {
+          "x": 429.7171578795326,
+          "y": 378.91631887869283,
+          "sourceTime": 295.339344
+        },
+        {
+          "x": 495.1272966256722,
+          "y": 333.9881629334557,
+          "sourceTime": 295.675988
+        },
+        {
+          "x": 579.6979004122359,
+          "y": 132.47203859112614,
+          "sourceTime": 311.728152
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      }
+    },
+    "sourceConflict": null,
+    "estimated": "All annotated vertices rigidly rotated and uniformly scaled to 600m in native coastal water. Endpoints are 45-120m from sampled native coastline. No video metric distance or original shoreline fidelity claimed."
+  }
+]

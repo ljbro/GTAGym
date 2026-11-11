@@ -1,0 +1,82 @@
+{
+  "task": {
+    "id": "c08-n07",
+    "title": "Urban takeoff, Approach the aircraft ahead and land",
+    "source": "gta-nav-c08-n07",
+    "annotationRevision": 1,
+    "sourceObjective": "Straight Line Form, There must be ahead npc Airplane, The task succeeds when you get close enough to the plane",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.02366386196228855,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 22,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2
+  },
+  "runways": [
+    {
+      "id": "city-departure",
+      "name": "Central Park Urban Test Flight Site",
+      "x": 2796.38,
+      "z": 186.22,
+      "y": 1,
+      "yaw": -0.02366386196228855,
+      "length": 600,
+      "width": 44
+    },
+    {
+      "id": "city-arrival",
+      "name": "North Futian Landing Zone",
+      "x": 2623.82,
+      "z": 1982.64,
+      "y": 1,
+      "yaw": -0.02366386196228855,
+      "length": 600,
+      "width": 44
+    }
+  ],
+  "launch": {
+    "id": "native:flight-launch",
+    "name": "Central Park Urban Test Flight Site · Flight Mission Center",
+    "area": "Futian · Central Park",
+    "x": 2826.548972132106,
+    "z": -74.13904655012897,
+    "arrival": [
+      2826.548972132106,
+      -74.13904655012897
+    ],
+    "yaw": -1.34948152563032,
+    "height": 8,
+    "excludeRadius": 0,
+    "detailCollision": true
+  },
+  "destination": {
+    "id": "native:flight-arrival",
+    "name": "North Futian Landing Zone",
+    "area": "Futian District",
+    "x": 2623.82,
+    "z": 1982.64,
+    "arrival": [
+      2623.82,
+      1982.64
+    ],
+    "yaw": -0.02366386196228855,
+    "height": 4,
+    "excludeRadius": 0,
+    "detailCollision": true
+  }
+}

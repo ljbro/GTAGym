@@ -1,0 +1,6532 @@
+{
+  "schema": "gtabench.training.v2",
+  "generatorVersion": "template-ranges-v1",
+  "split": "train",
+  "spec": {
+    "name": "walk-train-50-v2",
+    "seed": 20261027,
+    "split": "train",
+    "requests": [
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": 90.36753236814714,
+        "turns": 2
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20261027,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 4,
+        "landmark": "convertible",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20262036,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          122.284,
+          135.156
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20263045,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20264054,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20265063,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 1,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20266072,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 1,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20267081,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20268090,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20269099,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          87.4,
+          96.6
+        ],
+        "turns": 4,
+        "landmark": "van",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20270108,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20271117,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20272126,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 1,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20273135,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20274144,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20275153,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20276162,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 4,
+        "landmark": "motorcycle",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20277171,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20278180,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20279189,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20280198,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20281207,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20282216,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20283225,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          87.4,
+          96.6
+        ],
+        "turns": 4,
+        "landmark": "motorcycle",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20284234,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20285243,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20286252,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20287261,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          122.284,
+          135.156
+        ],
+        "turns": 2,
+        "landmark": "van",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20288270,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20289279,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20290288,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "motorcycle-green",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20291297,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20292306,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          87.4,
+          96.6
+        ],
+        "turns": 4,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20293315,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "convertible",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20294324,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 4,
+        "landmark": "motorcycle",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20295333,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "convertible",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20296342,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20297351,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20298360,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20299369,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 0,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20300378,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20301387,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          122.284,
+          135.156
+        ],
+        "turns": 2,
+        "landmark": "motorcycle-green",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20302396,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "motorcycle-green",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20303405,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "van",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20304414,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20305423,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20306432,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20307441,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 2,
+        "landmark": "sedan",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20308450,
+        "split": "train"
+      },
+      {
+        "template": "outdoor",
+        "count": 1,
+        "length": [
+          95,
+          105
+        ],
+        "turns": 3,
+        "landmark": "none",
+        "attempts": 80,
+        "name": "walk-new49-v2",
+        "seed": 20309459,
+        "split": "train"
+      }
+    ]
+  },
+  "provenance": {
+    "hashes": {
+      "scripts/task-generator.mjs": "62d1c9e9589a93d9e1fd8aa3bd9cb8b592fade98d0359142b87a61fd942a2df8",
+      "scripts/training-shooting-pool.mjs": "c56123d3cc78aa8f6ca93948fe59d42dcbe5b2db29401615b7556982d910b136",
+      "city/city.json": "f0fe3f715887e4c8e2d642ddc32006d267398e80187df99cbb797793394152bc",
+      "city/navigation.json": "df45c79d4ef96e30fcba37301597f15d72ac4aebfc4c1490e86da4dddc13ae7d",
+      "native-city/src/training-task-generator.ts": "d28aaaeb71ab9d5d59c695a8fd94a49f9efe293e6115832d20f83cd0d1cbcd7b",
+      "native-city/src/training-task-schema.ts": "b859291df883cb047bb523f6a0104bdfda50a936781b48d84da7d935161e179b",
+      "native-city/src/training-room-layout.ts": "6ceec537342455c30ecf93a7fe3c93ee7c7abce848fec33f678d77590cd8aa13",
+      "native-city/src/training-task-validation.ts": "1f9862c80ef57da11c5c5533fd788cd64ac3f4a9f694b43cd4a5f200765f7e37",
+      "native-city/src/training-flight-mission.ts": "2bc185a1d5f8501c9e21959e2caba538383e6fb8a2a5c7e17d33e89f6f078d03",
+      "native-city/src/training-flight-expert.ts": "f71fe64c7bbb304e2e8aaba1d733fe164d7b6ed8caf6306d43e606d848f8070c",
+      "native-city/src/outdoor-task-generator.ts": "9b227bae68f63ce07116a8812ae44cdcea6b406d3bc339e3d8dc1ebb9e3a32f8",
+      "native-city/src/outdoor-task-validation.ts": "1f54dea8cac60286304958c9fcab9be9a11204cfc64c6c319eb28eef37258e91",
+      "native-city/src/native-flight-catalog.ts": "5353a56019d3fb44f8c03b0351914db72c87713ee4ff9a5ebe982439a4978143",
+      "native-city/src/native-flight-route.ts": "45a0804243e726c7cc749b7e6590227fe59cbc7464a790e0b6b61c0b1b7b2496",
+      "native-city/src/city-walk.ts": "6879882fd08892cbb2f2d32d812e8909fa59bf04b4d10d4eddab97fd9a070dda",
+      "native-city/src/driving.ts": "7e210ad321bfcd56b5f774f30a568e8b4a4ecca30ad861908274f882d4ea5758",
+      "static-tasks/engines/shooting-engine.mjs": "d7016a37e10b485b9104f6c3b839136e9aac8edcda0c9143a94793122662cb5a",
+      "static-tasks/engines/training-shooting-engine.mjs": "ffe4f8f91e393d05aff55cc84e89034be1efc748472ce4beb4058b33da105484",
+      "static-tasks/runtime.mjs": "65ff5c9be67ff9349bc61c4a86b377574824194680e999fdefe79e59fe514467",
+      "static-tasks/catalog.json": "c9dfed9f109aab1ded041557b5b12b3af4859fc3ddd61fbdc8d6497f203211f5",
+      "static-tasks/selection.json": "37eeea9bd78340c526f3c04203d3436472039c55665ebc81a72fbfad30595bff",
+      "scripts/training-walk-constraints.mjs": "abc7830962199aad69ea697625b4985627b1f58d51413e0b7d5a21b154d4dad8",
+      "scripts/walk-training-profile.mjs": "9e85c7c576900756d407cab7e982fa157125f7673cd07b4685fb276c9f7d2fa7"
+    },
+    "runtimeBuild": "http://127.0.0.1:4217/assets/index-BxiNJR6m.js",
+    "shootingPool": {
+      "source": "Existing OffMapBench/static shooting import (original annotated pairs, not raw RT events)",
+      "catalogSha256": "c9dfed9f109aab1ded041557b5b12b3af4859fc3ddd61fbdc8d6497f203211f5",
+      "selectionSha256": "37eeea9bd78340c526f3c04203d3436472039c55665ebc81a72fbfad30595bff",
+      "annotatedCount": 116,
+      "heldOutCount": 24,
+      "rejected": [
+        {
+          "id": "c10-n01",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n02",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n03",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n04",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n05",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n06",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n07",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n08",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n09",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n10",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n11",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n12",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n13",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n14",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n15",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n16",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n17",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n18",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n19",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n20",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n21",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n22",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n23",
+          "reason": "held-out-task"
+        },
+        {
+          "id": "c10-n24",
+          "reason": "held-out-task"
+        }
+      ],
+      "splitScope": "Task ID and byte-identical held-out image disjointness. Not video/scene-level separation. Labels retain their original silver quality; no new human annotation."
+    },
+    "walkConstraints": {
+      "minSeparation": 40,
+      "evalClearance": 100,
+      "referenceRoutes": [
+        [
+          [
+            -0.708672999699627,
+            -285.6356798503466
+          ],
+          [
+            5.6,
+            -287.3
+          ],
+          [
+            6.5,
+            -289.6
+          ],
+          [
+            13.2,
+            -301.3
+          ],
+          [
+            14,
+            -302.8
+          ],
+          [
+            15.4,
+            -304.5
+          ],
+          [
+            23.3,
+            -306.5
+          ],
+          [
+            27.9,
+            -307.7
+          ],
+          [
+            38.5,
+            -310.5
+          ],
+          [
+            86.65704652548752,
+            -323.0046047469551
+          ]
+        ],
+        [
+          [
+            -2514.1,
+            1703.6
+          ],
+          [
+            -2520.1,
+            1706.2
+          ],
+          [
+            -2527.5,
+            1707.5
+          ],
+          [
+            -2533.6,
+            1706.9
+          ],
+          [
+            -2540.5,
+            1704.3
+          ],
+          [
+            -2549.9,
+            1696
+          ],
+          [
+            -2558.7,
+            1678.5
+          ],
+          [
+            -2560.8,
+            1644.3
+          ],
+          [
+            -2566.579663376127,
+            1646.0956235731658
+          ],
+          [
+            -2547.993395106871,
+            1655.870623922181
+          ],
+          [
+            -2545.3382139255486,
+            1657.267052543469
+          ],
+          [
+            -2541.160728866935,
+            1659.464100240962
+          ]
+        ],
+        [
+          [
+            1650.4,
+            -312.8
+          ],
+          [
+            1639.2,
+            -314.3
+          ],
+          [
+            1639.1,
+            -307.7
+          ],
+          [
+            1632.6,
+            -307.7
+          ],
+          [
+            1632.4,
+            -298.2
+          ],
+          [
+            1622.5,
+            -298.4
+          ],
+          [
+            1566.3144860759744,
+            -299.43886928673084
+          ]
+        ],
+        [
+          [
+            4795.766841109394,
+            58.27779482069595
+          ],
+          [
+            4788,
+            59.4
+          ],
+          [
+            4787.7,
+            130.9
+          ],
+          [
+            4808.2,
+            133.4
+          ]
+        ],
+        [
+          [
+            1400.7414122166801,
+            -1010.988296710359
+          ],
+          [
+            1432.7386298851623,
+            -1010.5663233986782
+          ],
+          [
+            1433.0551098689227,
+            -1034.56423665004
+          ],
+          [
+            1401.0578922004406,
+            -1034.9862099617208
+          ],
+          [
+            1401.0315188684606,
+            -1032.9863838574406
+          ],
+          [
+            1399.0316927641804,
+            -1033.0127571894207
+          ]
+        ],
+        [
+          [
+            5972.9,
+            1682.2
+          ],
+          [
+            5970.9,
+            1685.4
+          ],
+          [
+            5971.6,
+            1694.6
+          ],
+          [
+            5980.7,
+            1704.5
+          ],
+          [
+            5989.4,
+            1710.15
+          ],
+          [
+            5998.1,
+            1715.8
+          ],
+          [
+            6005.8,
+            1718.2
+          ],
+          [
+            6023.3,
+            1718.4
+          ],
+          [
+            6029.6,
+            1716.6
+          ],
+          [
+            6033.8,
+            1711.7
+          ],
+          [
+            6034.7,
+            1699.1
+          ],
+          [
+            6035.054862149925,
+            1697.5386065403325
+          ]
+        ],
+        [
+          [
+            1220.8,
+            616.5
+          ],
+          [
+            1207.9778634226736,
+            627.6047175808845
+          ],
+          [
+            1226.023522336397,
+            651.6947001350267
+          ],
+          [
+            1228.866503741285,
+            667.5532737759288
+          ],
+          [
+            1219.8824339870594,
+            677.7924700043761
+          ],
+          [
+            1207.082863843564,
+            688.672109328978
+          ],
+          [
+            1201.9271691858346,
+            692.4747293425615
+          ]
+        ],
+        [
+          [
+            -3181.4,
+            373.8
+          ],
+          [
+            -3191.2777891165024,
+            405.8771933783209
+          ],
+          [
+            -3181.1714323873284,
+            423.9454782221895
+          ],
+          [
+            -3137.85600552622,
+            438.6200679674162
+          ]
+        ],
+        [
+          [
+            2545.4530491973946,
+            -967.592115383281
+          ],
+          [
+            2564.6620450675296,
+            -982.1062586331916
+          ],
+          [
+            2551.144570717734,
+            -1001.1461819453385
+          ],
+          [
+            2578.870996485686,
+            -1020.5384817025654
+          ],
+          [
+            2583.1612778829526,
+            -1038.7793760996674
+          ]
+        ],
+        [
+          [
+            -6017.6,
+            -2225.5
+          ],
+          [
+            -6001.038278303272,
+            -2206.557434959586
+          ],
+          [
+            -5946.491571935114,
+            -2257.796357964814
+          ]
+        ],
+        [
+          [
+            -6134.1,
+            -2223.3
+          ],
+          [
+            -6233.997405452724,
+            -2218.771381688177
+          ]
+        ],
+        [
+          [
+            2634.7761023047124,
+            -989.6310293445142
+          ],
+          [
+            2639.554170767379,
+            -1007.2412934887838
+          ],
+          [
+            2578.67135107912,
+            -1019.6896537491442
+          ],
+          [
+            2583.1612778829526,
+            -1038.7793760996674
+          ]
+        ],
+        [
+          [
+            -1066.3,
+            1772.6
+          ],
+          [
+            -1037.3608973727405,
+            1868.32109662519
+          ]
+        ],
+        [
+          [
+            2560.265909265496,
+            -941.4356444274597
+          ],
+          [
+            2583.1612778829526,
+            -1038.7793760996674
+          ]
+        ],
+        [
+          [
+            -3527.2,
+            -196
+          ],
+          [
+            -3455.1424113723833,
+            -265.33760827410464
+          ]
+        ],
+        [
+          [
+            5591.980123394896,
+            -139.23309739178268
+          ],
+          [
+            5518.64480090957,
+            -207.21787860032504
+          ]
+        ]
+      ],
+      "reservedRoutes": [
+        [
+          [
+            -6409.2,
+            1754.2
+          ],
+          [
+            -6369.2,
+            1794.2
+          ],
+          [
+            -6369.2,
+            1808.2
+          ],
+          [
+            -6383.2,
+            1822.2
+          ]
+        ]
+      ]
+    },
+    "scope": "Training-only opt-in. Same city/scene assets are reused; no global train/evaluation spatial split is claimed.",
+    "composition": {
+      "retained": {
+        "id": "rl-task-outdoor-all-types-v4-0002",
+        "source": "tasks/training/all-types-v4.json",
+        "sourceSha256": "819478625bdecd97de7d0bcbb26cdcbda122ecfe18d0a236e8b8777e23ffa645",
+        "replaces": {
+          "length": 100,
+          "turns": 2,
+          "sourceIds": [
+            "c02-n01",
+            "c02-n04",
+            "c02-n07",
+            "c02-n08",
+            "c02-n12"
+          ],
+          "index": 7,
+          "landmark": "none"
+        },
+        "actual": {
+          "start": {
+            "x": -6409.2,
+            "y": 0.105,
+            "z": 1754.2
+          },
+          "destination": {
+            "x": -6383.2,
+            "y": 0.105,
+            "z": 1822.2
+          },
+          "heading": 45,
+          "length": 90.36753236814714,
+          "turns": 2,
+          "transport": "land",
+          "movement": "walk",
+          "routeRole": "player"
+        },
+        "exception": "Preserved 90.37m example replaces one nominal 100m/2-turn/no-landmark slot."
+      },
+      "generated": {
+        "sha256": "8ad3a93f067b6a1bc6bc38eed70b6a248c685fe7e75ede2e28660fb71ca23ca4"
+      },
+      "inventory": {
+        "sha256": "c73439aecc5089e038438c6ea1fe29b5c8d4bf70706443b62376ac7fb517fc0e"
+      },
+      "allocation": {
+        "schema": "gtabench.walk-sampling-plan.v1",
+        "seed": 20261027,
+        "count": 50,
+        "baselineCount": 16,
+        "rounding": "largest remainder; higher source weight then seeded tie break",
+        "scope": "joint route length (rounded to 0.01 m) and effective >=35 degree bends; optional endpoint GLB types sampled independently; does not copy source mission interactions or assets at the start",
+        "lengthTurns": [
+          {
+            "key": "92/4",
+            "length": 92,
+            "turns": 4,
+            "weight": 1,
+            "sourceIds": [
+              "c02-n05"
+            ],
+            "count": 3
+          },
+          {
+            "key": "100/0",
+            "length": 100,
+            "turns": 0,
+            "weight": 5,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "count": 16
+          },
+          {
+            "key": "100/1",
+            "length": 100,
+            "turns": 1,
+            "weight": 1,
+            "sourceIds": [
+              "c02-n10"
+            ],
+            "count": 3
+          },
+          {
+            "key": "100/2",
+            "length": 100,
+            "turns": 2,
+            "weight": 5,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "count": 16
+          },
+          {
+            "key": "100/3",
+            "length": 100,
+            "turns": 3,
+            "weight": 2,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "count": 6
+          },
+          {
+            "key": "100/4",
+            "length": 100,
+            "turns": 4,
+            "weight": 1,
+            "sourceIds": [
+              "c02-n03"
+            ],
+            "count": 3
+          },
+          {
+            "key": "128.72/2",
+            "length": 128.72,
+            "turns": 2,
+            "weight": 1,
+            "sourceIds": [
+              "c02-n02"
+            ],
+            "count": 3
+          }
+        ],
+        "landmarks": [
+          {
+            "kind": "convertible",
+            "weight": 1,
+            "count": 3
+          },
+          {
+            "kind": "motorcycle",
+            "weight": 1,
+            "count": 3
+          },
+          {
+            "kind": "motorcycle-green",
+            "weight": 1,
+            "count": 3
+          },
+          {
+            "kind": "sedan",
+            "weight": 2,
+            "count": 7
+          },
+          {
+            "kind": "van",
+            "weight": 1,
+            "count": 3
+          }
+        ],
+        "landmarkCount": 19,
+        "entries": [
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 0,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n03"
+            ],
+            "index": 1,
+            "landmark": "convertible"
+          },
+          {
+            "length": 128.72,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n02"
+            ],
+            "index": 2,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 3,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 4,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 1,
+            "sourceIds": [
+              "c02-n10"
+            ],
+            "index": 5,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 1,
+            "sourceIds": [
+              "c02-n10"
+            ],
+            "index": 6,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 7,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 8,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 9,
+            "landmark": "none"
+          },
+          {
+            "length": 92,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n05"
+            ],
+            "index": 10,
+            "landmark": "van"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 11,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 12,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 1,
+            "sourceIds": [
+              "c02-n10"
+            ],
+            "index": 13,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 14,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 15,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 16,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n03"
+            ],
+            "index": 17,
+            "landmark": "motorcycle"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 18,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 19,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 20,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 21,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 22,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 23,
+            "landmark": "none"
+          },
+          {
+            "length": 92,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n05"
+            ],
+            "index": 24,
+            "landmark": "motorcycle"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 25,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 26,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 27,
+            "landmark": "sedan"
+          },
+          {
+            "length": 128.72,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n02"
+            ],
+            "index": 28,
+            "landmark": "van"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 29,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 30,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 31,
+            "landmark": "motorcycle-green"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 32,
+            "landmark": "none"
+          },
+          {
+            "length": 92,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n05"
+            ],
+            "index": 33,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 34,
+            "landmark": "convertible"
+          },
+          {
+            "length": 100,
+            "turns": 4,
+            "sourceIds": [
+              "c02-n03"
+            ],
+            "index": 35,
+            "landmark": "motorcycle"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 36,
+            "landmark": "convertible"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 37,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 38,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 39,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 0,
+            "sourceIds": [
+              "c02-n11",
+              "c02-n13",
+              "c02-n14",
+              "c02-n15",
+              "c02-n16"
+            ],
+            "index": 40,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 41,
+            "landmark": "none"
+          },
+          {
+            "length": 128.72,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n02"
+            ],
+            "index": 42,
+            "landmark": "motorcycle-green"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 43,
+            "landmark": "motorcycle-green"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 44,
+            "landmark": "van"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 45,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 46,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 47,
+            "landmark": "none"
+          },
+          {
+            "length": 100,
+            "turns": 2,
+            "sourceIds": [
+              "c02-n01",
+              "c02-n04",
+              "c02-n07",
+              "c02-n08",
+              "c02-n12"
+            ],
+            "index": 48,
+            "landmark": "sedan"
+          },
+          {
+            "length": 100,
+            "turns": 3,
+            "sourceIds": [
+              "c02-n06",
+              "c02-n09"
+            ],
+            "index": 49,
+            "landmark": "none"
+          }
+        ]
+      },
+      "inputConfig": {
+        "name": "walk-train-50-v2",
+        "new_task_name": "walk-new49-v2",
+        "template": "outdoor",
+        "movement": "walk",
+        "count": 50,
+        "seed": 20261027,
+        "sampling": {
+          "route_distribution": "empirical_joint_length_turns",
+          "landmark_distribution": "empirical_endpoint_types",
+          "allocation": "largest_remainder",
+          "length_tolerance": 0.05
+        },
+        "validation": {
+          "controller_rollout": true,
+          "min_start_goal_separation_m": 40,
+          "eval_route_clearance_m": 100
+        },
+        "retain": {
+          "dataset": "tasks/training/all-types-v4.json",
+          "task_id": "rl-task-outdoor-all-types-v4-0002",
+          "nominal_length_m": 100
+        }
+      },
+      "inputConfigSha256": "e87e17d81f1b3c86cfb0894de11b5abe1ca7fdfddfe9ff47fc866b45dcd5a93f",
+      "scriptSha256": "c0a4e5c95c000eccc87cf5bcef18e66a159e722f3fbb57282708e93274a2893e"
+    }
+  },
+  "tasks": [
+    {
+      "id": "rl-task-outdoor-all-types-v4-0002",
+      "template": "outdoor",
+      "seed": 1034166261,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -6409.2,
+          "y": 0.105,
+          "z": 1754.2
+        },
+        "destination": {
+          "x": -6383.2,
+          "y": 0.105,
+          "z": 1822.2
+        },
+        "heading": 45,
+        "length": 90.36753236814714,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 89.625,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-all-types-v4-0002",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2048070487,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -6409.2,
+            1754.2
+          ],
+          [
+            -6369.2,
+            1794.2
+          ],
+          [
+            -6369.2,
+            1808.2
+          ],
+          [
+            -6383.2,
+            1822.2
+          ]
+        ],
+        "length": 90.36753236814714,
+        "turnCount": 2,
+        "maxDuration": 89.625,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6409.2,
+            1754.2
+          ],
+          "yaw": 0.7853981633974483,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0001",
+      "template": "outdoor",
+      "seed": 2674696788,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5224.5,
+          "y": 0.105,
+          "z": -2250.4
+        },
+        "destination": {
+          "x": -5198.5,
+          "y": 0.105,
+          "z": -2154.4
+        },
+        "heading": 15.154068050312599,
+        "length": 99.45853407325085,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.175,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0001",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1034165253,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5224.5,
+            -2250.4
+          ],
+          [
+            -5198.5,
+            -2154.4
+          ]
+        ],
+        "length": 99.45853407325085,
+        "turnCount": 0,
+        "maxDuration": 98.175,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5224.5,
+            -2250.4
+          ],
+          "yaw": 0.26448838254923257,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0002",
+      "template": "outdoor",
+      "seed": 1034166262,
+      "category": "outdoor-foot",
+      "title": "Walk to the red convertible parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+        "en": "Walk to the red convertible parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 5304.1,
+          "y": 0.105,
+          "z": 54.9
+        },
+        "destination": {
+          "x": 5378.1,
+          "y": 0,
+          "z": 28.9
+        },
+        "heading": 143.13010235415598,
+        "length": 103.11269837220809,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.475,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0002",
+        "title": "Walk to the red convertible parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2048071497,
+        "instruction": {
+          "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+          "en": "Walk to the red convertible parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            5304.1,
+            54.9
+          ],
+          [
+            5316.1,
+            38.9
+          ],
+          [
+            5346.1,
+            38.9
+          ],
+          [
+            5368.1,
+            16.9
+          ],
+          [
+            5378.1,
+            16.9
+          ],
+          [
+            5378.1,
+            28.9
+          ]
+        ],
+        "length": 103.11269837220809,
+        "turnCount": 4,
+        "maxDuration": 101.475,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            5304.1,
+            54.9
+          ],
+          "yaw": 2.498091544796509,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "convertible",
+          "pose": {
+            "x": 5380.350158530191,
+            "z": 28.89999999999999,
+            "y": 0.074921052631579,
+            "yaw": 0,
+            "width": 2.000317060381868,
+            "depth": 4.7,
+            "pitch": -0.005034370423186979,
+            "roll": 0.01671020063577376
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0003",
+      "template": "outdoor",
+      "seed": 3688603032,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -3948.5,
+          "y": 0.105,
+          "z": 398.5
+        },
+        "destination": {
+          "x": -3972.5,
+          "y": 0,
+          "z": 286.5
+        },
+        "heading": -141.95295746817393,
+        "length": 129.38289021451808,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 126.19999999999999,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0003",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3061976732,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -3948.5,
+            398.5
+          ],
+          [
+            -3984.5,
+            352.5
+          ],
+          [
+            -3984.5,
+            298.5
+          ],
+          [
+            -3972.5,
+            286.5
+          ]
+        ],
+        "length": 129.38289021451808,
+        "turnCount": 2,
+        "maxDuration": 126.19999999999999,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -3948.5,
+            398.5
+          ],
+          "yaw": -2.477546490763109,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0004",
+      "template": "outdoor",
+      "seed": 2048072506,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 4389.1,
+          "y": 0.105,
+          "z": 1956
+        },
+        "destination": {
+          "x": 4289.1,
+          "y": 0.105,
+          "z": 1956
+        },
+        "heading": -90,
+        "length": 100,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.7,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0004",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 4075881967,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            4389.1,
+            1956
+          ],
+          [
+            4289.1,
+            1956
+          ]
+        ],
+        "length": 100,
+        "turnCount": 0,
+        "maxDuration": 98.7,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            4389.1,
+            1956
+          ],
+          "yaw": -1.5707963267948966,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0005",
+      "template": "outdoor",
+      "seed": 407541980,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 2326.6,
+          "y": 0.105,
+          "z": -859.1
+        },
+        "destination": {
+          "x": 2418.6,
+          "y": 0,
+          "z": -885.1
+        },
+        "heading": 104.53445508054013,
+        "length": 95.63502041426796,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 94.6,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0005",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 794818897,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            2326.6,
+            -859.1
+          ],
+          [
+            2380.6,
+            -873.1
+          ],
+          [
+            2418.6,
+            -885.1
+          ]
+        ],
+        "length": 95.63502041426796,
+        "turnCount": 0,
+        "maxDuration": 94.6,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            2326.6,
+            -859.1
+          ],
+          "yaw": 1.8244704229335393,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0006",
+      "template": "outdoor",
+      "seed": 3061978750,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 3235.5,
+          "y": 0.105,
+          "z": 554.1
+        },
+        "destination": {
+          "x": 3211.5,
+          "y": 0.105,
+          "z": 464.1
+        },
+        "heading": -90,
+        "length": 103.30984089584703,
+        "turns": 1,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.75,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0006",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1808725141,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            3235.5,
+            554.1
+          ],
+          [
+            3225.5,
+            554.1
+          ],
+          [
+            3215.5,
+            540.1
+          ],
+          [
+            3211.5,
+            464.1
+          ]
+        ],
+        "length": 103.30984089584703,
+        "turnCount": 1,
+        "maxDuration": 101.75,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            3235.5,
+            554.1
+          ],
+          "yaw": -1.5707963267948966,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0007",
+      "template": "outdoor",
+      "seed": 1421448224,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -4941.9,
+          "y": 0.105,
+          "z": 2534.9
+        },
+        "destination": {
+          "x": -4857.9,
+          "y": 0,
+          "z": 2586.9
+        },
+        "heading": 81.02737338510362,
+        "length": 103.52459199250507,
+        "turns": 1,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.97500000000001,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0007",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2822629367,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -4941.9,
+            2534.9
+          ],
+          [
+            -4903.9,
+            2540.9
+          ],
+          [
+            -4857.9,
+            2586.9
+          ]
+        ],
+        "length": 103.52459199250507,
+        "turnCount": 1,
+        "maxDuration": 101.97500000000001,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -4941.9,
+            2534.9
+          ],
+          "yaw": 1.4141944498128813,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": -4856.304556870328,
+            "z": 2585.3045568703287,
+            "y": 0.015,
+            "yaw": 0.7853981633974483,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0008",
+      "template": "outdoor",
+      "seed": 4075884994,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 5118.6,
+          "y": 2.4395914739714955,
+          "z": 619.1
+        },
+        "destination": {
+          "x": 5026.6,
+          "y": 0.105,
+          "z": 569.1
+        },
+        "heading": -118.52311860631202,
+        "length": 104.7091209016674,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 103.10000000000001,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0008",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3836537629,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            5118.6,
+            619.1
+          ],
+          [
+            5026.6,
+            569.1
+          ]
+        ],
+        "length": 104.7091209016674,
+        "turnCount": 0,
+        "maxDuration": 103.10000000000001,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            5118.6,
+            619.1
+          ],
+          "yaw": -2.068618659411898,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0009",
+      "template": "outdoor",
+      "seed": 2435354468,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -475.7,
+          "y": 0.105,
+          "z": 210.4
+        },
+        "destination": {
+          "x": -495.7,
+          "y": 0,
+          "z": 110.4
+        },
+        "heading": -168.6900675259798,
+        "length": 101.9803902718557,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.55,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0009",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 555472541,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -475.7,
+            210.4
+          ],
+          [
+            -495.7,
+            110.4
+          ]
+        ],
+        "length": 101.9803902718557,
+        "turnCount": 0,
+        "maxDuration": 100.55,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -475.7,
+            210.4
+          ],
+          "yaw": -2.9441970937399122,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0010",
+      "template": "outdoor",
+      "seed": 794823942,
+      "category": "outdoor-foot",
+      "title": "Walk to the white van parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the white van parked near the destination and stop beside it.",
+        "en": "Walk to the white van parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -900.2,
+          "y": 0.105,
+          "z": 325.7
+        },
+        "destination": {
+          "x": -834.2,
+          "y": 0,
+          "z": 377.7
+        },
+        "heading": 68.74949449286676,
+        "length": 92.16994922570649,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 91.25,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0010",
+        "title": "Walk to the white van parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1569377776,
+        "instruction": {
+          "zh": "Walk to the white van parked near the destination and stop beside it.",
+          "en": "Walk to the white van parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -900.2,
+            325.7
+          ],
+          [
+            -864.2,
+            339.7
+          ],
+          [
+            -858.2,
+            353.7
+          ],
+          [
+            -840.2,
+            361.7
+          ],
+          [
+            -838.2,
+            375.7
+          ],
+          [
+            -834.2,
+            377.7
+          ]
+        ],
+        "length": 92.16994922570649,
+        "turnCount": 4,
+        "maxDuration": 91.25,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -900.2,
+            325.7
+          ],
+          "yaw": 1.1999050379822342,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "van",
+          "pose": {
+            "x": -832.5788507163128,
+            "z": 381.1659053651246,
+            "y": 0.0999350649350652,
+            "yaw": 2.677945044588987,
+            "width": 2.2499999999999996,
+            "depth": 5.4,
+            "pitch": 0.014784907042646681,
+            "roll": -0.002479333762728571
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0011",
+      "template": "outdoor",
+      "seed": 3449260712,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5941,
+          "y": 0.105,
+          "z": 600.8
+        },
+        "destination": {
+          "x": -5855,
+          "y": 0,
+          "z": 640.8
+        },
+        "heading": 72.25532837494306,
+        "length": 102.32254946962667,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.8,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0011",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2583283011,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5941,
+            600.8
+          ],
+          [
+            -5891,
+            616.8
+          ],
+          [
+            -5883,
+            636.8
+          ],
+          [
+            -5855,
+            640.8
+          ]
+        ],
+        "length": 102.32254946962667,
+        "turnCount": 2,
+        "maxDuration": 100.8,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5941,
+            600.8
+          ],
+          "yaw": 1.2610933822524404,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0012",
+      "template": "outdoor",
+      "seed": 1808730186,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 1349.1,
+          "y": 0.105,
+          "z": 2572.4
+        },
+        "destination": {
+          "x": 1385.1,
+          "y": 0.105,
+          "z": 2496.4
+        },
+        "heading": 108.43494882292202,
+        "length": 101.23044064105565,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 99.7,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0012",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3597188246,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            1349.1,
+            2572.4
+          ],
+          [
+            1367.1,
+            2566.4
+          ],
+          [
+            1369.1,
+            2542.4
+          ],
+          [
+            1381.1,
+            2542.4
+          ],
+          [
+            1385.1,
+            2496.4
+          ]
+        ],
+        "length": 101.23044064105565,
+        "turnCount": 3,
+        "maxDuration": 99.7,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1349.1,
+            2572.4
+          ],
+          "yaw": 1.892546881191539,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0013",
+      "template": "outdoor",
+      "seed": 168199660,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 2730.1,
+          "y": 0.105,
+          "z": 2327.1
+        },
+        "destination": {
+          "x": 2716.1,
+          "y": 0.065,
+          "z": 2231.1
+        },
+        "heading": 180,
+        "length": 101.79898987322333,
+        "turns": 1,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.35,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0013",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 316126185,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            2730.1,
+            2327.1
+          ],
+          [
+            2730.1,
+            2245.1
+          ],
+          [
+            2716.1,
+            2231.1
+          ]
+        ],
+        "length": 101.79898987322333,
+        "turnCount": 1,
+        "maxDuration": 100.35,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            2730.1,
+            2327.1
+          ],
+          "yaw": 3.141592653589793,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0014",
+      "template": "outdoor",
+      "seed": 2822636430,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -542.6,
+          "y": 0.105,
+          "z": 764.4
+        },
+        "destination": {
+          "x": -560.6,
+          "y": 0,
+          "z": 830.4
+        },
+        "heading": -54.16234704572172,
+        "length": 95.17675924404949,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 94.125,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0014",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1330032429,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -542.6,
+            764.4
+          ],
+          [
+            -578.6,
+            790.4
+          ],
+          [
+            -582.6,
+            794.4
+          ],
+          [
+            -582.6,
+            808.4
+          ],
+          [
+            -560.6,
+            830.4
+          ]
+        ],
+        "length": 95.17675924404949,
+        "turnCount": 2,
+        "maxDuration": 94.125,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -542.6,
+            764.4
+          ],
+          "yaw": -0.9453112865556677,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0015",
+      "template": "outdoor",
+      "seed": 1182105904,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -3828.4,
+          "y": 0.105,
+          "z": 238.9
+        },
+        "destination": {
+          "x": -3892.4,
+          "y": 0.065,
+          "z": 180.9
+        },
+        "heading": -172.8749836510982,
+        "length": 99.950459387403,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.55,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0015",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2343937664,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -3828.4,
+            238.9
+          ],
+          [
+            -3830.4,
+            222.9
+          ],
+          [
+            -3862.4,
+            220.9
+          ],
+          [
+            -3890.4,
+            192.9
+          ],
+          [
+            -3892.4,
+            180.9
+          ]
+        ],
+        "length": 99.950459387403,
+        "turnCount": 3,
+        "maxDuration": 98.55,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -3828.4,
+            238.9
+          ],
+          "yaw": -3.0172376590430314,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0016",
+      "template": "outdoor",
+      "seed": 3836542674,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 459.7,
+          "y": 0.105,
+          "z": 780.6
+        },
+        "destination": {
+          "x": 427.7,
+          "y": 0.105,
+          "z": 874.6
+        },
+        "heading": -18.79988515865266,
+        "length": 99.29753269845128,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.025,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0016",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3357844917,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            459.7,
+            780.6
+          ],
+          [
+            427.7,
+            874.6
+          ]
+        ],
+        "length": 99.29753269845128,
+        "turnCount": 0,
+        "maxDuration": 98.025,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            459.7,
+            780.6
+          ],
+          "yaw": -0.3281198950153054,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0017",
+      "template": "outdoor",
+      "seed": 2196012148,
+      "category": "outdoor-foot",
+      "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6286.2,
+          "y": 0.105,
+          "z": -1981
+        },
+        "destination": {
+          "x": -6372.2,
+          "y": 0.065,
+          "z": -1953
+        },
+        "heading": -87.70938995736147,
+        "length": 104.5030867371453,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 102.825,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0017",
+        "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 76780838,
+        "instruction": {
+          "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6286.2,
+            -1981
+          ],
+          [
+            -6336.2,
+            -1979
+          ],
+          [
+            -6344.2,
+            -1969
+          ],
+          [
+            -6368.2,
+            -1969
+          ],
+          [
+            -6372.2,
+            -1965
+          ],
+          [
+            -6372.2,
+            -1953
+          ]
+        ],
+        "length": 104.5030867371453,
+        "turnCount": 4,
+        "maxDuration": 102.825,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6286.2,
+            -1981
+          ],
+          "yaw": -1.5308176396716067,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle",
+          "pose": {
+            "x": -6370.580211012685,
+            "z": -1951.5,
+            "y": 0.015,
+            "yaw": 0,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0018",
+      "template": "outdoor",
+      "seed": 555481622,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -4989.4,
+          "y": 0.105,
+          "z": 931.8
+        },
+        "destination": {
+          "x": -5071.4,
+          "y": 0.105,
+          "z": 907.8
+        },
+        "heading": -84.8055710922652,
+        "length": 96.91617805952961,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 95.725,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0018",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1090685064,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -4989.4,
+            931.8
+          ],
+          [
+            -5011.4,
+            933.8
+          ],
+          [
+            -5041.4,
+            933.8
+          ],
+          [
+            -5051.4,
+            923.8
+          ],
+          [
+            -5063.4,
+            923.8
+          ],
+          [
+            -5069.4,
+            917.8
+          ],
+          [
+            -5071.4,
+            907.8
+          ]
+        ],
+        "length": 96.91617805952961,
+        "turnCount": 3,
+        "maxDuration": 95.725,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -4989.4,
+            931.8
+          ],
+          "yaw": -1.4801364395941514,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0019",
+      "template": "outdoor",
+      "seed": 3209918392,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -719.8,
+          "y": 1.1785455678895633,
+          "z": 1781.5
+        },
+        "destination": {
+          "x": -625.8,
+          "y": 2.8160127541038915,
+          "z": 1739.5
+        },
+        "heading": 126.86989764584402,
+        "length": 104,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 102.42500000000001,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0019",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2104590299,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -719.8,
+            1781.5
+          ],
+          [
+            -695.8,
+            1763.5
+          ],
+          [
+            -625.8,
+            1739.5
+          ]
+        ],
+        "length": 104,
+        "turnCount": 0,
+        "maxDuration": 102.42500000000001,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -719.8,
+            1781.5
+          ],
+          "yaw": 2.214297435588181,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0020",
+      "template": "outdoor",
+      "seed": 1569387866,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 1295.1,
+          "y": 0.105,
+          "z": -172.5
+        },
+        "destination": {
+          "x": 1371.1,
+          "y": 0,
+          "z": -206.5
+        },
+        "heading": 171.86989764584402,
+        "length": 103.62922212077515,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 102.05000000000001,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0020",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3118495534,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            1295.1,
+            -172.5
+          ],
+          [
+            1299.1,
+            -200.5
+          ],
+          [
+            1307.1,
+            -208.5
+          ],
+          [
+            1371.1,
+            -206.5
+          ]
+        ],
+        "length": 103.62922212077515,
+        "turnCount": 2,
+        "maxDuration": 102.05000000000001,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1295.1,
+            -172.5
+          ],
+          "yaw": 2.999695598985629,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0021",
+      "template": "outdoor",
+      "seed": 4223824636,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -2353,
+          "y": 0.105,
+          "z": 263.6
+        },
+        "destination": {
+          "x": -2447,
+          "y": 0,
+          "z": 277.6
+        },
+        "heading": -80.21759296819272,
+        "length": 99.8263186267258,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.475,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0021",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 4132400769,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -2353,
+            263.6
+          ],
+          [
+            -2411,
+            273.6
+          ],
+          [
+            -2415,
+            269.6
+          ],
+          [
+            -2439,
+            269.6
+          ],
+          [
+            -2447,
+            277.6
+          ]
+        ],
+        "length": 99.8263186267258,
+        "turnCount": 3,
+        "maxDuration": 98.475,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -2353,
+            263.6
+          ],
+          "yaw": -1.4000611153196139,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0022",
+      "template": "outdoor",
+      "seed": 2583294110,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 3986.1,
+          "y": 0.105,
+          "z": 1533.7
+        },
+        "destination": {
+          "x": 4076.1,
+          "y": 0,
+          "z": 1569.7
+        },
+        "heading": 68.19859051364818,
+        "length": 96.93296652842109,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 95.8,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0022",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 851338708,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            3986.1,
+            1533.7
+          ],
+          [
+            4076.1,
+            1569.7
+          ]
+        ],
+        "length": 96.93296652842109,
+        "turnCount": 0,
+        "maxDuration": 95.8,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            3986.1,
+            1533.7
+          ],
+          "yaw": 1.1902899496825317,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0023",
+      "template": "outdoor",
+      "seed": 942763584,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 1073.7,
+          "y": 0.105,
+          "z": 1656
+        },
+        "destination": {
+          "x": 1149.7,
+          "y": 0.065,
+          "z": 1706
+        },
+        "heading": 66.44773632710535,
+        "length": 102.91056885481942,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.35,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0023",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1865243943,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            1073.7,
+            1656
+          ],
+          [
+            1151.7,
+            1690
+          ],
+          [
+            1153.7,
+            1702
+          ],
+          [
+            1149.7,
+            1706
+          ]
+        ],
+        "length": 102.91056885481942,
+        "turnCount": 2,
+        "maxDuration": 101.35,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1073.7,
+            1656
+          ],
+          "yaw": 1.1597317794050321,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0024",
+      "template": "outdoor",
+      "seed": 3597200354,
+      "category": "outdoor-foot",
+      "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 1324.1,
+          "y": 0.105,
+          "z": 2395.7
+        },
+        "destination": {
+          "x": 1356.1,
+          "y": 0.105,
+          "z": 2463.7
+        },
+        "heading": 9.462322208025615,
+        "length": 91.93382887433415,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 90.925,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0024",
+        "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2879149178,
+        "instruction": {
+          "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            1324.1,
+            2395.7
+          ],
+          [
+            1330.1,
+            2431.7
+          ],
+          [
+            1324.1,
+            2433.7
+          ],
+          [
+            1324.1,
+            2441.7
+          ],
+          [
+            1334.1,
+            2441.7
+          ],
+          [
+            1356.1,
+            2463.7
+          ]
+        ],
+        "length": 91.93382887433415,
+        "turnCount": 4,
+        "maxDuration": 90.925,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1324.1,
+            2395.7
+          ],
+          "yaw": 0.1651486774146268,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle",
+          "pose": {
+            "x": 1357.245363777021,
+            "z": 2462.5546362229784,
+            "y": 0.10083333333333344,
+            "yaw": 0.7853981633974483,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": -0.02090043540509891,
+            "roll": -0.014300080116031245
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0025",
+      "template": "outdoor",
+      "seed": 1956669828,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6369.8,
+          "y": 0.105,
+          "z": -435.9
+        },
+        "destination": {
+          "x": -6319.8,
+          "y": 0.105,
+          "z": -519.9
+        },
+        "heading": 146.30993247402023,
+        "length": 104.67122421713304,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 103.02499999999999,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0025",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3893054413,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6369.8,
+            -435.9
+          ],
+          [
+            -6353.8,
+            -459.9
+          ],
+          [
+            -6347.8,
+            -473.9
+          ],
+          [
+            -6321.8,
+            -489.9
+          ],
+          [
+            -6319.8,
+            -519.9
+          ]
+        ],
+        "length": 104.67122421713304,
+        "turnCount": 2,
+        "maxDuration": 103.02499999999999,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6369.8,
+            -435.9
+          ],
+          "yaw": 2.5535900500422257,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": -6322.350635516959,
+            "z": -515.5600534542853,
+            "y": 0.11768421052631617,
+            "yaw": 3.0750244898139694,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": -0.0016518203600101365,
+            "roll": -0.0042503320775837145
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0026",
+      "template": "outdoor",
+      "seed": 316139302,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 2352.4,
+          "y": 0.105,
+          "z": 1035
+        },
+        "destination": {
+          "x": 2254.4,
+          "y": 0.105,
+          "z": 1021
+        },
+        "heading": -97.59464336859145,
+        "length": 100.87967154311795,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 99.475,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0026",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 611992352,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            2352.4,
+            1035
+          ],
+          [
+            2322.4,
+            1031
+          ],
+          [
+            2316.4,
+            1025
+          ],
+          [
+            2254.4,
+            1021
+          ]
+        ],
+        "length": 100.87967154311795,
+        "turnCount": 2,
+        "maxDuration": 99.475,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            2352.4,
+            1035
+          ],
+          "yaw": -1.7033478590915707,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0027",
+      "template": "outdoor",
+      "seed": 2970576072,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 4303,
+          "y": 0.105,
+          "z": 1212.2
+        },
+        "destination": {
+          "x": 4205,
+          "y": 0.105,
+          "z": 1216.2
+        },
+        "heading": -87.66269414087618,
+        "length": 98.08159868191383,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 96.9,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0027",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1625897587,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            4303,
+            1212.2
+          ],
+          [
+            4205,
+            1216.2
+          ]
+        ],
+        "length": 98.08159868191383,
+        "turnCount": 0,
+        "maxDuration": 96.9,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            4303,
+            1212.2
+          ],
+          "yaw": -1.5300026439270311,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": 4202.09451299141,
+            "z": 1218.5767673009666,
+            "y": 0.11473684210526347,
+            "yaw": 0.040793682867865444,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": -0.003206466743728293,
+            "roll": 0.00836341202957063
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0028",
+      "template": "outdoor",
+      "seed": 1330045546,
+      "category": "outdoor-foot",
+      "title": "Walk to the white van parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the white van parked near the destination and stop beside it.",
+        "en": "Walk to the white van parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6313.3,
+          "y": 0.105,
+          "z": 194.5
+        },
+        "destination": {
+          "x": -6431.3,
+          "y": 0,
+          "z": 212.5
+        },
+        "heading": -90,
+        "length": 124.67738578697109,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 121.79999999999998,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0028",
+        "title": "Walk to the white van parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2639802822,
+        "instruction": {
+          "zh": "Walk to the white van parked near the destination and stop beside it.",
+          "en": "Walk to the white van parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6313.3,
+            194.5
+          ],
+          [
+            -6375.3,
+            194.5
+          ],
+          [
+            -6391.3,
+            210.5
+          ],
+          [
+            -6431.3,
+            212.5
+          ]
+        ],
+        "length": 124.67738578697109,
+        "turnCount": 2,
+        "maxDuration": 121.79999999999998,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6313.3,
+            194.5
+          ],
+          "yaw": -1.5707963267948966,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "van",
+          "pose": {
+            "x": -6434.177655176392,
+            "z": 215.02184965566656,
+            "y": 0.015,
+            "yaw": 0.04995839572194272,
+            "width": 2.2499999999999996,
+            "depth": 5.4,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0029",
+      "template": "outdoor",
+      "seed": 3984482316,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 3809.5,
+          "y": 0.105,
+          "z": 883.2
+        },
+        "destination": {
+          "x": 3869.5,
+          "y": 0,
+          "z": 947.2
+        },
+        "heading": 83.6598082540901,
+        "length": 103.8388446459193,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 102.25,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0029",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3653710075,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            3809.5,
+            883.2
+          ],
+          [
+            3845.5,
+            887.2
+          ],
+          [
+            3869.5,
+            921.2
+          ],
+          [
+            3869.5,
+            947.2
+          ]
+        ],
+        "length": 103.8388446459193,
+        "turnCount": 2,
+        "maxDuration": 102.25,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            3809.5,
+            883.2
+          ],
+          "yaw": 1.460139105621001,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": 3871.7562973119766,
+            "z": 947.2,
+            "y": 0.03449999999999999,
+            "yaw": 0,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": 5.834635173014479e-20,
+            "roll": 0.029623865184905975
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0030",
+      "template": "outdoor",
+      "seed": 2343951790,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6177.6,
+          "y": 0.105,
+          "z": -2477.2
+        },
+        "destination": {
+          "x": -6277.6,
+          "y": 0,
+          "z": -2493.2
+        },
+        "heading": -99.09027692082232,
+        "length": 101.27191120937731,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 99.875,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0030",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 372645996,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6177.6,
+            -2477.2
+          ],
+          [
+            -6277.6,
+            -2493.2
+          ]
+        ],
+        "length": 101.27191120937731,
+        "turnCount": 0,
+        "maxDuration": 99.875,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6177.6,
+            -2477.2
+          ],
+          "yaw": -1.729451588981298,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": -6277.956473542965,
+            "z": -2490.9720403564697,
+            "y": 0.015,
+            "yaw": -1.729451588981298,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0031",
+      "template": "outdoor",
+      "seed": 703421264,
+      "category": "outdoor-foot",
+      "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 3653.1,
+          "y": 0.105,
+          "z": 2559.3
+        },
+        "destination": {
+          "x": 3659.1,
+          "y": 0,
+          "z": 2457.3
+        },
+        "heading": 176.63353933657018,
+        "length": 102.17631819555841,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.725,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0031",
+        "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1386551231,
+        "instruction": {
+          "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            3653.1,
+            2559.3
+          ],
+          [
+            3659.1,
+            2457.3
+          ]
+        ],
+        "length": 102.17631819555841,
+        "turnCount": 0,
+        "maxDuration": 100.725,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            3653.1,
+            2559.3
+          ],
+          "yaw": 3.0828368308740703,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle-green",
+          "pose": {
+            "x": 3657.4830061640127,
+            "z": 2457.2048827155304,
+            "y": 0.015984848484848484,
+            "yaw": 3.0828368308740703,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": 0.0018237914683497587,
+            "roll": 0.003404999923535589
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0032",
+      "template": "outdoor",
+      "seed": 3357858034,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5365.6,
+          "y": 0.105,
+          "z": -644.5
+        },
+        "destination": {
+          "x": -5349.6,
+          "y": 0.105,
+          "z": -740.5
+        },
+        "heading": 170.5376777919744,
+        "length": 97.3242004847715,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 96.175,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0032",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2400457475,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5365.6,
+            -644.5
+          ],
+          [
+            -5349.6,
+            -740.5
+          ]
+        ],
+        "length": 97.3242004847715,
+        "turnCount": 0,
+        "maxDuration": 96.175,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5365.6,
+            -644.5
+          ],
+          "yaw": 2.9764439761751667,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0033",
+      "template": "outdoor",
+      "seed": 1717327508,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6608.9,
+          "y": 0.105,
+          "z": 2169.2
+        },
+        "destination": {
+          "x": -6532.9,
+          "y": 0,
+          "z": 2147.2
+        },
+        "heading": 132.27368900609375,
+        "length": 88.89950117296074,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 88.175,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0033",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3414362710,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6608.9,
+            2169.2
+          ],
+          [
+            -6586.9,
+            2149.2
+          ],
+          [
+            -6548.9,
+            2145.2
+          ],
+          [
+            -6546.9,
+            2141.2
+          ],
+          [
+            -6538.9,
+            2141.2
+          ],
+          [
+            -6532.9,
+            2147.2
+          ]
+        ],
+        "length": 88.89950117296074,
+        "turnCount": 4,
+        "maxDuration": 88.175,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6608.9,
+            2169.2
+          ],
+          "yaw": 2.308611386915362,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": -6531.304556870328,
+            "z": 2145.6045568703285,
+            "y": 0.015,
+            "yaw": 0.7853981633974483,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0034",
+      "template": "outdoor",
+      "seed": 76796982,
+      "category": "outdoor-foot",
+      "title": "Walk to the red convertible parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+        "en": "Walk to the red convertible parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6143.6,
+          "y": 0.105,
+          "z": 2492.8
+        },
+        "destination": {
+          "x": -6113.6,
+          "y": 0,
+          "z": 2586.8
+        },
+        "heading": 0,
+        "length": 101.0820393249937,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 99.7,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0034",
+        "title": "Walk to the red convertible parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 133299640,
+        "instruction": {
+          "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+          "en": "Walk to the red convertible parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6143.6,
+            2492.8
+          ],
+          [
+            -6143.6,
+            2526.8
+          ],
+          [
+            -6113.6,
+            2586.8
+          ]
+        ],
+        "length": 101.0820393249937,
+        "turnCount": 0,
+        "maxDuration": 99.7,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6143.6,
+            2492.8
+          ],
+          "yaw": 0,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "convertible",
+          "pose": {
+            "x": -6110.916576633287,
+            "z": 2587.1353392997685,
+            "y": 0.015,
+            "yaw": 0.4636476090008061,
+            "width": 2.000317060381868,
+            "depth": 4.7,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0035",
+      "template": "outdoor",
+      "seed": 2731233752,
+      "category": "outdoor-foot",
+      "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -6723.5,
+          "y": 0.105,
+          "z": -324.4
+        },
+        "destination": {
+          "x": -6645.5,
+          "y": 0,
+          "z": -284.4
+        },
+        "heading": 68.96248897457819,
+        "length": 99.19354717251026,
+        "turns": 4,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 97.75,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0035",
+        "title": "Walk to the motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1147205884,
+        "instruction": {
+          "zh": "Walk to the motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -6723.5,
+            -324.4
+          ],
+          [
+            -6697.5,
+            -314.4
+          ],
+          [
+            -6697.5,
+            -310.4
+          ],
+          [
+            -6659.5,
+            -306.4
+          ],
+          [
+            -6653.5,
+            -286.4
+          ],
+          [
+            -6645.5,
+            -284.4
+          ]
+        ],
+        "length": 99.19354717251026,
+        "turnCount": 4,
+        "maxDuration": 97.75,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -6723.5,
+            -324.4
+          ],
+          "yaw": 1.2036224929766777,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle",
+          "pose": {
+            "x": -6645.107143465535,
+            "z": -285.97142613786104,
+            "y": 0.015,
+            "yaw": 1.3258176636680326,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0036",
+      "template": "outdoor",
+      "seed": 1090703226,
+      "category": "outdoor-foot",
+      "title": "Walk to the red convertible parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+        "en": "Walk to the red convertible parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -208,
+          "y": 0.105,
+          "z": 235
+        },
+        "destination": {
+          "x": -136,
+          "y": 0,
+          "z": 301
+        },
+        "heading": 47.48955292199916,
+        "length": 97.67292357659824,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 96.5,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0036",
+        "title": "Walk to the red convertible parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2161113137,
+        "instruction": {
+          "zh": "Walk to the red convertible parked near the destination and stop beside it.",
+          "en": "Walk to the red convertible parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -208,
+            235
+          ],
+          [
+            -136,
+            301
+          ]
+        ],
+        "length": 97.67292357659824,
+        "turnCount": 0,
+        "maxDuration": 96.5,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -208,
+            235
+          ],
+          "yaw": 0.8288490587889792,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "convertible",
+          "pose": {
+            "x": -134.4795124630816,
+            "z": 299.3412863233617,
+            "y": 0.043473684210526345,
+            "yaw": 0.8288490587889792,
+            "width": 2.000317060381868,
+            "depth": 4.7,
+            "pitch": -0.017369710425554758,
+            "roll": 0.007750058089343433
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0037",
+      "template": "outdoor",
+      "seed": 3745139996,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -4565.8,
+          "y": 0.105,
+          "z": 1012.3
+        },
+        "destination": {
+          "x": -4473.8,
+          "y": 0,
+          "z": 1040.3
+        },
+        "heading": 75.25643716352927,
+        "length": 99.32147138293935,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 98.025,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0037",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3175015345,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -4565.8,
+            1012.3
+          ],
+          [
+            -4527.8,
+            1022.3
+          ],
+          [
+            -4517.8,
+            1034.3
+          ],
+          [
+            -4473.8,
+            1040.3
+          ]
+        ],
+        "length": 99.32147138293935,
+        "turnCount": 2,
+        "maxDuration": 98.025,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -4565.8,
+            1012.3
+          ],
+          "yaw": 1.313472611823808,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0038",
+      "template": "outdoor",
+      "seed": 2104609470,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5024.6,
+          "y": 0.105,
+          "z": 444.4
+        },
+        "destination": {
+          "x": -5022.6,
+          "y": 0.105,
+          "z": 546.4
+        },
+        "heading": 1.1233027140754293,
+        "length": 102.0196059588548,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.575,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0038",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 4188920580,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5024.6,
+            444.4
+          ],
+          [
+            -5022.6,
+            546.4
+          ]
+        ],
+        "length": 102.0196059588548,
+        "turnCount": 0,
+        "maxDuration": 100.575,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5024.6,
+            444.4
+          ],
+          "yaw": 0.01960533085720469,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0039",
+      "template": "outdoor",
+      "seed": 464078944,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5965.9,
+          "y": 0.105,
+          "z": 527
+        },
+        "destination": {
+          "x": -5993.9,
+          "y": 0.065,
+          "z": 445
+        },
+        "heading": 146.30993247402023,
+        "length": 95.68096715500619,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 94.6,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0039",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 907858519,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5965.9,
+            527
+          ],
+          [
+            -5961.9,
+            521
+          ],
+          [
+            -5963.9,
+            475
+          ],
+          [
+            -5993.9,
+            445
+          ]
+        ],
+        "length": 95.68096715500619,
+        "turnCount": 2,
+        "maxDuration": 94.6,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5965.9,
+            527
+          ],
+          "yaw": 2.5535900500422257,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0040",
+      "template": "outdoor",
+      "seed": 3118515714,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5897.1,
+          "y": 0.105,
+          "z": -883
+        },
+        "destination": {
+          "x": -5799.1,
+          "y": 0,
+          "z": -883
+        },
+        "heading": 90,
+        "length": 98,
+        "turns": 0,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 96.825,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0040",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1921764763,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5897.1,
+            -883
+          ],
+          [
+            -5799.1,
+            -883
+          ]
+        ],
+        "length": 98,
+        "turnCount": 0,
+        "maxDuration": 96.825,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5897.1,
+            -883
+          ],
+          "yaw": 1.5707963267948966,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0041",
+      "template": "outdoor",
+      "seed": 1477985188,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 3656.1,
+          "y": 0.105,
+          "z": 142.2
+        },
+        "destination": {
+          "x": 3706.1,
+          "y": 0,
+          "z": 212.2
+        },
+        "heading": 7.594643368591445,
+        "length": 103.15840079965574,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.57499999999999,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0041",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2935668989,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            3656.1,
+            142.2
+          ],
+          [
+            3660.1,
+            172.2
+          ],
+          [
+            3676.1,
+            188.2
+          ],
+          [
+            3676.1,
+            208.2
+          ],
+          [
+            3706.1,
+            212.2
+          ]
+        ],
+        "length": 103.15840079965574,
+        "turnCount": 3,
+        "maxDuration": 101.57499999999999,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            3656.1,
+            142.2
+          ],
+          "yaw": 0.13255153229667402,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0042",
+      "template": "outdoor",
+      "seed": 4132421958,
+      "category": "outdoor-foot",
+      "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": -486.5,
+          "y": 0.105,
+          "z": 261.4
+        },
+        "destination": {
+          "x": -380.5,
+          "y": 0,
+          "z": 211.39999999999998
+        },
+        "heading": 45,
+        "length": 131.35302261132964,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 128.05,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0042",
+        "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3949574224,
+        "instruction": {
+          "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            -486.5,
+            261.4
+          ],
+          [
+            -480.5,
+            267.4
+          ],
+          [
+            -452.5,
+            271.4
+          ],
+          [
+            -406.5,
+            225.39999999999998
+          ],
+          [
+            -380.5,
+            211.39999999999998
+          ]
+        ],
+        "length": 131.35302261132964,
+        "turnCount": 2,
+        "maxDuration": 128.05,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -486.5,
+            261.4
+          ],
+          "yaw": 0.7853981633974483,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle-green",
+          "pose": {
+            "x": -381.26794167223983,
+            "z": 209.97382260869745,
+            "y": 0.015,
+            "yaw": 2.0647376957144776,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0043",
+      "template": "outdoor",
+      "seed": 2491891432,
+      "category": "outdoor-foot",
+      "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 4884.1,
+          "y": 0.105,
+          "z": 1141.5
+        },
+        "destination": {
+          "x": 4810.1,
+          "y": 0,
+          "z": 1185.5
+        },
+        "heading": -45,
+        "length": 97.74321858271077,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 96.525,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0043",
+        "title": "Walk to the green motorcycle parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 668512163,
+        "instruction": {
+          "zh": "Walk to the green motorcycle parked near the destination and stop beside it.",
+          "en": "Walk to the green motorcycle parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            4884.1,
+            1141.5
+          ],
+          [
+            4858.1,
+            1167.5
+          ],
+          [
+            4816.1,
+            1167.5
+          ],
+          [
+            4810.1,
+            1185.5
+          ]
+        ],
+        "length": 97.74321858271077,
+        "turnCount": 2,
+        "maxDuration": 96.525,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            4884.1,
+            1141.5
+          ],
+          "yaw": -0.7853981633974483,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "motorcycle-green",
+          "pose": {
+            "x": 4811.636666758632,
+            "z": 1186.012222252877,
+            "y": 0.03075757575757575,
+            "yaw": -0.3217505543966422,
+            "width": 0.7395779746287834,
+            "depth": 2.2,
+            "pitch": -0.02297575427175789,
+            "roll": 0.014980936747547673
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0044",
+      "template": "outdoor",
+      "seed": 851360906,
+      "category": "outdoor-foot",
+      "title": "Walk to the white van parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the white van parked near the destination and stop beside it.",
+        "en": "Walk to the white van parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 673.3,
+          "y": 0.105,
+          "z": 387.5
+        },
+        "destination": {
+          "x": 681.3,
+          "y": 0,
+          "z": 483.5
+        },
+        "heading": -3.2704879231835657,
+        "length": 103.42790107081719,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 101.875,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0044",
+        "title": "Walk to the white van parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1682418407,
+        "instruction": {
+          "zh": "Walk to the white van parked near the destination and stop beside it.",
+          "en": "Walk to the white van parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            673.3,
+            387.5
+          ],
+          [
+            669.3,
+            457.5
+          ],
+          [
+            669.3,
+            475.5
+          ],
+          [
+            677.3,
+            483.5
+          ],
+          [
+            681.3,
+            483.5
+          ]
+        ],
+        "length": 103.42790107081719,
+        "turnCount": 2,
+        "maxDuration": 101.875,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            673.3,
+            387.5
+          ],
+          "yaw": -0.05708078240626461,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "van",
+          "pose": {
+            "x": 681.3,
+            "z": 485.875,
+            "y": 0.07872294372294361,
+            "yaw": 1.5707963267948966,
+            "width": 2.2499999999999996,
+            "depth": 5.4,
+            "pitch": 0.005839086780698365,
+            "roll": -0.0396643494368834
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0045",
+      "template": "outdoor",
+      "seed": 3505797676,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -4911.9,
+          "y": 0.105,
+          "z": -22.7
+        },
+        "destination": {
+          "x": -4985.9,
+          "y": 0,
+          "z": -50.7
+        },
+        "heading": -145.61965527615513,
+        "length": 99.17954554195893,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 97.875,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0045",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2696323642,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -4911.9,
+            -22.7
+          ],
+          [
+            -4937.9,
+            -60.7
+          ],
+          [
+            -4949.9,
+            -62.7
+          ],
+          [
+            -4973.9,
+            -62.7
+          ],
+          [
+            -4985.9,
+            -50.7
+          ]
+        ],
+        "length": 99.17954554195893,
+        "turnCount": 2,
+        "maxDuration": 97.875,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -4911.9,
+            -22.7
+          ],
+          "yaw": -2.5415424401880395,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0046",
+      "template": "outdoor",
+      "seed": 1865267150,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 1394.7,
+          "y": 0.105,
+          "z": 2354.8
+        },
+        "destination": {
+          "x": 1360.7,
+          "y": 0,
+          "z": 2276.8
+        },
+        "heading": -126.86989764584402,
+        "length": 100.48528137423857,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 99.1,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0046",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 3710230895,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            1394.7,
+            2354.8
+          ],
+          [
+            1354.7,
+            2324.8
+          ],
+          [
+            1354.7,
+            2282.8
+          ],
+          [
+            1360.7,
+            2276.8
+          ]
+        ],
+        "length": 100.48528137423857,
+        "turnCount": 2,
+        "maxDuration": 99.1,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1394.7,
+            2354.8
+          ],
+          "yaw": -2.214297435588181,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0047",
+      "template": "outdoor",
+      "seed": 224736624,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": -5927.3,
+          "y": 0.105,
+          "z": -711.1
+        },
+        "destination": {
+          "x": -5971.3,
+          "y": 0,
+          "z": -653.1
+        },
+        "heading": 0,
+        "length": 102.0255903670752,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.5,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0047",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 429165807,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            -5927.3,
+            -711.1
+          ],
+          [
+            -5927.3,
+            -661.1
+          ],
+          [
+            -5967.3,
+            -645.1
+          ],
+          [
+            -5971.3,
+            -653.1
+          ]
+        ],
+        "length": 102.0255903670752,
+        "turnCount": 2,
+        "maxDuration": 100.5,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            -5927.3,
+            -711.1
+          ],
+          "yaw": 0,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0048",
+      "template": "outdoor",
+      "seed": 2879173394,
+      "category": "outdoor-foot",
+      "title": "Walk to the sedan parked near the destination and stop beside it.",
+      "instruction": {
+        "zh": "Walk to the sedan parked near the destination and stop beside it.",
+        "en": "Walk to the sedan parked near the destination and stop beside it."
+      },
+      "resolved": {
+        "start": {
+          "x": 1705.5,
+          "y": 0.105,
+          "z": -619.5
+        },
+        "destination": {
+          "x": 1719.5,
+          "y": 0,
+          "z": -707.5
+        },
+        "heading": 120.96375653207352,
+        "length": 101.80908895361976,
+        "turns": 2,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 100.32499999999999,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0048",
+        "title": "Walk to the sedan parked near the destination and stop beside it.",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 1443071042,
+        "instruction": {
+          "zh": "Walk to the sedan parked near the destination and stop beside it.",
+          "en": "Walk to the sedan parked near the destination and stop beside it."
+        },
+        "points": [
+          [
+            1705.5,
+            -619.5
+          ],
+          [
+            1725.5,
+            -631.5
+          ],
+          [
+            1725.5,
+            -701.5
+          ],
+          [
+            1719.5,
+            -707.5
+          ]
+        ],
+        "length": 101.80908895361976,
+        "turnCount": 2,
+        "maxDuration": 100.32499999999999,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            1705.5,
+            -619.5
+          ],
+          "yaw": 2.1112158270654806,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "goalLandmark": {
+          "kind": "sedan",
+          "pose": {
+            "x": 1717.9045568703284,
+            "z": -705.9045568703284,
+            "y": 0.015,
+            "yaw": -2.356194490192345,
+            "width": 2.01259462395293,
+            "depth": 4.700000000000001,
+            "pitch": 0,
+            "roll": 0
+          }
+        },
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    },
+    {
+      "id": "rl-task-outdoor-walk-new49-v2-0049",
+      "template": "outdoor",
+      "seed": 1238642868,
+      "category": "outdoor-foot",
+      "title": "Walk to the marked destination",
+      "instruction": {
+        "en": "Walk to the marked destination.",
+        "zh": "Walk to the marked destination."
+      },
+      "resolved": {
+        "start": {
+          "x": 5408.6,
+          "y": 0.105,
+          "z": 1006.3
+        },
+        "destination": {
+          "x": 5422.6,
+          "y": 0,
+          "z": 1080.3
+        },
+        "heading": -5.355825042855191,
+        "length": 104.60519004028954,
+        "turns": 3,
+        "transport": "land",
+        "movement": "walk",
+        "routeRole": "player"
+      },
+      "maxDuration": 102.825,
+      "maxRounds": 300,
+      "validation": {
+        "status": "physics-verified",
+        "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+      },
+      "outdoor": {
+        "id": "rl-outdoor-walk-new49-v2-0049",
+        "title": "Walk to the marked destination",
+        "vehicle": "walk",
+        "objective": "arrival",
+        "follow": false,
+        "intercept": false,
+        "escape": false,
+        "category": "outdoor-foot",
+        "seed": 2456977286,
+        "instruction": {
+          "en": "Walk to the marked destination.",
+          "zh": "Walk to the marked destination."
+        },
+        "points": [
+          [
+            5408.6,
+            1006.3
+          ],
+          [
+            5402.6,
+            1070.3
+          ],
+          [
+            5428.6,
+            1070.3
+          ],
+          [
+            5428.6,
+            1078.3
+          ],
+          [
+            5422.6,
+            1080.3
+          ]
+        ],
+        "length": 104.60519004028954,
+        "turnCount": 3,
+        "maxDuration": 102.825,
+        "startDepth": 0,
+        "goalDepth": 0,
+        "playerSpawn": {
+          "point": [
+            5408.6,
+            1006.3
+          ],
+          "yaw": -0.09347678115858948,
+          "gap": 0
+        },
+        "routeRole": "player",
+        "validation": {
+          "status": "physics-verified",
+          "scope": "Original movement controller reached the route end in the loaded static world. Target-route feasibility, not a full following/interception/evasion episode proof."
+        }
+      }
+    }
+  ]
+}

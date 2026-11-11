@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {annotationTurns,nativeBends} from '../src/native-annotation-route.ts';
+import {CityCollision,stepCar,manualSteeringInput} from '../src/driving.ts';
+import {nativeDriveFootprintClear,NATIVE_DRIVE_ASSIGNMENTS,NATIVE_TARGET_VEHICLES} from '../src/native-drive-vehicle-spec.ts';
+import {createTrailerState,stepTrailer,trailerSweepClear} from '../src/native-semi-articulation.ts';
+import {NativeNpcObjective,npcRules} from '../src/native-npc-objective.ts';
+import {driveCarRoute} from '../../tests/car-route-driver.ts';
+const read=(p:string)=>JSON.parse(fs.readFileSync(new URL('../../'+p,import.meta.url),'utf8'));
+const route=read('native-city/src/native-semi-city-routes.json')[0];

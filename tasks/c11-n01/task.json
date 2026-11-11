@@ -1,0 +1,126 @@
+{
+  "id": "GTA_TASK_000974_SEGMENT_049_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the man in the red shirt beneath the hanging lamp on the seaside villa's upper terrace.",
+  "instruction_en": "Shoot the man in the red shirt beneath the hanging lamp on the seaside villa's upper terrace.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/0920a31aed420fbb77a71b7ece5392530234c10bcabc3de540a135178783f63f.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/0920a31aed420fbb77a71b7ece5392530234c10bcabc3de540a135178783f63f.png",
+      "sha256": "0920a31aed420fbb77a71b7ece5392530234c10bcabc3de540a135178783f63f"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/3b08ca6002f30723335c16727745f0c8fe88ba6c950d9b8f6564a1b046bdf8a4.png",
+      "sha256": "3b08ca6002f30723335c16727745f0c8fe88ba6c950d9b8f6564a1b046bdf8a4"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/73ef63f4018d2aeee12e75843c579ab9f0d44668f4ca8df606ae09f979c0a811.png",
+      "sha256": "73ef63f4018d2aeee12e75843c579ab9f0d44668f4ca8df606ae09f979c0a811"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/4c65ace5d48cbd007c3ff2069b1f7fbcbd483262bb55fd55a42f80c04e5fa23e.png",
+      "sha256": "4c65ace5d48cbd007c3ff2069b1f7fbcbd483262bb55fd55a42f80c04e5fa23e"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_000974_SEGMENT_049_target",
+    "hit_polygons": [
+      [
+        [
+          639,
+          355.125
+        ],
+        [
+          640.5,
+          355.125
+        ],
+        [
+          640.875,
+          356.25
+        ],
+        [
+          642.25,
+          357
+        ],
+        [
+          642.625,
+          358.375
+        ],
+        [
+          641.125,
+          358.375
+        ],
+        [
+          640.375,
+          357.625
+        ],
+        [
+          639.75,
+          358.875
+        ],
+        [
+          639.5,
+          361.25
+        ],
+        [
+          638,
+          361.125
+        ],
+        [
+          637.25,
+          359.625
+        ],
+        [
+          637.375,
+          357.25
+        ],
+        [
+          638.75,
+          356.5
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_000974_SEGMENT_049/scene.json",
+    "original_revision": "ee93bd51abd186bc8f65072663f2e6a05cd35a51d43a5b429b1e50f13e4a5290",
+    "original_instruction": "Shoot behind the white railing outside the office building, Man wearing a red top.",
+    "description_change": "Clarified the upper terrace and hanging lamp to distinguish the red-shirted man from another man on the lower terrace; original seaside-villa scene and human target retained.",
+    "mission": "By the Book",
+    "script": "fbi3",
+    "visual_review": "Upper-terrace red-shirted man. Excludes the hanging lamp, foreground woman, railing, and lower-terrace red-shirted distractor.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": null,
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-868d8a5fd07de13cb3ffd83531c1d43f13ca4d5cf1f8822c91c85d55440df869"
+}

@@ -1,0 +1,251 @@
+{
+  "id": "GTA_TASK_008074_SEGMENT_053_ENV",
+  "version": 1,
+  "render_mode": "native-gameplay-atlas-v1",
+  "instruction": "Shoot the pilot behind the front windshield on the right side of the image in the approaching black helicopter.",
+  "instruction_en": "Shoot the pilot behind the front windshield on the right side of the image in the approaching black helicopter.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/5993559793eab3abe0a5ec8b0d25c1a86040827e177560df415eae5cb8c60d25.png"
+  },
+  "initial_camera": {
+    "x": 505,
+    "y": 435
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "initial_observation": {
+    "image": "../assets/85fd461d06ddb1a4fc954b06165a869aaab82b5ae55607ea9e74b98b2f324a0d.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  "scope": {
+    "min_zoom": 2.5,
+    "max_zoom": 6
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "gameplay": {
+    "textureRect": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720
+    },
+    "bounds": {
+      "x": 270,
+      "y": 90,
+      "w": 740,
+      "h": 560
+    },
+    "levels": [
+      2.5,
+      3,
+      3.5,
+      4,
+      5,
+      6
+    ]
+  },
+  "target": {
+    "id": "GTA_TASK_008074_SEGMENT_053_target",
+    "hit_polygons": [
+      [
+        [
+          453.7798403756643,
+          455.2251170091074
+        ],
+        [
+          456.78002307241604,
+          455.7249625967357
+        ],
+        [
+          459.28044478274285,
+          458.47464403570797
+        ],
+        [
+          460.280408370563,
+          462.2246732878265
+        ],
+        [
+          459.2802045933589,
+          465.7250774980553
+        ],
+        [
+          457.5299587723745,
+          468.22508045891794
+        ],
+        [
+          459.78060656396735,
+          470.72506412088416
+        ],
+        [
+          461.2803278592889,
+          473.72532226747114
+        ],
+        [
+          460.78041828563744,
+          477.7253777684
+        ],
+        [
+          458.52996306130046,
+          481.47498087729593
+        ],
+        [
+          457.27992368355706,
+          486.97485765692466
+        ],
+        [
+          456.0302294375481,
+          493.7251486531093
+        ],
+        [
+          453.5303766747109,
+          496.4750983627214
+        ],
+        [
+          451.5302637020379,
+          493.7245509184322
+        ],
+        [
+          452.2800581095752,
+          487.9752379011368
+        ],
+        [
+          449.77994693565574,
+          483.47508197650825
+        ],
+        [
+          447.28052286306513,
+          480.9746804650798
+        ],
+        [
+          445.2800958457939,
+          486.725181977658
+        ],
+        [
+          442.7805742915797,
+          492.2250668600109
+        ],
+        [
+          441.03000390732313,
+          491.97506805005787
+        ],
+        [
+          440.03016620464814,
+          486.97454054343876
+        ],
+        [
+          440.28060862628126,
+          481.2253249964423
+        ],
+        [
+          437.7805831115252,
+          478.47475565448894
+        ],
+        [
+          438.5300620546145,
+          474.97535449277495
+        ],
+        [
+          441.0301604188751,
+          472.4753437953223
+        ],
+        [
+          446.2804447491834,
+          469.97488994471064
+        ],
+        [
+          449.28012321261434,
+          467.47481941232303
+        ],
+        [
+          450.78029814329864,
+          465.7250867724102
+        ],
+        [
+          449.7802278739031,
+          462.2248881252325
+        ],
+        [
+          450.5300529718195,
+          458.474882215604
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008074_SEGMENT_053/scene.json",
+    "source_preview": "sniper-helicopter",
+    "promotion": "User-requested replacement of three reviewed previews",
+    "source_details": {
+      "task": "fbi2-helicopter-gameplay-preview",
+      "productionReady": false,
+      "formalBenchmarkModified": false,
+      "targetFrame": "13-native-4k-final.png",
+      "targetClock": 44062,
+      "nativeResolution": [
+        3840,
+        2160
+      ],
+      "scopeTextureResolution": [
+        3840,
+        2160
+      ],
+      "stage": 5,
+      "captureMethod": "Cold restore of native FBI2 checkpoint 5 at 4K following the user's helicopter-stage handoff; original gameplay camera, bounded X11 mouse input, no scripted camera placement or capture shots fired. Canvas PNG export bypasses 720p browser viewport downscaling.",
+      "target": "Visible pilot silhouette behind the image-right front windshield of the approaching black helicopter. Head, torso and visible limbs only; excludes empty seats, surrounding glass and aircraft frame. Screenshot-defined polygon, not native game damage simulation.",
+      "backgroundOnlyDonors": [
+        {
+          "file": "11-native-4k-reframe.png",
+          "inliers": 190,
+          "medianRegistrationErrorPixels": 0.436404287815094
+        },
+        {
+          "file": "15-native-4k-background.png",
+          "inliers": 77,
+          "medianRegistrationErrorPixels": 0.2669479250907898
+        }
+      ],
+      "excluded": [
+        "09-native-4k-zoom.png"
+      ],
+      "openingImage": "static-tasks/sniper/GTA_TASK_008074_SEGMENT_053/source/initial_before_lt.jpg",
+      "openingCaveat": "Original video rifle-holding transition image, not an unscoped frame from this new captured instant.",
+      "limitations": [
+        "Stationary screenshot target",
+        "Digital zoom does not add new observed detail",
+        "Native reticle gaps use registered background captures, with residual interpolated background",
+        "Background registration is approximate; some seams remain"
+      ],
+      "serve": "node scripts/sniper-3d/serve-helicopter-preview.mjs",
+      "port": 4208,
+      "test": "node tests/helicopter-sniper-preview.mjs"
+    },
+    "repair": {
+      "filled": 64228,
+      "protectedChanged": 0,
+      "observedBackgroundPixels": 35156,
+      "nativeResolution": [
+        3840,
+        2160
+      ],
+      "scopeTextureResolution": [
+        3840,
+        2160
+      ]
+    },
+    "ownership": null,
+    "scoring": "Original single-shot evaluator and GUI protocol; visible screenshot target polygon updated to match preview. Unscoped shots retain original failure semantics.",
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "gameplay-v1-e708d2d1e7c10c5e424d3818fc30c7ae1b0f6d393bd48c012ce627a323ae66aa"
+}

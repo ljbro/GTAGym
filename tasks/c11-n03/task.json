@@ -1,0 +1,185 @@
+{
+  "id": "GTA_TASK_008074_SEGMENT_032_ENV",
+  "version": 1,
+  "render_mode": "native-gameplay-atlas-v1",
+  "instruction": "Shoot the bald man behind the office window, partially obscured by the people in front of him.",
+  "instruction_en": "Shoot the bald man behind the office window, partially obscured by the people in front of him.",
+  "scene": {
+    "width": 540,
+    "height": 405,
+    "image": "../assets/a5fc1bffec768a570513c065eccb7c820ed6565c04a8a76716282778846cc2ce.png"
+  },
+  "initial_camera": {
+    "x": 640,
+    "y": 363.75
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "initial_observation": {
+    "image": "../assets/71df643c12c820c6aa461b0f8d907627d43739c13f68407f4340f3231584bbfa.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "gameplay": {
+    "textureRect": {
+      "x": 370,
+      "y": 170,
+      "w": 540,
+      "h": 405
+    },
+    "bounds": {
+      "x": 370,
+      "y": 170,
+      "w": 540,
+      "h": 405
+    },
+    "levels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "target": {
+    "id": "GTA_TASK_008074_SEGMENT_032_target",
+    "hit_polygons": [
+      [
+        [
+          659.7648921253399,
+          374.43362118486647
+        ],
+        [
+          664.1443691769555,
+          374.77936091002914
+        ],
+        [
+          667.186219769582,
+          377.45641086663085
+        ],
+        [
+          667.8968351723134,
+          381.11921732881
+        ],
+        [
+          666.9428482757727,
+          384.4473273633284
+        ],
+        [
+          669.9567462586797,
+          385.73374446557307
+        ],
+        [
+          674.2749064184426,
+          387.30694757585275
+        ],
+        [
+          677.928611542599,
+          391.1290238710741
+        ],
+        [
+          677.3537641405828,
+          396.29356118795886
+        ],
+        [
+          675.182286420537,
+          402.09724353000786
+        ],
+        [
+          672.6804702791044,
+          406.60059030768497
+        ],
+        [
+          670.3309530659462,
+          404.1706145047734
+        ],
+        [
+          669.2193563333409,
+          399.1045098292357
+        ],
+        [
+          665.5186940146367,
+          396.6133938787388
+        ],
+        [
+          661.45611875319,
+          394.080683994028
+        ],
+        [
+          659.046365613038,
+          391.4824459310002
+        ],
+        [
+          659.2852845181154,
+          387.1730299413403
+        ],
+        [
+          657.5239712781096,
+          383.17762980570006
+        ],
+        [
+          657.7824922514312,
+          378.13805807118496
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008074_SEGMENT_032/scene.json",
+    "source_preview": "sniper-gameplay",
+    "promotion": "User-requested replacement of three reviewed previews",
+    "source_details": {
+      "schema": "native-gameplay-preview-v2",
+      "task": "c11-n03",
+      "productionReplacement": false,
+      "registration": "registration-v2.json",
+      "additionalCaptures": "Native captures 20–42 and 45–51 accepted after CP4 retries. Total registered: 41. Failed-transition frames 43–44 rejected. Composite keeps the established background sources through 38 plus canonical 51; intermediate framing trials are not layered into the visible scene.",
+      "optics": "Division radial rectification followed by pairwise homography graph registration across overlapping zoom/pan frames. Calibration-line fit RMS 7.014 to 1.549 pixels (fit metric, not independent global validation). CPU inverse-mapped bilinear projection avoids triangle raster seams.",
+      "canonicalTarget": "51-sharp-complete-group.png",
+      "singlePoseRegion": "core.mjs GROUP_PATCH: central ally, hostage and bald target remain one intact observation. Native face at [545,429] is inside the clearer lens area instead of frame 42's blurred upper periphery. Feather only outer background border; GROUP_HUD_MASK removes the printed range number in background above the ally, never crossing a person. TARGET_SOURCE reannotated in frame 51.",
+      "targetAnnotation": "core.mjs TARGET_SOURCE, manually reviewed visible head and upper torso; excludes foreground ally and hostage",
+      "sceneGeneration": "CPU canvas screenshot registration and compositing. No generated NPCs, no placed game camera, no AI-generated imagery.",
+      "backgroundRepair": "Playable crop is restricted to the observed region. Browser test reports zero missing background pixels before repair, so no gap interpolation is used in this version. Resampling/alpha blending still apply. Foreground window geometry comes from the wide reference to avoid mixing near/far depth planes; interior detail comes from the canonical close frame.",
+      "openingView": "Actual pre-LT frame from original task video: static-tasks/sniper/GTA_TASK_008074_SEGMENT_032/source/initial_before_lt.jpg, 393.667 seconds. Independent observation; right mouse switches to the new native capture composite. No claim of same capture time or continuous transition.",
+      "limitations": [
+        "Static image plane, bounded mouse look, no parallax or live NPC motion.",
+        "Samples were not simultaneous; one HUD-free canonical region now fixes the complete central character group. More distant/background characters are not guaranteed to share this exact timestamp.",
+        "Some background seams remain; not a benchmark-quality promotion.",
+        "Scope magnifications are preview controls, not measured original-game optical settings.",
+        "Frames 17, 43 and 44 entered a native failure transition and are excluded completely. Native CP4 was retried before captures 45–51.",
+        "Original captures remain local. Redistribution rights are not established."
+      ],
+      "verification": "node tests/gameplay-sniper-preview.mjs: 41 source hashes, 30 scoring probes across 6 zoom levels, central group pixel-ownership check against frame 51, zero missing-source pixels in playable crop, right mouse and scroll browser events, original opening-frame pixel comparison, proxy-prefix routing, no HTTP/page errors",
+      "launch": "node scripts/sniper-3d/serve-gameplay-preview.mjs",
+      "port": 4207
+    },
+    "repair": {
+      "filledBackgroundPixels": 0,
+      "totalPixels": 3499200,
+      "fraction": 0,
+      "targetPixelsSynthesized": 0
+    },
+    "ownership": {
+      "frame": "51-sharp-complete-group.png",
+      "samples": 614,
+      "maxError": 0
+    },
+    "scoring": "Original single-shot evaluator and GUI protocol; visible screenshot target polygon updated to match preview. Unscoped shots retain original failure semantics.",
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "gameplay-v1-5e031a48be916d9ae3af28ccd38e9ccd1796f3117088e14aae049d9105a3b353"
+}

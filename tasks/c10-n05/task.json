@@ -1,0 +1,236 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_003809_SEGMENT_069_SHOOT",
+    "source_folder": "source-003809",
+    "source_task_number": "14",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v3_unique_only+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_003809_SEGMENT_069",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/a48649612719eb0628154bb0fc93017328851476aaa7511bd23afea2affde1cb.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 383.467,
+        "prompt": "Shooting HUMANE Left side of the van cab, Man crouching against the wall.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_003809_ACTION_000614",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "trajectory_path": "tasks/source-003809/segments/GTA_TASK_003809_SEGMENT_069.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shooting HUMANE Left side of the van cab, Man crouching against the wall.",
+    "target_description": "HUMANE Left side of the van cab, Man crouching against the wall",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v3_unique_only",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      947,
+      504,
+      989,
+      589
+    ],
+    "point_xy": [
+      968,
+      549
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      948,
+      504,
+      990,
+      586
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          980,
+          504
+        ],
+        [
+          977,
+          504
+        ],
+        [
+          976,
+          505
+        ],
+        [
+          973,
+          505
+        ],
+        [
+          972,
+          506
+        ],
+        [
+          971,
+          509
+        ],
+        [
+          969,
+          511
+        ],
+        [
+          966,
+          517
+        ],
+        [
+          965,
+          527
+        ],
+        [
+          963,
+          529
+        ],
+        [
+          961,
+          529
+        ],
+        [
+          960,
+          530
+        ],
+        [
+          958,
+          530
+        ],
+        [
+          957,
+          531
+        ],
+        [
+          953,
+          532
+        ],
+        [
+          947,
+          538
+        ],
+        [
+          947,
+          542
+        ],
+        [
+          948,
+          543
+        ],
+        [
+          947,
+          565
+        ],
+        [
+          948,
+          566
+        ],
+        [
+          948,
+          573
+        ],
+        [
+          949,
+          574
+        ],
+        [
+          949,
+          577
+        ],
+        [
+          962,
+          585
+        ],
+        [
+          964,
+          585
+        ],
+        [
+          965,
+          586
+        ],
+        [
+          967,
+          586
+        ],
+        [
+          968,
+          587
+        ],
+        [
+          970,
+          587
+        ],
+        [
+          974,
+          589
+        ],
+        [
+          977,
+          588
+        ],
+        [
+          984,
+          583
+        ],
+        [
+          978,
+          568
+        ],
+        [
+          988,
+          560
+        ],
+        [
+          988,
+          548
+        ],
+        [
+          989,
+          547
+        ],
+        [
+          989,
+          534
+        ],
+        [
+          983,
+          527
+        ],
+        [
+          982,
+          510
+        ],
+        [
+          981,
+          509
+        ],
+        [
+          981,
+          506
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

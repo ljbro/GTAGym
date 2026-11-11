@@ -1,0 +1,213 @@
+{
+  "id": "GTA_TASK_007991_SEGMENT_107_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the armed man between the tall lumber stacks at the sawmill, wearing a jacket with a purple body and light sleeves.",
+  "instruction_en": "Shoot the armed man between the tall lumber stacks at the sawmill, wearing a jacket with a purple body and light sleeves.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/1b28bf6b11569a80f117b18e1b779ecf46e9e44df2d5c3a973ad3aa261403558.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/1b28bf6b11569a80f117b18e1b779ecf46e9e44df2d5c3a973ad3aa261403558.png",
+      "sha256": "1b28bf6b11569a80f117b18e1b779ecf46e9e44df2d5c3a973ad3aa261403558"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/a6d5f379d0431afb00985ea265d7b08425812b7f81b7b3348e176af6b28f9c97.png",
+      "sha256": "a6d5f379d0431afb00985ea265d7b08425812b7f81b7b3348e176af6b28f9c97"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/04508e371d3ba800056736b0c86013b32d29f8a135b0756339ad1d9775084fc1.png",
+      "sha256": "04508e371d3ba800056736b0c86013b32d29f8a135b0756339ad1d9775084fc1"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/f8daff34fe6c3771f07975c13ad0eff5bff5db9de4d5a2ff412174266d9129f6.png",
+      "sha256": "f8daff34fe6c3771f07975c13ad0eff5bff5db9de4d5a2ff412174266d9129f6"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_007991_SEGMENT_107_target",
+    "hit_polygons": [
+      [
+        [
+          639.75,
+          355.625
+        ],
+        [
+          640.625,
+          355.625
+        ],
+        [
+          641.25,
+          356.25
+        ],
+        [
+          641.25,
+          357.375
+        ],
+        [
+          640.875,
+          357.75
+        ],
+        [
+          642,
+          358.125
+        ],
+        [
+          642.5,
+          359.125
+        ],
+        [
+          642.375,
+          360.5
+        ],
+        [
+          641.625,
+          361.125
+        ],
+        [
+          641.25,
+          362.5
+        ],
+        [
+          641,
+          363.25
+        ],
+        [
+          641.25,
+          364.375
+        ],
+        [
+          641.125,
+          366.25
+        ],
+        [
+          641.25,
+          369.125
+        ],
+        [
+          641.375,
+          370.375
+        ],
+        [
+          641,
+          370.875
+        ],
+        [
+          640,
+          370.875
+        ],
+        [
+          639.5,
+          370.375
+        ],
+        [
+          639.5,
+          368.875
+        ],
+        [
+          639.375,
+          367.25
+        ],
+        [
+          639.125,
+          365.75
+        ],
+        [
+          639.25,
+          364.625
+        ],
+        [
+          638.875,
+          363.25
+        ],
+        [
+          638.5,
+          362.625
+        ],
+        [
+          638.625,
+          361.25
+        ],
+        [
+          639.125,
+          360.5
+        ],
+        [
+          638.875,
+          359.25
+        ],
+        [
+          639.125,
+          358.125
+        ],
+        [
+          639.625,
+          357.625
+        ],
+        [
+          639.375,
+          356.75
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_007991_SEGMENT_107/scene.json",
+    "original_revision": "5b6175a4298eae2341b1a4a1fd7d0601e025d7b7d748a9402c49bd2f57413f6c",
+    "original_instruction": "Shoot the man in a light top exposed to the left of the tall lumber stack at the sawmill.",
+    "description_change": "The replayed target wears a purple-and-light jacket and is exposed between lumber stacks; original sawmill, stacked-lumber setting and armed pedestrian retained.",
+    "mission": "Lamar Down",
+    "script": "franklin2",
+    "visual_review": "Distance recalibration: handle 17410 at clock 43978, native 60-degree overview, distant west-side view. Purple/light-sleeve gunman partly visible at the right edge of the tall left lumber stack. Only visible body scored; foreground boards excluded. Reviewed final 8x capture.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 17410,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        -566.0340576171875,
+        5258.8544921875,
+        99.08689880371094
+      ],
+      "target_position": [
+        -504.186767578125,
+        5259.76220703125,
+        80.6102066040039
+      ],
+      "target_distance_m": 64.55462327406302,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-927c8915f5b340a8dcdc476ba89912178b8a534fce82a0f2e88f5cb0daef195b"
+}

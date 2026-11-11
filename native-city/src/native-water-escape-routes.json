@@ -1,0 +1,206 @@
+[
+  {
+    "id": "c05-n15",
+    "title": "09 Precious Pearl · Drive the jet ski toward the waterway entrance",
+    "category": "escape",
+    "mode": "swim",
+    "objective": "water-escape",
+    "channelHalfWidth": 24,
+    "craft": "jetski",
+    "startAboard": true,
+    "coast": [
+      -4793.87,
+      -2594.325
+    ],
+    "region": {
+      "minX": -4707.4299115149315,
+      "maxX": -4404.059420263373,
+      "minZ": -3034.772658855749,
+      "maxZ": -2434.791593138722
+    },
+    "path": {
+      "points": [
+        [
+          -4557.4299115149315,
+          -2884.772658855749
+        ],
+        [
+          -4554.059420263373,
+          -2584.791593138722
+        ]
+      ],
+      "length": 300.0000000000001,
+      "turns": [],
+      "forward": [
+        0.011234970838528773,
+        0.9999368857234227
+      ],
+      "right": [
+        0.9999368857234227,
+        -0.011234970838528773
+      ]
+    },
+    "expectedTurns": [],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 8,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 510.98429995806964,
+          "y": 521.6293488702702,
+          "sourceTime": 442.293177
+        },
+        {
+          "x": 514.2877616660962,
+          "y": 227.61405858551103,
+          "sourceTime": 442.293177
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      }
+    },
+    "estimated": "All annotated vertices rigidly rotated and uniformly scaled to task length in native coastal water. Endpoints are 180-320m from sampled native coastline. A continuous constructed water channel is fitted inside the native bay; no original canal/metric fidelity claimed."
+  },
+  {
+    "id": "c05-n16",
+    "title": "09 Precious Pearl · Lose the pursuers along the canal",
+    "category": "escape",
+    "mode": "swim",
+    "objective": "water-escape",
+    "channelHalfWidth": 24,
+    "craft": "jetski",
+    "startAboard": true,
+    "coast": [
+      -4721.865,
+      -2401.985
+    ],
+    "region": {
+      "minX": -4675.321404126481,
+      "maxX": -3805.60268532793,
+      "minZ": -2997.1184363925954,
+      "maxZ": -2389.7188553918645
+    },
+    "path": {
+      "points": [
+        [
+          -3955.60268532793,
+          -2633.5178608223478
+        ],
+        [
+          -4111.8841361723025,
+          -2739.0697558393367
+        ],
+        [
+          -4266.070528800012,
+          -2728.041078532198
+        ],
+        [
+          -4350.548179573312,
+          -2847.1184363925954
+        ],
+        [
+          -4511.308043060216,
+          -2773.1860775116243
+        ],
+        [
+          -4525.321404126481,
+          -2539.7188553918645
+        ]
+      ],
+      "length": 899.9999999999995,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 38.12623831114648,
+          "distance": 188.58710035338976
+        },
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -58.738071615938274,
+          "distance": 343.1674205584246
+        },
+        {
+          "index": 3,
+          "direction": "right",
+          "degrees": 79.34415157301669,
+          "distance": 489.1670460209199
+        },
+        {
+          "index": 4,
+          "direction": "right",
+          "degrees": 61.86769001296072,
+          "distance": 666.1125952671008
+        }
+      ],
+      "forward": [
+        -0.828696398383133,
+        -0.5596983824407782
+      ],
+      "right": [
+        -0.5596983824407782,
+        0.828696398383133
+      ]
+    },
+    "expectedTurns": [
+      "right",
+      "left",
+      "right",
+      "right"
+    ],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 8,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 247.3616195569616,
+          "y": 604.878616365357,
+          "sourceTime": 462.179894
+        },
+        {
+          "x": 236.1295352034017,
+          "y": 445.6478544059765,
+          "sourceTime": 462.610154
+        },
+        {
+          "x": 309.46817561574017,
+          "y": 337.29168513114945,
+          "sourceTime": 464.853024
+        },
+        {
+          "x": 257.93291478544825,
+          "y": 224.971265023223,
+          "sourceTime": 486.370345
+        },
+        {
+          "x": 380.16402246579037,
+          "y": 138.4184148407752,
+          "sourceTime": 491.273587
+        },
+        {
+          "x": 557.2338526844508,
+          "y": 226.95339043977265,
+          "sourceTime": 496.351736
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      }
+    },
+    "estimated": "All annotated vertices rigidly rotated and uniformly scaled to task length in native coastal water. Endpoints are 180-320m from sampled native coastline. A continuous constructed water channel is fitted inside the native bay; no original canal/metric fidelity claimed."
+  }
+]

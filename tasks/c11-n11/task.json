@@ -1,0 +1,241 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_082_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the man in a loose white shirt holding a gun with both hands near the front of the dark sedan with open doors on the residential street. Do not shoot the man behind and to his left aiming with one hand.",
+  "instruction_en": "Shoot the man in a loose white shirt holding a gun with both hands near the front of the dark sedan with open doors on the residential street. Do not shoot the man behind and to his left aiming with one hand.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/6be321101f5dc90c3f46e478ce8d8331ca30fe30fb5dd34297ee159095910545.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/6be321101f5dc90c3f46e478ce8d8331ca30fe30fb5dd34297ee159095910545.png",
+      "sha256": "6be321101f5dc90c3f46e478ce8d8331ca30fe30fb5dd34297ee159095910545"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/481d98a287ef0c45ec5b4a8d6f1b231d284d6c08892edddbcce366889cb42922.png",
+      "sha256": "481d98a287ef0c45ec5b4a8d6f1b231d284d6c08892edddbcce366889cb42922"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/1f30cc224ecbbe498218f816ca523441096f04c08e6236e8de10c2f89378692f.png",
+      "sha256": "1f30cc224ecbbe498218f816ca523441096f04c08e6236e8de10c2f89378692f"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/2822005ee9fd680068cb64539e855aaa99830bfde09d73690c2f09dccdc0b8f5.png",
+      "sha256": "2822005ee9fd680068cb64539e855aaa99830bfde09d73690c2f09dccdc0b8f5"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_082_target",
+    "hit_polygons": [
+      [
+        [
+          638.625,
+          355.125
+        ],
+        [
+          639.875,
+          355.125
+        ],
+        [
+          640.5,
+          356
+        ],
+        [
+          640.375,
+          357.75
+        ],
+        [
+          641.25,
+          358.375
+        ],
+        [
+          642.125,
+          359.375
+        ],
+        [
+          642.875,
+          361.75
+        ],
+        [
+          643.5,
+          364.875
+        ],
+        [
+          643.375,
+          366.375
+        ],
+        [
+          642.25,
+          366.625
+        ],
+        [
+          642.75,
+          368.75
+        ],
+        [
+          644.75,
+          371.5
+        ],
+        [
+          645.25,
+          371.75
+        ],
+        [
+          645.125,
+          372.5
+        ],
+        [
+          643.75,
+          373
+        ],
+        [
+          643,
+          372.5
+        ],
+        [
+          641.75,
+          370.5
+        ],
+        [
+          640.375,
+          368
+        ],
+        [
+          639.375,
+          366.75
+        ],
+        [
+          638.5,
+          368.125
+        ],
+        [
+          636.625,
+          371.25
+        ],
+        [
+          636.75,
+          372
+        ],
+        [
+          635.5,
+          372.375
+        ],
+        [
+          634.125,
+          372
+        ],
+        [
+          634.5,
+          371.25
+        ],
+        [
+          636,
+          368.5
+        ],
+        [
+          637.5,
+          365.625
+        ],
+        [
+          638.5,
+          364.625
+        ],
+        [
+          638.625,
+          362.625
+        ],
+        [
+          637.25,
+          361.625
+        ],
+        [
+          636.625,
+          360.875
+        ],
+        [
+          636.875,
+          360.25
+        ],
+        [
+          637.75,
+          360.375
+        ],
+        [
+          638.75,
+          360.75
+        ],
+        [
+          639.125,
+          359.375
+        ],
+        [
+          638.625,
+          358.125
+        ],
+        [
+          638.375,
+          357
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_082/scene.json",
+    "original_revision": "e5c1eb9e97475b856b1cff9c5689869c1cb18b0634fb2e9d09f3ef73d2ffd2e4",
+    "original_instruction": "Shoot to the left of the dark green sports car, Man in a white top facing away from the viewer.",
+    "description_change": "Retains residential street, open dark sedan and armed pedestrian. The replayed two-handed gunman is near the front of the car rather than directly beside its door; wording follows the actual distant capture.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Distant native capture at clock 53870, target handle 25090. Visible two-handed white-shirted gunman only; dark sedan, open door, one-handed gunman behind him and other NPCs excluded. Reviewed final 8x silhouette including separated legs.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 25090,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        118.92256164550781,
+        -1977.0556640625,
+        34.37436103820801
+      ],
+      "target_position": [
+        89.45620727539062,
+        -1928.0999755859375,
+        20.79615020751953
+      ],
+      "target_distance_m": 58.73068434338378,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-d51c067556b81ced4e37925887a5ca08562349c8160061a7f4dd74b899281ff2"
+}

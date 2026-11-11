@@ -1,0 +1,58 @@
+{
+  "character": "franklin",
+  "sourcePage": "https://p3dm.ru/files/characters/human/1143-franklin-.html",
+  "sourceDownload": "https://p3dm.ru/engine/download.php?id=646",
+  "sourceMeshes": [
+    "franklin.obj"
+  ],
+  "sourceMeshSha256": {
+    "franklin.obj": "671f082ea7d015c9368948e158d8c3c0301b69d3d1768bdc71a7ee5e5ac8bf3d"
+  },
+  "sourceAuthor": "Rockstar North",
+  "sourceRip": "Vados",
+  "meshOrigin": "Grand Theft Auto V OBJ exports",
+  "locomotionSource": "https://raw.githubusercontent.com/mrdoob/three.js/r180/examples/models/gltf/Soldier.glb",
+  "locomotionSourceSha256": "dfb230fc1f942f259dd00281a1186953ad602fc5d69067ce63e24b2aa439736b",
+  "motionDataSha256": "bf8985f4291e62089f2e57869a88dd85fd45b94078fd5095ae0598fa6407e16b",
+  "animationOrigin": "MakeHuman/vsim skeleton; Mixamo Walk/Run retargeted from Three.js r180 Soldier joint trajectories with relaxed shoulder/elbow/palm constraints; corrected MakeHuman idle and original donor wave; not original GTA V animations",
+  "conversion": "DDS/TGA to embedded PNG, neutral-pose alignment, nearest-surface skin transfer",
+  "alignment": {
+    "inputHeight": 2.3548439741134644,
+    "scale": 0.8208611785958018,
+    "axis": "y-negative-z"
+  },
+  "skin": {
+    "vertices": 11890,
+    "unweightedVertices": 0,
+    "maxInfluences": 4
+  },
+  "bytes": 2198232,
+  "sha256": "0d0f8f80dfd9e59186a858dddba5398bf38eecab2c11cb5b8d782f65e8ebd964",
+  "preRepairDeformationCheck": {
+    "walkPoseRmsDisplacementMeters": 0.35419256696881746,
+    "walkPoseMaxDisplacementMeters": 1.1362067118883614
+  },
+  "deformationCheck": {
+    "walkPoseRmsDisplacementMeters": 0.3636936642863796,
+    "walkPoseMaxDisplacementMeters": 1.1362052829896658,
+    "method": "CPU-skinned GLB vertices at walk times 5/24 and 20/24 seconds; remeasured after elbow rebinding"
+  },
+  "armBindingFix": {
+    "revision": "franklin-elbow-rebind-v1",
+    "sourceGlbSha256": "c7bd1423220b7c73769ed00cbfa60061b5a554edf0585f6f9539e126923c8c32",
+    "meshAndTextureSha256": "38dab2d8c5c8c10c6aa63f35e366ac87c679d3170b4f3f53f1f3b509d27ace8b",
+    "bindElbows": {
+      "left": [
+        0.39,
+        1.37,
+        0.14
+      ],
+      "right": [
+        -0.39,
+        1.37,
+        0.14
+      ]
+    },
+    "method": "Refit donor elbow origins and arm bind frames to the measured sleeve centreline; rebuild inverse bind matrices and constant joint translation tracks. Meshes, normals, UVs, textures, skin weights and rotation clips are unchanged."
+  }
+}

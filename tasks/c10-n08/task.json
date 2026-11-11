@@ -1,0 +1,57 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008697_SEGMENT_282_SHOOT",
+    "source_folder": "source-008697",
+    "source_task_number": "16",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v2_min3",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008697_SEGMENT_282",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/eb4a29ead6f72250b7c44755883e90b2ec722a4535af908b3ec9ee9af7571674.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 529.2,
+        "prompt": "Shoot the dark pickup beside the white trailer home ahead.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008697_ACTION_000969",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "trajectory_path": "tasks/source-008697/segments/GTA_TASK_008697_SEGMENT_282.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "instruction": "Shoot the dark pickup beside the white trailer home ahead.",
+    "target_description": "The dark pickup beside the white trailer home ahead",
+    "target_category": "truck",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      680,
+      498,
+      755,
+      543
+    ],
+    "point_xy": [
+      717.5,
+      520.5
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

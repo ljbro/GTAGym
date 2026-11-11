@@ -1,0 +1,130 @@
+[
+  {
+    "id": "c05-n12",
+    "title": "Drive the truck along the river channel for the pickup",
+    "category": "escape",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 73.55337487414731
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -84.9940825443535
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [
+      "right",
+      "left"
+    ],
+    "path": {
+      "points": [
+        [
+          -4580,
+          -620
+        ],
+        [
+          -4503.555679045486,
+          -430.45586113922093
+        ],
+        [
+          -4337.572114521166,
+          -446.49059675538604
+        ],
+        [
+          -4314.035689303519,
+          -319.7933533257936
+        ]
+      ],
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 73.55337487414738,
+          "distance": 204.37885111398165
+        },
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -84.99408254435318,
+          "distance": 371.1351296718793
+        }
+      ],
+      "length": 499.9999999999999,
+      "graphNodeIds": [],
+      "placement": {
+        "kind": "native-riverside-constructed-dry-channel",
+        "scale": 1.4454180089803015,
+        "angle": 5.890486225480862,
+        "anchor": [
+          -4580,
+          -620
+        ],
+        "sourceOrigin": [
+          348.4500158009955,
+          -546.7362506500103
+        ],
+        "riverDistance": [
+          8.619842591877024,
+          74.54087741769119,
+          241.1544942620944,
+          257.69840746860996
+        ],
+        "minRoadGap": 6.8518949970930425,
+        "requiresConstructedWaterFloor": true
+      },
+      "testDriveProfile": {
+        "cruiseSpeed": 38,
+        "cornerSpeed": 12,
+        "lookAhead": 8,
+        "lookSpeed": 0.22
+      }
+    },
+    "candidateAudit": {
+      "index": 1,
+      "driven": {
+        "complete": true,
+        "ticks": 909,
+        "visited": [
+          1,
+          2
+        ],
+        "maxStep": 0.9242921877883874,
+        "maxOffset": 4.494152312620607
+      },
+      "spawned": 3,
+      "stationaryCaptured": true,
+      "needs": [
+        "terrain-whole-footprint",
+        "full-city-props",
+        "render",
+        "task-lifecycle"
+      ]
+    },
+    "channel": {
+      "floor": 0.18,
+      "halfWidth": 13,
+      "bridge": {
+        "point": [
+          -4550.077404569857,
+          -545.8067504234788
+        ],
+        "yaw": 0.3833532715397605
+      }
+    }
+  }
+]

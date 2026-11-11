@@ -1,0 +1,315 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008739_SEGMENT_071_SHOOT",
+    "source_folder": "source-008739",
+    "source_task_number": "67",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008739_SEGMENT_071",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/f82a60ade5ef14b6e07a7cc5ca89f9c49e05e81bfaffbacaf17bde473498961f.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 325.733,
+        "prompt": "Shoot the one lying on the ground in the industrial yard, Man in a light top and green pants.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008739_ACTION_000687",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "target_description": "Lying on the ground in the industrial yard, Man in a light top and green pants",
+    "instruction": "Shoot the one lying on the ground in the industrial yard, Man in a light top and green pants.",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_category": "person",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      905,
+      603,
+      1013,
+      686
+    ],
+    "point_xy": [
+      980,
+      648
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      904,
+      604,
+      1016,
+      691
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          1012,
+          612
+        ],
+        [
+          1007,
+          608
+        ],
+        [
+          998,
+          605
+        ],
+        [
+          969,
+          603
+        ],
+        [
+          966,
+          606
+        ],
+        [
+          967,
+          607
+        ],
+        [
+          967,
+          610
+        ],
+        [
+          969,
+          612
+        ],
+        [
+          973,
+          612
+        ],
+        [
+          974,
+          613
+        ],
+        [
+          988,
+          613
+        ],
+        [
+          992,
+          616
+        ],
+        [
+          991,
+          621
+        ],
+        [
+          986,
+          625
+        ],
+        [
+          977,
+          626
+        ],
+        [
+          969,
+          630
+        ],
+        [
+          960,
+          640
+        ],
+        [
+          957,
+          646
+        ],
+        [
+          956,
+          651
+        ],
+        [
+          950,
+          655
+        ],
+        [
+          947,
+          655
+        ],
+        [
+          946,
+          656
+        ],
+        [
+          936,
+          656
+        ],
+        [
+          935,
+          655
+        ],
+        [
+          930,
+          655
+        ],
+        [
+          924,
+          652
+        ],
+        [
+          920,
+          652
+        ],
+        [
+          919,
+          651
+        ],
+        [
+          917,
+          652
+        ],
+        [
+          914,
+          656
+        ],
+        [
+          918,
+          660
+        ],
+        [
+          930,
+          664
+        ],
+        [
+          932,
+          666
+        ],
+        [
+          931,
+          669
+        ],
+        [
+          926,
+          672
+        ],
+        [
+          922,
+          672
+        ],
+        [
+          921,
+          671
+        ],
+        [
+          906,
+          671
+        ],
+        [
+          905,
+          673
+        ],
+        [
+          905,
+          678
+        ],
+        [
+          910,
+          682
+        ],
+        [
+          915,
+          683
+        ],
+        [
+          921,
+          686
+        ],
+        [
+          934,
+          686
+        ],
+        [
+          945,
+          681
+        ],
+        [
+          951,
+          681
+        ],
+        [
+          954,
+          683
+        ],
+        [
+          966,
+          684
+        ],
+        [
+          968,
+          682
+        ],
+        [
+          970,
+          682
+        ],
+        [
+          976,
+          675
+        ],
+        [
+          986,
+          673
+        ],
+        [
+          991,
+          668
+        ],
+        [
+          996,
+          660
+        ],
+        [
+          999,
+          657
+        ],
+        [
+          1001,
+          643
+        ],
+        [
+          1003,
+          640
+        ],
+        [
+          1004,
+          636
+        ],
+        [
+          1006,
+          634
+        ],
+        [
+          1013,
+          621
+        ],
+        [
+          1013,
+          614
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

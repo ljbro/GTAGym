@@ -1,0 +1,185 @@
+{
+  "id": "GTA_TASK_008139_SEGMENT_036_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the man holding a rifle behind the light-colored low wall on the outdoor platform of the modern office complex. He wears dark tactical clothing and no helmet.",
+  "instruction_en": "Shoot the man holding a rifle behind the light-colored low wall on the outdoor platform of the modern office complex. He wears dark tactical clothing and no helmet.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/c3fc3d59cee18d9b5e5e2fbc21a98040849f6b2e5c063bfdadec1e6f28cf0500.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/c3fc3d59cee18d9b5e5e2fbc21a98040849f6b2e5c063bfdadec1e6f28cf0500.png",
+      "sha256": "c3fc3d59cee18d9b5e5e2fbc21a98040849f6b2e5c063bfdadec1e6f28cf0500"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/6bdfce6e7130d3b83b237ccdd37e1b4490f3563feb2c3655bd7709ba2382be9e.png",
+      "sha256": "6bdfce6e7130d3b83b237ccdd37e1b4490f3563feb2c3655bd7709ba2382be9e"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/65dca35e9819fe0e4e27752c90521531644123f5d3ae6b2b013374ea6765e785.png",
+      "sha256": "65dca35e9819fe0e4e27752c90521531644123f5d3ae6b2b013374ea6765e785"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/c0418e379a4855ecf06153c5e1beff9d6c05e9aa4c0a291202b917abe3706cb9.png",
+      "sha256": "c0418e379a4855ecf06153c5e1beff9d6c05e9aa4c0a291202b917abe3706cb9"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008139_SEGMENT_036_target",
+    "hit_polygons": [
+      [
+        [
+          639.25,
+          356.25
+        ],
+        [
+          640.125,
+          356.125
+        ],
+        [
+          640.625,
+          356.5
+        ],
+        [
+          640.75,
+          357.25
+        ],
+        [
+          640.375,
+          357.875
+        ],
+        [
+          641,
+          358
+        ],
+        [
+          641.625,
+          358.375
+        ],
+        [
+          642.25,
+          359
+        ],
+        [
+          642.125,
+          360.25
+        ],
+        [
+          641.75,
+          361.125
+        ],
+        [
+          641.75,
+          362.875
+        ],
+        [
+          638.75,
+          362.875
+        ],
+        [
+          638.625,
+          361.625
+        ],
+        [
+          639,
+          360.5
+        ],
+        [
+          638.625,
+          360.125
+        ],
+        [
+          638.125,
+          360.625
+        ],
+        [
+          637.625,
+          360.75
+        ],
+        [
+          637.25,
+          360.375
+        ],
+        [
+          637.5,
+          359.75
+        ],
+        [
+          638.125,
+          358.875
+        ],
+        [
+          639,
+          358.375
+        ],
+        [
+          639.25,
+          358
+        ],
+        [
+          639,
+          357.375
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008139_SEGMENT_036/scene.json",
+    "original_revision": "dd383256ddb06e291b386cbb8d45029366a67d1d0913356dcbc34be601c80f7e",
+    "original_instruction": "Shoot on the outer platform of the modern office building, The short-haired man in a dark tactical vest behind the low curved white wall.",
+    "description_change": "Same office-platform scene and armed tactical target. Restored replay now shows short hair and dark tactical clothing, closer to the original description, instead of the previous tan-vest/bald appearance.",
+    "mission": "The Wrap Up",
+    "script": "michael3",
+    "visual_review": "Distance recalibration: handle 13314 at clock 44782; native 60-degree overview, 75.55 m. Clear unhelmeted dark-tactical rifleman on the far walkway; lower body behind the low wall excluded. Trees/pillars no longer obscure head and torso. Nearby gray-suit ally is not the target. Reviewed final 8x capture.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 13314,
+      "passed": true,
+      "joint_drift_warning": true,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        -2114.51416015625,
+        235.69967651367188,
+        187.77236938476562
+      ],
+      "target_position": [
+        -2189.279296875,
+        225.324951171875,
+        184.60189819335938
+      ],
+      "target_distance_m": 75.54808059816371,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-cece20a42a25b6d440f617613931cd397d8fa58ac7197bf5030acf08e1443293"
+}

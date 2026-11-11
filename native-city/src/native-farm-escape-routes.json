@@ -1,0 +1,102 @@
+[
+  {
+    "id": "c05-n11",
+    "title": "Ride the ATV away from the farm",
+    "category": "escape",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 89.42215828116602
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -86.46305882866339
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [
+      "right",
+      "left"
+    ],
+    "path": {
+      "points": [
+        [
+          -4140,
+          1680
+        ],
+        [
+          -4140.783527539966,
+          1535.8221088149346
+        ],
+        [
+          -4309.252278971763,
+          1535.0385812749694
+        ],
+        [
+          -4317.087984802219,
+          1397.9128683803942
+        ]
+      ],
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 89.42215828116588,
+          "distance": 144.18002018996404
+        },
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -86.46305882866329,
+          "distance": 312.6505936572454
+        }
+      ],
+      "length": 449.99999999999915,
+      "graphNodeIds": [],
+      "testDriveProfile": {
+        "cruiseSpeed": 38,
+        "cornerSpeed": 12,
+        "lookAhead": 8,
+        "lookSpeed": 0.22
+      },
+      "placement": {
+        "kind": "native-green-farm-adaptation",
+        "parcelIndex": 884,
+        "parcelName": "Dasha River Park‎",
+        "scale": 1.1859623398210546,
+        "angle": 3.141592653589793,
+        "anchor": [
+          -4140,
+          1680
+        ],
+        "sourceOrigin": [
+          473.984585189364,
+          -567.218233450913
+        ],
+        "farm": [
+          -4174.999483179629,
+          1680.190202941175
+        ],
+        "yaw": -3.1361582570932742,
+        "roadExit": {
+          "distance": 13.884521111844201,
+          "name": "Side Road",
+          "kind": "primary_link"
+        }
+      }
+    }
+  }
+]

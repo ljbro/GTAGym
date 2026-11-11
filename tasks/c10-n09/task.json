@@ -1,0 +1,55 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008707_SEGMENT_042_SHOOT",
+    "source_folder": "source-008707",
+    "source_task_number": "17",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008707_SEGMENT_042",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/505a9d427d7328b4d550d5a1e3e92b823c4b3d486b4ac2b74c4ba89d4ef99d2b.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 129.767,
+        "prompt": "Shoot the dark convertible sports car in the parking lot with its side facing the camera. Output one pixel coordinate on the target [x, y].",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008707_ACTION_000157",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "target_description": "Dark convertible sports car parked side-on to the camera in the parking lot",
+    "instruction": "Shoot the dark convertible sports car in the parking lot with its side facing the camera. Output one pixel coordinate on the target [x, y].",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      885,
+      530,
+      1125,
+      610
+    ],
+    "point_xy": [
+      1005,
+      570
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

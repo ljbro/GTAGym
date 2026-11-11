@@ -1,0 +1,235 @@
+{
+  "schema": "gtasuite.benchmark.v1",
+  "description": "Frozen 150-task evaluation catalog.",
+  "scope": "all",
+  "build": "/assets/index-CK31szG-.js",
+  "categories": [
+    {
+      "category": "outdoor-road",
+      "label": "Road Navigation",
+      "available": 20,
+      "tasks": [
+        "c01-n01",
+        "c01-n02",
+        "c01-n03",
+        "c01-n04",
+        "c01-n05",
+        "c01-n06",
+        "c01-n07",
+        "c01-n08",
+        "c01-n09",
+        "c01-n10",
+        "c01-n11",
+        "c01-n12",
+        "c01-n13",
+        "c01-n14",
+        "c01-n15",
+        "c01-n16",
+        "c01-n17",
+        "c01-n18",
+        "c01-n19",
+        "c01-n20"
+      ]
+    },
+    {
+      "category": "outdoor-foot",
+      "label": "On-foot Navigation",
+      "available": 16,
+      "tasks": [
+        "c02-n01",
+        "c02-n02",
+        "c02-n03",
+        "c02-n04",
+        "c02-n05",
+        "c02-n06",
+        "c02-n07",
+        "c02-n08",
+        "c02-n09",
+        "c02-n10",
+        "c02-n11",
+        "c02-n12",
+        "c02-n13",
+        "c02-n14",
+        "c02-n15",
+        "c02-n16"
+      ]
+    },
+    {
+      "category": "follow",
+      "label": "Following",
+      "available": 6,
+      "tasks": [
+        "c03-n01",
+        "c03-n02",
+        "c03-n03",
+        "c03-n04",
+        "c03-n05",
+        "c03-n06"
+      ]
+    },
+    {
+      "category": "chase",
+      "label": "Interception",
+      "available": 13,
+      "tasks": [
+        "c04-n01",
+        "c04-n02",
+        "c04-n03",
+        "c04-n04",
+        "c04-n05",
+        "c04-n06",
+        "c04-n07",
+        "c04-n08",
+        "c04-n09",
+        "c04-n10",
+        "c04-n11",
+        "c04-n12",
+        "c04-n13"
+      ]
+    },
+    {
+      "category": "escape",
+      "label": "Evasion",
+      "available": 16,
+      "tasks": [
+        "c05-n01",
+        "c05-n02",
+        "c05-n03",
+        "c05-n04",
+        "c05-n05",
+        "c05-n06",
+        "c05-n07",
+        "c05-n08",
+        "c05-n09",
+        "c05-n10",
+        "c05-n11",
+        "c05-n12",
+        "c05-n13",
+        "c05-n14",
+        "c05-n15",
+        "c05-n16"
+      ]
+    },
+    {
+      "category": "water",
+      "label": "Aquatic Navigation",
+      "available": 11,
+      "tasks": [
+        "c06-n01",
+        "c06-n02",
+        "c06-n03",
+        "c06-n04",
+        "c06-n05",
+        "c06-n06",
+        "c06-n07",
+        "c06-n08",
+        "c06-n09",
+        "c06-n10",
+        "c06-n11"
+      ]
+    },
+    {
+      "category": "stairs",
+      "label": "Vertical Traversal",
+      "available": 5,
+      "tasks": [
+        "c07-n01",
+        "c07-n02",
+        "c07-n03",
+        "c07-n04",
+        "c07-n05"
+      ]
+    },
+    {
+      "category": "air",
+      "label": "Aerial Navigation",
+      "available": 8,
+      "tasks": [
+        "c08-n01",
+        "c08-n02",
+        "c08-n03",
+        "c08-n04",
+        "c08-n05",
+        "c08-n06",
+        "c08-n07",
+        "c08-n08"
+      ]
+    },
+    {
+      "category": "indoor",
+      "label": "Indoor Navigation",
+      "available": 8,
+      "tasks": [
+        "c09-n01",
+        "c09-n02",
+        "c09-n03",
+        "c09-n04",
+        "c09-n05",
+        "c09-n06",
+        "c09-n07",
+        "c09-n08"
+      ]
+    },
+    {
+      "category": "shooting",
+      "label": "Shooting",
+      "available": 24,
+      "tasks": [
+        "c10-n01",
+        "c10-n02",
+        "c10-n03",
+        "c10-n04",
+        "c10-n05",
+        "c10-n06",
+        "c10-n07",
+        "c10-n08",
+        "c10-n09",
+        "c10-n10",
+        "c10-n11",
+        "c10-n12",
+        "c10-n13",
+        "c10-n14",
+        "c10-n15",
+        "c10-n16",
+        "c10-n17",
+        "c10-n18",
+        "c10-n19",
+        "c10-n20",
+        "c10-n21",
+        "c10-n22",
+        "c10-n23",
+        "c10-n24"
+      ]
+    },
+    {
+      "category": "sniper",
+      "label": "Sniping",
+      "available": 23,
+      "tasks": [
+        "c11-n01",
+        "c11-n02",
+        "c11-n03",
+        "c11-n04",
+        "c11-n05",
+        "c11-n06",
+        "c11-n07",
+        "c11-n08",
+        "c11-n09",
+        "c11-n10",
+        "c11-n11",
+        "c11-n12",
+        "c11-n13",
+        "c11-n14",
+        "c11-n15",
+        "c11-n16",
+        "c11-n17",
+        "c11-n18",
+        "c11-n19",
+        "c11-n20",
+        "c11-n21",
+        "c11-n22",
+        "c11-n23"
+      ]
+    }
+  ]
+}

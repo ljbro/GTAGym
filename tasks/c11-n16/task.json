@@ -1,0 +1,273 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_103_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the armed man in a loose white shirt standing on the sidewalk in front of the light-blue old sedan on the residential street. Do not shoot the crouching person beside the car.",
+  "instruction_en": "Shoot the armed man in a loose white shirt standing on the sidewalk in front of the light-blue old sedan on the residential street. Do not shoot the crouching person beside the car.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/74e121f2e7cfe8e82fec835324b46a023d11908d37711c65fa93209ae8efc731.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/74e121f2e7cfe8e82fec835324b46a023d11908d37711c65fa93209ae8efc731.png",
+      "sha256": "74e121f2e7cfe8e82fec835324b46a023d11908d37711c65fa93209ae8efc731"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/5ecba55a8cc5b7544903dbf08319b75866b95ba668ad16f7bda4d4d3d33cb8f6.png",
+      "sha256": "5ecba55a8cc5b7544903dbf08319b75866b95ba668ad16f7bda4d4d3d33cb8f6"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/9a3384c42e93382498310a3921c3685833f22c346ef9cd82c9f9cb750686c597.png",
+      "sha256": "9a3384c42e93382498310a3921c3685833f22c346ef9cd82c9f9cb750686c597"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/72665e5f8c51fd20ba5f48c220388ae5d2115492eba24bbe166377f0789c2bc4.png",
+      "sha256": "72665e5f8c51fd20ba5f48c220388ae5d2115492eba24bbe166377f0789c2bc4"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_103_target",
+    "hit_polygons": [
+      [
+        [
+          639.125,
+          356
+        ],
+        [
+          640.75,
+          356.125
+        ],
+        [
+          641,
+          357.25
+        ],
+        [
+          640.5,
+          358.25
+        ],
+        [
+          641.5,
+          358.5
+        ],
+        [
+          642.25,
+          359.25
+        ],
+        [
+          642.875,
+          360.625
+        ],
+        [
+          643.25,
+          363.125
+        ],
+        [
+          643,
+          365.25
+        ],
+        [
+          642.5,
+          365.75
+        ],
+        [
+          641.125,
+          365.375
+        ],
+        [
+          641.375,
+          366.75
+        ],
+        [
+          641.75,
+          368.375
+        ],
+        [
+          641.625,
+          371.375
+        ],
+        [
+          642,
+          372.125
+        ],
+        [
+          641.625,
+          373.125
+        ],
+        [
+          640.875,
+          373.375
+        ],
+        [
+          640.125,
+          372.875
+        ],
+        [
+          640.125,
+          371.75
+        ],
+        [
+          640,
+          370.375
+        ],
+        [
+          639.5,
+          368.5
+        ],
+        [
+          638.875,
+          367.75
+        ],
+        [
+          638.625,
+          366.5
+        ],
+        [
+          638.375,
+          366.5
+        ],
+        [
+          638.25,
+          367.875
+        ],
+        [
+          638.75,
+          369.375
+        ],
+        [
+          639.75,
+          370.375
+        ],
+        [
+          639.75,
+          370.875
+        ],
+        [
+          638.5,
+          370.75
+        ],
+        [
+          637.75,
+          370
+        ],
+        [
+          637,
+          368.75
+        ],
+        [
+          636.75,
+          367.25
+        ],
+        [
+          637.25,
+          365.75
+        ],
+        [
+          637.625,
+          364.75
+        ],
+        [
+          638.125,
+          363.875
+        ],
+        [
+          638.125,
+          361.875
+        ],
+        [
+          637.5,
+          361.375
+        ],
+        [
+          636.875,
+          360.625
+        ],
+        [
+          636.25,
+          360.75
+        ],
+        [
+          636,
+          360
+        ],
+        [
+          636.5,
+          358.875
+        ],
+        [
+          637,
+          357.875
+        ],
+        [
+          638.375,
+          357.125
+        ],
+        [
+          638.875,
+          357.625
+        ],
+        [
+          639.125,
+          357.75
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_103/scene.json",
+    "original_revision": "0b53ccadc25c78905f2070bc6486cad394fd17d2b79e01477bc8729b0c2f7f92",
+    "original_instruction": "Shoot behind the light blue car, Man in a dark vest over a white long-sleeved shirt.",
+    "description_change": "Retains original residential street, old sedan landmark and armed pedestrian target. Replay places the white-shirted man ahead of the sedan rather than behind it; wording updated to the actual distant capture.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Distance recalibration: handle 24066 at clock 53870, native 60-degree overview, camera 59.75 m from target. Standing white-shirted gunman in front of the same residential sedan; visible body only. Crouching car-side NPC, dead pedestrian and sedan excluded. Reviewed actual final 8x capture.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 24066,
+      "passed": true,
+      "joint_drift_warning": true,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        113.92256164550781,
+        -1967.0556640625,
+        33.37436103820801
+      ],
+      "target_position": [
+        85.64828491210938,
+        -1915.9339599609375,
+        20.83643341064453
+      ],
+      "target_distance_m": 59.750004052205114,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-3ed4000f6e6208cde45564499d424bfcfae42adab161de1c38f054d28eee9a66"
+}

@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "model": "cargobob",
+  "sourceGame": "Grand Theft Auto V",
+  "sourceManifestSha256": "ecef0c1bda85e115fee8b96764a7f04ee466db5559bbbd536ae6b0d9a0cffbe7",
+  "sources": [
+    {
+      "file": "cargobob.yft",
+      "url": "https://gtax.dev/assets/vehicles/2rgys1.yft",
+      "bytes": 1525505,
+      "sha256": "7e2907d526f0075d6a835872c3be0f18e4549a09dac79eabaa8f137bace121fa"
+    },
+    {
+      "file": "cargobob_hi.yft",
+      "url": "https://gtax.dev/assets/vehicles/3nqw7b.yft",
+      "bytes": 1765051,
+      "sha256": "0849f330ba72e92733f89d4e4eba9e02d5034f5f7e574fc6c017b30ea562f12c"
+    },
+    {
+      "file": "cargobob.ytd",
+      "url": "https://gtax.dev/assets/vehicles/0rclyd.ytd",
+      "bytes": 248560,
+      "sha256": "0945c8ea77c85ac476b8359aafc229fd0f8939b36ca66d157d9c9789f5f49413"
+    },
+    {
+      "file": "cargobob.png",
+      "url": "https://gtax.dev/assets/vehicles/2rgys1.png",
+      "bytes": 2837,
+      "sha256": "2436d960fb384f39330341fa70b851b5f45d8fafc96ca3522d1c8f2de1003e9f"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "vehshare.ytd",
+      "url": "https://gtax.dev/vehicle/vehshare.ytd",
+      "sha256": "7b166db7e2827311cb79c8e0f21939ed43978a547663ee84d64879389270ed1e"
+    },
+    {
+      "file": "gtaxdev_wasm.cjs",
+      "url": "https://gtax.dev/wasm/gtaxdev_wasm.js?v=e2ffe052",
+      "sha256": "65e521a41c7a36b9056309c01110c9357397adb697db025626f88a4857e8c26e"
+    },
+    {
+      "file": "gtaxdev_wasm.js.wasm",
+      "url": "https://gtax.dev/wasm/gtaxdev_wasm.js.wasm?v=e2ffe052",
+      "sha256": "d7a06e9083059458ed272c51e1fe7495e03112860076c93e935f156f0b39a8b8"
+    },
+    {
+      "file": "Sollumz-2.6.0.zip",
+      "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.6.0/Sollumz.zip",
+      "sha256": "ec21a64caefcc09dbd007aadc1ad312ce5fb62524c822a612340afb44b3189c4"
+    }
+  ],
+  "conversion": {
+    "pipeline": "Pinned native high YFT, landing gear fragments and YTD → local GTAX WASM → Sollumz 2.6 / Blender 4 → glTF",
+    "command": "node scripts/fetch-gta-helicopters.mjs cargobob",
+    "scripts": [
+      {
+        "file": "scripts/fetch-gta-helicopters.mjs",
+        "sha256": "9ef2aa115b93c30f5f103a054d3eb895f4e6f7b33c16f5dc78390880b433ee00"
+      },
+      {
+        "file": "scripts/convert-gta-helicopter.py",
+        "sha256": "1a82ccbfbd0256572d4c56370522e868f8d3fa440ecdf847a8d021a2cc2a6c1a"
+      }
+    ],
+    "hostedApiUsed": false,
+    "sourceModel": "cargobob",
+    "sourceBones": {
+      "chassis": {
+        "tag": 0,
+        "headSourceZUp": [
+          0,
+          0,
+          0
+        ],
+        "parent": null
+      },
+      "door_dside_r": {
+        "tag": 61071,
+        "headSourceZUp": [
+          0,
+          -4.030447006225586,
+          -0.8667920231819153
+        ],
+        "parent": "chassis"
+      },
+      "misc_a": {
+        "tag": 58614,
+        "headSourceZUp": [
+          -1.130107045173645,
+          3.0129170417785645,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "hub_rr": {
+        "tag": 36034,
+        "headSourceZUp": [
+          1.1715519428253174,
+          -3.428675889968872,
+          -1.2191879749298096
+        ],
+        "parent": "chassis"
+      },
+      "hub_lr": {
+        "tag": 35938,
+        "headSourceZUp": [
+          -1.1715519428253174,
+          -3.428675889968872,
+          -1.2191879749298096
+        ],
+        "parent": "chassis"
+      },
+      "hub_lf": {
+        "tag": 35926,
+        "headSourceZUp": [
+          0.007249999791383743,
+          6.053071022033691,
+          -1.2304149866104126
+        ],
+        "parent": "chassis"
+      },
+      "siren4": {
+        "tag": 25002,
+        "headSourceZUp": [
+          0,
+          6.63316011428833,
+          -0.9377139806747437
+        ],
+        "parent": "chassis"
+      },
+      "siren1": {
+        "tag": 24999,
+        "headSourceZUp": [
+          0.3472389876842499,
+          5.048111915588379,
+          2.0603809356689453
+        ],
+        "parent": "chassis"
+      },
+      "siren2": {
+        "tag": 25000,
+        "headSourceZUp": [
+          -0.34939301013946533,
+          5.04813814163208,
+          2.0609660148620605
+        ],
+        "parent": "chassis"
+      },
+      "siren3": {
+        "tag": 25001,
+        "headSourceZUp": [
+          0,
+          -7.246228218078613,
+          3.3511810302734375
+        ],
+        "parent": "chassis"
+      },
+      "wheel_lf": {
+        "tag": 27922,
+        "headSourceZUp": [
+          0.007249999791383743,
+          6.053071022033691,
+          -1.2304149866104126
+        ],
+        "parent": "chassis"
+      },
+      "wheelmesh_lf": {
+        "tag": 20247,
+        "headSourceZUp": [
+          0.007249999791383743,
+          6.053071022033691,
+          -1.2304149866104126
+        ],
+        "parent": "wheel_lf"
+      },
+      "wheelmesh_lf_l1": {
+        "tag": 11707,
+        "headSourceZUp": [
+          0.007249999791383743,
+          -17.767799377441406,
+          -1.2304190397262573
+        ],
+        "parent": "wheel_lf"
+      },
+      "wheelmesh_lf_l2": {
+        "tag": 11708,
+        "headSourceZUp": [
+          0.007249999791383743,
+          -39.18811798095703,
+          -1.2304229736328125
+        ],
+        "parent": "wheel_lf"
+      },
+      "wheelmesh_lf_ng": {
+        "tag": 12049,
+        "headSourceZUp": [
+          0.007250999566167593,
+          32.69755554199219,
+          -1.230409026145935
+        ],
+        "parent": "wheel_lf"
+      },
+      "wheel_lr": {
+        "tag": 27902,
+        "headSourceZUp": [
+          -1.1710710525512695,
+          -3.428675889968872,
+          -1.2191879749298096
+        ],
+        "parent": "chassis"
+      },
+      "wheel_rr": {
+        "tag": 26398,
+        "headSourceZUp": [
+          1.1710710525512695,
+          -3.428675889968872,
+          -1.2191879749298096
+        ],
+        "parent": "chassis"
+      },
+      "petroltank": {
+        "tag": 23306,
+        "headSourceZUp": [
+          0,
+          0.6708040237426758,
+          1.7431930303573608
+        ],
+        "parent": "chassis"
+      },
+      "interiorlight": {
+        "tag": 37995,
+        "headSourceZUp": [
+          -0.0000019999999949504854,
+          5.632934093475342,
+          1.0968830585479736
+        ],
+        "parent": "chassis"
+      },
+      "engine": {
+        "tag": 30510,
+        "headSourceZUp": [
+          -9.999999974752427e-7,
+          4.044220924377441,
+          2.163266897201538
+        ],
+        "parent": "chassis"
+      },
+      "seat_dside_f": {
+        "tag": 20012,
+        "headSourceZUp": [
+          -0.5981060266494751,
+          5.630982875823975,
+          0.15305499732494354
+        ],
+        "parent": "chassis"
+      },
+      "seat_pside_f": {
+        "tag": 59562,
+        "headSourceZUp": [
+          0.5981060266494751,
+          5.630982875823975,
+          0.15305499732494354
+        ],
+        "parent": "chassis"
+      },
+      "exhaust": {
+        "tag": 4944,
+        "headSourceZUp": [
+          -1.3733659982681274,
+          1.3218979835510254,
+          1.5529659986495972
+        ],
+        "parent": "chassis"
+      },
+      "overheat": {
+        "tag": 15850,
+        "headSourceZUp": [
+          -1.1276689767837524,
+          4.641534805297852,
+          1.5899380445480347
+        ],
+        "parent": "chassis"
+      },
+      "overheat_2": {
+        "tag": 65271,
+        "headSourceZUp": [
+          1.1577579975128174,
+          4.641534805297852,
+          1.589938998222351
+        ],
+        "parent": "chassis"
+      },
+      "exhaust_2": {
+        "tag": 50446,
+        "headSourceZUp": [
+          1.3835890293121338,
+          1.3218979835510254,
+          1.5556600093841553
+        ],
+        "parent": "chassis"
+      },
+      "rotor_main": {
+        "tag": 61947,
+        "headSourceZUp": [
+          0,
+          4.3827900886535645,
+          2.990525007247925
+        ],
+        "parent": "chassis"
+      },
+      "rotor_main_slow": {
+        "tag": 8987,
+        "headSourceZUp": [
+          0,
+          4.3827900886535645,
+          2.990525007247925
+        ],
+        "parent": "rotor_main"
+      },
+      "rotor_main_fast": {
+        "tag": 56039,
+        "headSourceZUp": [
+          0,
+          4.3827900886535645,
+          3.1157119274139404
+        ],
+        "parent": "rotor_main"
+      },
+      "rotor_rear": {
+        "tag": 42489,
+        "headSourceZUp": [
+          0,
+          -5.374059200286865,
+          3.5704610347747803
+        ],
+        "parent": "chassis"
+      },
+      "rotor_rear_slow": {
+        "tag": 41033,
+        "headSourceZUp": [
+          0,
+          -5.374059200286865,
+          3.5704610347747803
+        ],
+        "parent": "rotor_rear"
+      },
+      "rotor_rear_fast": {
+        "tag": 58261,
+        "headSourceZUp": [
+          0,
+          -5.374059200286865,
+          3.5704610347747803
+        ],
+        "parent": "rotor_rear"
+      },
+      "door_dside_f": {
+        "tag": 60963,
+        "headSourceZUp": [
+          -1.013288974761963,
+          6.3263020515441895,
+          0.011075999587774277
+        ],
+        "parent": "chassis"
+      },
+      "window_lf": {
+        "tag": 26734,
+        "headSourceZUp": [
+          -1.0323799848556519,
+          5.897470951080322,
+          0.3842419981956482
+        ],
+        "parent": "door_dside_f"
+      },
+      "windscreen": {
+        "tag": 39561,
+        "headSourceZUp": [
+          0,
+          6.242315769195557,
+          0.6507890224456787
+        ],
+        "parent": "chassis"
+      },
+      "door_pside_f": {
+        "tag": 35346,
+        "headSourceZUp": [
+          1.013288974761963,
+          6.3263020515441895,
+          0.011075999587774277
+        ],
+        "parent": "chassis"
+      },
+      "window_rf": {
+        "tag": 28174,
+        "headSourceZUp": [
+          1.0323799848556519,
+          5.897470951080322,
+          0.3842419981956482
+        ],
+        "parent": "door_pside_f"
+      },
+      "misc_j": {
+        "tag": 58623,
+        "headSourceZUp": [
+          1.1301079988479614,
+          -3.434657096862793,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_i": {
+        "tag": 58622,
+        "headSourceZUp": [
+          1.130107045173645,
+          -2.165747880935669,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_h": {
+        "tag": 58621,
+        "headSourceZUp": [
+          1.1301079988479614,
+          -0.8900049924850464,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_g": {
+        "tag": 58620,
+        "headSourceZUp": [
+          1.1301079988479614,
+          0.387364000082016,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_f": {
+        "tag": 58619,
+        "headSourceZUp": [
+          1.130107045173645,
+          3.0129170417785645,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_e": {
+        "tag": 58618,
+        "headSourceZUp": [
+          -1.1301079988479614,
+          -3.434657096862793,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_d": {
+        "tag": 58617,
+        "headSourceZUp": [
+          -1.130107045173645,
+          -2.165747880935669,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_c": {
+        "tag": 58616,
+        "headSourceZUp": [
+          -1.130107045173645,
+          -0.8900049924850464,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "misc_b": {
+        "tag": 58615,
+        "headSourceZUp": [
+          -1.130107045173645,
+          0.387364000082016,
+          0.6025530099868774
+        ],
+        "parent": "chassis"
+      },
+      "seat_dside_r": {
+        "tag": 20120,
+        "headSourceZUp": [
+          -0.875918984413147,
+          4.460770130157471,
+          -0.5789669752120972
+        ],
+        "parent": "chassis"
+      },
+      "seat_pside_r": {
+        "tag": 59446,
+        "headSourceZUp": [
+          0.9044910073280334,
+          4.496125221252441,
+          -0.5622109770774841
+        ],
+        "parent": "chassis"
+      },
+      "tow_mount_a": {
+        "tag": 30133,
+        "headSourceZUp": [
+          -1.1834720373153687,
+          1.5734360218048096,
+          -0.8646309971809387
+        ],
+        "parent": "chassis"
+      },
+      "tow_mount_b": {
+        "tag": 30134,
+        "headSourceZUp": [
+          1.1834720373153687,
+          1.5734360218048096,
+          -0.8646309971809387
+        ],
+        "parent": "chassis"
+      },
+      "seat_pside_r1": {
+        "tag": 33327,
+        "headSourceZUp": [
+          0.8386499881744385,
+          3.459779977798462,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "seat_dside_r1": {
+        "tag": 35183,
+        "headSourceZUp": [
+          -0.8386499881744385,
+          3.459779977798462,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "seat_pside_r2": {
+        "tag": 33328,
+        "headSourceZUp": [
+          0.8386499881744385,
+          2.743237018585205,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "seat_dside_r2": {
+        "tag": 35184,
+        "headSourceZUp": [
+          -0.8386499881744385,
+          2.743237018585205,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "seat_pside_r3": {
+        "tag": 33329,
+        "headSourceZUp": [
+          0.8386499881744385,
+          2.0243070125579834,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "seat_dside_r3": {
+        "tag": 35185,
+        "headSourceZUp": [
+          -0.8386499881744385,
+          2.0243070125579834,
+          -0.3537200093269348
+        ],
+        "parent": "chassis"
+      },
+      "vehicle_blocker": {
+        "tag": 30126,
+        "headSourceZUp": [
+          0,
+          0,
+          0
+        ],
+        "parent": "chassis"
+      },
+      "bodyshell": {
+        "tag": 60113,
+        "headSourceZUp": [
+          0,
+          0,
+          0
+        ],
+        "parent": "chassis"
+      },
+      "dials": {
+        "tag": 16572,
+        "headSourceZUp": [
+          0,
+          0,
+          0
+        ],
+        "parent": "chassis"
+      },
+      "steeringwheel": {
+        "tag": 20285,
+        "headSourceZUp": [
+          -0.6305410265922546,
+          6.260982990264893,
+          -0.19379499554634094
+        ],
+        "parent": "chassis"
+      },
+      "hbgrip_r": {
+        "tag": 46530,
+        "headSourceZUp": [
+          -0.6320770382881165,
+          6.083841800689697,
+          0.4339980185031891
+        ],
+        "parent": "steeringwheel"
+      },
+      "hbgrip_l": {
+        "tag": 46652,
+        "headSourceZUp": [
+          -0.6320770382881165,
+          6.078246116638184,
+          0.329848974943161
+        ],
+        "parent": "steeringwheel"
+      },
+      "chassis_dummy": {
+        "tag": 39433,
+        "headSourceZUp": [
+          0,
+          0,
+          0
+        ],
+        "parent": "chassis"
+      }
+    },
+    "paintSRGB": "887e50",
+    "groundLiftMetres": 1.4589306116104126,
+    "sourceBoundsZUp": {
+      "minimum": [
+        -6.9658203125,
+        -12.33984375,
+        -1.4589306116104126
+      ],
+      "maximum": [
+        6.9658203125,
+        11.3486328125,
+        3.6455078125
+      ]
+    },
+    "missingInteriorMaterials": [
+      "flyer_interior_hd.001",
+      "flyer_interior_hd",
+      "flyer_interior_hd.002",
+      "script_rt_dials_lazer",
+      "script_rt_dials_lazer.001"
+    ],
+    "wheelPivotsSourceZUp": {
+      "wheel_lf": [
+        0.007249999791383743,
+        6.053071022033691,
+        -1.2304149866104126
+      ],
+      "wheel_lr": [
+        -1.1710710525512695,
+        -3.428675889968872,
+        -1.2191879749298096
+      ],
+      "wheel_rr": [
+        1.1710710525512695,
+        -3.428675889968872,
+        -1.2191879749298096
+      ]
+    },
+    "doorPivotsSourceZUp": {
+      "door_dside_f": [
+        -1.013288974761963,
+        6.3263020515441895,
+        0.011075999587774277
+      ],
+      "door_pside_f": [
+        1.013288974761963,
+        6.3263020515441895,
+        0.011075999587774277
+      ]
+    },
+    "doorAnimation": "Original front panels and any separately modeled glass rotate about their YFT skeleton pivots; browser-authored 70-degree opening, not original game animation.",
+    "wheelSpinAxis": "local +X",
+    "rotorAnimation": "Native rotor meshes and bone pivots; browser angular velocity, not native RAGE animation.",
+    "forwardAxis": "-Z",
+    "upAxis": "+Y",
+    "rotors": [
+      {
+        "bone": "rotor_main",
+        "pivot": [
+          0,
+          4.449455618858337,
+          -4.3827900886535645
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "parts": [
+          "rotor_main_slow",
+          "rotor_main_fast"
+        ]
+      },
+      {
+        "bone": "rotor_rear",
+        "pivot": [
+          0,
+          5.029391646385193,
+          5.374059200286865
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "parts": [
+          "rotor_rear_slow",
+          "rotor_rear_fast"
+        ]
+      }
+    ],
+    "wheelFragments": [
+      {
+        "name": "wheel_lf",
+        "childIndex": 13,
+        "file": "gear-13.yft.xml"
+      }
+    ],
+    "textures": [
+      {
+        "name": "plate02_n",
+        "sha256": "54fc7d896af2215d62320483e3c647845eab70c24e5bf6cc1f11eb8a7e760013"
+      },
+      {
+        "name": "vehicle_generic_black_plastic",
+        "sha256": "5bbcddcf0a2cb93049e2dccbae396a9b2ddf3c88fa7c24640032bacbcd2bfe8d"
+      },
+      {
+        "name": "vehicle_generic_burnt_int",
+        "sha256": "ba2b55c10042c7f69cf4c2ed00a3256e4654a343f2ef1854e5b4fd2c611ba63e"
+      },
+      {
+        "name": "vehicle_generic_burnt_out",
+        "sha256": "72e496c317bf35375125c36bf1062a06c8d898c71933cebdc0ee39e6cb0c5680"
+      },
+      {
+        "name": "black",
+        "sha256": "5bbcddcf0a2cb93049e2dccbae396a9b2ddf3c88fa7c24640032bacbcd2bfe8d"
+      },
+      {
+        "name": "vehicle_generic_tyrewallblack",
+        "sha256": "1ba4300739ed2842bf635f49c6bc47d6c1875efc4b27c33eb4d7ad604afeabb3"
+      },
+      {
+        "name": "vehicle_generic_smallspecmap",
+        "sha256": "3c02b92f1a865f0da9f2f047495bc15794799ed3c914369bcfd716a67fda1f87"
+      },
+      {
+        "name": "vehicle_generic_glasswindows2",
+        "sha256": "823e6dbc155b0e1d0db859c2caeed5bb37ae5c52dc59edb74f257ed1074a90ea"
+      },
+      {
+        "name": "yankton_plate",
+        "sha256": "0d4e105474cc3c8f78e3c62bb54dcd2f28a499d858ce2fa25b1f02142f91f076"
+      },
+      {
+        "name": "vehicle_generic_detail_stitch",
+        "sha256": "a86cd9f0f391a31c7c61e2346af42a36609b0796d2024ebe4aafb459bd68d042"
+      },
+      {
+        "name": "vehicle_generic_glassdirt",
+        "sha256": "a3dc1ee69644f943ec0e3d821e10e6f8898ecca856e10a520cae00077fea85f7"
+      },
+      {
+        "name": "plate05_n",
+        "sha256": "f40c8ef61badc14790e11a2e073e1728754e60da5999fef0175ef4004ae5a250"
+      },
+      {
+        "name": "plate03_n",
+        "sha256": "54fc7d896af2215d62320483e3c647845eab70c24e5bf6cc1f11eb8a7e760013"
+      },
+      {
+        "name": "vehicle_generic_detail2_normal",
+        "sha256": "476c00c9881ebc70b7df881b7d4bfa4af28c48a1e8f836c80913d07b492dd41f"
+      },
+      {
+        "name": "vehicle_generic_plate_font_n",
+        "sha256": "9517258def15978bf8d7e4d879e2de1677b2ffde4911f77ab126fe67350cda10"
+      },
+      {
+        "name": "carbon_mesh_shader_spec",
+        "sha256": "1cfa6475f18eae319b6979f2869fc3a3f68e0507dc73280d0cd32e94f2fa71ec"
+      },
+      {
+        "name": "vehicle_generic_detail_spec",
+        "sha256": "f408a27ce981406483a97e15c8866b13aff31bcbb5753e302f550a6d923b975c"
+      },
+      {
+        "name": "police_new2",
+        "sha256": "9797deb61f750c526236074e271d5e42c5c99156c83cb6962603f01ef90064c0"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_mod",
+        "sha256": "6ef5362d0ba420b5d78b493258adab599cab5008f4e977c59da8b9354ec5c16c"
+      },
+      {
+        "name": "plate01_n",
+        "sha256": "9fdd398f3b51807938936bdbcc05866af3a51980159eb756fbbfc3d6d9a3d331"
+      },
+      {
+        "name": "vehicle_generic_carbon",
+        "sha256": "14a367b4582fb1468e72a8ec3358b0fb2472567c4f11b5bd0274ca625cb15f96"
+      },
+      {
+        "name": "vehicle_genericmud_car",
+        "sha256": "cdb913e48fa071140c571827278eab856ec0afdda87fb057b0579ea9a54edcb6"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_mod_s",
+        "sha256": "ead6593a5714204c676588e4b6a2647c377dee70ef07f128b3be5e167906e6c3"
+      },
+      {
+        "name": "yankton_plate_n",
+        "sha256": "383c07fa6d4bd4bbfc6429aea964b5f003921c21bc9cfe8b56c3bb8772a842f4"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_mod_s2",
+        "sha256": "43a5cc37cf3a1643f033d5d4c78458bc621fadf47b9dffc7e104faf1869f5cd7"
+      },
+      {
+        "name": "vehicle_generic_detail_stitch_n",
+        "sha256": "83a19b5b303c68ef18f3c07cd10cf22891e9a5c4f3a1c02fed9353adc699d089"
+      },
+      {
+        "name": "plate04",
+        "sha256": "409285d8fb6abbaad20ac2dd33a089d090dcd1faba12bcd2174b311888114fac"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_mod_n",
+        "sha256": "0cb30e8a44c402a64c2407112c15e09c6ab79ec623f6229753b0d3749901a12b"
+      },
+      {
+        "name": "plate02",
+        "sha256": "479e0fc8fdca851c03a6a176d01621ae5252bf33baa67d7def236c684ae48923"
+      },
+      {
+        "name": "dinghyblack",
+        "sha256": "3370bf40a15e69fffbe56b0a5e58def1683b2a9110e7b7bf0c89b87576de03c1"
+      },
+      {
+        "name": "vehicle_generic_detail2",
+        "sha256": "74681dc6b0f323b09a29ae080547631d24635827fbcc3bc10a7eee8845e8df9c"
+      },
+      {
+        "name": "plate03",
+        "sha256": "de4e766c6fa97312342ab01475c3a14b2d84aad50d59e5db7a34cfa9c777cde2"
+      },
+      {
+        "name": "plate05",
+        "sha256": "db498e4c786699b8719a2fc2134a7ea4117719ab94abc88aa1edad54ec1c2ad9"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_spec",
+        "sha256": "f9a726effa5a062c3aced2fcfddf505bc2c96e391013982f287d1602737bcf3b"
+      },
+      {
+        "name": "vehicle_generic_doorshut",
+        "sha256": "8e32ae11379de5042985945032cef113642547cde6eb389bcf6b33f68a75c7a6"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_dirt",
+        "sha256": "08c5d98055be9f2ec3352fd4e233643f56ec05e4d4a7962f52b66459c7fd25b3"
+      },
+      {
+        "name": "vehicle_generic_doorshut_normal",
+        "sha256": "81dca9664afe2fe12193027bf407daeeef63f8f99aa3e87eb983b00fafbef67c"
+      },
+      {
+        "name": "vehicle_generic_tyrewall_normal",
+        "sha256": "a7375d49a047c1b38279f195cd2e246cf44c9ec60f15faac314cd0e52a330860"
+      },
+      {
+        "name": "vehicle_generic_alloy_silver_spec",
+        "sha256": "5a2ad3fd8dbaa0cbbd9f859b08e09708192fc5f431a98717169ac8095171d31a"
+      },
+      {
+        "name": "plate01",
+        "sha256": "8e8c2884687e5019f4b0257ef25059fdda6692306f59697383247026282ff7ef"
+      },
+      {
+        "name": "dinghyblack_spec",
+        "sha256": "6ceee821523f817fb593d436921e9debc47f97b3c83b06b3b0faa6b073b83165"
+      },
+      {
+        "name": "vehicle_generic_leather2_n",
+        "sha256": "1c3f261956c03d216debb6d1a30119e2d89bac924a562344ce6f319cd1f91b5a"
+      },
+      {
+        "name": "roof_dirt",
+        "sha256": "be5bc93e7715d12e78f22e4bf114da1d2c4aaf718897adfabe807fb0237599cc"
+      },
+      {
+        "name": "plate04_n",
+        "sha256": "232ad71cd28df54bc30638f758c9d9d47ed7170007bdc30c3aa798f10ea8dcc6"
+      },
+      {
+        "name": "vehicle_generic_plate_font",
+        "sha256": "b9b11eded438b77968b35ae8156f39c843b230f07e8b535adf7a4a63f87a8a21"
+      },
+      {
+        "name": "vehicle_generic_int_objects",
+        "sha256": "70921bcc78162d6c70d0f8b7098d0d8ec94f379f543183e9e877cb4f20113197"
+      },
+      {
+        "name": "blank_normal",
+        "sha256": "d4d3fa2353c7e4b269a040f18acb7c1c441a6bc841c8bcc3341658bdec0e8c7e"
+      },
+      {
+        "name": "cargobob2_livery_n",
+        "sha256": "92db936cbedad3c0a97ecf9d7b12607583efad5abacc7937572886d42a2b5f6f"
+      },
+      {
+        "name": "plane_interior_seat_hd",
+        "sha256": "641d5553fcd1c66bbb058811c5e6dde50c7b86503b3844c25598d91cb1079460"
+      },
+      {
+        "name": "2_prop_blades2_prop_blades_a",
+        "sha256": "70e29330f8a83133c36aa2177d78dee2c7fef501e71f9b4c2acdeb59b3c2e7a5"
+      },
+      {
+        "name": "cargobob_int_n",
+        "sha256": "5ce9b0b028c16c12ce7a2f850b5114cf99faacb87d4029b05292c804750da75d"
+      },
+      {
+        "name": "army_camouflage_512",
+        "sha256": "ebbee77ecae8743b82d477cf7bfcd02571c785ef49b50d3b6f050cf150baa287"
+      },
+      {
+        "name": "cargobob_livery_d",
+        "sha256": "5d92e312e34fb4acc7dc27a3ca9c9749813794f91e35bddc22ec1c78992959ec"
+      },
+      {
+        "name": "cargobob_int",
+        "sha256": "4ad7027ebfea952aa6322396c197d1f915a21826f1f064b0715b5bb996fc055a"
+      }
+    ]
+  },
+  "limitations": [
+    "Native GTA assets retain Rockstar ownership.",
+    "Original geometry and metre scale; PBR materials, rotor angular velocity and door articulation are browser adaptations.",
+    "No native RAGE damage, avionics shaders or helicopter flight solver is bundled."
+  ],
+  "output": {
+    "file": "model.glb",
+    "bytes": 5527188,
+    "sha256": "73e039a71892dbc87077e2780d80d82ca0c55e0260fea73ca8ea0034a4843bd6",
+    "meshes": 30,
+    "triangles": 74107
+  }
+}

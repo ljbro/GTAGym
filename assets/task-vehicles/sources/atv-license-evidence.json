@@ -1,0 +1,52 @@
+{
+  "api": "https://3dassets.dev/api/v1/assets/battle-royale-town-and-airfield-quad-bike-4677f8c0",
+  "id": "28242",
+  "url": "https://3dassets.dev/assets/battle-royale-town-and-airfield-quad-bike-4677f8c0",
+  "cdnUrl": "https://cdn.3dassets.dev/assets/28242/v1/model.glb",
+  "license": {
+    "slug": "cc0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false
+  },
+  "contributor": {
+    "username": "3dassets",
+    "name": "3D Assets",
+    "url": "https://3dassets.dev/u/3dassets"
+  },
+  "aiGenerated": true,
+  "stats": {
+    "fileSize": 157656,
+    "triangles": 15232,
+    "vertices": 12449,
+    "meshes": 18,
+    "materials": 6,
+    "textures": 0,
+    "animations": [
+      "wheel-roll"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5800210491855191,
+        -5.438923811329488e-9,
+        -0.9950000051036477
+      ],
+      "max": [
+        0.5800210545499371,
+        1.4065367262950876,
+        0.9950000047683716
+      ]
+    },
+    "sizeMeters": [
+      1.16,
+      1.407,
+      1.99
+    ],
+    "hasDraco": false,
+    "hasMeshopt": false,
+    "hasKTX2": false,
+    "extensionsUsed": [
+      "KHR_mesh_quantization"
+    ]
+  }
+}

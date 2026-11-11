@@ -1,0 +1,85 @@
+[
+  {
+    "id": "c06-n05",
+    "title": "47 Off the Rails · Go swimming from the riverbank to the dinghy",
+    "category": "water",
+    "mode": "swim",
+    "objective": "swim-then-board",
+    "craft": "zodiac",
+    "coast": [
+      9.04,
+      -1303.6950000000002
+    ],
+    "path": {
+      "points": [
+        [
+          22.491908197218436,
+          -1288.894791695601
+        ],
+        [
+          -38.041678690264526,
+          -1355.4957290653974
+        ]
+      ],
+      "length": 90,
+      "forward": [
+        -0.6725954098609218,
+        -0.7400104152199607
+      ],
+      "right": [
+        -0.7400104152199607,
+        0.6725954098609218
+      ],
+      "turns": []
+    },
+    "shorePath": {
+      "points": [
+        [
+          -38.041678690264526,
+          -1355.4957290653974
+        ],
+        [
+          22.491908197218436,
+          -1288.894791695601
+        ]
+      ],
+      "length": 90,
+      "forward": [
+        0.6725954098609218,
+        0.7400104152199607
+      ],
+      "right": [
+        0.7400104152199607,
+        -0.6725954098609218
+      ],
+      "turns": []
+    },
+    "expectedTurns": [],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 3,
+    "deepFloorDepth": 3,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 410.55657185977407,
+          "y": 555.9862095870205,
+          "sourceTime": 126.698206
+        },
+        {
+          "x": 402.62807019357547,
+          "y": 332.006037516906,
+          "sourceTime": 127.935605
+        }
+      ],
+      "descriptions": {
+        "start": "Land",
+        "end": "Small Boat in the Water",
+        "general": "Enter the water, swim to the finish, then press F Board boat"
+      }
+    },
+    "estimated": "90m land-to-sea native-coast adaptation preserving the annotated straight shape. Shore slope, boat dimensions and boarding height are estimated; original SVG is unchanged."
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "hz": 60,
+  "multiplier": 2,
+  "clock": "active simulation seconds, including boarding and shore transitions; loading/pause/inference excluded",
+  "tasks": [
+    {
+      "id": "c06-n02",
+      "expertTicks": 2209,
+      "expertSeconds": 36.81666666666667,
+      "maxDurationSeconds": 73.63333333333334
+    },
+    {
+      "id": "c06-n03",
+      "expertTicks": 2030,
+      "expertSeconds": 33.833333333333336,
+      "maxDurationSeconds": 67.66666666666667
+    },
+    {
+      "id": "c06-n04",
+      "expertTicks": 2030,
+      "expertSeconds": 33.833333333333336,
+      "maxDurationSeconds": 67.66666666666667
+    },
+    {
+      "id": "c06-n05",
+      "expertTicks": 4591,
+      "expertSeconds": 76.51666666666667,
+      "maxDurationSeconds": 153.03333333333333
+    },
+    {
+      "id": "c06-n06",
+      "expertTicks": 4528,
+      "expertSeconds": 75.46666666666667,
+      "maxDurationSeconds": 150.93333333333334
+    },
+    {
+      "id": "c06-n07",
+      "expertTicks": 4545,
+      "expertSeconds": 75.75,
+      "maxDurationSeconds": 151.5
+    },
+    {
+      "id": "c06-n08",
+      "expertTicks": 2438,
+      "expertSeconds": 40.63333333333333,
+      "maxDurationSeconds": 81.26666666666667
+    },
+    {
+      "id": "c06-n09",
+      "expertTicks": 5154,
+      "expertSeconds": 85.9,
+      "maxDurationSeconds": 171.8
+    },
+    {
+      "id": "c06-n10",
+      "expertTicks": 2772,
+      "expertSeconds": 46.2,
+      "maxDurationSeconds": 92.4
+    },
+    {
+      "id": "c06-n11",
+      "expertTicks": 4588,
+      "expertSeconds": 76.46666666666667,
+      "maxDurationSeconds": 152.93333333333334
+    },
+    {
+      "id": "c06-n01",
+      "expertTicks": 1931,
+      "expertSeconds": 32.18333333333333,
+      "maxDurationSeconds": 64.36666666666666
+    }
+  ]
+}

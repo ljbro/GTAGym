@@ -1,0 +1,43 @@
+{
+  "asset": "polyhaven-rollershutter-door.glb",
+  "author": "MP",
+  "source": "https://polyhaven.com/a/rollershutter_door",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "resolution": "1k",
+  "adaptation": "Removed duplicate graffiti variant, split fixed frame and moving sheet, subdivided sheet horizontally while preserving source shape and UVs/PBR maps. Runtime fits warehouse doorway and lifts sheet into housing; this is an authored animation, not a source animation clip.",
+  "sha256": "896c062a850350e5c1d4d7d8993938b11f1e922eaeef97acfc011199e4565b99",
+  "bytes": 1691612,
+  "downloads": [
+    {
+      "name": "rollershutter_door.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rollershutter_door/rollershutter_door_1k.gltf",
+      "md5": "e8ad4c4ea26db990d32301cd1f7481cf"
+    },
+    {
+      "name": "rollershutter_door.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rollershutter_door/rollershutter_door.bin",
+      "md5": "9df2ea3372b84dca7959d81cd5818d29"
+    },
+    {
+      "name": "textures/rollershutter_door_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_door/rollershutter_door_arm_1k.jpg",
+      "md5": "5fc759f9776f232e6039ec5f847073df"
+    },
+    {
+      "name": "textures/rollershutter_door_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_door/rollershutter_door_diff_1k.jpg",
+      "md5": "2903cbe74c5d9d434951ec8625725458"
+    },
+    {
+      "name": "textures/rollershutter_door_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_door/rollershutter_door_nor_gl_1k.jpg",
+      "md5": "bd6f336490c10bdb6ca1a527981054a3"
+    },
+    {
+      "name": "textures/rollershutter_door_graffiti_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rollershutter_door/rollershutter_door_graffiti_diff_1k.jpg",
+      "md5": "1985c43406b33a7a874ea78041dd44db"
+    }
+  ]
+}

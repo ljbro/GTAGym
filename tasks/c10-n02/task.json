@@ -1,0 +1,280 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_002442_SEGMENT_140_SHOOT",
+    "source_folder": "source-002442",
+    "source_task_number": "01",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_002442_SEGMENT_140",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/2feace034a181c1b7716d4bd3dbb81204fd2c12f8b20f4e34d02536a8663f1de.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 386.767,
+        "prompt": "Shoot at the left side of the red barn, Police officer standing on the snowy slope.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_002442_ACTION_000722",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shoot at the left side of the red barn, Police officer standing on the snowy slope.",
+    "target_description": "Left side of the red barn, Police officer standing on the snowy slope",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "trajectory_path": "tasks/source-002442/segments/GTA_TASK_002442_SEGMENT_140.json",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      936,
+      518,
+      987,
+      609
+    ],
+    "point_xy": [
+      957,
+      567
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      931,
+      516,
+      989,
+      611
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          983,
+          518
+        ],
+        [
+          980,
+          518
+        ],
+        [
+          978,
+          521
+        ],
+        [
+          978,
+          532
+        ],
+        [
+          974,
+          537
+        ],
+        [
+          971,
+          538
+        ],
+        [
+          958,
+          538
+        ],
+        [
+          949,
+          544
+        ],
+        [
+          946,
+          543
+        ],
+        [
+          945,
+          544
+        ],
+        [
+          942,
+          544
+        ],
+        [
+          941,
+          545
+        ],
+        [
+          939,
+          544
+        ],
+        [
+          938,
+          545
+        ],
+        [
+          938,
+          548
+        ],
+        [
+          936,
+          550
+        ],
+        [
+          936,
+          552
+        ],
+        [
+          938,
+          555
+        ],
+        [
+          942,
+          557
+        ],
+        [
+          944,
+          561
+        ],
+        [
+          943,
+          569
+        ],
+        [
+          937,
+          582
+        ],
+        [
+          937,
+          588
+        ],
+        [
+          939,
+          594
+        ],
+        [
+          943,
+          599
+        ],
+        [
+          944,
+          602
+        ],
+        [
+          943,
+          603
+        ],
+        [
+          943,
+          609
+        ],
+        [
+          951,
+          609
+        ],
+        [
+          955,
+          606
+        ],
+        [
+          955,
+          600
+        ],
+        [
+          951,
+          591
+        ],
+        [
+          950,
+          585
+        ],
+        [
+          953,
+          582
+        ],
+        [
+          959,
+          580
+        ],
+        [
+          967,
+          589
+        ],
+        [
+          970,
+          596
+        ],
+        [
+          970,
+          599
+        ],
+        [
+          972,
+          605
+        ],
+        [
+          974,
+          607
+        ],
+        [
+          981,
+          607
+        ],
+        [
+          983,
+          605
+        ],
+        [
+          972,
+          576
+        ],
+        [
+          971,
+          565
+        ],
+        [
+          970,
+          564
+        ],
+        [
+          970,
+          556
+        ],
+        [
+          973,
+          551
+        ],
+        [
+          977,
+          547
+        ],
+        [
+          984,
+          543
+        ],
+        [
+          987,
+          539
+        ],
+        [
+          987,
+          525
+        ],
+        [
+          985,
+          520
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

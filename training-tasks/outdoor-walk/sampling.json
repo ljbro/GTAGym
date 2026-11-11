@@ -1,0 +1,24 @@
+{
+  "name": "walk-train-50-v2",
+  "new_task_name": "walk-new49-v2",
+  "template": "outdoor",
+  "movement": "walk",
+  "count": 50,
+  "seed": 20261027,
+  "sampling": {
+    "route_distribution": "empirical_joint_length_turns",
+    "landmark_distribution": "empirical_endpoint_types",
+    "allocation": "largest_remainder",
+    "length_tolerance": 0.05
+  },
+  "validation": {
+    "controller_rollout": true,
+    "min_start_goal_separation_m": 40,
+    "eval_route_clearance_m": 100
+  },
+  "retain": {
+    "dataset": "training-tasks/outdoor-walk/tasks.json",
+    "task_id": "rl-task-outdoor-all-types-v4-0002",
+    "nominal_length_m": 100
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008707_SEGMENT_061_SHOOT",
+    "source_folder": "source-008707",
+    "source_task_number": "17",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008707_SEGMENT_061",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/d9fee0f2a89c4f1627b17bdc98d92d2e3559c043b93bf30d49ce7d95f0d6323a.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 157.167,
+        "prompt": "Shoot the dark pickup beside the bushes in the parking lot. Output one pixel coordinate on the target [x, y].",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008707_ACTION_000237",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "target_description": "The dark pickup beside the bushes in the parking lot",
+    "instruction": "Shoot the dark pickup beside the bushes in the parking lot. Output one pixel coordinate on the target [x, y].",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      713,
+      484,
+      964,
+      618
+    ],
+    "point_xy": [
+      838.5,
+      551
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

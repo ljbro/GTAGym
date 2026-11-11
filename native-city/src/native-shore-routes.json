@@ -1,0 +1,122 @@
+[
+  {
+    "id": "c06-n03",
+    "title": "29 Troop transport helicopter · Go swimming toward the shore",
+    "category": "water",
+    "mode": "swim",
+    "objective": "swim-ashore",
+    "coast": [
+      -4721.865,
+      -2401.985
+    ],
+    "path": {
+      "points": [
+        [
+          -4664.53978453689,
+          -2442.157374489294
+        ],
+        [
+          -4738.243632989459,
+          -2390.507178717345
+        ]
+      ],
+      "length": 90,
+      "forward": [
+        -0.8189316494729946,
+        0.5738910641327676
+      ],
+      "right": [
+        0.5738910641327676,
+        0.8189316494729946
+      ],
+      "turns": []
+    },
+    "expectedTurns": [],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 3,
+    "deepFloorDepth": 3,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 425.09211792136034,
+          "y": 476.04046428962744,
+          "sourceTime": 138.936666
+        },
+        {
+          "x": 420.4671989425226,
+          "y": 316.1490341845085,
+          "sourceTime": 139.866603
+        }
+      ],
+      "descriptions": {
+        "start": "In the water",
+        "end": "Land",
+        "general": "Swim straight for a while, then go ashore"
+      }
+    },
+    "estimated": "90m native-coast route, sloping beach and wading thresholds are adaptations. Original source annotation is unchanged; river appearance is not reproduced."
+  },
+  {
+    "id": "c06-n04",
+    "title": "44 Night of the Hunt · Swim Across the River",
+    "category": "water",
+    "mode": "swim",
+    "objective": "swim-ashore",
+    "coast": [
+      -4705.98,
+      -2127.075
+    ],
+    "path": {
+      "points": [
+        [
+          -4638.354370822553,
+          -2108.9981009751505
+        ],
+        [
+          -4725.301608336412,
+          -2132.239828292814
+        ]
+      ],
+      "length": 90,
+      "forward": [
+        -0.9660804168206537,
+        -0.25824141464070444
+      ],
+      "right": [
+        -0.25824141464070444,
+        0.9660804168206537
+      ],
+      "turns": []
+    },
+    "expectedTurns": [],
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 3,
+    "deepFloorDepth": 3,
+    "entrance": false,
+    "source": {
+      "points": [
+        {
+          "x": 479.9309614390131,
+          "y": 462.1655863737796,
+          "sourceTime": 430
+        },
+        {
+          "x": 473.984585189364,
+          "y": 241.48893650135886,
+          "sourceTime": 430
+        }
+      ],
+      "descriptions": {
+        "start": "In the water",
+        "end": "Land",
+        "general": "Swim straight for a while, then go ashore"
+      }
+    },
+    "estimated": "90m native-coast route, sloping beach and wading thresholds are adaptations. Original source annotation is unchanged; river appearance is not reproduced."
+  }
+]

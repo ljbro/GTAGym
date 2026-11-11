@@ -1,0 +1,187 @@
+{
+  "retrieved": "2026-10-07",
+  "sources": [
+    {
+      "id": "motorcycle",
+      "title": "Motorcycle",
+      "author": "Poly by Google",
+      "page": "https://poly.pizza/m/dse64pqMKAR",
+      "file": "f7635710-7cfa-4768-ad70-8366ab485358",
+      "license": "CC-BY-3.0",
+      "length": 2.2,
+      "yaw": 3.141592653589793,
+      "download": "https://static.poly.pizza/f7635710-7cfa-4768-ad70-8366ab485358.glb",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceSha256": "a20a32a457e76cec52eb6c65919f3be8dbbe02d9b4a8ec5e789f11a07a4f39fc",
+      "outputs": [
+        {
+          "file": "motorcycle.glb",
+          "sha256": "1ca4ea95e895d58d5746577fb974387678b9c17a2f99a0db006dba5205661a4c",
+          "bytes": 109512,
+          "bounds": {
+            "min": [
+              -0.3697889873143917,
+              0,
+              -1.1
+            ],
+            "max": [
+              0.3697889873143917,
+              1.1592735146152793,
+              1.1
+            ]
+          }
+        },
+        {
+          "file": "motorcycle-green.glb",
+          "sha256": "e91b328e63ba031ceba57bd4887314f75e491d86f8623eaf08a43566b72e54b1",
+          "bytes": 111260,
+          "bounds": {
+            "min": [
+              -0.3697889873143917,
+              0,
+              -1.1
+            ],
+            "max": [
+              0.3697889873143917,
+              1.1592735146152793,
+              1.1
+            ]
+          }
+        }
+      ],
+      "changes": "Normalized metre scale and ground pivot; PBR roughness/metalness; green motorcycle and red convertible palette variants; white van body."
+    },
+    {
+      "id": "pickup",
+      "title": "Pickup Truck",
+      "author": "Quaternius",
+      "page": "https://poly.pizza/m/qn4grQgHm8",
+      "file": "4e925a01-dbb8-4aab-848b-221306b835ea",
+      "license": "CC0-1.0",
+      "length": 5.3,
+      "yaw": 0,
+      "download": "https://static.poly.pizza/4e925a01-dbb8-4aab-848b-221306b835ea.glb",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceSha256": "9d6b2e33af0d37bf42b2e7af850949f4efd0ddbb9a88077812d152d8b4c1c3eb",
+      "outputs": [
+        {
+          "file": "pickup.glb",
+          "sha256": "270134eb191c10e0bd7208d9c75420e112bafaa9129e3904b6f02a0759f3d7c0",
+          "bytes": 270856,
+          "bounds": {
+            "min": [
+              -1.1827819063126093,
+              0,
+              -2.65
+            ],
+            "max": [
+              1.182781906312609,
+              1.8911273251445462,
+              2.65
+            ]
+          }
+        }
+      ],
+      "changes": "Normalized metre scale and ground pivot; PBR roughness/metalness; green motorcycle and red convertible palette variants; white van body."
+    },
+    {
+      "id": "van",
+      "title": "Generic Van",
+      "author": "PuKkBuMXDD",
+      "page": "https://poly.pizza/m/BbRojf2v3H",
+      "file": "233b6797-9ce6-4369-8458-0b7fe16444ef",
+      "license": "CC-BY-3.0",
+      "length": 5.4,
+      "yaw": 1.5707963267948966,
+      "download": "https://static.poly.pizza/233b6797-9ce6-4369-8458-0b7fe16444ef.glb",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceSha256": "674ad1ba089b45026b86fa9d26058414cd9f44e6bd03315eafb95a188f9fc736",
+      "outputs": [
+        {
+          "file": "van.glb",
+          "sha256": "0285fd4dceb44a703a88e78b5ba19b9c016b9581897d2faed04c60a82c7c4230",
+          "bytes": 186380,
+          "bounds": {
+            "min": [
+              -1.1249999999999998,
+              1.3877787807814457e-17,
+              -2.6999999999999997
+            ],
+            "max": [
+              1.1249999999999998,
+              2.5,
+              2.7
+            ]
+          }
+        }
+      ],
+      "changes": "Normalized metre scale and ground pivot; PBR roughness/metalness; green motorcycle and red convertible palette variants; white van body."
+    },
+    {
+      "id": "sedan",
+      "title": "Car (sedan)",
+      "author": "Quaternius",
+      "page": "https://poly.pizza/m/Cz6yDaUcM9",
+      "file": "59a67a6c-490e-472e-bae6-5a4d2541f1c7",
+      "license": "CC0-1.0",
+      "length": 4.7,
+      "yaw": 0,
+      "download": "https://static.poly.pizza/59a67a6c-490e-472e-bae6-5a4d2541f1c7.glb",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceSha256": "bf00f2f0386a25aa310abc0424d22586e46a59ee6c737e6b375c97c9f01bd462",
+      "outputs": [
+        {
+          "file": "sedan.glb",
+          "sha256": "9dbf66ff28179075ecf4ffb58ba161871831baa1b1553ce3ee7004a370f4baaa",
+          "bytes": 163680,
+          "bounds": {
+            "min": [
+              -1.006297311976465,
+              0,
+              -2.35
+            ],
+            "max": [
+              1.006297311976465,
+              1.3101852561454026,
+              2.3500000000000005
+            ]
+          }
+        }
+      ],
+      "changes": "Normalized metre scale and ground pivot; PBR roughness/metalness; green motorcycle and red convertible palette variants; white van body."
+    },
+    {
+      "id": "convertible",
+      "title": "Convertible",
+      "author": "Poly by Google",
+      "page": "https://poly.pizza/m/dggOiBLYyuR",
+      "file": "c434a5e4-0232-4a96-a008-f1152ff6b4fa",
+      "license": "CC-BY-3.0",
+      "length": 4.7,
+      "yaw": 0,
+      "download": "https://static.poly.pizza/c434a5e4-0232-4a96-a008-f1152ff6b4fa.glb",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceSha256": "9dbc16370595465eac79c897e8532f016da756452eee7adb4a539402eaca1e07",
+      "outputs": [
+        {
+          "file": "convertible.glb",
+          "sha256": "48ed9b6f7d33a791055b8df2918b9f070597ea08b3f819350b0523a15c9608d5",
+          "bytes": 1657332,
+          "bounds": {
+            "min": [
+              -1.000158530190934,
+              0,
+              -2.35
+            ],
+            "max": [
+              1.000158530190934,
+              1.416048841517015,
+              2.35
+            ]
+          }
+        }
+      ],
+      "changes": "Normalized metre scale and ground pivot; PBR roughness/metalness; green motorcycle and red convertible palette variants; white van body. Windshield: 16 inner/outer triangles split into a transparent glass material; opaque body and frame retained."
+    }
+  ]
+}

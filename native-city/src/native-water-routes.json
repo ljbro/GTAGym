@@ -1,0 +1,56 @@
+[
+  {
+    "id": "c06-n02",
+    "title": "Swim underwater to the submerged entrance",
+    "category": "water",
+    "mode": "swim",
+    "source": {
+      "points": [
+        {
+          "x": 432.3599514418206,
+          "y": 499.165240652818,
+          "sourceTime": 349.944226
+        },
+        {
+          "x": 433.681408712632,
+          "y": 338.61308191229347,
+          "sourceTime": 350.639851
+        }
+      ],
+      "descriptions": {
+        "start": "Shallow Water",
+        "end": "Deep water",
+        "general": "The endpoint must be significantly deeper than the starting point"
+      }
+    },
+    "expectedTurns": [],
+    "path": {
+      "points": [
+        [
+          -4708.937086343278,
+          -2590.948585069964
+        ],
+        [
+          -4619.0081189420425,
+          -2587.3735574969846
+        ]
+      ],
+      "length": 89.99999999999996,
+      "turns": [],
+      "forward": [
+        0.9992107489026142,
+        0.039722528588658546
+      ],
+      "right": [
+        0.039722528588658546,
+        -0.9992107489026142
+      ]
+    },
+    "waterHeight": -0.25,
+    "startDepth": 0.7,
+    "goalDepth": 6,
+    "shallowFloorDepth": 2.2,
+    "deepFloorDepth": 8.5,
+    "estimated": "90m route and 0.7m to 6m dive depth are native-city adaptations, not video measurements."
+  }
+]

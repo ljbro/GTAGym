@@ -1,0 +1,35 @@
+{
+  "character": "michael",
+  "sourcePage": "https://p3dm.ru/files/characters/human/1144-michael-.html",
+  "sourceDownload": "https://p3dm.ru/engine/download.php?id=647",
+  "sourceMeshes": [
+    "michael.obj"
+  ],
+  "sourceMeshSha256": {
+    "michael.obj": "781491d633d7e5d2854bc4562c4a4ac94dffd127e8049c40931e916f6bd335a2"
+  },
+  "sourceAuthor": "Rockstar North",
+  "sourceRip": "Vados",
+  "meshOrigin": "Grand Theft Auto V OBJ exports",
+  "locomotionSource": "https://raw.githubusercontent.com/mrdoob/three.js/r180/examples/models/gltf/Soldier.glb",
+  "locomotionSourceSha256": "dfb230fc1f942f259dd00281a1186953ad602fc5d69067ce63e24b2aa439736b",
+  "motionDataSha256": "bf8985f4291e62089f2e57869a88dd85fd45b94078fd5095ae0598fa6407e16b",
+  "animationOrigin": "MakeHuman/vsim skeleton; Mixamo Walk/Run retargeted from Three.js r180 Soldier joint trajectories with relaxed shoulder/elbow/palm constraints; corrected MakeHuman idle and original donor wave; not original GTA V animations",
+  "conversion": "DDS/TGA to embedded PNG, neutral-pose alignment, nearest-surface skin transfer",
+  "alignment": {
+    "inputHeight": 1.8422859907150269,
+    "scale": 1.0492399170064608,
+    "axis": "y-positive-z"
+  },
+  "skin": {
+    "vertices": 21952,
+    "unweightedVertices": 0,
+    "maxInfluences": 4
+  },
+  "deformationCheck": {
+    "walkPoseRmsDisplacementMeters": 0.28544781041479966,
+    "walkPoseMaxDisplacementMeters": 1.1380435758470733
+  },
+  "bytes": 3043060,
+  "sha256": "992b8e0e01822fa1e414fd70e2c36f9af59481ac1e9b2d1ff03d61322f3406d7"
+}

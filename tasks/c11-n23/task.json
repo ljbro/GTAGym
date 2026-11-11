@@ -1,0 +1,248 @@
+{
+  "id": "GTA_TASK_009187_SEGMENT_292_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the short-haired person on the metal-railing platform outside the glass-fronted building, wearing a dark jacket and trousers with a red top underneath and holding their hands in front of their chest.",
+  "instruction_en": "Shoot the short-haired person on the metal-railing platform outside the glass-fronted building, wearing a dark jacket and trousers with a red top underneath and holding their hands in front of their chest.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/6b822018943e2caee14dfab768913f3561f46485887d03c8701402fe8f5fb0a9.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/6b822018943e2caee14dfab768913f3561f46485887d03c8701402fe8f5fb0a9.png",
+      "sha256": "6b822018943e2caee14dfab768913f3561f46485887d03c8701402fe8f5fb0a9"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/b34ff6543a5f08dd0b4acf0748e7b21ccc201a380ea36d9031f47a8be018b2a5.png",
+      "sha256": "b34ff6543a5f08dd0b4acf0748e7b21ccc201a380ea36d9031f47a8be018b2a5"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/6aea3816fcfc21b5d521d5a77c93858ddea9908113472de8b0db76e0ba55c7ec.png",
+      "sha256": "6aea3816fcfc21b5d521d5a77c93858ddea9908113472de8b0db76e0ba55c7ec"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/1e778f6f3060b8465b44d75bbfebf2ef41a3f5f79a206916f5d51102b973b657.png",
+      "sha256": "1e778f6f3060b8465b44d75bbfebf2ef41a3f5f79a206916f5d51102b973b657"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_009187_SEGMENT_292_target",
+    "hit_polygons": [
+      [
+        [
+          639.375,
+          356.25
+        ],
+        [
+          640.25,
+          356.375
+        ],
+        [
+          640.875,
+          357.125
+        ],
+        [
+          640.625,
+          357.875
+        ],
+        [
+          641.25,
+          358.625
+        ],
+        [
+          641.625,
+          358.875
+        ],
+        [
+          641.75,
+          359.625
+        ],
+        [
+          641.5,
+          360.375
+        ],
+        [
+          640.875,
+          360.75
+        ],
+        [
+          641,
+          362
+        ],
+        [
+          641.25,
+          362.5
+        ],
+        [
+          641.125,
+          363.875
+        ],
+        [
+          641.25,
+          365.125
+        ],
+        [
+          640.875,
+          367.5
+        ],
+        [
+          640.75,
+          368.25
+        ],
+        [
+          641.375,
+          368.5
+        ],
+        [
+          641.375,
+          368.75
+        ],
+        [
+          640.5,
+          368.75
+        ],
+        [
+          639.875,
+          368.625
+        ],
+        [
+          639.625,
+          369
+        ],
+        [
+          640,
+          369.25
+        ],
+        [
+          639.75,
+          369.5
+        ],
+        [
+          639.125,
+          369.375
+        ],
+        [
+          638.75,
+          368.75
+        ],
+        [
+          638.75,
+          367.75
+        ],
+        [
+          639.125,
+          366
+        ],
+        [
+          639.375,
+          364.625
+        ],
+        [
+          639.25,
+          363
+        ],
+        [
+          638.875,
+          362.5
+        ],
+        [
+          638.875,
+          360.875
+        ],
+        [
+          638.625,
+          359.875
+        ],
+        [
+          638.75,
+          358.875
+        ],
+        [
+          639.25,
+          358.125
+        ],
+        [
+          638.875,
+          357.375
+        ]
+      ]
+    ],
+    "exclusion_polygons": [
+      [
+        [
+          638.125,
+          365.25
+        ],
+        [
+          642,
+          364.5
+        ],
+        [
+          642.125,
+          364.875
+        ],
+        [
+          638.125,
+          365.625
+        ]
+      ]
+    ]
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_009187_SEGMENT_292/scene.json",
+    "original_revision": "a74724f921109bba6a0c6aa29fee88d2d2dea07af4206fa92bf8be1ff8177ecc",
+    "original_instruction": "Shoot on the metal walkway outside the glass curtain wall building, Man in a dark jacket and gray shorts.",
+    "description_change": "Farther native replay preserves the glass-building railing platform and human target. Updated clothing, hair and hand pose to the actual recaptured person; no entity substitution or synthetic background.",
+    "mission": "The Multi Target Assassination",
+    "script": "assassin_multi",
+    "visual_review": "Reviewed final native 8x capture and enlarged silhouette. Handle 6914 at 83.9 m; dark jacket/red top person on the original platform. Waist/leg-crossing handrail excluded. Earlier cameras behind walls or pillars rejected. No changes to the seven legacy tasks.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 6914,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        -701.8445434570312,
+        192.22503662109375,
+        116.00249481201172
+      ],
+      "target_position": [
+        -697.1060180664062,
+        269.2713317871094,
+        83.11219024658203
+      ],
+      "target_distance_m": 83.90683736200003,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-614d25e22a081b4cd6211b1b28dc25b58f178246c241a9ab99b18bc4325672e8"
+}

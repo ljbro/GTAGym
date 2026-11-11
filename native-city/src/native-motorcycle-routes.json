@@ -1,0 +1,549 @@
+[
+  {
+    "id": "c03-n06",
+    "title": "Ride a motorcycle and follow your accomplice out of the shopping street",
+    "category": "follow",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 1,
+          "degrees": -88.6821934106206
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -94.6208116703534
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 3,
+          "degrees": 43.18387999241718
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 4,
+          "degrees": -59.132150934576025
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 5,
+          "degrees": 107.70931639150287
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [
+      "left",
+      "left",
+      "right",
+      "left",
+      "right"
+    ],
+    "path": {
+      "points": [
+        [
+          -5210.8,
+          435.1
+        ],
+        [
+          -5208.7,
+          288.3
+        ],
+        [
+          -5207.7,
+          220.8
+        ],
+        [
+          -5207.6,
+          215.4
+        ],
+        [
+          -5205.4,
+          55.8
+        ],
+        [
+          -5204.4,
+          -15
+        ],
+        [
+          -5204.3,
+          -22.5
+        ],
+        [
+          -5201.4,
+          -230.4
+        ],
+        [
+          -5201.3,
+          -234.8
+        ],
+        [
+          -5200.9,
+          -265.8
+        ],
+        [
+          -5199,
+          -394.9
+        ],
+        [
+          -5198.9,
+          -401
+        ],
+        [
+          -5187,
+          -400.7
+        ],
+        [
+          -5058.9,
+          -400.7
+        ],
+        [
+          -5059,
+          -396.2
+        ],
+        [
+          -5059.8,
+          -347.3
+        ],
+        [
+          -5061.7,
+          -232.8
+        ],
+        [
+          -5011.1,
+          -232
+        ],
+        [
+          -4931.6,
+          -230.8
+        ],
+        [
+          -4925.7,
+          -230.7
+        ],
+        [
+          -4785.4,
+          -228.5
+        ],
+        [
+          -4785.4,
+          -223.4
+        ],
+        [
+          -4786.3,
+          -153.3
+        ],
+        [
+          -4786.9,
+          -102.9
+        ],
+        [
+          -4788.1,
+          -19
+        ],
+        [
+          -4776.9,
+          -19
+        ],
+        [
+          -4732.3,
+          -26.8
+        ],
+        [
+          -4702.4,
+          -30.5
+        ],
+        [
+          -4642.7,
+          -30.6
+        ]
+      ],
+      "turns": [
+        {
+          "index": 11,
+          "direction": "left",
+          "degrees": -90.50493458519695,
+          "distance": 836.1849852449409
+        },
+        {
+          "index": 13,
+          "direction": "left",
+          "degrees": -91.27303002006136,
+          "distance": 976.1887661569033
+        },
+        {
+          "index": 16,
+          "direction": "right",
+          "degrees": 90.04488574821558,
+          "distance": 1144.1121837674382
+        },
+        {
+          "index": 20,
+          "direction": "left",
+          "degrees": -89.10163659890254,
+          "distance": 1420.445658660207
+        },
+        {
+          "index": 24,
+          "direction": "right",
+          "degrees": 90.8194308418176,
+          "distance": 1629.9635883909336
+        }
+      ],
+      "length": 1776.268657844218,
+      "residential": null,
+      "graphNodeIds": [
+        513,
+        678,
+        679,
+        680,
+        681,
+        878,
+        3430,
+        3431,
+        3432,
+        37538,
+        26775,
+        3941,
+        3942,
+        24415,
+        37754,
+        11828,
+        37458,
+        11818,
+        3913,
+        20888,
+        37453,
+        32862,
+        32887,
+        27741,
+        35209,
+        24329,
+        10169,
+        10170,
+        10171
+      ]
+    }
+  },
+  {
+    "id": "c05-n13",
+    "title": "Ride out of the hotel area",
+    "category": "escape",
+    "mode": "drive",
+    "source": {
+      "revision": 2,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "Riding a green motorcycle"
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 1,
+          "degrees": -88.63053893100486
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 2,
+          "degrees": 91.34291162530941
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 3,
+          "degrees": -92.3259150697134
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [
+      "left",
+      "right",
+      "left"
+    ],
+    "path": {
+      "points": [
+        [
+          -5895.3,
+          -1113.5
+        ],
+        [
+          -5974.4,
+          -1094
+        ],
+        [
+          -5997.1,
+          -1089.5
+        ],
+        [
+          -6006.4,
+          -1087.6
+        ],
+        [
+          -6006.7,
+          -1092.6
+        ],
+        [
+          -6012.1,
+          -1202.8
+        ],
+        [
+          -6036.5,
+          -1202.1
+        ],
+        [
+          -6184,
+          -1205.3
+        ],
+        [
+          -6317.3,
+          -1206.3
+        ],
+        [
+          -6344,
+          -1206.5
+        ],
+        [
+          -6345.1,
+          -1216.4
+        ],
+        [
+          -6357.2,
+          -1329.5
+        ],
+        [
+          -6363.5,
+          -1365.8
+        ],
+        [
+          -6376,
+          -1413.9
+        ],
+        [
+          -6453.4,
+          -1629.2
+        ],
+        [
+          -6458.1,
+          -1642.4
+        ],
+        [
+          -6535.2,
+          -1847.6
+        ]
+      ],
+      "turns": [
+        {
+          "index": 3,
+          "direction": "left",
+          "degrees": -98.11306018347615,
+          "distance": 114.1019924534077
+        },
+        {
+          "index": 5,
+          "direction": "right",
+          "degrees": 88.83792742135121,
+          "distance": 229.44320994144744
+        },
+        {
+          "index": 9,
+          "direction": "left",
+          "degrees": -83.23063441188569,
+          "distance": 561.3924565789324
+        }
+      ],
+      "length": 1233.6472816470084,
+      "residential": null,
+      "graphNodeIds": [
+        34705,
+        10852,
+        38038,
+        35821,
+        37750,
+        10412,
+        10413,
+        10414,
+        10415,
+        10182,
+        10181,
+        10180,
+        10179,
+        10178,
+        10177,
+        10176,
+        10175
+      ]
+    }
+  },
+  {
+    "id": "c05-n14",
+    "title": "Switch to a dirt bike and escape the police along the beach",
+    "category": "escape",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "The route should follow the coastline"
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 66.58505505507857
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 2,
+          "degrees": -103.6906694705063
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 3,
+          "degrees": 100.25050506347436
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 4,
+          "degrees": 89.13229049467041
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 5,
+          "degrees": 95.36524826900916
+        },
+        {
+          "direction": "left",
+          "sourceIndex": 6,
+          "degrees": -71.69728481511282
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "expectedTurns": [
+      "right",
+      "left",
+      "right",
+      "right",
+      "right",
+      "left"
+    ],
+    "path": {
+      "points": [
+        [
+          -4880.955105569626,
+          -2442.3086634882493
+        ],
+        [
+          -4881.865410189291,
+          -2279.099371779641
+        ],
+        [
+          -4751.000754600976,
+          -2221.5597679936945
+        ],
+        [
+          -4822.8487676550985,
+          -2127.6720106994317
+        ],
+        [
+          -4778.620734261152,
+          -2104.9665958421897
+        ],
+        [
+          -4700.8698039719475,
+          -2250.934232541035
+        ],
+        [
+          -4811.384821767369,
+          -2297.11185674138
+        ],
+        [
+          -4800.650503508683,
+          -2437.4357211684724
+        ]
+      ],
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right",
+          "degrees": 66.58505505507873,
+          "distance": 163.2118303142459
+        },
+        {
+          "index": 2,
+          "direction": "left",
+          "degrees": -103.69066947050648,
+          "distance": 306.16764196977823
+        },
+        {
+          "index": 3,
+          "direction": "right",
+          "degrees": 100.25050506347486,
+          "distance": 424.3922077316022
+        },
+        {
+          "index": 4,
+          "direction": "right",
+          "degrees": 89.13229049466999,
+          "distance": 474.1079477113659
+        },
+        {
+          "index": 5,
+          "direction": "right",
+          "degrees": 95.36524826900906,
+          "distance": 639.4916171720562
+        },
+        {
+          "index": 6,
+          "direction": "left",
+          "degrees": -71.6972848151125,
+          "distance": 759.2661642808253
+        }
+      ],
+      "length": 900.0000000000002,
+      "residential": null,
+      "graphNodeIds": [],
+      "testDriveProfile": {
+        "cruiseSpeed": 38,
+        "cornerSpeed": 12,
+        "lookAhead": 8,
+        "lookSpeed": 0.22
+      },
+      "placement": {
+        "kind": "native-coast-svg",
+        "scale": 1.3351950955382008,
+        "axisScale": [
+          1.3351950955382008,
+          1.3351950955382008
+        ],
+        "angle": 6.277953047029575,
+        "anchor": [
+          -4880.955105569626,
+          -2442.3086634882493
+        ],
+        "sourceOrigin": [
+          482.57375500130115,
+          -583.0752367833104
+        ],
+        "maxCoastDistance": 195.7283612151309,
+        "coastLimit": 200
+      }
+    }
+  }
+]

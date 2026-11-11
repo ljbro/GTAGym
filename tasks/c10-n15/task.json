@@ -1,0 +1,57 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008842_SEGMENT_028_SHOOT",
+    "source_folder": "source-008842",
+    "source_task_number": "36",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v2_min3",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008842_SEGMENT_028",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/ed93f3166d84bf3bbfe3e08b7559bfde0aa500034a17e5178d28212586271d17.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 307.367,
+        "prompt": "Shoot the police car on the right ahead near the green container.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008842_ACTION_000433",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "trajectory_path": "tasks/source-008842/segments/GTA_TASK_008842_SEGMENT_028.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "instruction": "Shoot the police car on the right ahead near the green container.",
+    "target_description": "The police car ahead on the right near the green container",
+    "target_category": "car",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      948,
+      443,
+      1154,
+      536
+    ],
+    "point_xy": [
+      1051,
+      489.5
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

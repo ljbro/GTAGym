@@ -1,0 +1,191 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008682_SEGMENT_021_SHOOT",
+    "source_folder": "source-008682",
+    "source_task_number": "53",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008682_SEGMENT_021",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/fc96ee4ce7e6768493a6d55846ef8c0ddfab5b47e14dfd4b5fd6fc0b4c97eacc.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 35.8,
+        "prompt": "Shoot toward the far end of the factory passage, The armed man in a light-colored top beside the person on the ground.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008682_ACTION_000077",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "target_description": "Far End of Factory Passage, The armed man in a light-colored top beside the person on the ground",
+    "instruction": "Shoot toward the far end of the factory passage, The armed man in a light-colored top beside the person on the ground.",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_category": "person",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      929,
+      508,
+      956,
+      564
+    ],
+    "point_xy": [
+      943,
+      548
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      931,
+      507,
+      957,
+      564
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          932,
+          508
+        ],
+        [
+          929,
+          512
+        ],
+        [
+          930,
+          516
+        ],
+        [
+          933,
+          519
+        ],
+        [
+          933,
+          521
+        ],
+        [
+          931,
+          524
+        ],
+        [
+          931,
+          527
+        ],
+        [
+          932,
+          528
+        ],
+        [
+          935,
+          528
+        ],
+        [
+          937,
+          526
+        ],
+        [
+          939,
+          526
+        ],
+        [
+          941,
+          529
+        ],
+        [
+          941,
+          536
+        ],
+        [
+          934,
+          545
+        ],
+        [
+          934,
+          554
+        ],
+        [
+          936,
+          558
+        ],
+        [
+          936,
+          562
+        ],
+        [
+          937,
+          564
+        ],
+        [
+          940,
+          564
+        ],
+        [
+          944,
+          561
+        ],
+        [
+          949,
+          562
+        ],
+        [
+          950,
+          561
+        ],
+        [
+          950,
+          554
+        ],
+        [
+          951,
+          553
+        ],
+        [
+          953,
+          542
+        ],
+        [
+          956,
+          536
+        ],
+        [
+          955,
+          524
+        ],
+        [
+          951,
+          515
+        ],
+        [
+          946,
+          510
+        ],
+        [
+          941,
+          508
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

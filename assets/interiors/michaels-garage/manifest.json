@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "michaels-garage-gta-derived",
+  "file": "michaels-garage.glb",
+  "source": "OffMapBench assets/gta-v/locations/michaels-garage.glb",
+  "sourceRepository": "https://github.com/CeKey/GTAVBikersDLCGrowGame",
+  "sourceCommit": "8f3a91df2158105e220048a8e099216c4ca896d7",
+  "license": "GTA V-derived; no separate asset license supplied",
+  "copyright": "Original GTA V assets belong to Rockstar Games / Take-Two",
+  "sha256": "c64289d84a88678e0e1472471c36fb8e918a1dec7f9c4e037e488ee6e336514d",
+  "bytes": 2575868,
+  "triangles": 5584,
+  "dimensionsMetres": [12.646, 4.810, 13.201],
+  "usage": "Internal prototype visual shell for c01-n02; calibrated route and scoring collision remain authoritative",
+  "collisionFile": "michaels-garage.collision.json",
+  "provenanceFile": "michaels-garage.provenance.json"
+}

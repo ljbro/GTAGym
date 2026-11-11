@@ -1,0 +1,61 @@
+{
+  "source": {
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "page": "https://kenney.nl/assets/watercraft-kit",
+    "download": "https://kenney.nl/media/pages/assets/watercraft-kit/a335cfed49-1713519620/kenney_watercraft-pack.zip",
+    "file": "sources/rescue-sailboat/boat-sail-a.glb",
+    "sha256": "35c8e2adae1d3f0fe9d0e37c65422f1c6c6f1f10d818f9bde273a9da264eef4c"
+  },
+  "trailer": {
+    "file": "semi-trailer.glb",
+    "sha256": "d5201c1a06b3c8b90232677e856dec99b95d0edd63ecd01450eb3b1a4ad2fdeb",
+    "author": "GTAbench task-authored",
+    "license": "MIT"
+  },
+  "output": {
+    "file": "boat-carrier.glb",
+    "sha256": "47152f06eef9a7491c7a3b182506a93e296fc35e7c754c22d26b41e55444a1b1",
+    "bytes": 122024,
+    "bounds": {
+      "min": [
+        -1.8938992382968804,
+        1.907348634588857e-8,
+        -9.5
+      ],
+      "max": [
+        4.650000095367432,
+        5.679999828338623,
+        1.600000023841858
+      ]
+    }
+  },
+  "cradleContacts": [
+    {
+      "x": -0.65,
+      "z": -6.6,
+      "base": 1.52,
+      "top": 1.6549999999999998
+    },
+    {
+      "x": 0.65,
+      "z": -6.6,
+      "base": 1.52,
+      "top": 1.6549999999999998
+    },
+    {
+      "x": -0.65,
+      "z": -2,
+      "base": 1.52,
+      "top": 2.1931837596885013
+    },
+    {
+      "x": 0.65,
+      "z": -2,
+      "base": 1.52,
+      "top": 2.1931837596885013
+    }
+  ],
+  "changes": "Separate sail removed; hull uniformly scaled to 8 m and mounted on an independent open transport trailer, with cross-bunks, supports fitted to actual hull triangles and supported side boom. Trailer origin remains kingpin. Original sources and M21 trailer unchanged.",
+  "limitations": "Low-poly sailboat transport adaptation; not the exact GTA V yacht or vehicle, no cloth animation. Human models/boarding and bridge route require separate acceptance."
+}

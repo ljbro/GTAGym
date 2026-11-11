@@ -1,0 +1,173 @@
+[
+  {
+    "id": "c06-n08",
+    "title": "09 Precious Pearl · Swim to the moored yacht",
+    "category": "water",
+    "mode": "swim",
+    "objective": "swim-to-boat",
+    "source": {
+      "points": [
+        {
+          "x": 487.85946310521194,
+          "y": 568.5396302320569,
+          "sourceTime": 356.951875
+        },
+        {
+          "x": 482.57375500130115,
+          "y": 254.04241763606257,
+          "sourceTime": 358.72234
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "A yacht at the finish",
+        "general": ""
+      }
+    },
+    "expectedTurns": [],
+    "path": {
+      "points": [
+        [
+          -4693.948925109738,
+          -2590.352747141134
+        ],
+        [
+          -4594.027850219477,
+          -2586.380494282268
+        ]
+      ],
+      "length": 100.00000000000006,
+      "turns": [],
+      "forward": [
+        0.9992107489026142,
+        0.039722528588658546
+      ],
+      "right": [
+        0.039722528588658546,
+        -0.9992107489026142
+      ]
+    },
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 4,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "estimated": "Route lengths and bay locations are native-city adaptations. Boat positions follow descriptions. Original SVGs unchanged.",
+    "sourceConflict": null
+  },
+  {
+    "id": "c06-n09",
+    "title": "25 Escape the Drug Den · Board the jet ski by the river and leave shore",
+    "category": "water",
+    "mode": "swim",
+    "objective": "board-then-drive",
+    "source": {
+      "points": [
+        {
+          "x": 384.78894144462834,
+          "y": 532.8613727341626,
+          "sourceTime": 446
+        },
+        {
+          "x": 382.80681602807863,
+          "y": 366.362837743989,
+          "sourceTime": 446
+        }
+      ],
+      "descriptions": {
+        "start": "Yacht",
+        "end": "",
+        "general": "Need to implement pressing F Board Yacht, Then continue forward a short distance"
+      }
+    },
+    "expectedTurns": [],
+    "path": {
+      "points": [
+        [
+          -4534.07520528532,
+          -2583.9971425669487
+        ],
+        [
+          -4354.21727048285,
+          -2576.84708742099
+        ]
+      ],
+      "length": 179.99999999999991,
+      "turns": [],
+      "forward": [
+        0.9992107489026142,
+        0.039722528588658546
+      ],
+      "right": [
+        0.039722528588658546,
+        -0.9992107489026142
+      ]
+    },
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 4,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "estimated": "Route lengths and bay locations are native-city adaptations. Boat positions follow descriptions. Original SVGs unchanged.",
+    "sourceConflict": "Source title says motorboat at a river bank; explicit description starts at a yacht and requires F boarding. Using a yacht in a native coastal inlet; riverbank scenery is not reproduced."
+  },
+  {
+    "id": "c06-n10",
+    "title": "28 Small submarine · Swim to the submarine in the water and board it",
+    "category": "water",
+    "mode": "swim",
+    "objective": "swim-then-board",
+    "source": {
+      "points": [
+        {
+          "x": 397.3423620896647,
+          "y": 535.5042267861179,
+          "sourceTime": 273.478626
+        },
+        {
+          "x": 398.66381936047605,
+          "y": 339.93453918310473,
+          "sourceTime": 274.679002
+        }
+      ],
+      "descriptions": {
+        "start": "",
+        "end": "Yacht",
+        "general": "Swim straight to the yacht, then press F Get onto"
+      }
+    },
+    "expectedTurns": [],
+    "path": {
+      "points": [
+        [
+          -4374.201485460902,
+          -2577.641537992763
+        ],
+        [
+          -4274.280410570642,
+          -2573.669285133897
+        ]
+      ],
+      "length": 99.99999999999915,
+      "turns": [],
+      "forward": [
+        0.9992107489026142,
+        0.039722528588658546
+      ],
+      "right": [
+        0.039722528588658546,
+        -0.9992107489026142
+      ]
+    },
+    "waterHeight": -0.25,
+    "startDepth": 0,
+    "goalDepth": 0,
+    "shallowFloorDepth": 4,
+    "deepFloorDepth": 8,
+    "entrance": false,
+    "estimated": "Route lengths and bay locations are native-city adaptations. Boat positions follow descriptions. Original SVGs unchanged.",
+    "sourceConflict": "Source title says submarine; explicit human description says yacht and F boarding, so the annotation is used."
+  }
+]

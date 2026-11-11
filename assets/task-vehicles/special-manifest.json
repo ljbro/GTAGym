@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "police-car",
+      "title": "Police Car",
+      "author": "Quaternius",
+      "page": "https://poly.pizza/m/BwwnUrWGmV",
+      "file": "179e43ce-b9e0-40cf-8b99-641693d3207e",
+      "length": 4.8,
+      "download": "https://static.poly.pizza/179e43ce-b9e0-40cf-8b99-641693d3207e.glb",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retrieved": "2026-10-08",
+      "sourceSha256": "2ad6705f58bae2acf806eddb28acd9fc2ff6dc65a726575be5c180631b3132d0",
+      "output": {
+        "file": "police-car.glb",
+        "sha256": "c6599af6aab95b71648b0385d6b5585c56bf7dbb16c65eacf29f24865ae05ce3",
+        "bytes": 179184,
+        "bounds": {
+          "min": [
+            -1.1436306022525102,
+            0,
+            -2.4
+          ],
+          "max": [
+            1.1436306022525102,
+            1.5938925038964813,
+            2.4
+          ]
+        }
+      },
+      "changes": "Uniform metre scale and ground-centred pivot; PBR factors. Dedicated Windows material converted to BLEND alpha 0.14; all opaque body geometry retained. No task acceptance implied."
+    },
+    {
+      "id": "box-truck",
+      "title": "Truck",
+      "author": "Quaternius",
+      "page": "https://poly.pizza/m/cXw6oiFtZ8",
+      "file": "f4b28921-b45e-4653-b54c-c3976e4ea0fe",
+      "length": 7.5,
+      "download": "https://static.poly.pizza/f4b28921-b45e-4653-b54c-c3976e4ea0fe.glb",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retrieved": "2026-10-08",
+      "sourceSha256": "a5d107b5b06f8ca2d8d7e66ae6309f2e1a25cac577c5db8ebb661b3f0ca5ed8f",
+      "output": {
+        "file": "box-truck.glb",
+        "sha256": "02ad1183796b1c33c54c5ee776f32fef6f806b5102f0bd862b2516a0d1abcb9b",
+        "bytes": 324628,
+        "bounds": {
+          "min": [
+            -1.9331515571453746,
+            -1.0842021724855044e-19,
+            -3.7500000000000004
+          ],
+          "max": [
+            1.9331515571453746,
+            4.115589585273666,
+            3.7500000000000004
+          ]
+        }
+      },
+      "changes": "Uniform metre scale and ground-centred pivot; PBR factors. No task acceptance implied."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "credit": "Powered by Poly Haven",
+  "resolution": 1024,
+  "assets": [
+    {
+      "id": "concrete_floor_02",
+      "page": "https://polyhaven.com/a/concrete_floor_02",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "sourceFiles": [
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_diff_1k.jpg",
+          "bytes": 776097,
+          "sha256": "6db84a6d87dc50508b9d134d6fbd2b7e876b8081a5f43a118a249ca18de73af5"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_nor_gl_1k.jpg",
+          "bytes": 192757,
+          "sha256": "fcda391b57a816d646ae15544688be53790478da5cd48dbe514b3c6901415e61"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_rough_1k.jpg",
+          "bytes": 318550,
+          "sha256": "c7f026a611b7859903c61ec7fd4574944157223e9e7796413dd6e2a66eaeac7a"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "concrete_floor_02_diff.webp",
+          "bytes": 422594,
+          "sha256": "6da64f57185e27eb851cb292070976b21412d838f84bc080a7a31a3496dd022a"
+        },
+        {
+          "file": "concrete_floor_02_nor_gl.webp",
+          "bytes": 244106,
+          "sha256": "d2394400201b8b0c571757da56b7687ed18d80105f76a7d2c673b564572f2185"
+        },
+        {
+          "file": "concrete_floor_02_rough.webp",
+          "bytes": 118342,
+          "sha256": "dd50b9e1c423d0cb0deb4abf6471859e739330ef877901993310edcf2692a2f3"
+        }
+      ],
+      "type": "material"
+    },
+    {
+      "id": "brick_wall_001",
+      "page": "https://polyhaven.com/a/brick_wall_001",
+      "authors": {
+        "Rob Tuytel": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "sourceFiles": [
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_diffuse_1k.jpg",
+          "bytes": 574381,
+          "sha256": "6a1233ec0186703de830354d89f122991e61e67fb67e0846c7eaf6c5aefea902"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_nor_gl_1k.jpg",
+          "bytes": 295279,
+          "sha256": "8afbe3919308b168a6b7235fe7b930f670cfffa1a34de39ee790d55c9d7bda09"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_rough_1k.jpg",
+          "bytes": 211093,
+          "sha256": "a23342b02e6c5af106aaece16130aa9153a801cb1a84d5f3e0d06ce248677f38"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "brick_wall_001_diff.webp",
+          "bytes": 218368,
+          "sha256": "0a7f1e1970e0d89a3a4dff068e0a3284afef4076c0d806fbb392f9bf6607f015"
+        },
+        {
+          "file": "brick_wall_001_nor_gl.webp",
+          "bytes": 344578,
+          "sha256": "01b3b45ad2c854d6d835489d164fe1a4b7b5e8ab99732fe35e935af1894ea97e"
+        },
+        {
+          "file": "brick_wall_001_rough.webp",
+          "bytes": 54598,
+          "sha256": "97dc255ce5c7c82259fea0222776ad800863f117ec0e8be3f004dde71740cb35"
+        }
+      ],
+      "type": "material"
+    },
+    {
+      "id": "painted_plaster_wall",
+      "page": "https://polyhaven.com/a/painted_plaster_wall",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "sourceFiles": [
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_diff_1k.jpg",
+          "bytes": 686726,
+          "sha256": "440310f05af089f2c93353167573403cbc3f805948203237b5d26431eeb9e19c"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_nor_gl_1k.jpg",
+          "bytes": 900461,
+          "sha256": "8eb01647d126eb5341e2c325821ad48c8ca11349dbef53447c95422c5d91cc9d"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_plaster_wall/painted_plaster_wall_rough_1k.jpg",
+          "bytes": 354762,
+          "sha256": "e0564c297b22ab1cf4ef02a82157b84ce3b92eb4fd49d9c64b7256a8b300af82"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "painted_plaster_wall_diff.webp",
+          "bytes": 183048,
+          "sha256": "dab132ae3cd5c7539ac6733a1e3417d9682eb640a553f1896c567ad8d6b41a5b"
+        },
+        {
+          "file": "painted_plaster_wall_nor_gl.webp",
+          "bytes": 366664,
+          "sha256": "c38d77f1444d3d2e8d4cff06804d1ecbb63e9846415f2df9cb3750510397c3a8"
+        },
+        {
+          "file": "painted_plaster_wall_rough.webp",
+          "bytes": 6952,
+          "sha256": "d5a52afb142692ade3d689d3aa1652146da83c441a661e3aec10916eeafa05e0"
+        }
+      ],
+      "type": "material"
+    },
+    {
+      "id": "floor_tiles_06",
+      "page": "https://polyhaven.com/a/floor_tiles_06",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "sourceFiles": [
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_diff_1k.jpg",
+          "bytes": 356257,
+          "sha256": "ac159ca6072e30dd9d5c65e2d6eae7bb55a7dc9f06e6d141e9119390563511c2"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_nor_gl_1k.jpg",
+          "bytes": 121299,
+          "sha256": "efaff964d5688dd52ea3b876d5dac63ffee76d8d7270e30c11c81095246d5fdd"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/floor_tiles_06/floor_tiles_06_rough_1k.jpg",
+          "bytes": 114013,
+          "sha256": "9c1996177892f220bcfdbc44675d0cd404482cfa80b1c577c7bcc100637ef8b6"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "floor_tiles_06_diff.webp",
+          "bytes": 90716,
+          "sha256": "a5d1be60a8c86a8600fd9874aa303f80b7a967405d02f06c977ddabc282102a0"
+        },
+        {
+          "file": "floor_tiles_06_nor_gl.webp",
+          "bytes": 18734,
+          "sha256": "782d1d11226599168cb8ad6a5ca4992a0c8a982d8a1c541b1964ed1dbc2418a9"
+        },
+        {
+          "file": "floor_tiles_06_rough.webp",
+          "bytes": 16392,
+          "sha256": "bd67526c3d66f513bbf382a05496e6dc48df1d12645965ac250c6e9f172e3896"
+        }
+      ],
+      "type": "material"
+    },
+    {
+      "id": "oak_veneer_01",
+      "page": "https://polyhaven.com/a/oak_veneer_01",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "sourceFiles": [
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_01/oak_veneer_01_diff_1k.jpg",
+          "bytes": 641756,
+          "sha256": "c14681f72f59f17bff568cae7a837641443b607b899f0c279cd64a5638f877a7"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_01/oak_veneer_01_nor_gl_1k.jpg",
+          "bytes": 484844,
+          "sha256": "1297acf7b4476d5ccd83cc8b27be96aa6110f7a9c3a40be0bd767bf81b17db01"
+        },
+        {
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_01/oak_veneer_01_rough_1k.jpg",
+          "bytes": 865194,
+          "sha256": "ca2af5649b628ef05f196793d68cdca874c12ceb6e9ae566976546d9dd5a2604"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "oak_veneer_01_diff.webp",
+          "bytes": 117364,
+          "sha256": "321fe278e019fe6a05dc5dacc1ab1fe5e1dae49650d0aff14a44b53b32b87ef2"
+        },
+        {
+          "file": "oak_veneer_01_nor_gl.webp",
+          "bytes": 68504,
+          "sha256": "052a81c375faf19511b9c2297ae8727443888099de47dccefb3d5376a036cde0"
+        },
+        {
+          "file": "oak_veneer_01_rough.webp",
+          "bytes": 316344,
+          "sha256": "18e89935c4a783b9547d1fbb3a896cc46af5a6ee19b018d0efbe54cb01d6caac"
+        }
+      ],
+      "type": "material"
+    }
+  ],
+  "supplementalManifests": [
+    "roller-shutter/manifest.json",
+    "michaels-garage/manifest.json"
+  ]
+}

@@ -1,0 +1,42 @@
+# Dependencies and local environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+credentials-*.json
+
+# Generated files
+.cache/
+build/
+dist/
+*.log
+.DS_Store
+
+# Generated public links, experiments and local serving configuration
+native-city/public/
+outputs/
+results/
+checkpoints/
+tensorboard_log/
+configs/local/
+*.safetensors
+*.ckpt
+*.dump
+core.*
+
+# Private source annotations and full expert recordings
+/annotations/
+/artifacts/
+
+# User-generated datasets and imported shooting images
+/training-tasks/generated/*
+!/training-tasks/generated/README.md
+/training-tasks/shooting-sources/

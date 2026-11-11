@@ -1,0 +1,55 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008690_SEGMENT_049_SHOOT",
+    "source_folder": "source-008690",
+    "source_task_number": "15",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008690_SEGMENT_049",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/cedc5bbb2098ca9d24fa8df0ff1ac04d9127a8ae8591be2dfaefa4f69acb61bd.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 122.2,
+        "prompt": "Shoot at the vehicle marked with HUMANE A dark van with the lettering. Output one pixel coordinate on the target [x, y].",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_008690_SEGMENT_049_AIM",
+    "start_action_id": "GTA_TASK_008690_ACTION_000229",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "target_description": "The vehicle body is marked with HUMANE A dark van with the lettering",
+    "instruction": "Shoot at the vehicle marked with HUMANE A dark van with the lettering. Output one pixel coordinate on the target [x, y].",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      1000,
+      577,
+      1193,
+      701
+    ],
+    "point_xy": [
+      1096.5,
+      639
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

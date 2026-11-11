@@ -1,0 +1,283 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008707_SEGMENT_050_SHOOT",
+    "source_folder": "source-008707",
+    "source_task_number": "17",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v1_mask+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008707_SEGMENT_050",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/5222440cfaebf21fe4f2e0c5abdef2f9316d9f85db7a3a53ed22af2aadaf6311.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 138.933,
+        "prompt": "Shoot the man in a blue patterned shirt on the parking lot ground.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008707_ACTION_000185",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "target_description": "Man wearing a blue patterned shirt at ground level in the parking lot",
+    "instruction": "Shoot the man in a blue patterned shirt on the parking lot ground.",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_target_crop",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v1_mask",
+    "target_category": "person",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      889,
+      529,
+      995,
+      601
+    ],
+    "point_xy": [
+      913,
+      559
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      890,
+      527,
+      997,
+      603
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          889,
+          560
+        ],
+        [
+          889,
+          565
+        ],
+        [
+          890,
+          567
+        ],
+        [
+          897,
+          568
+        ],
+        [
+          900,
+          571
+        ],
+        [
+          901,
+          577
+        ],
+        [
+          904,
+          582
+        ],
+        [
+          906,
+          588
+        ],
+        [
+          909,
+          592
+        ],
+        [
+          914,
+          595
+        ],
+        [
+          917,
+          595
+        ],
+        [
+          918,
+          596
+        ],
+        [
+          926,
+          596
+        ],
+        [
+          927,
+          595
+        ],
+        [
+          939,
+          594
+        ],
+        [
+          946,
+          597
+        ],
+        [
+          950,
+          600
+        ],
+        [
+          961,
+          601
+        ],
+        [
+          965,
+          599
+        ],
+        [
+          964,
+          595
+        ],
+        [
+          960,
+          590
+        ],
+        [
+          961,
+          589
+        ],
+        [
+          965,
+          589
+        ],
+        [
+          978,
+          595
+        ],
+        [
+          988,
+          595
+        ],
+        [
+          989,
+          594
+        ],
+        [
+          992,
+          594
+        ],
+        [
+          995,
+          591
+        ],
+        [
+          995,
+          588
+        ],
+        [
+          977,
+          579
+        ],
+        [
+          975,
+          579
+        ],
+        [
+          973,
+          577
+        ],
+        [
+          968,
+          575
+        ],
+        [
+          961,
+          569
+        ],
+        [
+          952,
+          567
+        ],
+        [
+          951,
+          568
+        ],
+        [
+          947,
+          568
+        ],
+        [
+          941,
+          571
+        ],
+        [
+          933,
+          573
+        ],
+        [
+          930,
+          570
+        ],
+        [
+          930,
+          564
+        ],
+        [
+          931,
+          563
+        ],
+        [
+          931,
+          558
+        ],
+        [
+          932,
+          557
+        ],
+        [
+          932,
+          550
+        ],
+        [
+          924,
+          542
+        ],
+        [
+          922,
+          535
+        ],
+        [
+          920,
+          532
+        ],
+        [
+          916,
+          529
+        ],
+        [
+          911,
+          529
+        ],
+        [
+          907,
+          532
+        ],
+        [
+          904,
+          543
+        ],
+        [
+          896,
+          549
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

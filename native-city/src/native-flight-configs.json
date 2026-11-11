@@ -1,0 +1,619 @@
+[
+  {
+    "id": "c08-n01",
+    "title": "Take off from the runway and fly to the designated location",
+    "source": "gta-nav-c08-n01",
+    "annotationRevision": 1,
+    "sourceObjective": "Land runway; Sky; Need to accelerate on the runway now, After reaching sufficient speed, press L Take off, Then fly to the designated location",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.02366386196228855,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "plane",
+    "vehicle": "plane",
+    "objective": "navigate",
+    "scale": 0.6,
+    "route": [
+      {
+        "x": 2780,
+        "y": 85,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2781.5857487249737,
+        "y": 85,
+        "z": 852.6236691722593,
+        "sourceIndex": 1
+      }
+    ],
+    "recovery": [],
+    "checkpointRadius": 65,
+    "landingPoint": {
+      "x": 2623.82,
+      "y": 3.25,
+      "z": 1982.64
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n02",
+    "title": "Follow the companion plane along the low altitude route",
+    "source": "gta-nav-c08-n02",
+    "annotationRevision": 1,
+    "sourceObjective": "",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.02366386196228855,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "plane",
+    "vehicle": "plane",
+    "objective": "follow",
+    "scale": 1.1687465875064855,
+    "route": [
+      {
+        "x": 2780,
+        "y": 85,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2774.5945003318047,
+        "y": 190,
+        "z": 847.4903239246502,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2887.3358602045123,
+        "y": 190,
+        "z": 945.5598455598456,
+        "sourceIndex": 2
+      },
+      {
+        "x": 2867.2585929958977,
+        "y": 190,
+        "z": 1055.9845324188586,
+        "sourceIndex": 3
+      },
+      {
+        "x": 2847.953620822273,
+        "y": 190,
+        "z": 1139.382215816542,
+        "sourceIndex": 4
+      },
+      {
+        "x": 2904.3242300615348,
+        "y": 190,
+        "z": 1208.1081316738055,
+        "sourceIndex": 5
+      },
+      {
+        "x": 2941.389867127172,
+        "y": 190,
+        "z": 1225.868725868726,
+        "sourceIndex": 6
+      },
+      {
+        "x": 2930.5791505791503,
+        "y": 190,
+        "z": 1285.3281971110341,
+        "sourceIndex": 7
+      },
+      {
+        "x": 2857.9921837294883,
+        "y": 190,
+        "z": 1300,
+        "sourceIndex": 8
+      },
+      {
+        "x": 2798.5328185328185,
+        "y": 190,
+        "z": 1282.2394058050795,
+        "sourceIndex": 9
+      }
+    ],
+    "recovery": [
+      {
+        "x": 2358.2133903842205,
+        "y": 145,
+        "z": 525.9474693236012
+      },
+      {
+        "x": 2656.9463148752816,
+        "y": 120,
+        "z": 583.0319665625009
+      },
+      {
+        "x": 2646.298570808227,
+        "y": 85,
+        "z": 1032.9059773102686
+      },
+      {
+        "x": 2639.200074763524,
+        "y": 85,
+        "z": 1332.821984475447
+      }
+    ],
+    "checkpointRadius": 65,
+    "landingPoint": {
+      "x": 2623.82,
+      "y": 3.25,
+      "z": 1982.64
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n03",
+    "title": "Follow the flight route back and land",
+    "source": "gta-nav-c08-n03",
+    "annotationRevision": 1,
+    "sourceObjective": "Land on solid ground at the destination",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.02366386196228855,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "plane",
+    "vehicle": "plane",
+    "objective": "navigate",
+    "scale": 0.5778516534705341,
+    "route": [
+      {
+        "x": 2780,
+        "y": 85,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2763.964757709251,
+        "y": 145,
+        "z": 731.306913266623,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2743.7297858015554,
+        "y": 145,
+        "z": 745.8149779735683,
+        "sourceIndex": 2
+      },
+      {
+        "x": 2721.204064995182,
+        "y": 145,
+        "z": 754.9779735682819,
+        "sourceIndex": 3
+      },
+      {
+        "x": 2677.6798359202917,
+        "y": 145,
+        "z": 758.0323287358892,
+        "sourceIndex": 4
+      },
+      {
+        "x": 2608.575600779529,
+        "y": 145,
+        "z": 757.2687224669603,
+        "sourceIndex": 5
+      },
+      {
+        "x": 2543.289257167194,
+        "y": 145,
+        "z": 759.1777031852284,
+        "sourceIndex": 6
+      },
+      {
+        "x": 2520,
+        "y": 145,
+        "z": 822.9368692137596,
+        "sourceIndex": 7
+      },
+      {
+        "x": 2532.2172808542123,
+        "y": 145,
+        "z": 851.1894273127753,
+        "sourceIndex": 8
+      },
+      {
+        "x": 2523.054285259499,
+        "y": 145,
+        "z": 875.2422907488985,
+        "sourceIndex": 9
+      },
+      {
+        "x": 2553.9793953916574,
+        "y": 145,
+        "z": 928.6931216874311,
+        "sourceIndex": 10
+      }
+    ],
+    "recovery": [
+      {
+        "x": 2358.2133903842205,
+        "y": 145,
+        "z": 525.9474693236012
+      },
+      {
+        "x": 2656.9463148752816,
+        "y": 120,
+        "z": 583.0319665625009
+      },
+      {
+        "x": 2646.298570808227,
+        "y": 85,
+        "z": 1032.9059773102686
+      },
+      {
+        "x": 2639.200074763524,
+        "y": 85,
+        "z": 1332.821984475447
+      }
+    ],
+    "checkpointRadius": 65,
+    "landingPoint": {
+      "x": 2623.82,
+      "y": 3.25,
+      "z": 1982.64
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n04",
+    "title": "The helicopter flies to the urban target and hovers",
+    "source": "gta-nav-c08-n04",
+    "annotationRevision": 1,
+    "sourceObjective": "",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.20242938263341723,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "frogger",
+    "vehicle": "helicopter",
+    "objective": "hover",
+    "scale": 1.4101182321831256,
+    "route": [
+      {
+        "x": 2780,
+        "y": 145,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2736.211121184124,
+        "y": 145,
+        "z": 913.3539905123498,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2768.819875246599,
+        "y": 145,
+        "z": 1122.981329638621,
+        "sourceIndex": 2
+      },
+      {
+        "x": 2679.37887721939,
+        "y": 145,
+        "z": 1300,
+        "sourceIndex": 3
+      }
+    ],
+    "recovery": [],
+    "checkpointRadius": 16,
+    "landingPoint": {
+      "x": 2627.25093975494,
+      "y": 3.25,
+      "z": 1837.6805965368305
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n05",
+    "title": "Fly the transport helicopter to the designated site and land",
+    "source": "gta-nav-c08-n05",
+    "annotationRevision": 1,
+    "sourceObjective": "Fly to the designated location, then land",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": 0.5762268038221771,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "cargobob",
+    "vehicle": "helicopter",
+    "objective": "navigate",
+    "scale": 0.6989645849667124,
+    "route": [
+      {
+        "x": 2780,
+        "y": 145,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2851.1189925619487,
+        "y": 145,
+        "z": 809.4493809212516,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2731.971542216715,
+        "y": 145,
+        "z": 919.3606088989927,
+        "sourceIndex": 2
+      },
+      {
+        "x": 2591.1189925619487,
+        "y": 145,
+        "z": 869.9467579267123,
+        "sourceIndex": 3
+      },
+      {
+        "x": 2601.7406081184363,
+        "y": 145,
+        "z": 756.802833094288,
+        "sourceIndex": 4
+      },
+      {
+        "x": 2732.895194049559,
+        "y": 145,
+        "z": 812.6820777759348,
+        "sourceIndex": 5
+      }
+    ],
+    "recovery": [],
+    "checkpointRadius": 16,
+    "landingPoint": {
+      "x": 2627.25093975494,
+      "y": 3.25,
+      "z": 1837.6805965368305
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n06",
+    "title": "The helicopter follows its flight path back to the city helipad",
+    "source": "gta-nav-c08-n06",
+    "annotationRevision": 1,
+    "sourceObjective": "",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.017314815207889786,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "frogger",
+    "vehicle": "helicopter",
+    "objective": "navigate",
+    "scale": 1.2059974014427084,
+    "route": [
+      {
+        "x": 2780,
+        "y": 145,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2776.812651930568,
+        "y": 145,
+        "z": 884.06373383032,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2637.3704779654286,
+        "y": 145,
+        "z": 1100.796837017358,
+        "sourceIndex": 2
+      },
+      {
+        "x": 2696.3346664407636,
+        "y": 145,
+        "z": 1300,
+        "sourceIndex": 3
+      }
+    ],
+    "recovery": [],
+    "checkpointRadius": 16,
+    "landingPoint": {
+      "x": 2627.25093975494,
+      "y": 3.25,
+      "z": 1837.6805965368305
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n07",
+    "title": "Urban takeoff, Approach the aircraft ahead and land",
+    "source": "gta-nav-c08-n07",
+    "annotationRevision": 1,
+    "sourceObjective": "Straight Line Form, There must be ahead npc Airplane, The task succeeds when you get close enough to the plane",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": -0.02366386196228855,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 22,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "plane",
+    "vehicle": "plane",
+    "objective": "approach",
+    "scale": 1.5,
+    "route": [],
+    "recovery": [],
+    "checkpointRadius": 65,
+    "landingPoint": {
+      "x": 2623.82,
+      "y": 3.25,
+      "z": 1982.64
+    },
+    "hoverSeconds": 3
+  },
+  {
+    "id": "c08-n08",
+    "title": "The helicopter takes off and flies over the woodland",
+    "source": "gta-nav-c08-n08",
+    "annotationRevision": 2,
+    "sourceObjective": "Take off and fly to the finish",
+    "spawn": {
+      "x": 2802.4137216379977,
+      "y": 3.25,
+      "z": -68.70860609040164
+    },
+    "direction": {
+      "x": -0.023661653482343975,
+      "y": 0,
+      "z": 0.999720023883928
+    },
+    "yaw": 0.24149871713467055,
+    "approachOrigin": {
+      "x": 2788.2167295485915,
+      "y": 85,
+      "z": 531.1234082399552
+    },
+    "npcSpeed": 14,
+    "completionRadius": 60,
+    "boardingRadius": 6.2,
+    "stopSpeed": 1.5,
+    "stopSeconds": 2,
+    "model": "frogger",
+    "vehicle": "helicopter",
+    "objective": "hover",
+    "scale": 1.5,
+    "route": [
+      {
+        "x": 2780,
+        "y": 145,
+        "z": 700,
+        "sourceIndex": 0
+      },
+      {
+        "x": 2829.5531959034092,
+        "y": 145,
+        "z": 901.1856995349594,
+        "sourceIndex": 1
+      },
+      {
+        "x": 2854.329703120613,
+        "y": 145,
+        "z": 1149.9424090671114,
+        "sourceIndex": 2
+      }
+    ],
+    "recovery": [],
+    "checkpointRadius": 16,
+    "landingPoint": {
+      "x": 2627.25093975494,
+      "y": 3.25,
+      "z": 1837.6805965368305
+    },
+    "hoverSeconds": 3
+  }
+]

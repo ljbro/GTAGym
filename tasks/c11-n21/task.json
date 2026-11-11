@@ -1,0 +1,187 @@
+{
+  "id": "GTA_TASK_007991_SEGMENT_143_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the bald armed man in a loose white shirt behind the gray barrier beside the sawmill's rocky slope.",
+  "instruction_en": "Shoot the bald armed man in a loose white shirt behind the gray barrier beside the sawmill's rocky slope.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/658e520246354ee60f70c8a6791cae107ed751ecc15917a8ba13138747ad5fac.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/658e520246354ee60f70c8a6791cae107ed751ecc15917a8ba13138747ad5fac.png",
+      "sha256": "658e520246354ee60f70c8a6791cae107ed751ecc15917a8ba13138747ad5fac"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/89055226c7b39da5eee664cc06435bc942aca070ac0f3d4b1e5efd3c098bcfe0.png",
+      "sha256": "89055226c7b39da5eee664cc06435bc942aca070ac0f3d4b1e5efd3c098bcfe0"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/0199e01d7991c18967727b3cd7e01fe87eec22a34cb00532c85f746328a991a3.png",
+      "sha256": "0199e01d7991c18967727b3cd7e01fe87eec22a34cb00532c85f746328a991a3"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/e1a04baa18ac288a38fa9996196c918125a6beecfd76a48577ad8e9cc7b9e379.png",
+      "sha256": "e1a04baa18ac288a38fa9996196c918125a6beecfd76a48577ad8e9cc7b9e379"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_007991_SEGMENT_143_target",
+    "hit_polygons": [
+      [
+        [
+          637.875,
+          347.625
+        ],
+        [
+          639.75,
+          347.375
+        ],
+        [
+          641.25,
+          348.375
+        ],
+        [
+          641.875,
+          350.25
+        ],
+        [
+          641.875,
+          353
+        ],
+        [
+          641.25,
+          353.875
+        ],
+        [
+          642.5,
+          354.375
+        ],
+        [
+          644.5,
+          356.125
+        ],
+        [
+          645.875,
+          358.875
+        ],
+        [
+          646.5,
+          362.75
+        ],
+        [
+          646.75,
+          367.375
+        ],
+        [
+          637.625,
+          367.375
+        ],
+        [
+          637.5,
+          364.5
+        ],
+        [
+          634.75,
+          363.5
+        ],
+        [
+          632.375,
+          362.5
+        ],
+        [
+          632.125,
+          361.125
+        ],
+        [
+          632.625,
+          359.875
+        ],
+        [
+          633.5,
+          360
+        ],
+        [
+          633.875,
+          361.375
+        ],
+        [
+          635.625,
+          361.5
+        ],
+        [
+          637.125,
+          361
+        ],
+        [
+          637.75,
+          358.25
+        ],
+        [
+          638.75,
+          355.125
+        ],
+        [
+          637.75,
+          354.375
+        ],
+        [
+          636.875,
+          352.75
+        ],
+        [
+          636.375,
+          350.75
+        ],
+        [
+          636.75,
+          349
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_007991_SEGMENT_143/scene.json",
+    "original_revision": "c4c607ac61d441a1519bf133ea0388b4049d4c29fa5dc6a40327a8b3334ae512",
+    "original_instruction": "Shoot outside the green barrier beside the rock wall at the sawmill, Armed man wearing a jacket with a dark body and light sleeves.",
+    "description_change": "Replayed clothing is white and the barrier is gray, viewed from the opposite side; original sawmill slope, barrier cover and armed pedestrian target retained.",
+    "mission": "Lamar Down",
+    "script": "franklin2",
+    "visual_review": "Only exposed upper body above gray barrier is scored; lower body and left hand behind the foreground post excluded.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 17666,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-804085d38bd12b320cf38674edd9a5349d7dab114b4a5d59e6222b6800db04d0"
+}

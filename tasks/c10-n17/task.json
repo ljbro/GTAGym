@@ -1,0 +1,57 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008299_SEGMENT_017_SHOOT",
+    "source_folder": "source-008299",
+    "source_task_number": "44",
+    "quality": "automatic_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v3_unique_only",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008299_SEGMENT_017",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/e04687987f03b97afa3afc4a3083f6f66f8ba2045f1fbc591227a94d2de77c1f.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 117.867,
+        "prompt": "Shoot ahead in the tunnel, Blue compact car in the right lane.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_008299_ACTION_000152",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "trajectory_path": "tasks/source-008299/segments/GTA_TASK_008299_SEGMENT_017.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review"
+    ],
+    "instruction": "Shoot ahead in the tunnel, Blue compact car in the right lane.",
+    "target_description": "Ahead of the tunnel, Blue compact car in the right lane",
+    "target_category": "car",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      1031,
+      398,
+      1048,
+      410
+    ],
+    "point_xy": [
+      1039.5,
+      404
+    ],
+    "metric": "point_in_target_bbox"
+  }
+}

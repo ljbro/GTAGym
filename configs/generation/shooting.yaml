@@ -1,0 +1,11 @@
+# Requires an imported, annotated shooting pool. Sniping is evaluation-only.
+name: shooting-sample
+seed: 42
+split: train
+requests:
+  - template: shooting
+    count: 4
+    imageIndices: [1]
+    aimOffset:
+      x: [-160, 160]
+      y: [-90, 90]

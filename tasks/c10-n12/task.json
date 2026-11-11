@@ -1,0 +1,300 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_008000_SEGMENT_164_SHOOT",
+    "source_folder": "source-008000",
+    "source_task_number": "22",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v3_unique_only+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_008000_SEGMENT_164",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/7b075eb01f267ef482f3426769f5d0d60818b26260aeb4ab879f5de2633d0eae.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 348.367,
+        "prompt": "Shoot deep into the corridor, The man leaning out from behind the left doorframe.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": "GTA_TASK_008000_SEGMENT_164_AIM",
+    "start_action_id": "GTA_TASK_008000_ACTION_000588",
+    "input_frame_policy": "LT_press_plus_up_to_0.6s_before_RT",
+    "trajectory_path": "tasks/source-008000/segments/GTA_TASK_008000_SEGMENT_164.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shoot deep into the corridor, The man leaning out from behind the left doorframe.",
+    "target_description": "Deep inside the corridor, The man leaning out from behind the left doorframe",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v3_unique_only",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      894,
+      504,
+      943,
+      652
+    ],
+    "point_xy": [
+      910,
+      548
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      892,
+      502,
+      945,
+      654
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          896,
+          504
+        ],
+        [
+          894,
+          506
+        ],
+        [
+          894,
+          520
+        ],
+        [
+          895,
+          521
+        ],
+        [
+          895,
+          537
+        ],
+        [
+          894,
+          538
+        ],
+        [
+          895,
+          577
+        ],
+        [
+          894,
+          578
+        ],
+        [
+          894,
+          592
+        ],
+        [
+          895,
+          593
+        ],
+        [
+          895,
+          605
+        ],
+        [
+          896,
+          606
+        ],
+        [
+          896,
+          646
+        ],
+        [
+          898,
+          650
+        ],
+        [
+          901,
+          652
+        ],
+        [
+          904,
+          651
+        ],
+        [
+          906,
+          649
+        ],
+        [
+          907,
+          646
+        ],
+        [
+          907,
+          640
+        ],
+        [
+          908,
+          639
+        ],
+        [
+          908,
+          599
+        ],
+        [
+          910,
+          598
+        ],
+        [
+          916,
+          603
+        ],
+        [
+          920,
+          611
+        ],
+        [
+          928,
+          637
+        ],
+        [
+          933,
+          647
+        ],
+        [
+          937,
+          650
+        ],
+        [
+          942,
+          650
+        ],
+        [
+          943,
+          648
+        ],
+        [
+          943,
+          643
+        ],
+        [
+          940,
+          634
+        ],
+        [
+          940,
+          630
+        ],
+        [
+          939,
+          629
+        ],
+        [
+          939,
+          625
+        ],
+        [
+          938,
+          624
+        ],
+        [
+          938,
+          620
+        ],
+        [
+          935,
+          612
+        ],
+        [
+          935,
+          609
+        ],
+        [
+          927,
+          591
+        ],
+        [
+          921,
+          582
+        ],
+        [
+          921,
+          580
+        ],
+        [
+          918,
+          575
+        ],
+        [
+          918,
+          572
+        ],
+        [
+          917,
+          571
+        ],
+        [
+          917,
+          565
+        ],
+        [
+          918,
+          563
+        ],
+        [
+          924,
+          558
+        ],
+        [
+          927,
+          554
+        ],
+        [
+          927,
+          547
+        ],
+        [
+          923,
+          536
+        ],
+        [
+          923,
+          533
+        ],
+        [
+          918,
+          526
+        ],
+        [
+          913,
+          524
+        ],
+        [
+          908,
+          519
+        ],
+        [
+          906,
+          513
+        ],
+        [
+          906,
+          507
+        ],
+        [
+          904,
+          504
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

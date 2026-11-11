@@ -1,0 +1,23 @@
+{
+  "protocol": "json",
+  "model": "gpt-6.1-sol",
+  "baseURL": "http://127.0.0.1:8000/v1",
+  "api": "responses",
+  "effort": "high",
+  "reasoningSummary": "auto",
+  "keyEnv": "GTA_AGENT_API_KEY",
+  "manifest": "configs/benchmark150.json",
+  "tasks": "all",
+  "url": "http://127.0.0.1:4200/",
+  "workers": 4,
+  "language": "en",
+  "renderer": "gpu",
+  "quality": "low",
+  "seed": 1234,
+  "maxRounds": 300,
+  "maxTokens": 32768,
+  "requestSeconds": 1200,
+  "videoFPS": 10,
+  "crf": 28,
+  "output": ".cache/server-eval/json-example"
+}

@@ -1,0 +1,436 @@
+{
+  "kind": "shooting",
+  "task": {
+    "id": "GTA_TASK_002906_SEGMENT_135_SHOOT",
+    "source_folder": "source-002906",
+    "source_task_number": "63",
+    "quality": "assistant_reviewed_silver",
+    "schema_version": "3.0",
+    "dataset_version": "trajectory_grounding_v3_unique_only+shooting_person_regions_v2",
+    "bench": "shooting",
+    "segment_id": "GTA_TASK_002906_SEGMENT_135",
+    "stage_count": 1,
+    "stages": [
+      {
+        "kind": "point",
+        "image": "../assets/6d50e958a1fca200e629ad72efa5aaa593f18eca772763592755d15cbd304ee7.jpg",
+        "width": 1920,
+        "height": 1080,
+        "pts_s": 827,
+        "prompt": "Shoot below the stairs, Man slumped on the floor to the right of the round entryway rug.",
+        "response_format": {
+          "point": [
+            "x",
+            "y"
+          ]
+        },
+        "coordinate_system": "original image pixels, top-left origin"
+      }
+    ],
+    "paired_aim_task_id": null,
+    "start_action_id": "GTA_TASK_002906_ACTION_001588",
+    "input_frame_policy": "previous_RT_release_after_original_frame",
+    "trajectory_path": "tasks/source-002906/segments/GTA_TASK_002906_SEGMENT_135.json",
+    "quality_flags": [
+      "automatic_target_identity_needs_review",
+      "assistant_person_region_not_independent_human_gold"
+    ],
+    "instruction": "Shoot below the stairs, Man slumped on the floor to the right of the round entryway rug.",
+    "target_description": "Under the Stairs, Man slumped on the floor to the right of the round entryway rug",
+    "target_category": "person",
+    "instruction_language": "zh-CN",
+    "instruction_source": "assistant_visual_review_of_input_and_reference",
+    "instruction_version": "target_description_v1",
+    "source_dataset_version": "trajectory_grounding_v3_unique_only",
+    "target_part": "body",
+    "person_annotation_version": "shooting_person_regions_v2"
+  },
+  "gold": {
+    "bbox_xyxy": [
+      1004,
+      714,
+      1155,
+      874
+    ],
+    "point_xy": [
+      1125,
+      782
+    ],
+    "metric": "point_in_body_polygons",
+    "source_bbox_xyxy": [
+      1003,
+      711,
+      1157,
+      876
+    ],
+    "hit_polygons_xy": [
+      [
+        [
+          1127,
+          718
+        ],
+        [
+          1119,
+          714
+        ],
+        [
+          1108,
+          714
+        ],
+        [
+          1104,
+          716
+        ],
+        [
+          1101,
+          716
+        ],
+        [
+          1100,
+          717
+        ],
+        [
+          1097,
+          717
+        ],
+        [
+          1096,
+          718
+        ],
+        [
+          1093,
+          718
+        ],
+        [
+          1092,
+          719
+        ],
+        [
+          1084,
+          720
+        ],
+        [
+          1078,
+          722
+        ],
+        [
+          1073,
+          726
+        ],
+        [
+          1074,
+          732
+        ],
+        [
+          1077,
+          734
+        ],
+        [
+          1078,
+          733
+        ],
+        [
+          1081,
+          733
+        ],
+        [
+          1093,
+          729
+        ],
+        [
+          1107,
+          729
+        ],
+        [
+          1110,
+          730
+        ],
+        [
+          1117,
+          739
+        ],
+        [
+          1120,
+          746
+        ],
+        [
+          1120,
+          749
+        ],
+        [
+          1121,
+          750
+        ],
+        [
+          1118,
+          756
+        ],
+        [
+          1116,
+          758
+        ],
+        [
+          1110,
+          760
+        ],
+        [
+          1103,
+          767
+        ],
+        [
+          1102,
+          770
+        ],
+        [
+          1097,
+          777
+        ],
+        [
+          1092,
+          792
+        ],
+        [
+          1086,
+          798
+        ],
+        [
+          1080,
+          801
+        ],
+        [
+          1077,
+          804
+        ],
+        [
+          1065,
+          809
+        ],
+        [
+          1055,
+          816
+        ],
+        [
+          1046,
+          820
+        ],
+        [
+          1033,
+          829
+        ],
+        [
+          1026,
+          830
+        ],
+        [
+          1025,
+          831
+        ],
+        [
+          1007,
+          831
+        ],
+        [
+          1005,
+          833
+        ],
+        [
+          1004,
+          836
+        ],
+        [
+          1004,
+          841
+        ],
+        [
+          1005,
+          844
+        ],
+        [
+          1007,
+          846
+        ],
+        [
+          1010,
+          847
+        ],
+        [
+          1017,
+          847
+        ],
+        [
+          1018,
+          848
+        ],
+        [
+          1038,
+          848
+        ],
+        [
+          1039,
+          847
+        ],
+        [
+          1045,
+          847
+        ],
+        [
+          1046,
+          846
+        ],
+        [
+          1049,
+          846
+        ],
+        [
+          1056,
+          842
+        ],
+        [
+          1077,
+          835
+        ],
+        [
+          1080,
+          836
+        ],
+        [
+          1083,
+          839
+        ],
+        [
+          1084,
+          842
+        ],
+        [
+          1084,
+          854
+        ],
+        [
+          1079,
+          863
+        ],
+        [
+          1076,
+          866
+        ],
+        [
+          1077,
+          873
+        ],
+        [
+          1079,
+          874
+        ],
+        [
+          1089,
+          874
+        ],
+        [
+          1090,
+          873
+        ],
+        [
+          1100,
+          871
+        ],
+        [
+          1104,
+          868
+        ],
+        [
+          1107,
+          862
+        ],
+        [
+          1107,
+          855
+        ],
+        [
+          1106,
+          854
+        ],
+        [
+          1105,
+          843
+        ],
+        [
+          1106,
+          842
+        ],
+        [
+          1106,
+          835
+        ],
+        [
+          1107,
+          834
+        ],
+        [
+          1107,
+          830
+        ],
+        [
+          1108,
+          829
+        ],
+        [
+          1109,
+          823
+        ],
+        [
+          1111,
+          820
+        ],
+        [
+          1116,
+          816
+        ],
+        [
+          1131,
+          809
+        ],
+        [
+          1144,
+          800
+        ],
+        [
+          1150,
+          794
+        ],
+        [
+          1155,
+          780
+        ],
+        [
+          1155,
+          770
+        ],
+        [
+          1154,
+          769
+        ],
+        [
+          1154,
+          766
+        ],
+        [
+          1149,
+          751
+        ],
+        [
+          1145,
+          744
+        ],
+        [
+          1145,
+          742
+        ],
+        [
+          1134,
+          725
+        ]
+      ]
+    ],
+    "hit_exclusion_polygons_xy": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "gtasuite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Game environments, task definitions, JSON evaluation and MCP/Codex evaluation.",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "workspaces": [
+    "native-city",
+    "scripts/game-mcp"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace native-city",
+    "build:site": "node scripts/build-site.mjs",
+    "dev": "npm run dev --workspace native-city",
+    "start": "node scripts/serve-game.mjs",
+    "eval": "node --experimental-transform-types scripts/evaluate.mjs",
+    "eval:json": "node --experimental-transform-types scripts/evaluate.mjs --protocol json",
+    "eval:codex": "node --experimental-transform-types scripts/evaluate.mjs --protocol codex",
+    "catalog": "node --experimental-transform-types scripts/catalog.mjs",
+    "mcp": "node --experimental-transform-types scripts/game-mcp/server.mjs",
+    "test": "node scripts/run-tests.mjs",
+    "test:native": "node scripts/run-tests.mjs --with-codex",
+    "test:environment": "npm test --workspace native-city",
+    "check": "node scripts/verify-release.mjs",
+    "test:browser": "node --experimental-transform-types tests/release-browser.mjs",
+    "generate": "node --experimental-transform-types scripts/task-generator.mjs",
+    "test:generator:browser": "node --experimental-transform-types tests/generator-browser.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0",
+    "sharp": "0.35.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

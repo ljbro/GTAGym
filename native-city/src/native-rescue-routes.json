@@ -1,0 +1,100 @@
+[
+  {
+    "id": "c04-n04",
+    "title": "Chase the vehicle on the bridge and pick up your companion",
+    "category": "chase",
+    "mode": "drive",
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "coordinateSystem": "canvas-pixels-not-metres",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "The route ahead requires npc Being chased"
+      },
+      "turns": [
+        {
+          "direction": "left",
+          "sourceIndex": 1,
+          "degrees": -34.60262974435511
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 2,
+          "degrees": 44.29706241368198
+        }
+      ],
+      "ignoredSourceIndices": [
+        3
+      ]
+    },
+    "expectedTurns": [
+      "left",
+      "right"
+    ],
+    "path": {
+      "points": [
+        [
+          -520,
+          -920
+        ],
+        [
+          -387.59218891569947,
+          -1011.3510001817044
+        ],
+        [
+          -260.3163382372797,
+          -1011.3510001817045
+        ],
+        [
+          -90.95765106314133,
+          -1176.6042693852119
+        ],
+        [
+          86.612623822626,
+          -1315.170442353699
+        ]
+      ],
+      "turns": [
+        {
+          "index": 1,
+          "direction": "left",
+          "degrees": -34.60262974435508,
+          "distance": 160.8627790084878
+        },
+        {
+          "index": 2,
+          "direction": "right",
+          "degrees": 44.29706241368197,
+          "distance": 288.13862968690756
+        }
+      ],
+      "length": 750,
+      "residential": null,
+      "graphNodeIds": [],
+      "placement": {
+        "kind": "native-coastal-supported-rescue-viaduct",
+        "parcelIndex": 541,
+        "parcelName": "Futian Mangrove Nature Reserve",
+        "scale": 1.390756091149375,
+        "angle": 3.926990816987241,
+        "anchor": [
+          -520,
+          -920
+        ],
+        "sourceOrigin": [
+          566.4318068665914,
+          -575.616756003742
+        ],
+        "maxCoastDistance": 57.697683760524626
+      },
+      "testDriveProfile": {
+        "cruiseSpeed": 36,
+        "cornerSpeed": 14,
+        "lookAhead": 9,
+        "lookSpeed": 0.2
+      }
+    }
+  }
+]

@@ -1,0 +1,2906 @@
+[
+  {
+    "id": "c09-n06",
+    "title": "Rural bank on a snowy night: Enter the Vault",
+    "source": {
+      "task": "prologue-vault",
+      "sha256": "361984dca778351df4a68a2bfc9e1b72649c08196c7cf6f94f4239b3e880e0a2",
+      "note": "Port OffMapBench Original Layout, not GTA Video Recreation; Keep walls, Route, Seal the decoy door, Material and lighting adaptation GTA_SZ."
+    },
+    "bounds": {
+      "minX": -36,
+      "maxX": 36,
+      "minZ": -27,
+      "maxZ": 27
+    },
+    "points": [
+      [
+        -30,
+        -21
+      ],
+      [
+        -30,
+        -15
+      ],
+      [
+        -25,
+        -12
+      ],
+      [
+        -19,
+        -12
+      ],
+      [
+        -14.8,
+        -12
+      ],
+      [
+        -12,
+        -7
+      ],
+      [
+        -12,
+        -1
+      ],
+      [
+        -5,
+        -1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        4.5
+      ],
+      [
+        2,
+        9.5
+      ],
+      [
+        10,
+        9.5
+      ],
+      [
+        20.8,
+        9.5
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        21,
+        18
+      ],
+      [
+        27,
+        18
+      ],
+      [
+        29,
+        18
+      ]
+    ],
+    "goalY": 0,
+    "solids": [
+      {
+        "name": "outer-north",
+        "x": 0,
+        "z": 26.75,
+        "y": 0,
+        "w": 72,
+        "h": 3.6,
+        "d": 0.5,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "outer-south-west",
+        "x": -33.6,
+        "z": -26.75,
+        "y": 0,
+        "w": 4.8,
+        "h": 3.6,
+        "d": 0.5,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "outer-south-east",
+        "x": 3.6,
+        "z": -26.75,
+        "y": 0,
+        "w": 64.8,
+        "h": 3.6,
+        "d": 0.5,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "outer-west",
+        "x": -35.75,
+        "z": 0,
+        "y": 0,
+        "w": 0.5,
+        "h": 3.6,
+        "d": 53,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "outer-east",
+        "x": 35.75,
+        "z": 0,
+        "y": 0,
+        "w": 0.5,
+        "h": 3.6,
+        "d": 53,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "foyer-west",
+        "x": -33,
+        "z": -22.075,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 8.85,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "foyer-east",
+        "x": -27,
+        "z": -22.075,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 8.85,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "foyer-north-left",
+        "x": -32,
+        "z": -17.5,
+        "y": 0,
+        "w": 1.7,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "foyer-north-right",
+        "x": -28,
+        "z": -17.5,
+        "y": 0,
+        "w": 1.7,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "lobby-north-west",
+        "x": -31.35,
+        "z": -5.5,
+        "y": 0,
+        "w": 8.3,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "lobby-north-east",
+        "x": -21.225,
+        "z": -5.5,
+        "y": 0,
+        "w": 7.15,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "lobby-east-north",
+        "x": -17.5,
+        "z": -7.675,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4.05,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "lobby-east-south",
+        "x": -17.5,
+        "z": -15.5,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "staff-north-west",
+        "x": -15.4,
+        "z": -5.5,
+        "y": 0,
+        "w": 3.9,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "staff-north-east",
+        "x": -8.925,
+        "z": -5.5,
+        "y": 0,
+        "w": 3.55,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "staff-east-north",
+        "x": -7,
+        "z": -7.675,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4.05,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "staff-east-south",
+        "x": -7,
+        "z": -14.9,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 5.2,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "staff-south",
+        "x": -12.25,
+        "z": -17.5,
+        "y": 0,
+        "w": 10.2,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-west-north",
+        "x": -17.5,
+        "z": 1.25,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 1.5,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-west-south",
+        "x": -17.5,
+        "z": -3.675,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 3.35,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-north-west",
+        "x": -8.375,
+        "z": 2,
+        "y": 0,
+        "w": 17.95,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-north-east",
+        "x": 4.625,
+        "z": 2,
+        "y": 0,
+        "w": 2.45,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-east-north",
+        "x": 6,
+        "z": 1.1,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 1.8,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "archive-east-south",
+        "x": 6,
+        "z": -3.95,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 3.1,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-west",
+        "x": 0.6,
+        "z": 7,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 9.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-approach-east",
+        "x": 6,
+        "z": 4.5,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-south-west",
+        "x": 9,
+        "z": 7,
+        "y": 0,
+        "w": 6,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-south-east",
+        "x": 18.7,
+        "z": 7,
+        "y": 0,
+        "w": 8.6,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-north-west",
+        "x": 4.05,
+        "z": 12,
+        "y": 0,
+        "w": 6.9,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-north-middle",
+        "x": 14.7,
+        "z": 12,
+        "y": 0,
+        "w": 9.4,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-north-east",
+        "x": 22.8,
+        "z": 12,
+        "y": 0,
+        "w": 0.4,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "security-east",
+        "x": 23,
+        "z": 9.5,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "anteroom-west-north",
+        "x": 17,
+        "z": 18.9,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 3.2,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "anteroom-west-south",
+        "x": 17,
+        "z": 13.425,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 2.55,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "anteroom-east-north",
+        "x": 25,
+        "z": 20,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 1,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "anteroom-east-south",
+        "x": 25,
+        "z": 14.25,
+        "y": 0,
+        "w": 0.3,
+        "h": 3.6,
+        "d": 4.5,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "anteroom-north",
+        "x": 21,
+        "z": 20.5,
+        "y": 0,
+        "w": 7.7,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "vault-north",
+        "x": 30.25,
+        "z": 21.5,
+        "y": 0,
+        "w": 10.5,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "vault-south",
+        "x": 30.325,
+        "z": 14.5,
+        "y": 0,
+        "w": 10.35,
+        "h": 3.6,
+        "d": 0.3,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "teller-counter-main",
+        "x": -24.5,
+        "z": -9,
+        "y": 0,
+        "w": 10,
+        "h": 1.3,
+        "d": 1,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "teller-counter-return",
+        "x": -19.8,
+        "z": -7.4,
+        "y": 0,
+        "w": 1,
+        "h": 1.3,
+        "d": 2.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "lobby-bench",
+        "x": -33,
+        "z": -11,
+        "y": 0,
+        "w": 1.2,
+        "h": 0.9,
+        "d": 3.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "lobby-atm",
+        "x": -34.6,
+        "z": -7.2,
+        "y": 0,
+        "w": 0.8,
+        "h": 2.1,
+        "d": 1.7,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "queue-rail-west",
+        "x": -24.02,
+        "z": -15,
+        "y": 0.44,
+        "w": 4.56,
+        "h": 0.08,
+        "d": 0.08,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "queue-rail-east",
+        "x": -21.7,
+        "z": -13.8,
+        "y": 0.44,
+        "w": 0.08,
+        "h": 0.08,
+        "d": 2.4,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "staff-desk",
+        "x": -9.2,
+        "z": -11.2,
+        "y": 0,
+        "w": 3.2,
+        "h": 1.1,
+        "d": 1.4,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "staff-filing-cabinet",
+        "x": -8,
+        "z": -7,
+        "y": 0,
+        "w": 1.5,
+        "h": 2,
+        "d": 1,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "archive-shelf-south",
+        "x": -8.3,
+        "z": -3.35,
+        "y": 0,
+        "w": 6,
+        "h": 2.2,
+        "d": 0.8,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "archive-shelf-north",
+        "x": -8.3,
+        "z": 0.25,
+        "y": 0,
+        "w": 6,
+        "h": 2.2,
+        "d": 0.8,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "archive-box-stack",
+        "x": -15.2,
+        "z": -3.2,
+        "y": 0,
+        "w": 1.6,
+        "h": 1.3,
+        "d": 1.6,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "security-desk",
+        "x": 4.7,
+        "z": 4.5,
+        "y": 0,
+        "w": 1.8,
+        "h": 1.1,
+        "d": 1.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "security-cleaning-cart",
+        "x": 14,
+        "z": 8,
+        "y": 0,
+        "w": 1.7,
+        "h": 1.1,
+        "d": 0.7,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "security-debris",
+        "x": 17.5,
+        "z": 10.8,
+        "y": 0,
+        "w": 2.2,
+        "h": 0.6,
+        "d": 0.6,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "anteroom-guard-desk",
+        "x": 18.7,
+        "z": 15.5,
+        "y": 0,
+        "w": 2.2,
+        "h": 1.1,
+        "d": 1.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "vault-cash-pallet",
+        "x": 30,
+        "z": 16,
+        "y": 0,
+        "w": 2.2,
+        "h": 1.3,
+        "d": 1.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "vault-cage",
+        "x": 33.2,
+        "z": 18,
+        "y": 0,
+        "w": 2.2,
+        "h": 2.7,
+        "d": 3.2,
+        "yaw": 0,
+        "material": "wood"
+      },
+      {
+        "name": "door-exterior-locked",
+        "x": -30,
+        "z": -26.72,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "door-lobby-fake-north",
+        "x": -26,
+        "z": -5.5,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "door-staff-fake-east",
+        "x": -7,
+        "z": -11,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "door-archive-fake-west",
+        "x": -17.5,
+        "z": -0.75,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "door-archive-fake-east",
+        "x": 6,
+        "z": -1.1,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "door-security-fake-south",
+        "x": 13.2,
+        "z": 7,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "door-security-fake-north",
+        "x": 8.75,
+        "z": 12,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "door-anteroom-fake-west",
+        "x": 17,
+        "z": 16,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      }
+    ],
+    "doors": [
+      {
+        "name": "door-exterior-locked",
+        "x": -30,
+        "z": -26.72,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-foyer-to-lobby",
+        "x": -30,
+        "z": -17.5,
+        "y": 0,
+        "w": 2.2,
+        "h": 2.4,
+        "d": 0.12,
+        "yaw": 0,
+        "material": "agedWood",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "door-lobby-fake-north",
+        "x": -26,
+        "z": -5.5,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-lobby-to-staff",
+        "x": -17.5,
+        "z": -12,
+        "y": 0,
+        "w": 2.8,
+        "h": 2.4,
+        "d": 0.12,
+        "yaw": -1.5707963267948966,
+        "material": "agedWood",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "door-staff-fake-east",
+        "x": -7,
+        "z": -11,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "agedWood",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-staff-to-archive",
+        "x": -12,
+        "z": -5.5,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.12,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "door-archive-fake-west",
+        "x": -17.5,
+        "z": -0.75,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-archive-fake-east",
+        "x": 6,
+        "z": -1.1,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-archive-to-security",
+        "x": 2,
+        "z": 2,
+        "y": 0,
+        "w": 2.6,
+        "h": 2.4,
+        "d": 0.12,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "door-security-fake-south",
+        "x": 13.2,
+        "z": 7,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-security-fake-north",
+        "x": 8.75,
+        "z": 12,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-security-to-anteroom",
+        "x": 21,
+        "z": 12,
+        "y": 0,
+        "w": 3,
+        "h": 2.4,
+        "d": 0.12,
+        "yaw": 0,
+        "material": "darkMetal",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "door-anteroom-fake-west",
+        "x": 17,
+        "z": 16,
+        "y": 0,
+        "w": 2.4,
+        "h": 2.4,
+        "d": 0.16,
+        "yaw": -1.5707963267948966,
+        "material": "darkMetal",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "door-vault-open",
+        "x": 25,
+        "z": 18,
+        "y": 0,
+        "w": 2.8,
+        "h": 2.9,
+        "d": 0.32,
+        "yaw": -1.5707963267948966,
+        "material": "darkMetal",
+        "open": true,
+        "decoy": false
+      }
+    ],
+    "floors": [
+      {
+        "name": "bank-floor",
+        "x": 0,
+        "z": 0,
+        "y": -0.2,
+        "w": 71,
+        "h": 0.2,
+        "d": 53,
+        "yaw": 0,
+        "material": "floorTile"
+      }
+    ],
+    "ceilings": [
+      {
+        "name": "bank-ceiling",
+        "x": 0,
+        "z": 0,
+        "y": 3.6300000000000003,
+        "w": 71,
+        "h": 0.18,
+        "d": 53,
+        "yaw": 0,
+        "material": "ceiling"
+      }
+    ],
+    "signs": [
+      {
+        "x": -30,
+        "y": 2.65,
+        "z": -17.68,
+        "yaw": 0,
+        "text": "Emergency exit"
+      },
+      {
+        "x": -26,
+        "y": 2.62,
+        "z": -5.68,
+        "yaw": -3.141592653589793,
+        "text": "Emergency exit  EXIT"
+      },
+      {
+        "x": -17.68,
+        "y": 2.6,
+        "z": -12,
+        "yaw": -1.5707963267948966,
+        "text": "Staff Area"
+      },
+      {
+        "x": -7.18,
+        "y": 2.62,
+        "z": -11,
+        "yaw": -1.5707963267948966,
+        "text": "Emergency Exit"
+      },
+      {
+        "x": -12,
+        "y": 2.62,
+        "z": -5.68,
+        "yaw": -3.141592653589793,
+        "text": "Archives / ARCHIVE"
+      },
+      {
+        "x": -17.32,
+        "y": 2.62,
+        "z": -0.75,
+        "yaw": -4.71238898038469,
+        "text": "Fire Exit"
+      },
+      {
+        "x": 2,
+        "y": 2.62,
+        "z": 1.82,
+        "yaw": 0,
+        "text": "Security Zone  SECURITY"
+      },
+      {
+        "x": 13.2,
+        "y": 2.62,
+        "z": 7.18,
+        "yaw": 0,
+        "text": "Emergency exit"
+      },
+      {
+        "x": 19,
+        "y": 2.62,
+        "z": 11.82,
+        "yaw": -3.141592653589793,
+        "text": "Vault VAULT"
+      },
+      {
+        "x": 8.75,
+        "y": 2.62,
+        "z": 11.82,
+        "yaw": 0,
+        "text": "Vault Passage"
+      },
+      {
+        "x": 24.82,
+        "y": 2.62,
+        "z": 18,
+        "yaw": -4.71238898038469,
+        "text": "Vault"
+      }
+    ],
+    "lights": [
+      {
+        "x": -25,
+        "y": 3.45,
+        "z": -12
+      },
+      {
+        "x": -12,
+        "y": 3.45,
+        "z": -10
+      },
+      {
+        "x": -5,
+        "y": 3.45,
+        "z": -1
+      },
+      {
+        "x": 11,
+        "y": 2.8,
+        "z": 9.5
+      },
+      {
+        "x": 29,
+        "y": 3.35,
+        "z": 18
+      }
+    ]
+  },
+  {
+    "id": "c09-n07",
+    "title": "Medical Center: Repeated Atrium",
+    "source": {
+      "task": "level-07-clinic-hub",
+      "sha256": "9ab3c01d036fc525f790a299b172d7a38ab580b640f5ccf089c8cc973b30f873",
+      "note": "Port OffMapBench Original Layout, not GTA Video Recreation; Keep walls, Route, Seal the decoy door, Material and lighting adaptation GTA_SZ."
+    },
+    "bounds": {
+      "minX": -27.75,
+      "maxX": 27.75,
+      "minZ": -27.75,
+      "maxZ": 27.75
+    },
+    "points": [
+      [
+        -22.200000000000003,
+        22.200000000000003
+      ],
+      [
+        -18.5,
+        22.200000000000003
+      ],
+      [
+        -14.8,
+        22.200000000000003
+      ],
+      [
+        -11.100000000000001,
+        22.200000000000003
+      ],
+      [
+        -7.4,
+        22.200000000000003
+      ],
+      [
+        -7.4,
+        18.5
+      ],
+      [
+        -7.4,
+        14.8
+      ],
+      [
+        -3.7,
+        14.8
+      ],
+      [
+        0,
+        14.8
+      ],
+      [
+        3.7,
+        14.8
+      ],
+      [
+        7.4,
+        14.8
+      ],
+      [
+        7.4,
+        11.100000000000001
+      ],
+      [
+        7.4,
+        7.4
+      ],
+      [
+        7.4,
+        3.7
+      ],
+      [
+        7.4,
+        0
+      ],
+      [
+        11.100000000000001,
+        0
+      ],
+      [
+        14.8,
+        0
+      ],
+      [
+        18.5,
+        0
+      ],
+      [
+        22.200000000000003,
+        0
+      ],
+      [
+        22.200000000000003,
+        -3.7
+      ],
+      [
+        22.200000000000003,
+        -7.4
+      ],
+      [
+        18.5,
+        -7.4
+      ],
+      [
+        14.8,
+        -7.4
+      ],
+      [
+        14.8,
+        -11.100000000000001
+      ],
+      [
+        14.8,
+        -14.8
+      ],
+      [
+        18.5,
+        -14.8
+      ],
+      [
+        22.200000000000003,
+        -14.8
+      ],
+      [
+        22.200000000000003,
+        -18.5
+      ],
+      [
+        22.200000000000003,
+        -22.200000000000003
+      ]
+    ],
+    "goalY": 0,
+    "solids": [
+      {
+        "name": "grid-wall-0-0",
+        "x": -25.900000000000002,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-1",
+        "x": -22.200000000000003,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-2",
+        "x": -18.5,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-3",
+        "x": -14.8,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-4",
+        "x": -11.100000000000001,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-5",
+        "x": -7.4,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-6",
+        "x": -3.7,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-7",
+        "x": 0,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-8",
+        "x": 3.7,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-9",
+        "x": 7.4,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-10",
+        "x": 11.100000000000001,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-11",
+        "x": 14.8,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-12",
+        "x": 18.5,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-13",
+        "x": 22.200000000000003,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-0-14",
+        "x": 25.900000000000002,
+        "z": 25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-1-0",
+        "x": -25.900000000000002,
+        "z": 22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-1-14",
+        "x": 25.900000000000002,
+        "z": 22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-0",
+        "x": -25.900000000000002,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-2",
+        "x": -18.5,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-3",
+        "x": -14.8,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-4",
+        "x": -11.100000000000001,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-6",
+        "x": -3.7,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-7",
+        "x": 0,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-8",
+        "x": 3.7,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-10",
+        "x": 11.100000000000001,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-11",
+        "x": 14.8,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-12",
+        "x": 18.5,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-2-14",
+        "x": 25.900000000000002,
+        "z": 18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-3-0",
+        "x": -25.900000000000002,
+        "z": 14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-3-4",
+        "x": -11.100000000000001,
+        "z": 14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-3-10",
+        "x": 11.100000000000001,
+        "z": 14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-3-14",
+        "x": 25.900000000000002,
+        "z": 14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-0",
+        "x": -25.900000000000002,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-1",
+        "x": -22.200000000000003,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-2",
+        "x": -18.5,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-6",
+        "x": -3.7,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-7",
+        "x": 0,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-8",
+        "x": 3.7,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-12",
+        "x": 18.5,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-13",
+        "x": 22.200000000000003,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-4-14",
+        "x": 25.900000000000002,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-0",
+        "x": -25.900000000000002,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-4",
+        "x": -11.100000000000001,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-6",
+        "x": -3.7,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-8",
+        "x": 3.7,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-10",
+        "x": 11.100000000000001,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-5-14",
+        "x": 25.900000000000002,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-0",
+        "x": -25.900000000000002,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-2",
+        "x": -18.5,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-3",
+        "x": -14.8,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-4",
+        "x": -11.100000000000001,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-6",
+        "x": -3.7,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-8",
+        "x": 3.7,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-10",
+        "x": 11.100000000000001,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-11",
+        "x": 14.8,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-12",
+        "x": 18.5,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-6-14",
+        "x": 25.900000000000002,
+        "z": 3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-7-0",
+        "x": -25.900000000000002,
+        "z": 0,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-7-14",
+        "x": 25.900000000000002,
+        "z": 0,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-0",
+        "x": -25.900000000000002,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-2",
+        "x": -18.5,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-3",
+        "x": -14.8,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-4",
+        "x": -11.100000000000001,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-6",
+        "x": -3.7,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-8",
+        "x": 3.7,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-10",
+        "x": 11.100000000000001,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-11",
+        "x": 14.8,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-12",
+        "x": 18.5,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-8-14",
+        "x": 25.900000000000002,
+        "z": -3.7,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-0",
+        "x": -25.900000000000002,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-4",
+        "x": -11.100000000000001,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-6",
+        "x": -3.7,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-8",
+        "x": 3.7,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-10",
+        "x": 11.100000000000001,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-9-14",
+        "x": 25.900000000000002,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-0",
+        "x": -25.900000000000002,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-1",
+        "x": -22.200000000000003,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-2",
+        "x": -18.5,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-4",
+        "x": -11.100000000000001,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-6",
+        "x": -3.7,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-7",
+        "x": 0,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-8",
+        "x": 3.7,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-10",
+        "x": 11.100000000000001,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-12",
+        "x": 18.5,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-13",
+        "x": 22.200000000000003,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-10-14",
+        "x": 25.900000000000002,
+        "z": -11.100000000000001,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-11-0",
+        "x": -25.900000000000002,
+        "z": -14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-11-4",
+        "x": -11.100000000000001,
+        "z": -14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-11-10",
+        "x": 11.100000000000001,
+        "z": -14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-11-14",
+        "x": 25.900000000000002,
+        "z": -14.8,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-0",
+        "x": -25.900000000000002,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-2",
+        "x": -18.5,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-3",
+        "x": -14.8,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-4",
+        "x": -11.100000000000001,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-6",
+        "x": -3.7,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-7",
+        "x": 0,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-8",
+        "x": 3.7,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-10",
+        "x": 11.100000000000001,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-11",
+        "x": 14.8,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-12",
+        "x": 18.5,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-12-14",
+        "x": 25.900000000000002,
+        "z": -18.5,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-0",
+        "x": -25.900000000000002,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-1",
+        "x": -22.200000000000003,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-2",
+        "x": -18.5,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-3",
+        "x": -14.8,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-4",
+        "x": -11.100000000000001,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-5",
+        "x": -7.4,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-6",
+        "x": -3.7,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-7",
+        "x": 0,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-8",
+        "x": 3.7,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-9",
+        "x": 7.4,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-10",
+        "x": 11.100000000000001,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-13-14",
+        "x": 25.900000000000002,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-0",
+        "x": -25.900000000000002,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-1",
+        "x": -22.200000000000003,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-2",
+        "x": -18.5,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-3",
+        "x": -14.8,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-4",
+        "x": -11.100000000000001,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-5",
+        "x": -7.4,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-6",
+        "x": -3.7,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-7",
+        "x": 0,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-8",
+        "x": 3.7,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-9",
+        "x": 7.4,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-10",
+        "x": 11.100000000000001,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-11",
+        "x": 14.8,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-12",
+        "x": 18.5,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-13",
+        "x": 22.200000000000003,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "grid-wall-14-14",
+        "x": 25.900000000000002,
+        "z": -25.900000000000002,
+        "y": 0,
+        "w": 3.7,
+        "h": 3.4,
+        "d": 3.7,
+        "yaw": 0,
+        "material": "wall"
+      },
+      {
+        "name": "decoy-door-1-7",
+        "x": 0,
+        "z": 22.200000000000003,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "decoy-door-4-4",
+        "x": -11.100000000000001,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "decoy-door-4-10",
+        "x": 11.100000000000001,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      },
+      {
+        "name": "decoy-door-5-7",
+        "x": 0,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "decoy-door-9-7",
+        "x": 0,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": 0,
+        "material": "door"
+      },
+      {
+        "name": "decoy-door-13-11",
+        "x": 14.8,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door"
+      }
+    ],
+    "doors": [
+      {
+        "name": "decoy-door-1-7",
+        "x": 0,
+        "z": 22.200000000000003,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "decoy-door-4-4",
+        "x": -11.100000000000001,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "decoy-door-4-10",
+        "x": 11.100000000000001,
+        "z": 11.100000000000001,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "decoy-door-5-7",
+        "x": 0,
+        "z": 7.4,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": 0,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "route-door-7-6",
+        "x": -3.7,
+        "z": 0,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "route-door-7-8",
+        "x": 3.7,
+        "z": 0,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "door",
+        "open": true,
+        "decoy": false
+      },
+      {
+        "name": "decoy-door-9-7",
+        "x": 0,
+        "z": -7.4,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": 0,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      },
+      {
+        "name": "decoy-door-13-11",
+        "x": 14.8,
+        "z": -22.200000000000003,
+        "y": 0,
+        "w": 3.25,
+        "h": 2.72,
+        "d": 0.18,
+        "yaw": -1.5707963267948966,
+        "material": "lockedDoor",
+        "open": false,
+        "decoy": true
+      }
+    ],
+    "floors": [
+      {
+        "name": "level-07-clinic-hub-floor",
+        "x": 0,
+        "z": 0,
+        "y": -0.2,
+        "w": 55.5,
+        "h": 0.2,
+        "d": 55.5,
+        "yaw": 0,
+        "material": "trainingFloor"
+      }
+    ],
+    "ceilings": [
+      {
+        "name": "level-07-clinic-hub-ceiling",
+        "x": 0,
+        "z": 0,
+        "y": 3.32,
+        "w": 55.5,
+        "h": 0.16,
+        "d": 55.5,
+        "yaw": 0,
+        "material": "trainingCeiling"
+      }
+    ],
+    "signs": [
+      {
+        "x": -7.4,
+        "y": 1.75,
+        "z": 16.59,
+        "yaw": 0,
+        "text": "Emergency Department"
+      },
+      {
+        "x": 7.4,
+        "y": 1.75,
+        "z": 16.59,
+        "yaw": 0,
+        "text": "Safe Zone"
+      },
+      {
+        "x": -3.7,
+        "y": 1.75,
+        "z": -1.79,
+        "yaw": -3.141592653589793,
+        "text": "Safe Zone"
+      },
+      {
+        "x": 7.4,
+        "y": 1.75,
+        "z": -16.59,
+        "yaw": -3.141592653589793,
+        "text": "Exit"
+      },
+      {
+        "x": 23.990000000000002,
+        "y": 1.75,
+        "z": -14.8,
+        "yaw": -1.5707963267948966,
+        "text": "Safe Zone"
+      }
+    ],
+    "lights": [
+      {
+        "x": -22.200000000000003,
+        "y": 2.8,
+        "z": 22.200000000000003
+      },
+      {
+        "x": 0,
+        "y": 2.8,
+        "z": 0
+      },
+      {
+        "x": 22.200000000000003,
+        "y": 2.8,
+        "z": -22.200000000000003
+      }
+    ]
+  }
+]

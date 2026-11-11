@@ -1,0 +1,162 @@
+[
+  {
+    "id": "c03-n05",
+    "title": "Follow Dave back to the car",
+    "mode": "walk",
+    "category": "follow",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "There is a car at the endpoint",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          1613.5,
+          1486.6
+        ],
+        [
+          1532.1899576413327,
+          1428.3876558483364
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [],
+      "length": 99.99999999999987
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c05-n02",
+    "title": "Escape pursuit near the oil field by walking",
+    "mode": "walk",
+    "category": "escape",
+    "expectedTurns": [
+      "right",
+      "right"
+    ],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": "Requires crossing a railing along the way"
+      },
+      "turns": [
+        {
+          "direction": "right",
+          "sourceIndex": 1,
+          "degrees": 58.985878750293246
+        },
+        {
+          "direction": "right",
+          "sourceIndex": 2,
+          "degrees": 96.23758106489399
+        }
+      ],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          3848.9,
+          2403.2
+        ],
+        [
+          3826.676666498546,
+          2392.356709522807
+        ],
+        [
+          3786.8422307958417,
+          2418.20280084869
+        ],
+        [
+          3804.4103334008914,
+          2439.73220716995
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [
+        {
+          "index": 1,
+          "direction": "right"
+        },
+        {
+          "index": 2,
+          "direction": "right"
+        }
+      ],
+      "length": 100.00000000000034
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": true,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  },
+  {
+    "id": "c05-n03",
+    "title": "Leave the restricted area by walking",
+    "mode": "walk",
+    "category": "escape",
+    "expectedTurns": [],
+    "source": {
+      "revision": 1,
+      "status": "human-drawn-needs-review",
+      "descriptions": {
+        "start": "",
+        "end": "",
+        "general": ""
+      },
+      "turns": [],
+      "ignoredSourceIndices": []
+    },
+    "path": {
+      "points": [
+        [
+          2621.4,
+          2108.8
+        ],
+        [
+          2532.8517657078505,
+          2062.332697477231
+        ]
+      ],
+      "building": null,
+      "roof": null,
+      "turns": [],
+      "length": 99.99999999999991
+    },
+    "requirements": {
+      "startVehicle": null,
+      "endVehicle": null,
+      "vault": false,
+      "stairs": false,
+      "warehouse": false,
+      "entrance": false,
+      "policeLine": false
+    }
+  }
+]

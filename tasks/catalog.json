@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "c01-n01",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive into and through the parking garage",
+    "instruction": "Drive the SUV into and through the parking garage to the target point at the exit.",
+    "vehicle": "drive",
+    "setting": "warehouse",
+    "indoors": false
+  },
+  {
+    "id": "c01-n02",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive the sedan into the residential garage",
+    "instruction": "Drive the SUV around the courtyard flowerbed and into the garage.",
+    "vehicle": "drive",
+    "setting": "residential",
+    "indoors": true
+  },
+  {
+    "id": "c01-n03",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Ride the motorcycle through the cave",
+    "instruction": "Ride the motorcycle through the cave to the destination at the cave opening.",
+    "vehicle": "motorcycle",
+    "setting": "tunnel",
+    "indoors": true
+  },
+  {
+    "id": "c01-n04",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Return the red sports car to the car shop",
+    "instruction": "Walk to the roadside parking area, then drive back to the car dealership as quickly as possible.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n05",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive back to the residence",
+    "instruction": "Reach the target point before the countdown runs out.",
+    "vehicle": "drive",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c01-n06",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive to Vespucci Beach",
+    "instruction": "Reach the target point before the countdown runs out.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n07",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Ride the motorcycle to the car wash",
+    "instruction": "Ride the motorcycle to the car wash.",
+    "vehicle": "motorcycle",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n08",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive to the house",
+    "instruction": "Drive to the residence.",
+    "vehicle": "car",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n09",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "The yellow SUV Drive to the Car Shop",
+    "instruction": "Drive the yellow SUV to the car dealership.",
+    "vehicle": "car",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n10",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "04 Unexpected Complications · Line up with the vehicle showroom window and drive in",
+    "instruction": "Align the yellow SUV with the dealership's wide display window, then crash through it into the room.",
+    "vehicle": "car",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n11",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Follow the original route by car to the Pacific Coast Highway entrance",
+    "instruction": "Drive to the coastal entrance on the seaside boulevard.",
+    "vehicle": "car",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c01-n12",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "riding Bagger Go to the Franklin residence",
+    "instruction": "Ride the Bagger-style touring motorcycle to Franklin's residence.",
+    "vehicle": "motorcycle",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n13",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive the van to the city alley entrance",
+    "instruction": "Drive the van to the city alley entrance.",
+    "vehicle": "van",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n14",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "06 Xiaocha · Drive the box truck out of the freight yard",
+    "instruction": "Drive the van to the area outside the freight yard.",
+    "vehicle": "van",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n15",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drop off your companion at the leisure center",
+    "instruction": "Drive the van to the recreation center.",
+    "vehicle": "van",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c01-n16",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Return from the canyon toward the home of Michael",
+    "instruction": "Drive to Michael's residence.",
+    "vehicle": "pickup",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c01-n17",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "08 Accidentally Entered a Trap · Drive to the gun store",
+    "instruction": "Reach the target point before the countdown runs out.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n18",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "Drive to Lifeinvader Office",
+    "instruction": "Reach the target point before the countdown runs out.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c01-n19",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "01 Prologue · Escape to the railway crossing while driving",
+    "instruction": "Drive to the target point at the railway crossing.",
+    "vehicle": "suv",
+    "setting": "north-yankton",
+    "indoors": false
+  },
+  {
+    "id": "c01-n20",
+    "kind": "native",
+    "category": "outdoor-road",
+    "title": "07 Marriage counseling · Lose the pursuing car, then return to the residential driveway",
+    "instruction": "Drive to the residence's driveway.",
+    "vehicle": "pickup",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n01",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "03 Borrow and Repay · Go walking from the dealership to the sedan",
+    "instruction": "Walk from the dealership to the sedan.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c02-n02",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "03 Borrow and Repay · Move toward the adjacent detached garage",
+    "instruction": "Walk inside the neighboring detached garage.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n03",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "Run back to the sedan at the alley entrance",
+    "instruction": "Walk to the sedan at the alley entrance.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n04",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "03 Borrow and Repay · Approach the fallen motorcycle",
+    "instruction": "Walk to the fallen motorcycle.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c02-n05",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "Go around the garden to find a way into the house",
+    "instruction": "Walk around the central garden flowerbed to the entrance of the residence.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n06",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "Search for a hiding place along the freight cars",
+    "instruction": "Walk to the hiding place in the freight area.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c02-n07",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "01 Prologue · Cross the police car blockade in the snow",
+    "instruction": "Walk through the cordoned-off area.",
+    "vehicle": "walk",
+    "setting": "north-yankton",
+    "indoors": false
+  },
+  {
+    "id": "c02-n08",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "02 Brothers in Misfortune · Walk toward the white sedan in the back lot",
+    "instruction": "Walk to the white target car in the rear yard.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c02-n09",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "05 Like Father, Like Son · Walk toward the convertible in the residential driveway",
+    "instruction": "Walk to the red convertible in the residence's driveway.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n10",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "06 Xiaocha · Walk toward the green motorcycle by the road",
+    "instruction": "Walk to the green motorcycle by the road.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c02-n11",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "06 Xiaocha · Return to the van at the alley entrance",
+    "instruction": "Walk to the white van at the alley entrance.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c02-n12",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "06 Xiaocha · Walk from the motorcycle to the residence entrance",
+    "instruction": "Walk from beside the green motorcycle to the front door of the residence.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n13",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "06 Xiaocha · Walk from the shopping street sidewalk to the curb",
+    "instruction": "Walk to the sidewalk curb on the shopping street.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c02-n14",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "08 Accidentally Entered a Trap · Walk from the street to the residence entrance",
+    "instruction": "Walk to the front door of the residence.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c02-n15",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "08 Accidentally Entered a Trap · Walk up the steps to the gun shop entrance",
+    "instruction": "Walk up the steps at the gun store entrance.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c02-n16",
+    "kind": "native",
+    "category": "outdoor-foot",
+    "title": "08 Accidentally Entered a Trap · Walk from the factory parking space to the entrance",
+    "instruction": "Walk from the factory parking space to the factory entrance.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c03-n01",
+    "kind": "native",
+    "category": "follow",
+    "title": "Follow the white sports car through the city",
+    "instruction": "Follow the white sports car ahead through the city.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c03-n02",
+    "kind": "native",
+    "category": "follow",
+    "title": "Follow your companion into the garage alley",
+    "instruction": "Follow your companion on foot into the garage alley.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c03-n03",
+    "kind": "native",
+    "category": "follow",
+    "title": "Follow Xiao Cha back to the cargo compartment door",
+    "instruction": "Follow your companion on foot back to the cargo compartment door.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c03-n04",
+    "kind": "native",
+    "category": "follow",
+    "title": "06 Xiaocha · Follow Xia o Zha along the railway tracks, then switch views",
+    "instruction": "Follow your companion on foot in the railway area.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c03-n05",
+    "kind": "native",
+    "category": "follow",
+    "title": "23 Three Make a Crowd · Follow Dave back to the car",
+    "instruction": "Follow your companion on foot back to the car.",
+    "vehicle": "walk",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c03-n06",
+    "kind": "native",
+    "category": "follow",
+    "title": "15 Jewelry Store Heist · Ride a motorcycle and follow your accomplice out of the shopping street",
+    "instruction": "Ride the motorcycle and follow your accomplice on the motorcycle ahead.",
+    "vehicle": "motorcycle",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n01",
+    "kind": "native",
+    "category": "chase",
+    "title": "Chase the motorcycle while driving",
+    "instruction": "Intercept the motorcycle ahead.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n02",
+    "kind": "native",
+    "category": "chase",
+    "title": "Pursue the boat trailer along the existing coastal access road and highway",
+    "instruction": "Intercept the target vehicle marked by the blue dot along the coastal entrance and highway.",
+    "vehicle": "car",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c04-n03",
+    "kind": "native",
+    "category": "chase",
+    "title": "Drive the van and chase the motorcycle to the open-air market",
+    "instruction": "Intercept the motorcycle ahead.",
+    "vehicle": "van",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n04",
+    "kind": "native",
+    "category": "chase",
+    "title": "05 Like Father, Like Son · Chase the vehicle on the bridge and pick up your companion",
+    "instruction": "Drive the red convertible to rescue the first companion on the boat-hauling truck. Drive alongside it in the same direction at approximately matching speed for about 1.6 seconds, aligned with the pickup point beneath the horizontal bar on the truck's left side. The pickup completes automatically.",
+    "vehicle": "drive",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c04-n05",
+    "kind": "native",
+    "category": "chase",
+    "title": "14 Poison gas grenade · Close in on the cargo van",
+    "instruction": "Drive to intercept the white transport van ahead.",
+    "vehicle": "drive",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c04-n06",
+    "kind": "native",
+    "category": "chase",
+    "title": "15 Jewelry Store Heist · Track Humane First attempt with the transport truck",
+    "instruction": "Drive to intercept the white transport van ahead.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n07",
+    "kind": "native",
+    "category": "chase",
+    "title": "15 Jewelry Store Heist · Retry tracking the transport truck",
+    "instruction": "Drive to intercept the white transport van ahead.",
+    "vehicle": "drive",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c04-n08",
+    "kind": "native",
+    "category": "chase",
+    "title": "07 Marriage counseling · Follow the tennis coach in the pickup",
+    "instruction": "Drive the pickup truck to intercept the red convertible ahead.",
+    "vehicle": "pickup",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c04-n09",
+    "kind": "native",
+    "category": "chase",
+    "title": "16 Mr. Philip · Follow the van to the trailer park",
+    "instruction": "Drive the pickup truck to intercept the white van ahead.",
+    "vehicle": "pickup",
+    "setting": "countryside",
+    "indoors": false
+  },
+  {
+    "id": "c04-n10",
+    "kind": "native",
+    "category": "chase",
+    "title": "21 Fame or shame · Drive the semi-truck into the river channel and catch up with the target",
+    "instruction": "Drive the semi-truck with its trailer along the dry ground of the river channel to intercept the red sedan.",
+    "vehicle": "semi-truck",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n11",
+    "kind": "native",
+    "category": "chase",
+    "title": "44 Night of the Hunt · Chase the vehicle onto the mountain road under the bridge",
+    "instruction": "Drive the SUV along the mountain road beneath the bridge to intercept the SUV ahead.",
+    "vehicle": "suv",
+    "setting": "countryside",
+    "indoors": false
+  },
+  {
+    "id": "c04-n12",
+    "kind": "native",
+    "category": "chase",
+    "title": "21 Fame or shame · Drive the semi-truck to chase the red car",
+    "instruction": "Drive the semi-truck with its trailer to intercept the red sedan ahead.",
+    "vehicle": "semi-truck",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c04-n13",
+    "kind": "native",
+    "category": "chase",
+    "title": "44 Night of the Hunt · Coastal expressway car chase",
+    "instruction": "Drive the SUV along the coastal highway to intercept the SUV ahead.",
+    "vehicle": "suv",
+    "setting": "highway",
+    "indoors": false
+  },
+  {
+    "id": "c05-n01",
+    "kind": "native",
+    "category": "escape",
+    "title": "Lose the police while driving",
+    "instruction": "Escape the police by driving.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n02",
+    "kind": "native",
+    "category": "escape",
+    "title": "24 Follow the Rules · Escape pursuit near the oil field by walking",
+    "instruction": "Escape the pursuing police on foot.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c05-n03",
+    "kind": "native",
+    "category": "escape",
+    "title": "27 Explore the Harbor · Leave the restricted area by walking",
+    "instruction": "Leave the restricted area on foot and escape the pursuing police.",
+    "vehicle": "walk",
+    "setting": "docks",
+    "indoors": false
+  },
+  {
+    "id": "c05-n04",
+    "kind": "native",
+    "category": "escape",
+    "title": "08 Accidentally Entered a Trap · Lose the police while driving",
+    "instruction": "Escape the police by driving.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n05",
+    "kind": "native",
+    "category": "escape",
+    "title": "22 Narrow Escape · Lose the police while driving",
+    "instruction": "Escape the police by driving.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n06",
+    "kind": "native",
+    "category": "escape",
+    "title": "12 Carbine · Transfer SUV Keep evading pursuit",
+    "instruction": "Drive the SUV to escape the police.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n07",
+    "kind": "native",
+    "category": "escape",
+    "title": "15 Jewelry Store Heist · Drive the stolen van to lose the police",
+    "instruction": "Drive the van to escape the police.",
+    "vehicle": "box-truck",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n08",
+    "kind": "native",
+    "category": "escape",
+    "title": "23 Three Make a Crowd · Night driving SUV Evade tracking",
+    "instruction": "Drive the SUV to escape the police.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n09",
+    "kind": "native",
+    "category": "escape",
+    "title": "12 Carbine · Drive the convertible to evade the police",
+    "instruction": "Drive the convertible to escape the police.",
+    "vehicle": "drive",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n10",
+    "kind": "native",
+    "category": "escape",
+    "title": "24 Follow the Rules · Drive a police car to evade pursuit",
+    "instruction": "Drive the police car to escape pursuit.",
+    "vehicle": "police-car",
+    "setting": "mountain",
+    "indoors": false
+  },
+  {
+    "id": "c05-n11",
+    "kind": "native",
+    "category": "escape",
+    "title": "19 Meth Maze · Ride the ATV away from the farm",
+    "instruction": "Drive the quad bike away from the farm and escape the police.",
+    "vehicle": "atv",
+    "setting": "countryside",
+    "indoors": false
+  },
+  {
+    "id": "c05-n12",
+    "kind": "native",
+    "category": "escape",
+    "title": "15 Jewelry Store Heist · Drive the truck along the river channel for the pickup",
+    "instruction": "Drive the cargo van to escape the police in the river-channel area.",
+    "vehicle": "box-truck",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n13",
+    "kind": "native",
+    "category": "escape",
+    "title": "31 The Hotel Assassination · Ride out of the hotel area",
+    "instruction": "Ride the green motorcycle to escape the police.",
+    "vehicle": "motorcycle",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c05-n14",
+    "kind": "native",
+    "category": "escape",
+    "title": "25 Escape the Drug Den · Switch to a dirt bike and escape the police along the beach",
+    "instruction": "Ride the motorcycle along the coast to evade the police.",
+    "vehicle": "motorcycle",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c05-n15",
+    "kind": "native",
+    "category": "escape",
+    "title": "09 Precious Pearl · Drive the jet ski toward the waterway entrance",
+    "instruction": "Ride the jet ski to escape the pursuing boats.",
+    "vehicle": "jetski",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c05-n16",
+    "kind": "native",
+    "category": "escape",
+    "title": "09 Precious Pearl · Lose the pursuers along the canal",
+    "instruction": "Ride the jet ski to evade the pursuing boats in the waterway.",
+    "vehicle": "jetski",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n01",
+    "kind": "native",
+    "category": "water",
+    "title": "Pilot the yellow submarine down to the base of the offshore facility and drive deep into the seabed pipe.",
+    "instruction": "Pilot the yellow submarine down to the base of the offshore facility and drive deep into the seabed pipe."
+  },
+  {
+    "id": "c06-n02",
+    "kind": "native",
+    "category": "water",
+    "title": "48 Illegal activities · Swim underwater to the submerged entrance",
+    "instruction": "Swim underwater to the submerged entrance and pass through it.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n03",
+    "kind": "native",
+    "category": "water",
+    "title": "29 Troop transport helicopter · Go swimming toward the shore",
+    "instruction": "Swim to the shore, then wade onto the target point on land.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n04",
+    "kind": "native",
+    "category": "water",
+    "title": "44 Night of the Hunt · Swim Across the River",
+    "instruction": "Swim to the opposite riverbank, then wade onto the target point on land.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n05",
+    "kind": "native",
+    "category": "water",
+    "title": "47 Off the Rails · Go swimming from the riverbank to the dinghy",
+    "instruction": "Reach the docking point at the distant offshore supply platform before the countdown runs out.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n06",
+    "kind": "native",
+    "category": "water",
+    "title": "09 Precious Pearl · Ride the jet ski back to the beach",
+    "instruction": "Drive the yacht to the water near the beach.",
+    "vehicle": "jetski",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n07",
+    "kind": "native",
+    "category": "water",
+    "title": "48 Illegal activities · Pilot the boat along the coast",
+    "instruction": "Drive the small boat along the coast to the target point on the water.",
+    "vehicle": "dinghy",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n08",
+    "kind": "native",
+    "category": "water",
+    "title": "09 Precious Pearl · Swim to the moored yacht",
+    "instruction": "Swim to the target point at the stern of the moored yacht.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n09",
+    "kind": "native",
+    "category": "water",
+    "title": "25 Escape the Drug Den · Board the jet ski by the river and leave shore",
+    "instruction": "Reach the docking point at the distant offshore work platform before the countdown runs out.",
+    "vehicle": "jetski",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n10",
+    "kind": "native",
+    "category": "water",
+    "title": "28 Small submarine · Swim to the submarine in the water and board it",
+    "instruction": "Board the yacht.",
+    "vehicle": "swim",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c06-n11",
+    "kind": "native",
+    "category": "water",
+    "title": "47 Off the Rails · Pilot the boat to the beach",
+    "instruction": "Drive the yacht up the beach slope to the destination on land.",
+    "vehicle": "dinghy",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c07-n01",
+    "kind": "native",
+    "category": "stairs",
+    "title": "Climb onto the pickup rack, scale the tiled eaves and head toward the window",
+    "instruction": "Reach the target rooftop window.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c07-n02",
+    "kind": "native",
+    "category": "stairs",
+    "title": "08 Accidentally Entered a Trap · Go down the exterior stairs to the loading yard",
+    "instruction": "Walk down the exterior stairs of the building to the target point in the loading yard.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c07-n03",
+    "kind": "native",
+    "category": "stairs",
+    "title": "20 Old Friends Reunited · Go up the exterior apartment stairs",
+    "instruction": "Walk up the apartment building's exterior stairs to the target point on the floor above.",
+    "vehicle": "walk",
+    "setting": "residential",
+    "indoors": false
+  },
+  {
+    "id": "c07-n04",
+    "kind": "native",
+    "category": "stairs",
+    "title": "08 Accidentally Entered a Trap · Climb the ladder to the adjacent factory roof",
+    "instruction": "Climb the ladder to the target point on the neighboring factory roof.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c07-n05",
+    "kind": "native",
+    "category": "stairs",
+    "title": "08 Accidentally Entered a Trap · Follow the rooftop service passage to the street exit",
+    "instruction": "Walk from the rooftop to the street-side exit.",
+    "vehicle": "walk",
+    "setting": "industrial",
+    "indoors": false
+  },
+  {
+    "id": "c08-n01",
+    "kind": "native",
+    "category": "air",
+    "title": "18 Anxious Xiao Luo · Take off along the runway",
+    "instruction": "Take off from the runway in the fixed-wing aircraft, pass through the aerial waypoints in order, then land on the designated runway, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "plane",
+    "setting": "airport",
+    "indoors": false
+  },
+  {
+    "id": "c08-n02",
+    "kind": "native",
+    "category": "air",
+    "title": "18 Anxious Xiao Luo · Follow your companion to the offshore delivery point",
+    "instruction": "Fly the fixed-wing aircraft along the designated aerial route while following your companion, and approach within 60 meters of their aircraft. Then follow the approach route to land on the designated runway, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "plane",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c08-n03",
+    "kind": "native",
+    "category": "air",
+    "title": "18 Anxious Xiao Luo · Fly to the small airport and land",
+    "instruction": "Take off in the fixed-wing aircraft, pass through the return waypoints and approach points in order, then land on the designated runway, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "plane",
+    "setting": "mountain",
+    "indoors": false
+  },
+  {
+    "id": "c08-n04",
+    "kind": "native",
+    "category": "air",
+    "title": "23 Three Make a Crowd · Fly the helicopter to IAA Headquarters",
+    "instruction": "Take off in the helicopter, pass through the waypoints in order, and hover slowly inside the urban target circle for three seconds. Then land on the designated H helipad, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "helicopter",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c08-n05",
+    "kind": "native",
+    "category": "air",
+    "title": "29 Troop transport helicopter · Fly the helicopter to the desert runway",
+    "instruction": "Take off in the transport helicopter, pass through the designated waypoints in order, then land on the H helipad, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "helicopter",
+    "setting": "desert",
+    "indoors": false
+  },
+  {
+    "id": "c08-n06",
+    "kind": "native",
+    "category": "air",
+    "title": "39 Mr. Richards · Fly the helicopter back to the film set",
+    "instruction": "Take off in the helicopter, pass through the waypoints in order to return to the urban H helipad, then land, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "helicopter",
+    "setting": "city",
+    "indoors": false
+  },
+  {
+    "id": "c08-n07",
+    "kind": "native",
+    "category": "air",
+    "title": "42 A Close Call · Fly the small plane toward the cargo plane",
+    "instruction": "Take off in the fixed-wing aircraft and approach within 60 meters of the target aircraft ahead before it leaves the mission airspace. Then land on the designated runway, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "plane",
+    "setting": "water",
+    "indoors": false
+  },
+  {
+    "id": "c08-n08",
+    "kind": "native",
+    "category": "air",
+    "title": "44 Night of the Hunt · Fly the helicopter to the forest",
+    "instruction": "Take off in the helicopter, pass through the waypoints in order, and hover slowly inside the target circle above the woodland for three seconds. Then land on the designated H helipad, reduce throttle, and remain stationary for two seconds.",
+    "vehicle": "helicopter",
+    "setting": "mountain",
+    "indoors": false
+  },
+  {
+    "id": "c09-n01",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Walk into the bank vault, collect the hidden cash, and retreat.",
+    "instruction": "Walk into the bank vault, collect the hidden cash, and retreat."
+  },
+  {
+    "id": "c09-n02",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Walk to the wall-facing side of the warehouse cover, between the cover and the rear wall. Crouch into cover at the interaction position.",
+    "instruction": "Walk to the wall-facing side of the warehouse cover, between the cover and the rear wall. Crouch into cover at the interaction position."
+  },
+  {
+    "id": "c09-n03",
+    "kind": "native",
+    "category": "indoor",
+    "title": "01 Prologue · Retreat from the warehouse to outside the roller shutter",
+    "instruction": "Leave the warehouse.",
+    "vehicle": "walk",
+    "setting": "north-yankton",
+    "indoors": false
+  },
+  {
+    "id": "c09-n04",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Exit the vehicle and walk inside the dealership service bay",
+    "instruction": "Walk from the dealership's repair workshop into the showroom, then pass back through the workshop to the rear yard.",
+    "vehicle": "walk",
+    "setting": "warehouse",
+    "indoors": true
+  },
+  {
+    "id": "c09-n05",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Go through the convenience store back room",
+    "instruction": "Walk through the convenience store's aisles and back-room passage to the target point on the rear steps.",
+    "vehicle": "walk",
+    "setting": "warehouse",
+    "indoors": true
+  },
+  {
+    "id": "c09-n06",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Walk through the rural bank to the target position inside the vault.",
+    "instruction": "Walk through the rural bank to the target position inside the vault."
+  },
+  {
+    "id": "c09-n07",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Walk through the clinic corridors to the target position.",
+    "instruction": "Walk through the clinic corridors to the target position."
+  },
+  {
+    "id": "c09-n08",
+    "kind": "native",
+    "category": "indoor",
+    "title": "Reach the target position in the factory.",
+    "instruction": "Reach the target position in the factory."
+  },
+  {
+    "id": "c10-n01",
+    "sourceId": "GTA_TASK_002442_SEGMENT_001_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the hostage taker, The head of the guard in a white shirt behind the hostage.",
+    "instruction": "Shoot the head of the white-shirted guard holding a hostage from behind.",
+    "config": "c10-n01/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n02",
+    "sourceId": "GTA_TASK_002442_SEGMENT_140_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot at the left side of the red barn, Police officer standing on the snowy slope.",
+    "instruction": "Shoot the police officer standing on the snowy slope to the left of the red barn.",
+    "config": "c10-n02/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n03",
+    "sourceId": "GTA_TASK_008596_SEGMENT_063_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the armed man in a dark jacket over a light shirt beside the warehouse passage exit.",
+    "instruction": "Shoot the armed man wearing a dark jacket over a light-colored top beside the warehouse passage exit.",
+    "config": "c10-n03/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n04",
+    "sourceId": "GTA_TASK_006051_SEGMENT_098_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot ahead in the corridor, Man wearing a green top and light pants beside the wooden crate.",
+    "instruction": "Shoot the man wearing a green top and light-colored pants beside the wooden crate ahead in the corridor.",
+    "config": "c10-n04/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n05",
+    "sourceId": "GTA_TASK_003809_SEGMENT_069_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shooting HUMANE Left side of the van cab, Man crouching against the wall.",
+    "instruction": "Shoot the man crouching against the wall to the left of the front of the HUMANE van.",
+    "config": "c10-n05/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n06",
+    "sourceId": "GTA_TASK_008690_SEGMENT_049_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot at the vehicle marked with HUMANE A dark van with the lettering. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the dark van with HUMANE written on its body.",
+    "config": "c10-n06/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n07",
+    "sourceId": "GTA_TASK_008697_SEGMENT_252_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot at the parked ... beside the yellow house, Dark pickup with an open door. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the dark pickup truck with an open door parked beside the yellow house.",
+    "config": "c10-n07/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n08",
+    "sourceId": "GTA_TASK_008697_SEGMENT_282_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the dark pickup beside the white trailer home ahead.",
+    "instruction": "Shoot the dark pickup truck beside the white trailer home ahead.",
+    "config": "c10-n08/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n09",
+    "sourceId": "GTA_TASK_008707_SEGMENT_042_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the dark convertible sports car in the parking lot with its side facing the camera. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the dark convertible sports car shown side-on in the parking lot.",
+    "config": "c10-n09/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n10",
+    "sourceId": "GTA_TASK_008707_SEGMENT_050_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the man in a blue patterned shirt on the parking lot ground.",
+    "instruction": "Shoot the man in a blue patterned shirt on the ground in the parking lot.",
+    "config": "c10-n10/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n11",
+    "sourceId": "GTA_TASK_008707_SEGMENT_061_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the dark pickup beside the bushes in the parking lot. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the dark pickup truck beside the bushes in the parking lot.",
+    "config": "c10-n11/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n12",
+    "sourceId": "GTA_TASK_008000_SEGMENT_164_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot deep into the corridor, The man leaning out from behind the left doorframe.",
+    "instruction": "Shoot the man leaning out from behind the left doorframe deep in the corridor.",
+    "config": "c10-n12/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n13",
+    "sourceId": "GTA_TASK_008000_SEGMENT_167_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the armed man in a dark top at the doorway at the end of the corridor.",
+    "instruction": "Shoot the armed man in a dark top at the doorway at the end of the corridor.",
+    "config": "c10-n13/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n14",
+    "sourceId": "GTA_TASK_008000_SEGMENT_168_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the armed man in a dark top and light pants in the doorway at the end of the corridor.",
+    "instruction": "Shoot the armed man in a dark top and light-colored pants at the doorway at the end of the corridor.",
+    "config": "c10-n14/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n15",
+    "sourceId": "GTA_TASK_008842_SEGMENT_028_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the police car on the right ahead near the green container.",
+    "instruction": "Shoot the police car on the right near the green shipping container ahead.",
+    "config": "c10-n15/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n16",
+    "sourceId": "GTA_TASK_008842_SEGMENT_063_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the black-and-white police car with flashing lights on the industrial area road. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the black-and-white police car with its police lights on, on the industrial-area road.",
+    "config": "c10-n16/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n17",
+    "sourceId": "GTA_TASK_008299_SEGMENT_017_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot ahead in the tunnel, Blue compact car in the right lane.",
+    "instruction": "Shoot the blue compact car in the right lane ahead in the tunnel.",
+    "config": "c10-n17/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c10-n18",
+    "sourceId": "GTA_TASK_008682_SEGMENT_021_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot toward the far end of the factory passage, The armed man in a light-colored top beside the person on the ground.",
+    "instruction": "Shoot the armed man in a light-colored top beside the fallen personnel at the far end of the factory passage.",
+    "config": "c10-n18/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n19",
+    "sourceId": "GTA_TASK_009155_SEGMENT_053_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot to the right of the flames, The man in dark clothing lying against the wall.",
+    "instruction": "Shoot the man in dark clothing lying against the wall to the right of the flames.",
+    "config": "c10-n19/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n20",
+    "sourceId": "GTA_TASK_007991_SEGMENT_141_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot to the left of the water tower, Man standing on an elevated platform.",
+    "instruction": "Shoot the man standing on the high platform to the left of the water tower.",
+    "config": "c10-n20/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n21",
+    "sourceId": "GTA_TASK_007991_SEGMENT_142_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the armed man on the elevated walkway beside the cylindrical tank at the sawmill.",
+    "instruction": "Shoot the armed man on the elevated walkway beside the sawmill's cylindrical storage tank.",
+    "config": "c10-n21/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n22",
+    "sourceId": "GTA_TASK_002906_SEGMENT_135_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot below the stairs, Man slumped on the floor to the right of the round entryway rug.",
+    "instruction": "Shoot the man slumped on the floor beneath the stairs, to the right of the circular rug in the entrance hall.",
+    "config": "c10-n22/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n23",
+    "sourceId": "GTA_TASK_008739_SEGMENT_071_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot the one lying on the ground in the industrial yard, Man in a light top and green pants.",
+    "instruction": "Shoot the man in a light-colored top and green pants lying on the ground in the industrial yard.",
+    "config": "c10-n23/task.json",
+    "quality": "assistant_reviewed_silver"
+  },
+  {
+    "id": "c10-n24",
+    "sourceId": "GTA_TASK_008048_SEGMENT_080_SHOOT",
+    "kind": "shooting",
+    "category": "shooting",
+    "title": "Shoot behind the barricade under the overpass, The dark SUV with a roof rack. Output one pixel coordinate on the target [x, y].",
+    "instruction": "Shoot the dark off-road vehicle with a roof rack behind the roadblock beneath the overpass.",
+    "config": "c10-n24/task.json",
+    "quality": "automatic_silver"
+  },
+  {
+    "id": "c11-n01",
+    "sourceId": "GTA_TASK_000974_SEGMENT_049",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot at the upper terrace of the seaside villa, Man in a red top under the chandelier.",
+    "instruction": "Shoot the man in the red shirt beneath the hanging lamp on the seaside villa's upper terrace.",
+    "config": "c11-n01/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the man in the red shirt beneath the hanging lamp on the seaside villa's upper terrace.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-868d8a5fd07de13cb3ffd83531c1d43f13ca4d5cf1f8822c91c85d55440df869",
+    "unscopedView": {
+      "image": "assets/f55a3264115393e562b2935f95bed33d95dad95353128e7f3c019b9ac9169b73.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "f55a3264115393e562b2935f95bed33d95dad95353128e7f3c019b9ac9169b73",
+      "pts_s": 455,
+      "revision": "pre-lt-crop-v2-81095ee1d7cdc9ca45c3ee4d7ebb61e15cf9acf5976ac44c423d0705133be2c3"
+    }
+  },
+  {
+    "id": "c11-n02",
+    "sourceId": "GTA_TASK_006824_SEGMENT_066",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Eliminate the enemies on the farmhouse balcony ahead.",
+    "instruction": "Eliminate the enemies on the farmhouse balconies ahead.",
+    "config": "c11-n02/task.json",
+    "quality": "user_reviewed_multi_target_capture",
+    "instruction_en": "Eliminate the enemies on the farmhouse balconies ahead.",
+    "renderMode": "native-clearance-atlas-v1",
+    "sceneRevision": "clearance-v1-cd51e1b71183799d70f18c51a08e6415e6bfa63ef56bb704f2d3b73e52c9c93b",
+    "unscopedView": {
+      "image": "assets/b5adcf14d258f24f53ac639708f436028a0974d11c87bee9e3e6e81d014601ba.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "b5adcf14d258f24f53ac639708f436028a0974d11c87bee9e3e6e81d014601ba",
+      "pts_s": 229.667,
+      "revision": "pre-lt-crop-v2-4b138f4bdb9ece317fa8f8a7d1b0a943713e60d44cf5bac3a8305d5462b68d4c"
+    },
+    "clearanceTargetCount": 4,
+    "mergedFrom": [
+      "c11-n02",
+      "c11-n24",
+      "c11-n25",
+      "c11-n26"
+    ]
+  },
+  {
+    "id": "c11-n03",
+    "sourceId": "GTA_TASK_008074_SEGMENT_032",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot behind the office building windows, A bald man partly obscured by the person in front.",
+    "instruction": "Shoot the bald man behind the office window, partially obscured by the people in front of him.",
+    "config": "c11-n03/task.json",
+    "quality": "user_reviewed_gameplay_capture",
+    "instruction_en": "Shoot the bald man behind the office window, partially obscured by the people in front of him.",
+    "renderMode": "native-gameplay-atlas-v1",
+    "sceneRevision": "gameplay-v1-5e031a48be916d9ae3af28ccd38e9ccd1796f3117088e14aae049d9105a3b353",
+    "unscopedView": {
+      "image": "assets/71df643c12c820c6aa461b0f8d907627d43739c13f68407f4340f3231584bbfa.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "71df643c12c820c6aa461b0f8d907627d43739c13f68407f4340f3231584bbfa",
+      "pts_s": 393.667,
+      "revision": "pre-lt-crop-v2-b80108c766e137cf33749f931bb7c1b385de30c0b4dc04e0fa0327f968bf7d1d"
+    }
+  },
+  {
+    "id": "c11-n04",
+    "sourceId": "GTA_TASK_008074_SEGMENT_053",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot inside the approaching black helicopter, The driver behind the front windshield on the right side of the screen.",
+    "instruction": "Shoot the pilot behind the front windshield on the right side of the image in the approaching black helicopter.",
+    "config": "c11-n04/task.json",
+    "quality": "user_reviewed_gameplay_capture",
+    "instruction_en": "Shoot the pilot behind the front windshield on the right side of the image in the approaching black helicopter.",
+    "renderMode": "native-gameplay-atlas-v1",
+    "sceneRevision": "gameplay-v1-e708d2d1e7c10c5e424d3818fc30c7ae1b0f6d393bd48c012ce627a323ae66aa",
+    "unscopedView": {
+      "image": "assets/85fd461d06ddb1a4fc954b06165a869aaab82b5ae55607ea9e74b98b2f324a0d.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "85fd461d06ddb1a4fc954b06165a869aaab82b5ae55607ea9e74b98b2f324a0d",
+      "pts_s": 462.8,
+      "revision": "pre-lt-crop-v2-65921c497fbc3b604c7fb7c16566e16f7146190866ab29aa9ba911554df8ebf7"
+    }
+  },
+  {
+    "id": "c11-n05",
+    "sourceId": "GTA_TASK_008078_SEGMENT_144",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot below and to the left of the parasol on the rooftop terrace, The man in dark clothing behind the metal railing.",
+    "instruction": "Shoot the man in dark clothing behind the metal railing, below and to the left of the parasol on the rooftop terrace.",
+    "config": "c11-n05/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the man in dark clothing behind the metal railing, below and to the left of the parasol on the rooftop terrace.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-5ed824299eedecf2e9e76112c84b1338b93767cf828318fd3b5cef2fe121e3ab",
+    "unscopedView": {
+      "image": "assets/04962c420ac6256c22833d1f13c45f08cba3e4024641a460e837eb456f472bf9.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "04962c420ac6256c22833d1f13c45f08cba3e4024641a460e837eb456f472bf9",
+      "pts_s": 742.267,
+      "revision": "pre-lt-crop-v2-3a384e6000f165a6cbbfe89cd200f4cf40b887843cce4d153a378fca82529bc0"
+    }
+  },
+  {
+    "id": "c11-n06",
+    "sourceId": "GTA_TASK_008752_SEGMENT_059",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot in the residential yard, Armed man wearing a white printed top in front of the blue barrier.",
+    "instruction": "Shoot the armed man in the white printed shirt in the residential yard, in front of the blue fence covering.",
+    "config": "c11-n06/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the armed man in the white printed shirt in the residential yard, in front of the blue fence covering.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-d37a58c5de6c4e300b3913b1fbc7505800636a79331272069eca2dfaf6fa83ba",
+    "unscopedView": {
+      "image": "assets/5763b72b2f0bb90310f6aaa3712f0b94a4e2ddcd1f9653e4afcd0acc039d4bb2.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "5763b72b2f0bb90310f6aaa3712f0b94a4e2ddcd1f9653e4afcd0acc039d4bb2",
+      "pts_s": 205.3,
+      "revision": "pre-lt-crop-v2-711e1e03ef2acff7a8ab39ab6c27f4b68b6a8aa3897be4b08166f0f2bd5a659a"
+    }
+  },
+  {
+    "id": "c11-n07",
+    "sourceId": "GTA_TASK_008752_SEGMENT_061",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Eliminate the enemies beside the garage ahead.",
+    "instruction": "Eliminate the two enemies by the garage ahead.",
+    "config": "c11-n07/task.json",
+    "quality": "user_reviewed_multi_target_capture",
+    "instruction_en": "Eliminate the enemies by the garage ahead.",
+    "renderMode": "native-clearance-atlas-v1",
+    "sceneRevision": "clearance-v1-d5256c7d08fdfbcfe0eddd2b9fdc90b2ad8235ec3aa9e471ff263b846a19061e",
+    "unscopedView": {
+      "image": "assets/5763b72b2f0bb90310f6aaa3712f0b94a4e2ddcd1f9653e4afcd0acc039d4bb2.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "5763b72b2f0bb90310f6aaa3712f0b94a4e2ddcd1f9653e4afcd0acc039d4bb2",
+      "pts_s": 205.3,
+      "revision": "pre-lt-crop-v2-c2ee6182629fe0d360a49f3db187d6f94f8215beff9209fbd1499ade2190e7bd"
+    },
+    "clearanceTargetCount": 2,
+    "mergedFrom": [
+      "c11-n07",
+      "c11-n27"
+    ]
+  },
+  {
+    "id": "c11-n08",
+    "sourceId": "GTA_TASK_008752_SEGMENT_072",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the residential street sidewalk, The man in a white printed top to the left of the green dumpster, holding up a gun.",
+    "instruction": "Shoot the gunman in a white printed shirt on the residential sidewalk, to the left of the green dumpster.",
+    "config": "c11-n08/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the gunman in a white printed shirt on the residential sidewalk, to the left of the green dumpster.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-d494b8852077c0d801e9a9fd70e9508b4d56ab684a722f789b77c51dc74f85b9",
+    "unscopedView": {
+      "image": "assets/7f1ec09bacacc910e7568cec82ff2cda20623695484da824059db76ddfbe2630.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "7f1ec09bacacc910e7568cec82ff2cda20623695484da824059db76ddfbe2630",
+      "pts_s": 242.467,
+      "revision": "pre-lt-crop-v2-b7825e83552b81ead84ff23bb29f8c7ec27c94c8814a098fc4c037e1f57ace83"
+    }
+  },
+  {
+    "id": "c11-n09",
+    "sourceId": "GTA_TASK_008752_SEGMENT_078",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Eliminate the enemies at the street corner ahead.",
+    "instruction": "Eliminate the two enemies at the street corner ahead.",
+    "config": "c11-n09/task.json",
+    "quality": "user_reviewed_multi_target_capture",
+    "instruction_en": "Eliminate the enemies at the street corner ahead.",
+    "renderMode": "native-clearance-atlas-v1",
+    "sceneRevision": "clearance-v1-c934b1a7e24c210ba0e3b45bef1403fae1a2f7ca71aa60789aebbd47e4843568",
+    "unscopedView": {
+      "image": "assets/3368b59d9e95a32062f05c756f124012b1ed6e4aa6144b3fcfd4661089975b2e.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "3368b59d9e95a32062f05c756f124012b1ed6e4aa6144b3fcfd4661089975b2e",
+      "pts_s": 278.767,
+      "revision": "pre-lt-crop-v2-b0de741a46147d7a3e829645985739d0d90f7b9b0e5907b454228c755a8a29f0"
+    },
+    "clearanceTargetCount": 2,
+    "mergedFrom": [
+      "c11-n09",
+      "c11-n28"
+    ]
+  },
+  {
+    "id": "c11-n10",
+    "sourceId": "GTA_TASK_008752_SEGMENT_081",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Eliminate the enemies on the sidewalk ahead.",
+    "instruction": "Eliminate the three enemies in front of the green dumpster.",
+    "config": "c11-n10/task.json",
+    "quality": "user_reviewed_multi_target_capture",
+    "instruction_en": "Eliminate the enemies on the sidewalk ahead.",
+    "renderMode": "native-clearance-atlas-v1",
+    "sceneRevision": "clearance-v1-2c91e4e357d42d7c204afa18559a5a8cceaac80350147fa7544b252464c7892f",
+    "unscopedView": {
+      "image": "assets/dba3c994615e29567f18ef3582018591b783736d1f551277b356b80dcb55bc23.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "dba3c994615e29567f18ef3582018591b783736d1f551277b356b80dcb55bc23",
+      "pts_s": 291.867,
+      "revision": "pre-lt-crop-v2-0dbda14e0b2591ad57cfc44b81a1cadd467b9ac449e0b522f3e04612fa1df181"
+    },
+    "clearanceTargetCount": 3,
+    "mergedFrom": [
+      "c11-n10",
+      "c11-n29",
+      "c11-n31"
+    ]
+  },
+  {
+    "id": "c11-n11",
+    "sourceId": "GTA_TASK_008752_SEGMENT_082",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the residential street, Near the front of the dark sedan with its door open, Man in a loose white top holding a gun with both hands.",
+    "instruction": "Shoot the man in a loose white shirt holding a gun with both hands near the front of the dark sedan with open doors on the residential street.",
+    "config": "c11-n11/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the man in a loose white shirt holding a gun with both hands near the front of the dark sedan with open doors on the residential street.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-d51c067556b81ced4e37925887a5ca08562349c8160061a7f4dd74b899281ff2",
+    "unscopedView": {
+      "image": "assets/dba3c994615e29567f18ef3582018591b783736d1f551277b356b80dcb55bc23.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "dba3c994615e29567f18ef3582018591b783736d1f551277b356b80dcb55bc23",
+      "pts_s": 291.867,
+      "revision": "pre-lt-crop-v2-a5bec86211a5e53da16b433fcff1e7ebecd008d2224bd347696ec39d62661fb1"
+    }
+  },
+  {
+    "id": "c11-n12",
+    "sourceId": "GTA_TASK_008752_SEGMENT_086",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot behind and to the right of the blue dumpster on the residential street, The bald man in a white top behind the gray courtyard wall, aiming a gun to the left.",
+    "instruction": "Shoot the bald man in a white shirt aiming a handgun to the left from behind the gray yard wall, behind and to the right of the blue dumpster on the residential street.",
+    "config": "c11-n12/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the bald man in a white shirt aiming a handgun to the left from behind the gray yard wall, behind and to the right of the blue dumpster on the residential street.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-413fa873fcbaa8f488f6594917104f6257545f7797193f3245d00e419609f79d",
+    "unscopedView": {
+      "image": "assets/2e79b72d360f46636857836f654f3afb8895eac7ab3e53affb9043462926509a.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "2e79b72d360f46636857836f654f3afb8895eac7ab3e53affb9043462926509a",
+      "pts_s": 318.867,
+      "revision": "pre-lt-crop-v2-a0cd9f21eb1b6f8cf9d7a60ec2e7ccfe72b22045eef4f82c448bc0e51fd16e99"
+    }
+  },
+  {
+    "id": "c11-n13",
+    "sourceId": "GTA_TASK_008752_SEGMENT_087",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the road at the residential intersection, The bald armed man in a jacket with a purple torso and white sleeves.",
+    "instruction": "Shoot the bald armed man on the roadway at the residential intersection, wearing a jacket with a purple body and white sleeves.",
+    "config": "c11-n13/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the bald armed man on the roadway at the residential intersection, wearing a jacket with a purple body and white sleeves.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-438ba5adb363b6d6f9380cc1307e1dd5021be24f21223cdb7a75f466656e198d",
+    "unscopedView": {
+      "image": "assets/2e79b72d360f46636857836f654f3afb8895eac7ab3e53affb9043462926509a.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "2e79b72d360f46636857836f654f3afb8895eac7ab3e53affb9043462926509a",
+      "pts_s": 318.867,
+      "revision": "pre-lt-crop-v2-a51d6324d71f57abfbf7ec565a9546867d8e1e62461e6410f46f07da7e753047"
+    }
+  },
+  {
+    "id": "c11-n14",
+    "sourceId": "GTA_TASK_008752_SEGMENT_096",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the sidewalk behind the green dumpster in the foreground, Wearing a loose white top and dark trousers, Man holding a gun with both hands.",
+    "instruction": "Shoot the man in a loose white shirt and dark trousers holding a gun with both hands on the sidewalk beyond the foreground green dumpster.",
+    "config": "c11-n14/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the man in a loose white shirt and dark trousers holding a gun with both hands on the sidewalk beyond the foreground green dumpster.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-e786e44fd68577edba29bedeadebdff68a2d318c8ec2d02b743cd6d432c66770",
+    "unscopedView": {
+      "image": "assets/20db7852ea39503162253c2fd24d16d709e81e927bbea6fccb6228fe50d11060.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "20db7852ea39503162253c2fd24d16d709e81e927bbea6fccb6228fe50d11060",
+      "pts_s": 347,
+      "revision": "pre-lt-crop-v2-3646f8eca7a263aa7e36180dd822665096285d4f095d826629f67f5f93fa032b"
+    }
+  },
+  {
+    "id": "c11-n15",
+    "sourceId": "GTA_TASK_008752_SEGMENT_098",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot at the red and white ... on the right side of the street\"24\"Below the sign, Armed man in a white short-sleeved shirt beside the shop entrance.",
+    "instruction": "Shoot the armed man in a white short-sleeved shirt beside the storefront entrance below the red-and-white “24” sign on the right side of the street.",
+    "config": "c11-n15/task.json",
+    "quality": "user_reviewed_gameplay_capture",
+    "instruction_en": "Shoot the armed man in a white short-sleeved shirt beside the storefront entrance below the red-and-white “24” sign on the right side of the street.",
+    "renderMode": "native-gameplay-atlas-v1",
+    "sceneRevision": "gameplay-v1-e13fe5cd7e42394ec47cc892cdaeccdd0e0efad0fef78eb79825375adfca3bb6",
+    "unscopedView": {
+      "image": "assets/da3f206dfe630b3dd406b15c99b45a4ec706ee425140c68c3ebdeb32b274aac1.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "da3f206dfe630b3dd406b15c99b45a4ec706ee425140c68c3ebdeb32b274aac1",
+      "pts_s": 358.1,
+      "revision": "pre-lt-crop-v2-f145bea286c7c1b240f58d520d7c61c41da0ac88660d105f3f8bbd3ccb22262d"
+    }
+  },
+  {
+    "id": "c11-n16",
+    "sourceId": "GTA_TASK_008752_SEGMENT_103",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot at the sidewalk in front of the old light blue sedan on the residential street, Armed man wearing a loose white top.",
+    "instruction": "Shoot the armed man in a loose white shirt standing on the sidewalk in front of the light-blue old sedan on the residential street.",
+    "config": "c11-n16/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the armed man in a loose white shirt standing on the sidewalk in front of the light-blue old sedan on the residential street.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-3ed4000f6e6208cde45564499d424bfcfae42adab161de1c38f054d28eee9a66",
+    "unscopedView": {
+      "image": "assets/771774c6c4e71bca894d3d465e57d305cc2db13812db1ca83dd2a96dc9733499.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "771774c6c4e71bca894d3d465e57d305cc2db13812db1ca83dd2a96dc9733499",
+      "pts_s": 381.767,
+      "revision": "pre-lt-crop-v2-f243c89b4ac579b9b32a5b637a5107b386af1c7325ec02c06621d2565cf3f221"
+    }
+  },
+  {
+    "id": "c11-n17",
+    "sourceId": "GTA_TASK_008139_SEGMENT_036",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the platform outside the modern office building, Holding a rifle behind a low light-colored wall, A man in dark tactical clothing without a helmet.",
+    "instruction": "Shoot the man holding a rifle behind the light-colored low wall on the outdoor platform of the modern office complex. He wears dark tactical clothing and no helmet.",
+    "config": "c11-n17/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the man holding a rifle behind the light-colored low wall on the outdoor platform of the modern office complex. He wears dark tactical clothing and no helmet.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-cece20a42a25b6d440f617613931cd397d8fa58ac7197bf5030acf08e1443293",
+    "unscopedView": {
+      "image": "assets/8232afb58f24d022ba10d83ae2a2ba14605f667dc5e991bc5d935f91b2f0c32b.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "8232afb58f24d022ba10d83ae2a2ba14605f667dc5e991bc5d935f91b2f0c32b",
+      "pts_s": 100.633,
+      "revision": "pre-lt-crop-v2-1299083fbf776fdd3d555fb08f8c537db508f33a5f3e6c688c3c40b561250e05"
+    }
+  },
+  {
+    "id": "c11-n18",
+    "sourceId": "GTA_TASK_007991_SEGMENT_105",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Eliminate the enemies in the stockyard ahead.",
+    "instruction": "Eliminate the enemies in the lumber yard ahead.",
+    "config": "c11-n18/task.json",
+    "quality": "user_reviewed_multi_target_capture",
+    "instruction_en": "Eliminate the enemies in the lumber yard ahead.",
+    "renderMode": "native-clearance-atlas-v1",
+    "sceneRevision": "clearance-v1-8f8d46d4d524ca1ed2ba13e54b9b373b659003fa62b936f33774bc90aa699922",
+    "unscopedView": {
+      "image": "assets/1ebb627a6f588ba01a17a617f62e49c78bc8ee50fce507e5671385b96e1b99dd.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "1ebb627a6f588ba01a17a617f62e49c78bc8ee50fce507e5671385b96e1b99dd",
+      "pts_s": 559.633,
+      "revision": "pre-lt-crop-v2-176ac6221cca9381ef37b928afa39c8ce8d22d032a78830814ee3476699ba110"
+    },
+    "clearanceTargetCount": 2,
+    "mergedFrom": [
+      "c11-n18",
+      "c11-n34"
+    ]
+  },
+  {
+    "id": "c11-n19",
+    "sourceId": "GTA_TASK_007991_SEGMENT_107",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot between the tall stacks of planks at the sawmill, Armed man wearing a jacket with a purple torso and light sleeves.",
+    "instruction": "Shoot the armed man between the tall lumber stacks at the sawmill, wearing a jacket with a purple body and light sleeves.",
+    "config": "c11-n19/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the armed man between the tall lumber stacks at the sawmill, wearing a jacket with a purple body and light sleeves.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-927c8915f5b340a8dcdc476ba89912178b8a534fce82a0f2e88f5cb0daef195b",
+    "unscopedView": {
+      "image": "assets/1ebb627a6f588ba01a17a617f62e49c78bc8ee50fce507e5671385b96e1b99dd.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "1ebb627a6f588ba01a17a617f62e49c78bc8ee50fce507e5671385b96e1b99dd",
+      "pts_s": 559.633,
+      "revision": "pre-lt-crop-v2-ac7eed8ccf70b7248453d19ae12e7dcc32c2567a64ef372b65dbac200d7c1a3f"
+    }
+  },
+  {
+    "id": "c11-n20",
+    "sourceId": "GTA_TASK_007991_SEGMENT_123",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the elevated wooden platform at the sawmill, Armed man in a loose white top in front of the rock face.",
+    "instruction": "Shoot the armed man in a loose white shirt on the elevated wooden platform in front of the sawmill's rock face.",
+    "config": "c11-n20/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the armed man in a loose white shirt on the elevated wooden platform in front of the sawmill's rock face.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-a30325adcc315620769e52d235822244f4b0a835fbb1c1ccfa40cf7c5a810be3",
+    "unscopedView": {
+      "image": "assets/888f8b286dc1e3c86a9d28d858344f5544654a035d4afc314f017de5e86724e8.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "888f8b286dc1e3c86a9d28d858344f5544654a035d4afc314f017de5e86724e8",
+      "pts_s": 668.767,
+      "revision": "pre-lt-crop-v2-b0fcdf4e3231a4a3f8250c97a483c7a6e6cae3d610d66751b4ed409e0a57a3fe"
+    }
+  },
+  {
+    "id": "c11-n21",
+    "sourceId": "GTA_TASK_007991_SEGMENT_143",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot behind the gray barrier beside the rocky slope at the sawmill, A bald armed man in a loose white top.",
+    "instruction": "Shoot the bald armed man in a loose white shirt behind the gray barrier beside the sawmill's rocky slope.",
+    "config": "c11-n21/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the bald armed man in a loose white shirt behind the gray barrier beside the sawmill's rocky slope.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-804085d38bd12b320cf38674edd9a5349d7dab114b4a5d59e6222b6800db04d0",
+    "unscopedView": {
+      "image": "assets/dc7231acef41c4637d6b4f04a087793c6968d27d0a682d2ef06af1b8239be54b.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "dc7231acef41c4637d6b4f04a087793c6968d27d0a682d2ef06af1b8239be54b",
+      "pts_s": 712.467,
+      "revision": "pre-lt-crop-v2-258044ae27de20f82270ab4fd2c57e339e0a1d870a146cda627fa1e80c767645"
+    }
+  },
+  {
+    "id": "c11-n22",
+    "sourceId": "GTA_TASK_007991_SEGMENT_144",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot behind the stack of planks at the sawmill, Upper body visible to the left of the log pile, Armed man wearing a white printed top.",
+    "instruction": "Shoot the armed man in a white printed shirt whose upper body is exposed behind the lumber stack, to the left of the stacked logs at the sawmill.",
+    "config": "c11-n22/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the armed man in a white printed shirt whose upper body is exposed behind the lumber stack, to the left of the stacked logs at the sawmill.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-307e77cf9a50232b7691a5eef2ed279ff3836fe417c0e10591e845559500e2d2",
+    "unscopedView": {
+      "image": "assets/dc7231acef41c4637d6b4f04a087793c6968d27d0a682d2ef06af1b8239be54b.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "dc7231acef41c4637d6b4f04a087793c6968d27d0a682d2ef06af1b8239be54b",
+      "pts_s": 712.467,
+      "revision": "pre-lt-crop-v2-848a5a705d04152cea7fc53e4d6b99b8aa243f65251b0a886e259bf3aa6b4871"
+    }
+  },
+  {
+    "id": "c11-n23",
+    "sourceId": "GTA_TASK_009187_SEGMENT_292",
+    "kind": "sniper",
+    "category": "sniper",
+    "title": "Shoot on the platform with metal railings outside the glass curtain wall building, Wearing a dark jacket and long pants, Red Inner Layer, Short-haired person with hands held in front of the chest.",
+    "instruction": "Shoot the short-haired person on the metal-railing platform outside the glass-fronted building, wearing a dark jacket and trousers with a red top underneath and holding their hands in front of their chest.",
+    "config": "c11-n23/task.json",
+    "quality": "manually_reviewed_native_capture",
+    "instruction_en": "Shoot the short-haired person on the metal-railing platform outside the glass-fronted building, wearing a dark jacket and trousers with a red top underneath and holding their hands in front of their chest.",
+    "renderMode": "native-photo-pyramid-v1",
+    "sceneRevision": "photo-v1-614d25e22a081b4cd6211b1b28dc25b58f178246c241a9ab99b18bc4325672e8",
+    "unscopedView": {
+      "image": "assets/dc492dbdff52a81ea77e1de94f9132a4f7c955db33c40951558b478f82e7ef1a.jpg",
+      "width": 1920,
+      "height": 1080,
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "width": 1728,
+        "height": 972
+      },
+      "sha256": "dc492dbdff52a81ea77e1de94f9132a4f7c955db33c40951558b478f82e7ef1a",
+      "pts_s": 345.467,
+      "revision": "pre-lt-crop-v2-7fbb47cd9f4d458e7b36409fdac21c531e72d15b1a4cc9e2a6d1f53b04841348"
+    }
+  }
+]

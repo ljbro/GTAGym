@@ -1,0 +1,61 @@
+# Small acceptance batch spanning all nine native 3D categories and seven modes.
+name: online-sample
+seed: 42
+split: train
+requests:
+  - template: road
+    movement: [drive]
+    length: [120, 180]
+    turns: 0
+    timeLimit: {mode: controller, multiplier: 2, showCountdown: true}
+  - template: outdoor
+    movement: [walk]
+    length: [60, 80]
+    turns: 1
+    landmark: motorcycle-green
+  - template: aquatic
+    movement: [swim]
+    length: [70, 100]
+    turns: 1
+  - template: aquatic
+    movement: [dive]
+    length: [70, 100]
+    turns: 1
+  - template: aquatic
+    movement: [boat]
+    length: [150, 200]
+    turns: 1
+    timeLimit: {mode: controller, multiplier: 2}
+  - template: vertical
+    length: [35, 55]
+    turns: [2, 5]
+  - template: aviation
+    movement: [helicopter]
+    length: [600, 900]
+    turns: 1
+  - template: aviation
+    movement: [plane]
+    length: [1000, 1300]
+    turns: 1
+  - template: indoor
+    length: [30, 45]
+    turns: [1, 3]
+  - template: follow
+    transport: [land]
+    movement: [walk]
+    length: [60, 90]
+    turns: 1
+    actorSpeed: 1.5
+    initialDistance: 4
+  - template: pursuit
+    movement: [drive]
+    length: [200, 300]
+    turns: 1
+    actorSpeed: 18
+    initialDistance: 35
+  - template: evasion
+    transport: [land]
+    movement: [walk]
+    pursuerCount: [1, 3]
+    initialDistance: [20, 40]
+    actorSpeed: [2, 4]

@@ -1,0 +1,289 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_096_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the man in a loose white shirt and dark trousers holding a gun with both hands on the sidewalk beyond the foreground green dumpster, not the other white-shirted man beside the curb and sedan.",
+  "instruction_en": "Shoot the man in a loose white shirt and dark trousers holding a gun with both hands on the sidewalk beyond the foreground green dumpster, not the other white-shirted man beside the curb and sedan.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/df6f09bc59ff65b398740aeb5f94079aa51b9defe954356ec4840912e78e6401.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/df6f09bc59ff65b398740aeb5f94079aa51b9defe954356ec4840912e78e6401.png",
+      "sha256": "df6f09bc59ff65b398740aeb5f94079aa51b9defe954356ec4840912e78e6401"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/503f401c7e7161c83131714118de5ae3749c2203042fa784f5efbf7ac0cfd9b1.png",
+      "sha256": "503f401c7e7161c83131714118de5ae3749c2203042fa784f5efbf7ac0cfd9b1"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/21ab41d9870f0edea93306af36af3c2191da434046905c17b087f65740571a0a.png",
+      "sha256": "21ab41d9870f0edea93306af36af3c2191da434046905c17b087f65740571a0a"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/5933dc17dcd9fd199ad99700bf416e773e6f108a265f28718bc1a728e3673173.png",
+      "sha256": "5933dc17dcd9fd199ad99700bf416e773e6f108a265f28718bc1a728e3673173"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_096_target",
+    "hit_polygons": [
+      [
+        [
+          640,
+          356.25
+        ],
+        [
+          640.75,
+          356.25
+        ],
+        [
+          641.125,
+          357
+        ],
+        [
+          641,
+          358
+        ],
+        [
+          640.75,
+          358.5
+        ],
+        [
+          640.125,
+          358.75
+        ],
+        [
+          640,
+          359.25
+        ],
+        [
+          640.125,
+          359.625
+        ],
+        [
+          640.625,
+          360
+        ],
+        [
+          640.625,
+          360.625
+        ],
+        [
+          640.875,
+          360.75
+        ],
+        [
+          641.375,
+          360.5
+        ],
+        [
+          641.875,
+          360.375
+        ],
+        [
+          642.25,
+          360.625
+        ],
+        [
+          642,
+          361.125
+        ],
+        [
+          641.125,
+          361.625
+        ],
+        [
+          640.25,
+          361.875
+        ],
+        [
+          640.625,
+          362.25
+        ],
+        [
+          640.625,
+          363
+        ],
+        [
+          640.875,
+          364.375
+        ],
+        [
+          641.25,
+          365.125
+        ],
+        [
+          641.125,
+          366.5
+        ],
+        [
+          640.75,
+          367.625
+        ],
+        [
+          640.5,
+          368.625
+        ],
+        [
+          641.125,
+          368.875
+        ],
+        [
+          641.375,
+          369.25
+        ],
+        [
+          641,
+          369.375
+        ],
+        [
+          640.25,
+          369
+        ],
+        [
+          639.875,
+          369.125
+        ],
+        [
+          639.375,
+          370
+        ],
+        [
+          639.5,
+          370.5
+        ],
+        [
+          640,
+          370.75
+        ],
+        [
+          640.125,
+          371.125
+        ],
+        [
+          639.125,
+          371.25
+        ],
+        [
+          638.375,
+          371
+        ],
+        [
+          638,
+          370.375
+        ],
+        [
+          638.125,
+          369.625
+        ],
+        [
+          638.75,
+          367.875
+        ],
+        [
+          639,
+          366.5
+        ],
+        [
+          638.875,
+          365.25
+        ],
+        [
+          638.25,
+          365.25
+        ],
+        [
+          637.75,
+          364.875
+        ],
+        [
+          637.625,
+          363.125
+        ],
+        [
+          637.75,
+          361.5
+        ],
+        [
+          637.875,
+          359.875
+        ],
+        [
+          638.25,
+          358.875
+        ],
+        [
+          639,
+          358
+        ],
+        [
+          639.625,
+          357.875
+        ],
+        [
+          639.5,
+          357.125
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_096/scene.json",
+    "original_revision": "3745c115ebf30460addbbc3f6d9627b2a1d3583db71316b9c1ddd6d430bf9bff",
+    "original_instruction": "Shoot behind the green roadside dumpster, Man in a white short-sleeved shirt aiming a gun forward.",
+    "description_change": "Farther view from the other side of the same residential street preserves the foreground green dumpster and white-shirt armed pedestrian. Shirt print is not visible from this angle; identify the sidewalk target and explicitly distinguish the nearer curb-side gunman.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Reviewed final 8x image and enlarged silhouette of handle 24322. Target is the unobstructed white-shirt gunman on the sidewalk beyond the foreground green bin; the other white-shirt gunman at the curb is a distractor and the miss probe. Cable lies below the target. Rejected earlier rear-roof and cable-obstructed views.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 24322,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        33.92256164550781,
+        -1872.0556640625,
+        45.37406539916992
+      ],
+      "target_position": [
+        90.14697265625,
+        -1916.40966796875,
+        20.776695251464844
+      ],
+      "target_distance_m": 75.71983012529624,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-e786e44fd68577edba29bedeadebdff68a2d318c8ec2d02b743cd6d432c66770"
+}

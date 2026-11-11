@@ -1,0 +1,229 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_059_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the armed man in the white printed shirt in the residential yard, in front of the blue fence covering.",
+  "instruction_en": "Shoot the armed man in the white printed shirt in the residential yard, in front of the blue fence covering.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/d1ef5be4262b97a9f6c5e11f5cb31c40c53ddd948c2bfe6e39d3c24eff15c0d0.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/d1ef5be4262b97a9f6c5e11f5cb31c40c53ddd948c2bfe6e39d3c24eff15c0d0.png",
+      "sha256": "d1ef5be4262b97a9f6c5e11f5cb31c40c53ddd948c2bfe6e39d3c24eff15c0d0"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/7fc349c83dc98b90ea6c89fe1fab8a3f1ea7ffa004657996d8cd00b2f4bae91b.png",
+      "sha256": "7fc349c83dc98b90ea6c89fe1fab8a3f1ea7ffa004657996d8cd00b2f4bae91b"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/965821f79ed040c85f18a9a37d69d258c5462582ab952140c2f8c81885b0ef35.png",
+      "sha256": "965821f79ed040c85f18a9a37d69d258c5462582ab952140c2f8c81885b0ef35"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/44d26811b50bcc35fc436c6860d7a512e95f796c3c99940ece4be74b344bf853.png",
+      "sha256": "44d26811b50bcc35fc436c6860d7a512e95f796c3c99940ece4be74b344bf853"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_059_target",
+    "hit_polygons": [
+      [
+        [
+          639,
+          355.75
+        ],
+        [
+          640,
+          355.75
+        ],
+        [
+          640.625,
+          356.75
+        ],
+        [
+          640.5,
+          357.625
+        ],
+        [
+          641.25,
+          358.25
+        ],
+        [
+          642,
+          359.625
+        ],
+        [
+          642.625,
+          361.5
+        ],
+        [
+          643.125,
+          363.625
+        ],
+        [
+          642.375,
+          364.5
+        ],
+        [
+          642,
+          366.625
+        ],
+        [
+          642.375,
+          368.75
+        ],
+        [
+          642.5,
+          369.5
+        ],
+        [
+          641.5,
+          369.875
+        ],
+        [
+          641,
+          369.625
+        ],
+        [
+          640.75,
+          367.875
+        ],
+        [
+          640.375,
+          366.125
+        ],
+        [
+          639.875,
+          365.625
+        ],
+        [
+          639.25,
+          367.75
+        ],
+        [
+          638.75,
+          368.5
+        ],
+        [
+          637.875,
+          368.75
+        ],
+        [
+          637.625,
+          368.25
+        ],
+        [
+          638.375,
+          367.5
+        ],
+        [
+          638.25,
+          366
+        ],
+        [
+          638.625,
+          364.125
+        ],
+        [
+          639.25,
+          362.875
+        ],
+        [
+          639.625,
+          361.5
+        ],
+        [
+          638.375,
+          360.875
+        ],
+        [
+          637.75,
+          360.25
+        ],
+        [
+          638,
+          359.75
+        ],
+        [
+          639.125,
+          360
+        ],
+        [
+          639.75,
+          360.375
+        ],
+        [
+          640,
+          359.25
+        ],
+        [
+          639.5,
+          358.25
+        ],
+        [
+          638.875,
+          357.5
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_059/scene.json",
+    "original_revision": "17854a9c13f1586f048f226709b38668b07435b22d69d311b84767110b10f29f",
+    "original_instruction": "Shoot in front of the black iron fence in the residential area, The bald armed man in a loose white printed T-shirt.",
+    "description_change": "The replayed yard gunman has short hair and a blue-covered fence behind him; original residential-yard scene and armed pedestrian target retained.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Native distant yard capture at clock 30051, handle 24322. White printed-shirt gunman remains in the original blue-fenced residential yard. Visible head, arms, torso and legs annotated; foreground wires, fence, companions and dog are excluded. Final 8x frame manually reviewed.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 24322,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        148.9225616455078,
+        -1964.0556640625,
+        34.37348747253418
+      ],
+      "target_position": [
+        78.70986938476562,
+        -1942.2293701171875,
+        20.861913681030273
+      ],
+      "target_distance_m": 74.75808911557415,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-d37a58c5de6c4e300b3913b1fbc7505800636a79331272069eca2dfaf6fa83ba"
+}

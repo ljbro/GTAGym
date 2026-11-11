@@ -1,0 +1,547 @@
+name: walk-train-50-v2
+seed: 20261027
+split: train
+requests:
+- template: outdoor
+  count: 1
+  length: 90.36753236814714
+  turns: 2
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20261027
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 4
+  landmark: convertible
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20262036
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 122.284
+  - 135.156
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20263045
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20264054
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20265063
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 1
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20266072
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 1
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20267081
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20268090
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20269099
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 87.4
+  - 96.6
+  turns: 4
+  landmark: van
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20270108
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20271117
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20272126
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 1
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20273135
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20274144
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20275153
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20276162
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 4
+  landmark: motorcycle
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20277171
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20278180
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20279189
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20280198
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20281207
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20282216
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20283225
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 87.4
+  - 96.6
+  turns: 4
+  landmark: motorcycle
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20284234
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20285243
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20286252
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20287261
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 122.284
+  - 135.156
+  turns: 2
+  landmark: van
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20288270
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20289279
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20290288
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: motorcycle-green
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20291297
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20292306
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 87.4
+  - 96.6
+  turns: 4
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20293315
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: convertible
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20294324
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 4
+  landmark: motorcycle
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20295333
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: convertible
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20296342
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20297351
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20298360
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20299369
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 0
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20300378
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20301387
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 122.284
+  - 135.156
+  turns: 2
+  landmark: motorcycle-green
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20302396
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: motorcycle-green
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20303405
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: van
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20304414
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20305423
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20306432
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20307441
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 2
+  landmark: sedan
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20308450
+  split: train
+- template: outdoor
+  count: 1
+  length:
+  - 95
+  - 105
+  turns: 3
+  landmark: none
+  attempts: 80
+  name: walk-new49-v2
+  seed: 20309459
+  split: train

@@ -1,0 +1,269 @@
+{
+  "id": "GTA_TASK_008752_SEGMENT_072_ENV",
+  "version": 1,
+  "render_mode": "native-photo-pyramid-v1",
+  "instruction": "Shoot the gunman in a white printed shirt on the residential sidewalk, to the left of the green dumpster.",
+  "instruction_en": "Shoot the gunman in a white printed shirt on the residential sidewalk, to the left of the green dumpster.",
+  "scene": {
+    "width": 1280,
+    "height": 720,
+    "image": "../assets/75906120752d007df284b52c3ee5db10ff3476226f21407daf7f63dade338dfb.png",
+    "texture_scale": 1
+  },
+  "photo_layers": [
+    {
+      "zoom": 1,
+      "file": "../assets/75906120752d007df284b52c3ee5db10ff3476226f21407daf7f63dade338dfb.png",
+      "sha256": "75906120752d007df284b52c3ee5db10ff3476226f21407daf7f63dade338dfb"
+    },
+    {
+      "zoom": 2,
+      "file": "../assets/76bc51fa42ecfe362e5256bc1cc3845e0dd97f4ffd1fc83bf19862312411e22b.png",
+      "sha256": "76bc51fa42ecfe362e5256bc1cc3845e0dd97f4ffd1fc83bf19862312411e22b"
+    },
+    {
+      "zoom": 4,
+      "file": "../assets/66bdcf2c048764e9c623e0abaa743dde3d61f540cddabe7caca4dcea96926e4c.png",
+      "sha256": "66bdcf2c048764e9c623e0abaa743dde3d61f540cddabe7caca4dcea96926e4c"
+    },
+    {
+      "zoom": 8,
+      "file": "../assets/452e898b5bd4d31d955e463128b7e67c19cce64ab02c90ccb1085e0cb50efb6c.png",
+      "sha256": "452e898b5bd4d31d955e463128b7e67c19cce64ab02c90ccb1085e0cb50efb6c"
+    }
+  ],
+  "initial_camera": {
+    "x": 695,
+    "y": 376
+  },
+  "view_width": 1280,
+  "start_scoped": false,
+  "scope": {
+    "min_zoom": 2,
+    "max_zoom": 8
+  },
+  "hip_fire": {
+    "distribution": "uniform_circumference",
+    "radius_px": 90,
+    "units": "1280x720_observation_pixels"
+  },
+  "target": {
+    "id": "GTA_TASK_008752_SEGMENT_072_target",
+    "hit_polygons": [
+      [
+        [
+          639.25,
+          356.25
+        ],
+        [
+          640.375,
+          356.125
+        ],
+        [
+          640.75,
+          356.5
+        ],
+        [
+          640.75,
+          357.375
+        ],
+        [
+          640.625,
+          358.125
+        ],
+        [
+          641.25,
+          358.375
+        ],
+        [
+          641.875,
+          358.75
+        ],
+        [
+          642.125,
+          359.875
+        ],
+        [
+          642.25,
+          361.375
+        ],
+        [
+          642.25,
+          363.25
+        ],
+        [
+          642.125,
+          364.875
+        ],
+        [
+          641.25,
+          365.25
+        ],
+        [
+          641,
+          367
+        ],
+        [
+          641.125,
+          368.75
+        ],
+        [
+          641.25,
+          370
+        ],
+        [
+          641.375,
+          370.5
+        ],
+        [
+          640.875,
+          371
+        ],
+        [
+          639.375,
+          371
+        ],
+        [
+          639.5,
+          370.625
+        ],
+        [
+          640.5,
+          370.25
+        ],
+        [
+          640.125,
+          369.375
+        ],
+        [
+          639.625,
+          368.125
+        ],
+        [
+          639.125,
+          366.75
+        ],
+        [
+          639.25,
+          368.125
+        ],
+        [
+          639.625,
+          369.625
+        ],
+        [
+          639.25,
+          370
+        ],
+        [
+          638.125,
+          370
+        ],
+        [
+          638,
+          369.75
+        ],
+        [
+          638.75,
+          369.5
+        ],
+        [
+          638.375,
+          368.125
+        ],
+        [
+          638.375,
+          366.625
+        ],
+        [
+          638.25,
+          365.25
+        ],
+        [
+          638.625,
+          364
+        ],
+        [
+          638.75,
+          362.625
+        ],
+        [
+          638.75,
+          361.75
+        ],
+        [
+          638.25,
+          361.5
+        ],
+        [
+          637.75,
+          361.25
+        ],
+        [
+          637.75,
+          360.625
+        ],
+        [
+          638.125,
+          360.375
+        ],
+        [
+          638.5,
+          359.5
+        ],
+        [
+          638.875,
+          358.875
+        ],
+        [
+          639.375,
+          358.375
+        ],
+        [
+          639.125,
+          357.875
+        ],
+        [
+          639,
+          357.125
+        ]
+      ]
+    ],
+    "exclusion_polygons": []
+  },
+  "evaluation": {
+    "enabled": true
+  },
+  "provenance": {
+    "original_config": "sniper/GTA_TASK_008752_SEGMENT_072/scene.json",
+    "original_revision": "16b01f545dd661ba5f9d7c3c913683eb272cf08a9113bb6a8ef4c7c3834fd597",
+    "original_instruction": "Shoot beside the green dumpster at the intersection, Shirtless man in light shorts.",
+    "description_change": "Farther native replay retains the white printed-shirt gunman to the left of the green dumpster. Selected the unobstructed foreground sidewalk gunman; rejected the initial pole-blocked view.",
+    "mission": "Hood Safari",
+    "script": "franklin1",
+    "visual_review": "Reviewed final 8x capture and enlarged target crop. Handle 24578 is clear, left of the green dumpster and ahead of the sedan. Foreground cable, sedan and the second white-shirt gunman excluded; no occlusion through the target.",
+    "pose_policy": "fixed_highest_detail_patch_at_all_zooms",
+    "state_validation": {
+      "handle": 24578,
+      "passed": true,
+      "joint_drift_warning": false,
+      "pose_policy": "Viewer always draws the same 8x source patch at every zoom; target silhouette must fit wholly inside that patch."
+    },
+    "capture_geometry": {
+      "camera_position": [
+        118.92256164550781,
+        -1982.0556640625,
+        34.37406539916992
+      ],
+      "target_position": [
+        85.18547821044922,
+        -1916.2889404296875,
+        20.737390518188477
+      ],
+      "target_distance_m": 75.1625680635543,
+      "base_fov_degrees": 60
+    },
+    "usage": "Local captured-scene evaluation; redistribution rights not established."
+  },
+  "revision": "photo-v1-d494b8852077c0d801e9a9fd70e9508b4d56ab684a722f789b77c51dc74f85b9"
+}

@@ -1,0 +1,1085 @@
+{
+  "asset": "Michael's garage from GTA V",
+  "source_repository": "https://github.com/CeKey/GTAVBikersDLCGrowGame",
+  "source_commit": "8f3a91df2158105e220048a8e099216c4ca896d7",
+  "source_readme": "https://github.com/CeKey/GTAVBikersDLCGrowGame/blob/8f3a91df2158105e220048a8e099216c4ca896d7/README.md",
+  "provenance_evidence": "The repository author identifies Michael's GTA V garage and states the Unity project mixes web assets with assets exported from the game. This export selects only the four named GTA meshes and their associated textures.",
+  "source_asset_license": "No separate asset license is supplied by this repository.",
+  "copyright": "Original GTA V assets belong to Rockstar Games / Take-Two.",
+  "conversion": {
+    "script": "scripts/convert-gta-garage.py",
+    "UnityPy": "1.25.3",
+    "trimesh": "5.1.0",
+    "coordinate_system": "right-handed Y-up; meters; center XZ; lowest floor Y=0",
+    "unity_to_gltf": "mirror X, reverse triangle winding, conjugate each local transform",
+    "normalization_translation": [
+      8.761036308398266,
+      0.11154303357363915,
+      -12.283457660622428
+    ],
+    "source_bounds_after_handedness": [
+      [
+        -15.08414383646237,
+        -0.11154303357363915,
+        5.682754154410149
+      ],
+      [
+        -2.437928780334161,
+        4.6979870200847795,
+        18.88416116683471
+      ]
+    ],
+    "hierarchy_retained": true,
+    "door_pose_overrides": [
+      {
+        "node": "prop_ss1_14_garage_door_high__unity_337",
+        "state": "open",
+        "world_pivot": [
+          -6.22219473020818,
+          3.947642586204589,
+          -1.9301051086454601
+        ],
+        "rotation_axis": "z",
+        "angle_degrees": 90,
+        "gltf_local_matrix_open": [
+          [
+            0.0,
+            -1.6708274132517804e-16,
+            -0.7640013059295357,
+            -0.07956352761510613
+          ],
+          [
+            0.6963633894920349,
+            0.0,
+            0.0,
+            -0.12972034513950348
+          ],
+          [
+            0.0,
+            -0.8485514106190517,
+            1.9130270877473893e-16,
+            0.07816177317350712
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "node": "apa_p_mp_door_stilt_door_high__unity_475",
+        "state": "open",
+        "world_pivot": [
+          5.656106191100141,
+          1.574787489735996,
+          2.4790099162045456
+        ],
+        "rotation_axis": "y",
+        "angle_degrees": 90,
+        "gltf_local_matrix_open": [
+          [
+            2.220446049250313e-16,
+            -0.976678960152491,
+            0.0,
+            0.1010705685465215
+          ],
+          [
+            1.02387789724053,
+            2.220446049250313e-16,
+            0.0,
+            -0.0824791977507734
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.02955448254942894
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture_embedding": "original diffuse maps as PNG inside GLB",
+    "material_limitations": "Original normal/specular shader setup is not transferred. Missing Unity diffuse textures use a neutral color, recorded per material below."
+  },
+  "sources": [
+    {
+      "file": "sharedassets1.assets",
+      "url": "https://raw.githubusercontent.com/CeKey/GTAVBikersDLCGrowGame/8f3a91df2158105e220048a8e099216c4ca896d7/GTAVBikersDLCGarageWeed_Data/sharedassets1.assets",
+      "bytes": 8543548,
+      "sha256": "daa148208dc52238c9a285e6167f1400f472afae5e67dd6686d3e8650f5732c9"
+    },
+    {
+      "file": "sharedassets1.assets.resS",
+      "url": "https://raw.githubusercontent.com/CeKey/GTAVBikersDLCGrowGame/8f3a91df2158105e220048a8e099216c4ca896d7/GTAVBikersDLCGarageWeed_Data/sharedassets1.assets.resS",
+      "bytes": 19293304,
+      "sha256": "5a8bd5426ad39569d800cefffefcecfb3850d2ec6efe2dd0c0e0b7afd16ad9de"
+    },
+    {
+      "file": "level1",
+      "url": "https://raw.githubusercontent.com/CeKey/GTAVBikersDLCGrowGame/8f3a91df2158105e220048a8e099216c4ca896d7/GTAVBikersDLCGarageWeed_Data/level1",
+      "bytes": 116764,
+      "sha256": "555485d81319a2a06c50cde9db5d9da4569c05327d57b1bfa7929432726acd88"
+    },
+    {
+      "file": "level1.resS",
+      "url": "https://raw.githubusercontent.com/CeKey/GTAVBikersDLCGrowGame/8f3a91df2158105e220048a8e099216c4ca896d7/GTAVBikersDLCGarageWeed_Data/level1.resS",
+      "bytes": 262464,
+      "sha256": "d374cc3b2ab8d78ce48754682f516b1d92b7b8a32a08efb95400e21d37384dbd"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "prop_ss1_14_garage_door_high",
+      "unity_mesh_id": 130,
+      "node": "prop_ss1_14_garage_door_high__unity_337",
+      "vertices": 24,
+      "triangles": 12,
+      "submeshes": 1
+    },
+    {
+      "name": "v_44_g_gara_deta_high",
+      "unity_mesh_id": 113,
+      "node": "v_44_g_gara_deta_high__unity_402",
+      "vertices": 7045,
+      "triangles": 4499,
+      "submeshes": 6
+    },
+    {
+      "name": "apa_p_mp_door_stilt_door_high",
+      "unity_mesh_id": 131,
+      "node": "apa_p_mp_door_stilt_door_high__unity_475",
+      "vertices": 691,
+      "triangles": 510,
+      "submeshes": 3
+    },
+    {
+      "name": "v_44_garage_shell_high",
+      "unity_mesh_id": 129,
+      "node": "v_44_garage_shell_high__unity_476",
+      "vertices": 579,
+      "triangles": 563,
+      "submeshes": 7
+    }
+  ],
+  "materials": [
+    {
+      "name": "os_ml_cwgdoor_0002",
+      "unity_material_id": 14,
+      "diffuse_texture": "os_ml_cwgdoor_0002",
+      "texture_size": [
+        512,
+        512
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 12
+    },
+    {
+      "name": "bh1_48_rsn_am_michaelshouse_bits",
+      "unity_material_id": 12,
+      "diffuse_texture": "bh1_48_rsn_am_michaelshouse_bits",
+      "texture_size": [
+        512,
+        512
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 64
+    },
+    {
+      "name": "bh1_48_rsn_am_garage_1",
+      "unity_material_id": 11,
+      "diffuse_texture": "bh1_48_rsn_am_garage_1",
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 3946
+    },
+    {
+      "name": "RSN_AM_IM_Wall32",
+      "unity_material_id": 5,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 1
+    },
+    {
+      "name": "rsn_am_metal_wall_plate_1",
+      "unity_material_id": 17,
+      "diffuse_texture": "rsn_am_metal_wall_plate_1",
+      "texture_size": [
+        512,
+        512
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 32
+    },
+    {
+      "name": "rsn_os_lights02",
+      "unity_material_id": 18,
+      "diffuse_texture": "rsn_os_lights02",
+      "texture_size": [
+        256,
+        128
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 40
+    },
+    {
+      "name": "tl_v_michael_doors",
+      "unity_material_id": 19,
+      "diffuse_texture": "tl_v_michael_doors",
+      "texture_size": [
+        256,
+        256
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 664
+    },
+    {
+      "name": "mh_v_fh_doorhandle2_d",
+      "unity_material_id": 6,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 2
+    },
+    {
+      "name": "mh_v_aph_doorknob_d",
+      "unity_material_id": 13,
+      "diffuse_texture": "mh_v_aph_doorknob_d",
+      "texture_size": [
+        256,
+        256
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 268
+    },
+    {
+      "name": "rsn_am_ground_marblefloor_0002_d",
+      "unity_material_id": 15,
+      "diffuse_texture": "rsn_am_ground_marblefloor_0002_d",
+      "texture_size": [
+        512,
+        512
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 47
+    },
+    {
+      "name": "rsn_am_im_wall32",
+      "unity_material_id": 16,
+      "diffuse_texture": "rsn_am_im_wall32",
+      "texture_size": [
+        512,
+        512
+      ],
+      "missing_source_texture": false,
+      "fallback": null,
+      "triangles": 445
+    },
+    {
+      "name": "tl_v_michael_wall1",
+      "unity_material_id": 10,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 26
+    },
+    {
+      "name": "tl_v_michael_tiles_stairs",
+      "unity_material_id": 9,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 2
+    },
+    {
+      "name": "tl_V_Michael_floor_terracotta",
+      "unity_material_id": 7,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 4
+    },
+    {
+      "name": "tl_v_michael_ceiling",
+      "unity_material_id": 8,
+      "diffuse_texture": null,
+      "texture_size": null,
+      "missing_source_texture": true,
+      "fallback": "neutral surface color",
+      "triangles": 31
+    }
+  ],
+  "original_unity_hierarchy": [
+    {
+      "node": "michaelsgarage_finish__unity_374",
+      "parent": "gta_garage_origin",
+      "unity_transform_id": 374,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 38
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 8.670900344848633,
+          "y": 0.019999999552965164,
+          "z": 10.32800006866455
+        },
+        "m_LocalScale": {
+          "x": 55.056941986083984,
+          "y": 48.82309341430664,
+          "z": 53.77295684814453
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 472
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 497
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 406
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 355
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 379
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 452
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 482
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 302
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 443
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 373
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 381
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 310
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "unity_local_matrix": [
+        [
+          55.056941986083984,
+          0.0,
+          0.0,
+          8.670900344848633
+        ],
+        [
+          0.0,
+          48.82309341430664,
+          0.0,
+          0.019999999552965164
+        ],
+        [
+          0.0,
+          0.0,
+          53.77295684814453,
+          10.32800006866455
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "prop_ss1_14_garage_door__unity_379",
+      "parent": "michaelsgarage_finish__unity_374",
+      "unity_transform_id": 379,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 112
+        },
+        "m_LocalRotation": {
+          "x": -0.7071068286895752,
+          "y": 0.0,
+          "z": -0.0,
+          "w": 0.7071068286895752
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 315
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 374
+        }
+      },
+      "unity_local_matrix": [
+        [
+          0.9999999999999998,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "Prop_SS1_14_Garage_Door__unity_315",
+      "parent": "prop_ss1_14_garage_door__unity_379",
+      "unity_transform_id": 315,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 26
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.12924887239933014,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 337
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 379
+        }
+      },
+      "unity_local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.12924887239933014
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "prop_ss1_14_garage_door_high__unity_337",
+      "parent": "Prop_SS1_14_Garage_Door__unity_315",
+      "unity_transform_id": 337,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 53
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.7071068286895752,
+          "w": 0.7071068286895752
+        },
+        "m_LocalPosition": {
+          "x": 0.11465094983577728,
+          "y": -0.12972034513950348,
+          "z": 0.03859430551528931
+        },
+        "m_LocalScale": {
+          "x": 0.6963633894920349,
+          "y": 0.752473771572113,
+          "z": 0.8615508079528809
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 315
+        }
+      },
+      "unity_local_matrix": [
+        [
+          0.0,
+          0.7524737715721128,
+          0.0,
+          0.11465094983577728
+        ],
+        [
+          -0.6963633894920348,
+          0.0,
+          0.0,
+          -0.12972034513950348
+        ],
+        [
+          0.0,
+          0.0,
+          0.8615508079528806,
+          0.03859430551528931
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "v_44_g_gara_deta__unity_355",
+      "parent": "michaelsgarage_finish__unity_374",
+      "unity_transform_id": 355,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 74
+        },
+        "m_LocalRotation": {
+          "x": -0.7071068286895752,
+          "y": 0.0,
+          "z": -0.0,
+          "w": 0.7071068286895752
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 402
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 374
+        }
+      },
+      "unity_local_matrix": [
+        [
+          0.9999999999999998,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "v_44_g_gara_deta_high__unity_402",
+      "parent": "v_44_g_gara_deta__unity_355",
+      "unity_transform_id": 402,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 143
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.004478268790990114,
+          "y": 0.0022860001772642136,
+          "z": 0.046863000839948654
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 355
+        }
+      },
+      "unity_local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.004478268790990114
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0022860001772642136
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.046863000839948654
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "apa_p_mp_door_stilt_door__unity_497",
+      "parent": "michaelsgarage_finish__unity_374",
+      "unity_transform_id": 497,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 276
+        },
+        "m_LocalRotation": {
+          "x": -0.7071068286895752,
+          "y": 0.0,
+          "z": -0.0,
+          "w": 0.7071068286895752
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 309
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 374
+        }
+      },
+      "unity_local_matrix": [
+        [
+          0.9999999999999998,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "p_mp_door_Stilt_door__unity_309",
+      "parent": "apa_p_mp_door_stilt_door__unity_497",
+      "unity_transform_id": 309,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 475
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 497
+        }
+      },
+      "unity_local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "apa_p_mp_door_stilt_door_high__unity_475",
+      "parent": "p_mp_door_Stilt_door__unity_309",
+      "unity_transform_id": 475,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 245
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -0.10108239203691483,
+          "y": -0.08244169503450394,
+          "z": 0.02955448254942894
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 309
+        }
+      },
+      "unity_local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.10108239203691483
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.08244169503450394
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.02955448254942894
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "v_44_garage_shell__unity_482",
+      "parent": "michaelsgarage_finish__unity_374",
+      "unity_transform_id": 482,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 257
+        },
+        "m_LocalRotation": {
+          "x": -0.7071068286895752,
+          "y": 0.0,
+          "z": -0.0,
+          "w": 0.7071068286895752
+        },
+        "m_LocalPosition": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 476
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 374
+        }
+      },
+      "unity_local_matrix": [
+        [
+          0.9999999999999998,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "node": "v_44_garage_shell_high__unity_476",
+      "parent": "v_44_garage_shell__unity_482",
+      "unity_transform_id": 476,
+      "unity_local_transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 246
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0045010787434875965,
+          "y": 0.001965208677574992,
+          "z": 0.04749799892306328
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 482
+        }
+      },
+      "unity_local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0045010787434875965
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.001965208677574992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04749799892306328
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "bounds": [
+    [
+      -6.323107528064105,
+      0.0,
+      -6.600703506212279
+    ],
+    [
+      6.323107528064105,
+      4.809530053658419,
+      6.60070350621228
+    ]
+  ],
+  "dimensions_m": [
+    12.64621505612821,
+    4.809530053658419,
+    13.20140701242456
+  ],
+  "total_triangles": 5584,
+  "entrance": {
+    "side": "negative X",
+    "garage_door_node": "prop_ss1_14_garage_door_high__unity_337",
+    "pedestrian_door_node": "apa_p_mp_door_stilt_door_high__unity_475",
+    "state": "open",
+    "note": "Garage panel raised horizontally; pedestrian door swung into the corridor. Original closed transforms are retained in this report."
+  },
+  "output": {
+    "file": "michaels-garage.glb",
+    "bytes": 2575868,
+    "sha256": "c64289d84a88678e0e1472471c36fb8e918a1dec7f9c4e037e488ee6e336514d"
+  }
+}

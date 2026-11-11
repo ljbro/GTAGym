@@ -1,0 +1,40 @@
+/* Evaluation presentation: gameplay exposes the world, minimap and crosshair,
+   never instructions, key hints, instruments or progress cards.
+   The four roadside-start driving tasks explicitly expose their countdown.
+   Indoor interactions expose a one-time proximity hint, not general HUD tips.
+   Keep a strict allowlist so new HUD components cannot leak hints by default.
+   Menus and result dialogs remain available. Prompt reference:
+   docs/Evaluation mission hints and control rules.md */
+body.task-clean-ui:not(.task-menu-open) #ui > :not(#minimap):not(#offmap-interior-map):not(#offmap-gun-crosshair):not(#interior-crosshair):not(#native-task-countdown):not(#native-interior-hint){display:none!important}
+#native-interior-hint{position:absolute;top:12px;left:20px;max-width:min(400px,calc(100vw - 60px));padding:10px;border:0;border-radius:0;background:rgba(0,0,0,.85);box-shadow:none;color:#fff;font:400 20px/1.5 Arial,sans-serif;overflow-wrap:anywhere;white-space:pre-line;text-shadow:none;pointer-events:none;z-index:9}
+#native-interior-hint[hidden],body.task-menu-open #native-interior-hint{display:none!important}
+body.task-clean-ui:not(.task-menu-open) #native-task-button{display:none!important}
+
+#native-escape-hud{position:absolute;top:24px;left:50%;transform:translateX(-50%);max-width:calc(100vw - 40px);color:#fff;font-size:16px;text-align:center;text-shadow:0 2px 4px #000,0 0 8px #000;pointer-events:none;font-variant-numeric:tabular-nums}
+#native-escape-hud[hidden],body.task-menu-open #native-escape-hud{display:none!important}
+body.task-clean-ui #minimap,body.task-clean-ui #offmap-interior-map{left:clamp(12px,1.5625vw,30px)!important;right:auto!important;bottom:clamp(12px,3.3333vh,36px)!important;top:auto!important;transform:none!important;pointer-events:none}
+body.task-clean-ui #minimap{display:block!important;opacity:1!important;filter:none!important}
+body.task-clean-ui.offmap-interior-active #minimap{display:none!important}
+body.task-clean-ui #minimap > :not(canvas){display:none!important}
+body.task-clean-ui .career-world-label{display:none!important}
+body.task-menu-open #offmap-weapon-hud{left:auto;right:24px;bottom:24px}
+body.task-menu-open #offmap-task{z-index:8;max-height:calc(100vh - 390px)}
+body.task-menu-open #pause{inset:100px 24px auto auto;width:250px;padding:18px;z-index:7;border-radius:6px}
+body.task-menu-open #pause h2{font-size:20px;letter-spacing:1px}
+body.task-menu-open #offmap-gun-crosshair,body.task-menu-open #interior-crosshair{display:none!important}
+@media(max-width:850px){body.task-clean-ui #minimap,body.task-clean-ui #offmap-interior-map{left:12px!important;bottom:12px!important}}
+
+/* Retained component styles for tools/menus. No gameplay exception: the
+   evaluation allowlist above also suppresses this rescue feedback. */
+#native-rescue-hud{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:min(540px,calc(100vw - 32px));padding:12px 16px;border-radius:6px;background:#10252be6;color:#f1f5ed;border:1px solid #e9d37a66;font-size:13px;line-height:1.5;pointer-events:none}
+#native-rescue-hud strong{font-size:15px;color:#f0d77c}
+#native-rescue-hud p{margin:5px 0}
+#native-rescue-hud .rescue-conditions{font-size:12px;color:#cbdacf}
+#native-rescue-hud .rescue-status{color:#f0d77c}
+#native-rescue-hud[data-aligned="true"] .rescue-status{color:#a7efbe}
+#native-rescue-hud .rescue-progress{display:flex;align-items:center;gap:10px}
+#native-rescue-hud progress{width:100%;height:8px;accent-color:#8adba5}
+#native-rescue-hud .rescue-progress span{min-width:3em;text-align:right;font-variant-numeric:tabular-nums}
+body.task-menu-open #native-rescue-hud{display:none!important}
+.static-shooting-active #ui,.static-shooting-active #game{visibility:hidden!important}
+#static-shooting-canvas{position:fixed;inset:0;width:100%;height:100%;object-fit:contain;background:#05090d;z-index:25;outline:none;cursor:crosshair;touch-action:none}
